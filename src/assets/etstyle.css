@@ -1,0 +1,336 @@
+:root {
+  --et-light: #f7f7f7;
+  --et-dark: #250004;
+  --et-silver: #6f6f6e;
+  --et-pink: #e95364;
+  --et-carrot: #e86432;
+  --et-orange: #ef8e33;
+  --et-golden: #fcc600;
+  --et-green: #afc41c;
+  --et-cyan: #2b82cc;
+  --et-gradient: linear-gradient(
+    rgba(252, 198, 0, 1) 0%,
+    rgba(239, 142, 51, 1) 33%,
+    rgba(232, 100, 50, 1) 66%,
+    rgba(233, 83, 100, 1) 100%
+  );
+  --et-gradient-offset: linear-gradient(
+    rgba(252, 198, 0, 1) -20%,
+    rgba(239, 142, 51, 1) 20%,
+    rgba(232, 100, 50, 1) 80%,
+    rgba(233, 83, 100, 1) 120%
+  );
+}
+
+/********************************************* BACKGROUNDS */
+.bg-light {
+  background-color: var(--et-light);
+}
+
+.bg-dark {
+  background-color: var(--et-dark);
+}
+
+.bg-silver {
+  background-color: var(--et-silver);
+}
+
+.bg-pink {
+  background-color: var(--et-pink);
+}
+
+.bg-carrot {
+  background-color: var(--et-carrot);
+}
+
+.bg-orange {
+  background-color: var(--et-orange);
+}
+
+.bg-golden {
+  background-color: var(--et-golden);
+}
+.bg-green {
+  background-color: var(--et-green);
+}
+.bg-cyan {
+  background-color: var(--et-cyan);
+}
+
+.bg-gradient {
+  background: var(--et-gradient);
+}
+
+.bg-gradient-offset {
+  background: var(--et-gradient-offset);
+}
+
+/********************************************* TEXTS */
+.text-light {
+  color: var(--et-light);
+}
+
+.text-dark {
+  color: var(--et-dark);
+}
+
+.text-silver {
+  color: var(--et-silver);
+}
+
+.text-pink {
+  color: var(--et-pink);
+}
+
+.text-carrot {
+  color: var(--et-carrot);
+}
+
+.text-orange {
+  color: var(--et-orange);
+}
+
+.text-golden {
+  color: var(--et-golden);
+}
+.text-green {
+  color: var(--et-green);
+}
+.text-cyan {
+  color: var(--et-cyan);
+}
+
+.text-gradient {
+  background: var(--et-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/********************************************* BUTTON */
+
+.et-button {
+  color: #fff;
+  background: var(--et-pink);
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.et-button [icon] {
+  font-size: 32px;
+  margin: -8px 8px -8px 0;
+}
+
+.et-button:hover {
+  background: #fff;
+  color: var(--et-pink);
+}
+
+.et-button.et-light {
+  background: var(--et-light);
+  color: var(--et-silver);
+}
+
+.et-button.et-light:hover {
+  background: #fff;
+  color: var(--et-dark);
+}
+
+.et-button.et-silver {
+  background: var(--et-silver);
+}
+
+.et-button.et-silver:hover {
+  background: #fff;
+  color: var(--et-silver);
+}
+.et-button.et-cyan {
+  background: var(--et-cyan);
+}
+.et-button.et-cyan:hover {
+  background: #fff;
+  color: var(--et-cyan);
+}
+
+.et-button.et-gradient {
+  background: var(--et-gradient-offset);
+}
+
+.et-button.et-gradient:hover {
+  background: #fff;
+  color: var(--et-carrot);
+}
+
+.et-bg-gradient {
+  background: var(--et-gradient);
+  position: relative;
+}
+
+/********************************************* CONNECTOR BG */
+.et-conectores {
+  background-image: url(graficos/conectores.svg);
+  background-size: 150%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.5s;
+}
+
+/********************************************* UNITS IMG */
+
+.et-unit {
+  position: relative;
+  aspect-ratio: 16/9;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.5s all;
+  min-width: 280px;
+  width: 100%;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+}
+.et-unit .et-unit-box {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  width: 50%;
+  overflow: hidden;
+  border: 6px solid #fff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  flex-direction: column;
+  padding: 5%;
+  background: var(--et-dark);
+  z-index: 1;
+}
+.et-unit .et-unit-box img {
+  width: 100%;
+  line-height: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  opacity: 0.6;
+  transition: 0.3s all;
+}
+.et-unit .et-unit-box *:not(img) {
+  position: relative;
+  z-index: 2;
+  transition: 0.3s all;
+}
+.et-unit .et-unit-box [icon] {
+  font-size: 26px;
+}
+
+.et-unit:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.et-unit:hover .et-unit-box img {
+  opacity: 0.9;
+}
+.et-unit:hover .et-conectores {
+  transition: all 0.3;
+
+  background-position: center;
+}
+.et-unit:hover .et-unit-box *:not(img) {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.et-unit:hover .et-unit-box [icon] {
+  font-size: 54px;
+}
+.et-unit.et-unit-train {
+  aspect-ratio: 12/9;
+  min-width: 220px;
+  overflow: hidden;
+}
+.et-unit.et-unit-train .et-unit-box {
+  width: 80%;
+  margin-top: -10%;
+  margin-bottom: -10%;
+  transition: 0.3s all;
+}
+
+.et-unit.et-unit-train:hover {
+  transform: none;
+  box-shadow: none;
+}
+.et-unit.et-unit-train:hover .et-unit-box {
+  width: 90%;
+}
+
+.et-unit.et-unit-train[disabled] {
+  filter: saturate(0);
+  pointer-events: none;
+}
+.et-unit.et-unit-train[disabled] .et-unit-box *:not(img) {
+  display: none;
+}
+
+/********************************************* PROGRESS BAR */
+
+.et-progress {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  background-color: var(--et-golden);
+  border-radius: 30px;
+  max-width: 400px;
+  color: var(--et-dark);
+  box-sizing: border-box;
+  border: 0.3rem solid var(--et-golden);
+  overflow: hidden;
+  aspect-ratio: 20/2;
+  min-height: 30px;
+}
+.et-progress .et-progress-txt {
+  width: fit-content;
+  white-space: nowrap;
+  margin-left: 0.3rem;
+}
+.et-progress .et-progress-bar {
+  width: 100%;
+  border-radius: 14px;
+  background-color: #fff;
+  border: 0.2rem solid #fff;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.et-progress .et-progress-bar div {
+  background: var(--et-pink);
+  height: 100%;
+  border-radius: 2px;
+  animation: growbar 1s forwards;
+  animation-delay: 1s;
+  width: 0%;
+}
+
+@keyframes growbar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: var(--progress-width);
+  }
+}
