@@ -1,4 +1,4 @@
-import {ref, computed} from 'vue'
+import {ref, computed, watch} from 'vue'
 import {defineStore} from 'pinia'
 import odas from './odaslist.js'
 import { useRoute, useRouter } from 'vue-router'
@@ -11,9 +11,9 @@ export const useOda = defineStore('oda', () => {
     const id = ref(null)
     const step = ref(0)
     const time = ref(0)
-    const data = ref([])
+    const data = ref({})
+    const stepcount = ref(0)
 
-    const dataEval = ref([])
 
     const timerinvertval = ref()
     
@@ -34,17 +34,11 @@ export const useOda = defineStore('oda', () => {
 
     const stepNext = () => { 
         step.value += 1
-        //FINISHI
-        if(step.value == data.value.length){
-            isFinish()
-        }
     }
 
     const isFinish = () => {
         clearInterval(timerinvertval.value)
         router.push('/'+id.value+'/finish')
-        dataEval.value = data.value.filter(item => item?.eval === true)
-        finishPostMessage()
     }
 
     const formattedTime = computed(() => {
@@ -54,17 +48,27 @@ export const useOda = defineStore('oda', () => {
     })
 
 
-    const finishPostMessage = () => {
+    const sendPMessage = (oev) => {
         const message = {
-            oda_id: id.value,
-            oda_info: info.value,
-            user_time: time.value,
-            user_data: dataEval.value,
-            odaevent: 'finished'
+            total: Object.keys(data.value).length,
+            responded: Object.values(data.value).filter(item => item !== null).length,
+            seconds: time.value,
+            inputs: data.value,
+            oda: id.value,
+            //oda_info: info.value,
+            datatype: oev
         }
-        console.log(message)
         window.parent.postMessage(JSON.parse(JSON.stringify(message)), '*')
     }
+
+    // Watcher for step
+    watch(step, (newValue) => {
+        if(newValue==0){return false}
+        if(newValue == stepcount.value){
+            isFinish()
+        }
+        sendPMessage('student')
+    });
 
     return {
         id,
@@ -72,8 +76,8 @@ export const useOda = defineStore('oda', () => {
         step,
         time,
         data,
-        dataEval,
         timerinvertval,
+        stepcount,
         getODA,
         stepNext,
         stepPrev,

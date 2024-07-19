@@ -12,7 +12,7 @@
                 <div class="font-bold text-4 text-silver opacity-50">{{ oda.info.difficulty }}</div>
             </div>
             <div class="mt-10">
-                <RouterLink :to="'/'+oda.id+'/train'" class="et-button et-cyan no-underline font-bold text-6 cursor-pointer">COMENZAR</RouterLink>
+                <RouterLink :to="'/'+oda.id+'/train'" class="et-button et-cyan no-underline font-bold text-6 cursor-pointer animated animated-fade-in animated-delay-1s">COMENZAR</RouterLink>
             </div>
         </div>
         <div v-else>
@@ -30,8 +30,10 @@
     const oda = useOda()
     oda.getODA()
 
-    oda.data = []
+    //RESET
+    oda.data = {}
     oda.step = 0
     oda.time = 0
+    oda.stepcount = 0
 
 </script>

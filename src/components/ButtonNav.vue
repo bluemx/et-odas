@@ -1,10 +1,10 @@
 <template>
-    <button v-if="prev && oda.step>0" @click="oda.stepPrev()" class="et-button et-cyan no-underline font-bold cursor-pointer max-w-xs mx-auto">
+    <button v-if="prev && oda.step>0" @click="oda.stepPrev()" class="et-button btnnav" :disabled="disabled"  :class="!disabled?'animated animated-head-shake':''">
         <i class="i-mynaui-chevron-left mr-5"></i>
         GO BACK
     </button>
-    <button v-if="next" @click="oda.stepNext()" class="et-button et-cyan no-underline font-bold cursor-pointer max-w-xs mx-auto">
-        CONTINUE 
+    <button v-if="next" @click="oda.stepNext()" class="et-button btnnav"  :disabled="disabled" :class="!disabled?'animated animated-head-shake':''">
+        CONTINUE
         <i class="i-mynaui-chevron-right ml-5"></i>
     </button>
 </template>
@@ -14,5 +14,15 @@ const oda = useOda()
 const props = defineProps({
     next: Boolean,
     prev: Boolean,
+    disabled: Boolean
 })
 </script>
+
+<style >
+.btnnav {
+    @apply  bg-et-cyan hover:text-et-cyan no-underline font-bold cursor-pointer max-w-xs mx-auto
+}
+.btnnav:disabled{
+    @apply bg-et-silver opacity-20
+}
+</style>

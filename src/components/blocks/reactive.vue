@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col gap-10 my-2 relative p-2">
+    <div class="flex flex-col justify-center gap-10 my-2 relative p-2 min-h-[300px]">
         <!--audio-->
         <template v-if="data.audio">
             <audioplayer :file="data.audio"></audioplayer>
@@ -12,17 +12,19 @@
         <template v-if="data.options && data.optionk">
             <div class="flex gap-5 flex-wrap" :class=" optionsEmpty ? 'justify-center' : 'flex-col'">
                 <template v-for="(item,index) in optionsRender">
-                    <reactiveBtn :freeze="okReactive" :letter="ids[index]" @clicked="clicked(item, index)" :current="item?.id == oda.data[props.step]?.id" :text="item.txt" :ok="item?.ok"></reactiveBtn>
+                    <reactiveBtn :freeze="okReactive" :letter="ids[index]" @clicked="clicked(item, index)" :current="okReactive && item.ok" :text="item.txt" :ok="item?.ok"></reactiveBtn>
                 </template>
             </div>
         </template>
         
-        <reactiveMessage v-if="okReactive===false" @tryagain="reset()" :message="data.optionw" ></reactiveMessage>
+        
 
-
-        <template v-if="okReactive && nextbtn">
-            <ButtonNav next></ButtonNav>
+        <template v-if="nextbtn">
+            <ButtonNav next :disabled="!okReactive"></ButtonNav>
         </template>
+
+
+        <reactiveMessage v-if="okReactive===false" @tryagain="reset()" :message="data.optionw" ></reactiveMessage>
 
     </div>
 </template>
@@ -38,16 +40,17 @@ const props = defineProps({
     nextbtn: Boolean
 })
 
+
+const selected = ref(null)
+
 const ids = ['a', 'b', 'c', 'd', 'e'];
 
-const optionsList = props.data.options.map((option, index) => { return { id: ids[index], txt: option, eval: props.data.eval }; });
-//Set ok
-optionsList.find(option => option.id === props.data.optionk.toLowerCase()).ok = true;
-//Is eval
-if(props.data?.noneval){
-    optionsList
-}
-
+const optionsList = props.data.options.map((option, index) => { 
+    return { 
+        txt: option,
+        ok:(ids[index] == props.data.optionk.toLowerCase()) ? ids[index] : false
+    };
+});
 
 
 const optionsRender = ref()
@@ -68,14 +71,12 @@ const shuffleTextOptions = () => {
 };
 
 
-const isAlreadyOk = () => {
-    return oda.data[props.step] && oda.data[props.step]?.ok
-}
+
 
 
 const clicked = (item,index) => {
-    oda.data[props.step] = item
-    if(isAlreadyOk()){
+    selected.value = item
+    if(selected.value?.ok){
         okReactive.value=true
         emit('okreactive')
     } else {
@@ -86,19 +87,35 @@ const clicked = (item,index) => {
 
 
 const reset = () => {
-    oda.data[props.step] = null
+    selected.value = null
     okReactive.value = null
     shuffleTextOptions()
 }
 
 shuffleTextOptions()
-isAlreadyOk()
+
+
 
 
 onMounted(()=>{
-    if(oda.data[props.step]!==undefined && oda.data[props.step]!== null){
-        if(isAlreadyOk()){okReactive.value=true}
+    
+
+    // Exists
+    if(oda.data[props.step]){
+        selected.value = oda.data[props.step]
+        okReactive.value=true
+    } else {
+        // New
+        if(props.data.eval){
+            oda.data[props.step] = null
+            watch(selected, (newValue) => {
+                if(newValue?.ok){
+                    oda.data[props.step] = newValue
+                }
+            })
+        }
     }
+
 })
 
 
