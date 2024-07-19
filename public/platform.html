@@ -6,7 +6,7 @@
     <title>Cargar oda</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/gradient-dark.min.css" integrity="sha512-9BPoD3EiW9STszfvG0c4C9aKPKVeS/b2JD6LTSGJ0MRB6SEn2GDn2mEPdj8QZBDHOStOpKRyUzkC8q31cyqy7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/agate.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/javascript.min.js" integrity="sha512-ZFn1l/cmJ8LLHH5TWJhNnV1PCQiNqBD+TFitO1ECtYJuQvn8zhhrzvQyYXLrb5cR7gzmLTkgka8DDR7fIAO9MQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <style>
@@ -26,14 +26,14 @@
         <h2 class="text-2xl font-semibold mb-2">Recibir datos:</h2>
         <div class="grid grid-cols-2 gap-8">
             <div>
-                <div>Datos:</div>
+                <div>Datos:</div>   
                 <pre><code class="language-json" id="fullData"></code></pre>
             </div>
             <div>
                 <div>Javascript:</div>
                 <pre><code  class="language-javascript" id="codeSnippet">
 window.addEventListener('message', ({ data }) => {
-    if (!data || data.odaevent !== 'finished') { return; }
+    if (!data || data.datatype !== 'student') { return; }
     const { oda_id, oda_info, user_time, user_data } = data;
 });
                 </code></pre>
@@ -44,7 +44,7 @@ window.addEventListener('message', ({ data }) => {
     <script>
         hljs.highlightAll();
         window.addEventListener('message', ({ data }) => {
-            if (!data || data.odaevent !== 'finished') { return; }
+            if (!data || data.datatype !== 'student') { return; }
             const { oda_id, oda_info, user_time, user_data } = event.data;
             document.getElementById('fullData').textContent = JSON.stringify(event.data, null, 2);
         });
