@@ -86,8 +86,6 @@ export const useOda = defineStore('oda', () => {
         step.value = findBiggestKeyNotNull(data.value)+1
         time.value = seconds
 
-        console.log(data.value)
-
     });
 
     // Watcher for step

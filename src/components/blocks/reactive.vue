@@ -114,10 +114,9 @@ shuffleTextOptions()
 
 onMounted(()=>{
     
-    console.log(oda.data)
+
     // Exists
     if(oda.data[props.step]){
-        console.log('exists')
         selected.value = oda.data[props.step]
         okReactive.value=true
     } else {
