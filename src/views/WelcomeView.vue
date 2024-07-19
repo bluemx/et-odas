@@ -12,7 +12,13 @@
                 <div class="font-bold text-4 text-silver opacity-50">{{ oda.info.difficulty }}</div>
             </div>
             <div class="mt-10">
-                <RouterLink :to="'/'+oda.id+'/train'" class="et-button et-cyan no-underline font-bold text-6 cursor-pointer animated animated-fade-in animated-delay-1s">COMENZAR</RouterLink>
+                <template v-if="oda.step==0">
+                    <RouterLink :to="'/'+oda.id+'/train'" class="et-button et-cyan no-underline font-bold text-6 cursor-pointer animated animated-fade-in animated-delay-1s">COMENZAR</RouterLink>
+                </template>
+                <template v-else>
+                    <RouterLink :to="'/'+oda.id+'/train'" class="et-button et-pink no-underline font-bold text-6 cursor-pointer animated animated-fade-in animated-delay-1s">CONTINUAR</RouterLink>
+                    <div class="font-bold text-4 text-pink mt-2">Continuarás a partir del reactivo {{ oda.step }}.</div>
+                </template>
             </div>
         </div>
         <div v-else>
@@ -20,8 +26,7 @@
                 Cargando<span class="animate-pulse">...</span>
             </div>
         </div>
-    </div>    
-
+    </div>
 </div>
 </template>
 

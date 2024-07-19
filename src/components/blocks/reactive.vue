@@ -12,7 +12,7 @@
         <template v-if="data.options && data.optionk">
             <div class="flex gap-5 flex-wrap" :class=" optionsEmpty ? 'justify-center' : 'flex-col'">
                 <template v-for="(item,index) in optionsRender">
-                    <reactiveBtn :freeze="okReactive" :letter="ids[index]" @clicked="clicked(item, index)" :current="okReactive && item.ok" :text="item.txt" :ok="item?.ok"></reactiveBtn>
+                    <reactiveBtn :freeze="okReactive" :letter="ids[index]" @clicked="clicked(item, index)" :current="okReactive && item.ok" :text="item.answertext" :ok="item?.ok"></reactiveBtn>
                 </template>
             </div>
         </template>
@@ -56,14 +56,17 @@ const ids = ['a', 'b', 'c', 'd', 'e'];
 
 const optionsList = props.data.options.map((option, index) => { 
     return { 
-        txt: option,
-        ok:(ids[index] == props.data.optionk.toLowerCase()) ? ids[index] : false
+        answerid: ids[index],
+        answertext: option,
+        ok:(ids[index] == props.data.optionk.toLowerCase()) ? ids[index] : false,
+        questionid: props.step,
+        questiontext: props.data.question,
     };
 });
 
 
 const optionsRender = ref()
-const optionsEmpty = optionsList.every(item => item.txt === '')
+const optionsEmpty = optionsList.every(item => item.answertext === '')
 
 
 const shuffleTextOptions = () => {
@@ -111,9 +114,10 @@ shuffleTextOptions()
 
 onMounted(()=>{
     
-
+    console.log(oda.data)
     // Exists
     if(oda.data[props.step]){
+        console.log('exists')
         selected.value = oda.data[props.step]
         okReactive.value=true
     } else {

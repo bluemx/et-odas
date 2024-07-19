@@ -8,7 +8,7 @@
         <div v-if="text" class="text" @click="clicked()">
             {{text}}
         </div>
-        <div class="z-10">
+        <div class="z-10" v-if="current && ok">
             <div class="answer flex justify-center items-center" :class="current && ok?'isok':''">
                 <i v-if="current" class="i-custom-check text-6"></i>
             </div>

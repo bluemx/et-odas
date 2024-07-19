@@ -48,18 +48,47 @@ export const useOda = defineStore('oda', () => {
     })
 
 
+    // EXPORT IMPORT CONVERTIONS 
+    // *    *   *   *   *   *   *   *   *   
+    const convertObjectToArray = obj => Object.keys(obj).sort((a, b) => a - b).map(key => {
+        let { ok, ...rest } = obj[key] || {};
+        return obj[key] ? rest : null;
+    });
+    const arrayToObject = arr => arr.reduce((obj, item) => {
+        if (item) {
+            obj[item.questionid] = { ...item, ok: item.answerid };
+        }
+        return obj;
+    }, {});
+    const findBiggestKeyNotNull = obj => Math.max(...Object.keys(obj).filter(key => obj[key] !== null).map(Number));
+    // *    *   *   *   *   *   *   *   *   
+
+    // EXPORT
     const sendPMessage = (oev) => {
         const message = {
             total: Object.keys(data.value).length,
             responded: Object.values(data.value).filter(item => item !== null).length,
             seconds: time.value,
-            inputs: data.value,
+            inputs: convertObjectToArray(data.value),
             oda: id.value,
             //oda_info: info.value,
             datatype: oev
         }
         window.parent.postMessage(JSON.parse(JSON.stringify(message)), '*')
     }
+
+    // IMPORT
+
+    window.addEventListener('message', ({ data: messageData }) => {
+        if (!messageData || messageData.datatype !== 'student_data') { return; }
+        const {inputs, seconds } = messageData;
+        data.value = arrayToObject(inputs)
+        step.value = findBiggestKeyNotNull(data.value)+1
+        time.value = seconds
+
+        console.log(data.value)
+
+    });
 
     // Watcher for step
     watch(step, (newValue) => {
