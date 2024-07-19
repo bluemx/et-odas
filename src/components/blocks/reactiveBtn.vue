@@ -17,6 +17,9 @@
 </template>
 <script setup>
 
+
+
+
 const emit = defineEmits(['clicked'])
 const props = defineProps({
     data: Object,
@@ -29,6 +32,7 @@ const props = defineProps({
 
 const clicked = () => {
     if(props.freeze){return false}
+   
     emit('clicked')
 }
 

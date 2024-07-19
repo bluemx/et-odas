@@ -30,7 +30,16 @@
 </template>
 
 <script setup>
+
 import { useOda } from '@/stores/oda';
+
+import UIfx from 'uifx'
+import snapMp3 from '/assets/sounds/snap.mp3'
+import snapOkMp3 from '/assets/sounds/snapok.mp3'
+
+const snap = new UIfx(snapMp3)
+const snapok = new UIfx(snapOkMp3)
+
 const oda = useOda()
 const okReactive = ref(null)
 const emit = defineEmits(['okreactive'])
@@ -75,13 +84,16 @@ const shuffleTextOptions = () => {
 
 
 const clicked = (item,index) => {
+    
     selected.value = item
     if(selected.value?.ok){
         okReactive.value=true
         emit('okreactive')
+        snapok.play()
     } else {
         shuffleTextOptions()
         okReactive.value= false
+        snap.play()
     }
 }
 
