@@ -1,8 +1,9 @@
 <template>
     <div class="flex flex-col justify-center gap-10 my-2 relative p-2 min-h-[300px]">
+        <div v-if="data?.counter" class="font-bold text-6 text-et-silver">Question {{ step-1 }}</div>
         <!--audio-->
         <template v-if="data.audio">
-            <audioplayer :file="data.audio"></audioplayer>
+            <audioplayer :file="data.audio" :blockid="blockid+'-reactive'"></audioplayer>
         </template>
         <!--question-->
         <template v-if="data.question">
@@ -46,7 +47,8 @@ const emit = defineEmits(['okreactive'])
 const props = defineProps({
     data: Object,
     step: Number,
-    nextbtn: Boolean
+    nextbtn: Boolean,
+    blockid: String
 })
 
 

@@ -40,5 +40,6 @@
     oda.step = 0
     oda.time = 0
     oda.stepcount = 0
+    oda.audiops = {}
 
 </script>

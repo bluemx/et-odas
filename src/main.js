@@ -21,11 +21,11 @@ app.mount('#et-odas')
 
 
 
-
+const favpath = 'assets/favicon/'
 const favicons = ["favicon.ico", "favicon2.ico", "favicon3.ico", "favicon2.ico",];
 let currentFavicon = 0;
 
 setInterval(() => {
     currentFavicon = (currentFavicon + 1) % favicons.length;
-    document.getElementById('favicon').href = favicons[currentFavicon];
+    document.getElementById('favicon').href = favpath + favicons[currentFavicon];
 }, 4000);

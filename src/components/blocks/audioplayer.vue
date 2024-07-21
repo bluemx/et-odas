@@ -2,7 +2,7 @@
     <div class="">
         <div class="flex justify-center items-center gap-4">
             <div class="w-20 text-white text-9">
-                <div class="bg-et-cyan aspect-square w-full rounded-md flex justify-center items-center cursor-pointer" @click="toggle()" v-if="!isplaying">
+                <div class="bg-et-cyan aspect-square w-full rounded-md flex justify-center items-center cursor-pointer" @click="toggle()" v-if="!oda.isplaying[blockid]">
                     <i class="i-mynaui-play-octagon"></i>
                 </div>
                 <div class="bg-et-pink aspect-square w-full rounded-md flex justify-center items-center cursor-pointer" @click="toggle()" v-else>
@@ -15,22 +15,23 @@
   </template>
   
   <script setup>
-  //import { onMounted, onUnmounted, ref, watch } from 'vue';
   import WaveSurfer from 'wavesurfer.js';
 
+  import {useOda} from '@/stores/oda'
+  const oda = useOda()
   const props = defineProps({
-    file: {
-      type: String,
-      required: true
-    }
+    file: String,
+    blockid: String
   });
   
   const isplaying = ref(false)
   const waveform = ref(null);
-  let wavesurfer = null;
+
   
   onMounted(() => {
-    wavesurfer = WaveSurfer.create({
+
+    
+    oda.audiops[props.blockid] = WaveSurfer.create({
         container: waveform.value,
         waveColor: '#ddd',
         progressColor: '#2b82cc',
@@ -43,33 +44,34 @@
         height: 60
     });
 
-    wavesurfer.setVolume(0.7);
+    oda.audiops[props.blockid].setVolume(0.7);
 
 
    
   
     if (props.file) {
-        wavesurfer.load('audios/'+props.file);
-        wavesurfer.on('click', () => {
-            wavesurfer.play()
-            isplaying.value = true
+        oda.audiops[props.blockid].load('ODAS/'+oda.id+'/'+props.file);
+        oda.audiops[props.blockid].on('click', () => {
+            oda.audiops[props.blockid].play()
+            oda.isplaying[props.blockid] = true
         })
-        wavesurfer.on('finish', () => {
-            isplaying.value = false
+        oda.audiops[props.blockid].on('finish', () => {
+            oda.isplaying[props.blockid] = false
         })
     }
   });
 
   const toggle = () => {
-    if(wavesurfer.isPlaying()){
-        isplaying.value = false
-        wavesurfer.stop()
+    oda.stopallaudios(props.blockid)
+    if(oda.isplaying[props.blockid]){
+        oda.isplaying[props.blockid] = false
+        oda.audiops[props.blockid].stop()
     } else {
-        isplaying.value = true
-        wavesurfer.play()
+        oda.isplaying[props.blockid] = true
+        oda.audiops[props.blockid].play()
     }
-
   }
-  
+
+
   
   </script>

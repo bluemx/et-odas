@@ -8,6 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     Audioplayer: typeof import('./components/blocks/audioplayer.vue')['default']
+    BlockRenderer: typeof import('./components/BlockRenderer.vue')['default']
     ButtonNav: typeof import('./components/ButtonNav.vue')['default']
     Reactive: typeof import('./components/blocks/reactive.vue')['default']
     ReactiveBtn: typeof import('./components/blocks/reactiveBtn.vue')['default']

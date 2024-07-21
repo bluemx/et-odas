@@ -15,6 +15,10 @@ export const useOda = defineStore('oda', () => {
     const stepcount = ref(0)
 
 
+    const audiops = ref({})
+    const isplaying = ref({})
+
+
     const timerinvertval = ref()
     
     const getODA = () => {
@@ -95,7 +99,25 @@ export const useOda = defineStore('oda', () => {
             isFinish()
         }
         sendPMessage('student')
+        stopallaudios()
     });
+
+    const stopallaudios = (blockid) => {
+        //Stop all wavesurfers
+        for(var index of Object.keys(audiops.value) ){
+            if(blockid){
+                if(index!==blockid){
+                    audiops.value[index].stop()
+                    isplaying.value[index] = false
+                }
+            } else {
+                    audiops.value[index].stop()
+                    isplaying.value[index] = false
+            }
+        }
+       
+        
+    }
 
     return {
         id,
@@ -103,11 +125,14 @@ export const useOda = defineStore('oda', () => {
         step,
         time,
         data,
+        audiops,
+        isplaying,
         timerinvertval,
         stepcount,
         getODA,
         stepNext,
         stepPrev,
-        formattedTime
+        formattedTime,
+        stopallaudios
     }
 })
