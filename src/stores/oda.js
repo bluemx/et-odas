@@ -14,7 +14,7 @@ export const useOda = defineStore('oda', () => {
     const data = ref({})
     const stepcount = ref(0)
 
-
+    const postmessagedata = ref(null)
     const audiops = ref({})
     const isplaying = ref({})
 
@@ -54,10 +54,12 @@ export const useOda = defineStore('oda', () => {
 
     // EXPORT IMPORT CONVERTIONS 
     // *    *   *   *   *   *   *   *   *   
+    
     const convertObjectToArray = obj => Object.keys(obj).sort((a, b) => a - b).map(key => {
         let { ok, ...rest } = obj[key] || {};
         return obj[key] ? rest : null;
     });
+
     const arrayToObject = arr => arr.reduce((obj, item) => {
         if (item) {
             obj[item.questionid] = { ...item, ok: item.answerid };
@@ -68,17 +70,20 @@ export const useOda = defineStore('oda', () => {
     // *    *   *   *   *   *   *   *   *   
 
     // EXPORT
-    const sendPMessage = (oev) => {
-        const message = {
+    const sendPMessage = (data_type, data_status) => {
+        postmessagedata.value = {
             total: Object.keys(data.value).length,
             responded: Object.values(data.value).filter(item => item !== null).length,
             seconds: time.value,
             inputs: convertObjectToArray(data.value),
             oda: id.value,
+            positive: Object.values(data.value).filter(item => item!==null && item.correct==true).length,
             //oda_info: info.value,
-            datatype: oev
+            datatype: data_type,
+            status: data_status
         }
-        window.parent.postMessage(JSON.parse(JSON.stringify(message)), '*')
+
+        window.parent.postMessage(JSON.parse(JSON.stringify(postmessagedata.value)), '*')
     }
 
     // IMPORT
@@ -98,7 +103,7 @@ export const useOda = defineStore('oda', () => {
         if(newValue == stepcount.value){
             isFinish()
         }
-        sendPMessage('student')
+        sendPMessage('student', 'progress')
         stopallaudios()
     });
 
@@ -133,6 +138,9 @@ export const useOda = defineStore('oda', () => {
         stepNext,
         stepPrev,
         formattedTime,
-        stopallaudios
+        stopallaudios,
+        sendPMessage,
+        convertObjectToArray,
+        postmessagedata
     }
 })

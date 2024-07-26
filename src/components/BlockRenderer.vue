@@ -20,7 +20,7 @@
 
         <!-- REACTIVE -->
         <template v-else-if="item?.optionk">
-            <reactive :step="1+step" :data="item" :nextbtn="item.nextbtn" :blockid="blockid+'-'+index" />
+            <reactive :step="step" :data="item" :nextbtn="item.nextbtn" :blockid="blockid+'-'+index" />
         </template>
 
         <!-- ButtonNav -->

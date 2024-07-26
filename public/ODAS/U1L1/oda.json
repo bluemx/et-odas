@@ -1,203 +1,205 @@
 [
-    [
-       {
-          "text":"INSTRUCCIONES",
-          "class":"instrucciones font-bold text-5 text-gradient"
-       },
-       {
-          "audioplayer":"a/instruccion.mp3"
-       },
-       {
-          "text":"En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres opciones, también en inglés. Las preguntas o enunciados y las opciones se dirán solo una vez."
-       },
-       {
-          "text":"Escuche cuidadosamente para poder entender por qué no aparece nada escrito en el folleto del examen para estos ejercicios. Seleccione la mejor opción para cada pregunta o enunciado y oscurezca el espacio de la letra correspondiente en la hoja de respuestas."
-       },
-       {
-        "text":"EXAMPLE",
-        "class":"mt-5 font-bold text-5 text-gradient"
-        },
-       {
-          "class":"border-4 border-solid border-et-orange p-5 rounded-md",
-          "content":[
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"INSTRUCCIONES",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            {
+                "audioplayer":"a/instruccion.mp3"
+             },
              {
-                "audio":"a/q0.mp3",
-                "question":"",
-                "options":[
-                   "",
-                   "",
-                   ""
-                ],
-                "optionk":"b",
-                "optionw":"Para contestar esta pregunta, es necesario entender que “How are you?” en inglés requiere una respuesta que indique el estado de ánimo o salud de la persona.",
-                "eval":false,
-                "nextbtn": false
-             }
-            ]
-        },
-        {
-            "text": "La respuesta correcta es la  (B), de no ser la correcta, se proporciona una explicación que te ayude a corregir."
-         },
-        { "buttonnav": "next"}
-    ],
-    [
-        {
-            "content": [
-                {
-                    "counter": true,
-                    "audio": "a/q1.mp3",
-                    "question": "",
-                    "options": ["", "", ""],
-                    "optionk": "c",
-                    "optionw": "Para contestar esta pregunta es necesario entender que “Where” en inglés requiere un lugar como contestación. La alternativa es la única que indica un lugar: biblioteca.",
-                    "eval": true,
-                    "nextbtn": true
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "content": [
-                {
-                    "counter": true,
-                    "audio": "a/q2.mp3",
-                    "question": "",
-                    "options": ["", "", ""],
-                    "optionk": "a",
-                    "optionw": "Para responder esta pregunta, es necesario conocer que la palabra “name” se refiere a nombre y que “mom's” es el posesivo “tu mamá”, así que se cuestiona “el nombre de tu mamá”.",
-                    "eval": true,
-                    "nextbtn": true
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "content": [
-                {
-                    "counter": true,
-                    "audio": "a/q3.mp3",
-                    "question": "",
-                    "options": ["", "", ""],
-                    "optionk": "c",
-                    "optionw": "Para responder esta pregunta, debemos considerar que la frase “Do you like…” corresponde a “¿Te gusta…?” y esta es una respuesta cerrada: “sí” o “no”, por lo tanto HAY una única respuesta correcta.",
-                    "eval": true,
-                    "nextbtn": true
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "content": [
-                {
-                    "counter": true,
-                    "audio": "a/q4.mp3",
-                    "question": "",
-                    "options": ["", "", ""],
-                    "optionk": "a",
-                    "optionw": "Nos encontramos de nuevo con la palabra de pregunta “Where”, la cual se refiere a lugar. La única respuesta correcta la  podemos saber porque estamos usando una preposición de lugar.",
-                    "eval": true,
-                    "nextbtn": true
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "content": [
-                {
-                    "counter": true,
-                    "audio": "a/q5.mp3",
-                    "question": "",
-                    "options": ["", "", ""],
-                    "optionk": "b",
-                    "optionw": "En esta pregunta, puede ser confuso escuchar la palabra “dinner” tanto en la pregunta como en la respuesta, así que debemos prestar atención a la pregunta “What do you want” que significa “qué quieres” y aquí la respuesta debe ser algo relacionado con comida.",
-                    "eval": true,
-                    "nextbtn": true
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "content": [
-                {
-                    "counter": true,
-                    "audio": "a/q6.mp3",
-                    "question": "",
-                    "options": ["", "", ""],
-                    "optionk": "c",
-                    "optionw": "En esta pregunta, la palabra clave es “When”, que significa “Cuando”, por lo tanto, la única respuesta posible es la que se refiere a una fecha o a un marcador de tiempo.",
-                    "eval": true,
-                    "nextbtn": true
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "content": [
-                {
-                    "counter": true,
-                    "audio": "a/q7.mp3",
-                    "question": "",
-                    "options": ["", "", ""],
-                    "optionk": "c",
-                    "optionw": "Ahora regresamos a la palabra “name” en la pregunta, pero ahora con el posesivo “you”, así que está preguntando tu nombre, la única respuesta correcta sería el único nombre propio en las opciones.",
-                    "eval": true,
-                    "nextbtn": true
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "content": [
-                {
-                    "counter": true,
-                    "audio": "a/q8.mp3",
-                    "question": "",
-                    "options": ["", "", ""],
-                    "optionk": "a",
-                    "optionw": "La palabra “Whose” puede ser complicada en español porque es “De quien…” para preguntar a quién pertenece cierto objeto. Así que debemos buscar la respuesta que nos de un posesivo.",
-                    "eval": true,
-                    "nextbtn": true
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "content": [
-                {
-                    "counter": true,
-                    "audio": "a/q9.mp3",
-                    "question": "",
-                    "options": ["", "", ""],
-                    "optionk": "b",
-                    "optionw": "En esta pregunta, la clave es la palabra “drink”, “tomar o beber”. Se puede confundir por la palabra “What” o “qué”, por lo tanto, nuestra clave es “drink”, y la respuesta sería lo único que se puede “tomar o beber”.",
-                    "eval": true,
-                    "nextbtn": true
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "content": [
-                {
-                    "counter": true,
-                    "audio": "a/q10.mp3",
-                    "question": "",
-                    "options": ["", "", ""],
-                    "optionk": "a",
-                    "optionw": "Regresamos a la palabra de pregunta “where”, o sea, “dónde”, que muchas veces se puede confundir con “when” por la pronunciación. La respuesta correcta sería aquella donde estamos utilizando la preposición de lugar y además da un lugar probable para una persona.",
-                    "eval": true,
-                    "nextbtn": true
-                }
-            ]
-        }
-    ]
+                "text":"En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres opciones, también en inglés. Las preguntas o enunciados y las opciones se dirán solo una vez."
+             },
+             {
+                "text":"Escuche cuidadosamente para poder entender por qué no aparece nada escrito en el folleto del examen para estos ejercicios. Seleccione la mejor opción para cada pregunta o enunciado y oscurezca el espacio de la letra correspondiente en la hoja de respuestas."
+             },
+             {
+              "text":"EXAMPLE",
+              "class":"mt-5 font-bold text-5 text-gradient"
+              },
+             {
+                "class":"border-4 border-solid border-et-orange p-5 rounded-md",
+                "content":[
+                    {
+                        "title": "Example question",
+                        "audio": "a/q0.mp3",
+                        "question": "How are you?",
+                        "options": ["I’m eight years old.", "Fine, thanks. And you?", "I smile."],
+                        "optionk": "b",
+                        "optionw": "Para contestar esta pregunta, es necesario entender que “How are you?” en inglés requiere una respuesta que indique el estado de ánimo o salud de la persona.",
+                        "eval": false,
+                        "type": "listening"
+                    }
+                  ]
+              },
+              {
+                  "text": "La respuesta correcta es la  (B), de no ser la correcta, se proporciona una explicación que te ayude a corregir."
+               },
+              { "buttonnav": "next"}
+        ]
+    },
+
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "content":[
+            {
+                "title": "Question 1",
+                "audio": "a/q1.mp3",
+                "question": "Where can I find you?",
+                "options": ["At 11 am", "Tomorrow", "At the library."],
+                "optionk": "c",
+                "optionw": "Para contestar esta pregunta es necesario entender que “Where” en inglés requiere un lugar como contestación. La alternativa es la única que indica un lugar: biblioteca.",
+                "eval": true,
+                "type": "listeningNO"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "content":[
+            {
+                "title": "Question 2",
+                "audio": "a/q2.mp3",
+                "question": "What’s your mom’s name?",
+                "options": ["Maria", "She is fine, thanks.", "She is 30 years old."],
+                "optionk": "a",
+                "optionw": "Para responder esta pregunta, es necesario conocer que la palabra “name” se refiere a nombre y que “mom's” es el posesivo “tu mamá”, así que se cuestiona “el nombre de tu mamá”",
+                "eval": true,
+                "type": "listening"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "content":[
+            {
+                "title": "Question 3",
+                "audio": "a/q3.mp3",
+                "question": "Do you like scary movies?",
+                "options": ["The witch is green.", "Monsters are great.", "Yes, I love them."],
+                "optionk": "c",
+                "optionw": "Para responder esta pregunta, debemos considerar que la frase “Do you like…” corresponde a “¿Te gusta…?” y esta es una respuesta cerrada: “sí” o “no”, por lo tanto hay una única respuesta correcta",
+                "eval": true,
+                "type": "listening"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "content":[
+            {
+                "title": "Question 4",
+                "audio": "a/q4.mp3",
+                "question": "Where is your backpack?",
+                "options": ["In the car.", "The books.", "Green."],
+                "optionk": "a",
+                "optionw": "Nos encontramos de nuevo con la palabra de pregunta “Where”, la cual se refiere a lugar. La única respuesta correcta la podemos saber porque estamos usando una preposición de lugar.",
+                "eval": true,
+                "type": "listening"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "content":[
+            {
+                "title": "Question 5",
+                "audio": "a/q5.mp3",
+                "question": "What do you want for dinner?",
+                "options": ["Dinner was delicious.", "A burger", "Yes, I want a burger."],
+                "optionk": "b",
+                "optionw": "En esta pregunta, puede ser confuso escuchar la palabra “dinner”tanto en la pregunta como en la respuesta, así que debemos prestar atención a la pregunta “What do you want”qué significa “qué quieres”y aquí la respuesta debe ser algo relacionado con comida.",
+                "eval": true,
+                "type": "listening"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "content":[
+            {
+                "title": "Question 6",
+                "audio": "a/q6.mp3",
+                "question": "When’s your birthday?",
+                "options": ["A cake", "Party", "Next week!"],
+                "optionk": "c",
+                "optionw": "En esta pregunta, la palabra clave es “When”, que significa “Cuándo”, por lo tanto, la única respuesta posible es la que se refiere a una fecha o a un marcador de tiempo",
+                "eval": true,
+                "type": "listening"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "content":[
+            {
+                "title": "Question 7",
+                "audio": "a/q7.mp3",
+                "question": "What’s your name?",
+                "options": ["House", "A student", "Luis"],
+                "optionk": "c",
+                "optionw": "Ahora regresamos a la palabra “name”en la pregunta, pero ahora con el posesivo “you”, así que está preguntando tu nombre, la única respuesta correcta sería  el único nombre propio en las opciones.",
+                "eval": true,
+                "type": "listening"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "content":[
+            {
+                "title": "Question 8",
+                "audio": "a/q8.mp3",
+                "question": "Whose car is that?",
+                "options": ["It’s Daniel’s", "The car is red", "In the garage"],
+                "optionk": "a",
+                "optionw": "La palabra “Whose”puede ser complicada en español porque es “De quién…”para preguntar a quién pertenece cierto objeto. Así que debemos buscar la respuesta que nos de un posesivo.",
+                "eval": true,
+                "type": "listening"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "content":[
+            {
+                "title": "Question 9",
+                "audio": "a/q9.mp3",
+                "question": "What do you want to drink?",
+                "options": ["A sandwich", "Water", "Sugar"],
+                "optionk": "b",
+                "optionw": "En esta pregunta, la clave es la palabra “drink”, “tomar o beber”. Se puede confundir por la palabra “What”o “qué”, por lo tanto, nuestra clave es “drink”, y la respuesta sería lo único que se puede “tomar o beber”",
+                "eval": true,
+                "type": "listening"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "content":[
+            {
+                "title": "Question 10",
+                "audio": "a/q10.mp3",
+                "question": "Where is your sister?",
+                "options": ["At school", "In the fridge", "María"],
+                "optionk": "a",
+                "optionw": "Regresamos a la palabra de pregunta “where”, o sea, “dónde”, que muchas veces se puede confundir con “when”por la pronunciación. La respuesta correcta sería aquella donde estamos utilizando la preposición de lugar y además da un lugar probable para una persona.",
+                "eval": true,
+                "type": "listening"
+            }
+        ]
+    }
  ]

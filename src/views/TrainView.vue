@@ -9,8 +9,8 @@
             <section class="max-w-[1200px] w-full md:w-/10 mx-auto my-5 text-left my-auto ">
                 <TimerClock />                
                 <template v-for="(item, index) in odajson">
-                    <TrainScene :step="index">
-                        <BlockRenderer :data="item" :step="index" :blockid="index.toString()" />
+                    <TrainScene :step="index" v-if="item.block=='scene'" :data="item">
+                        <BlockRenderer :data="item.content" :step="index" :blockid="index.toString()" />
                     </TrainScene>
                 </template>
 
@@ -21,7 +21,7 @@
 
 
     <!-- //////////////////////////////////// -->
-    
+        <ContinueLater></ContinueLater>
     </div>
 </template>
 

@@ -29,7 +29,7 @@
     import {useOda} from '@/stores/oda'
     const oda = useOda()
     oda.getODA()
-
+    oda.sendPMessage('student', 'finish')
 
 
 </script>
