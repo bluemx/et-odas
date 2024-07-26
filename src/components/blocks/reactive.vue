@@ -130,7 +130,14 @@ onMounted(()=>{
     } else {
         // New
         if(props.data.eval){
-            oda.data[props.step] = null
+            oda.data[props.step] = {
+                answerid: null,
+                answertext: null,
+                ok: null,
+                correct: null,
+                questionid: props.blockid,
+                questiontext: props.data.question,
+            }
             watch(selected, (newValue) => {
                 if(newValue?.ok){
                     oda.data[props.step] = newValue

@@ -54,7 +54,7 @@
                 "optionk": "c",
                 "optionw": "Para contestar esta pregunta es necesario entender que “Where” en inglés requiere un lugar como contestación. La alternativa es la única que indica un lugar: biblioteca.",
                 "eval": true,
-                "type": "listeningNO"
+                "type": "listening"
             }
         ]
     },

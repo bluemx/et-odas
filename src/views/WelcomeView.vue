@@ -17,7 +17,7 @@
                 </template>
                 <template v-else>
                     <RouterLink :to="'/'+oda.id+'/train'" class="et-button et-pink no-underline font-bold text-6 cursor-pointer animated animated-fade-in animated-delay-1s">CONTINUAR</RouterLink>
-                    <div class="font-bold text-4 text-pink mt-2">Continuarás a partir del reactivo {{ oda.step }}.</div>
+                    <div class="font-bold text-4 text-pink mt-2">Continuarás en la página {{ oda.step }}.</div>
                 </template>
             </div>
         </div>

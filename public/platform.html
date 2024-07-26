@@ -35,21 +35,33 @@
             <div>
                 <div>Javascript:</div>
                 <pre><code  class="language-javascript" id="codeSnippet">
-window.addEventListener('message', ({ data }) => {
-    if (!data || data.datatype !== 'student') { return; }
-    const { oda_id, oda_info, user_time, user_data } = data;
-});
+window.addEventListener('message', function(event) {
+    try{
+        if(JSON.parse(event.data).datatype == 'student'){
+            // DATOS
+            const datos = event.data
+        }
+    } catch {
+        // ---
+    }
+})
                 </code></pre>
             </div>
         </div>
     </div>
     
     <script>
-        window.addEventListener('message', ({ data }) => {
-            if (!data || data.datatype !== 'student') { return; }
-            const { oda_id, oda_info, user_time, user_data } = event.data;
-            document.getElementById('fullData').textContent = JSON.stringify(event.data, null, 2);
-        });
+        window.addEventListener('message', function(event) {
+            try{
+                if(JSON.parse(event.data).datatype == 'student'){
+                    // DATOS
+                    const datos = event.data
+                    document.getElementById('fullData').textContent = JSON.stringify(JSON.parse(datos), null, 2);
+                }
+            } catch {
+
+            }
+        })
     </script>
 
 
@@ -69,21 +81,77 @@ window.addEventListener('message', ({ data }) => {
             <div>Datos a cargar:</div>   
             <pre><code class="language-javascript" id="Data To load">
 var inputs = [
-    {
-        "answerid": "c",
-        "answertext": "",
-        "questionid": 1,
-        "questiontext": ""
-    },
-    {
-        "answerid": "a",
-        "answertext": "",
-        "questionid": 2,
-        "questiontext": ""
-    },
-    null, null, null, null,
-    null, null, null, null
-];
+{
+  "answerid": "c",
+  "answertext": "At the library.",
+  "correct": true,
+  "questionid": "1-0",
+  "questiontext": "Where can I find you?"
+},
+{
+  "answerid": "a",
+  "answertext": "Maria",
+  "correct": true,
+  "questionid": "2-0",
+  "questiontext": "What’s your mom’s name?"
+},
+{
+  "answerid": null,
+  "answertext": null,
+  "correct": null,
+  "questionid": "3-0",
+  "questiontext": "Do you like scary movies?"
+},
+{
+  "answerid": null,
+  "answertext": null,
+  "correct": null,
+  "questionid": "4-0",
+  "questiontext": "Where is your backpack?"
+},
+{
+  "answerid": null,
+  "answertext": null,
+  "correct": null,
+  "questionid": "5-0",
+  "questiontext": "What do you want for dinner?"
+},
+{
+  "answerid": null,
+  "answertext": null,
+  "correct": null,
+  "questionid": "6-0",
+  "questiontext": "When’s your birthday?"
+},
+{
+  "answerid": null,
+  "answertext": null,
+  "correct": null,
+  "questionid": "7-0",
+  "questiontext": "What’s your name?"
+},
+{
+  "answerid": null,
+  "answertext": null,
+  "correct": null,
+  "questionid": "8-0",
+  "questiontext": "Whose car is that?"
+},
+{
+  "answerid": null,
+  "answertext": null,
+  "correct": null,
+  "questionid": "9-0",
+  "questiontext": "What do you want to drink?"
+},
+{
+  "answerid": null,
+  "answertext": null,
+  "correct": null,
+  "questionid": "10-0",
+  "questiontext": "Where is your sister?"
+}
+]
 
 var seconds = 600;
             </code></pre>
@@ -107,7 +175,7 @@ function sendData () {
 </div>
 
 <script>
-    var inputs = [{"answerid": "c","answertext": "","questionid": 1,"questiontext": ""},{"answerid": "a","answertext": "","questionid": 2,"questiontext": ""},null, null, null, null, null, null, null, null ]; 
+    var inputs = [     {       "answerid": "c",       "answertext": "At the library.",       "correct": true,       "questionid": "1-0",       "questiontext": "Where can I find you?"     },     {       "answerid": "a",       "answertext": "Maria",       "correct": true,       "questionid": "2-0",       "questiontext": "What’s your mom’s name?"     },     {       "answerid": null,       "answertext": null,       "correct": null,       "questionid": "3-0",       "questiontext": "Do you like scary movies?"     },     {       "answerid": null,       "answertext": null,       "correct": null,       "questionid": "4-0",       "questiontext": "Where is your backpack?"     },     {       "answerid": null,       "answertext": null,       "correct": null,       "questionid": "5-0",       "questiontext": "What do you want for dinner?"     },     {       "answerid": null,       "answertext": null,       "correct": null,       "questionid": "6-0",       "questiontext": "When’s your birthday?"     },     {       "answerid": null,       "answertext": null,       "correct": null,       "questionid": "7-0",       "questiontext": "What’s your name?"     },     {       "answerid": null,       "answertext": null,       "correct": null,       "questionid": "8-0",       "questiontext": "Whose car is that?"     },     {       "answerid": null,       "answertext": null,       "correct": null,       "questionid": "9-0",       "questiontext": "What do you want to drink?"     },     {       "answerid": null,       "answertext": null,       "correct": null,       "questionid": "10-0",       "questiontext": "Where is your sister?"     }   ]; 
     var seconds = 600;
     const iframe2 = document.getElementById('iframe2')
     const message = {

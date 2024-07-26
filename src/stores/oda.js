@@ -66,14 +66,23 @@ export const useOda = defineStore('oda', () => {
         }
         return obj;
     }, {});
-    const findBiggestKeyNotNull = obj => Math.max(...Object.keys(obj).filter(key => obj[key] !== null).map(Number));
+    function findFirstCorrectNullIndex() {
+        const keys = Object.keys(data.value);
+        for (let i = 0; i < keys.length; i++) {
+            if (data.value[keys[i]].correct === null) {
+                return i;
+            }
+        }
+        return -1; // Return -1 if no such object is found
+    }
+    
     // *    *   *   *   *   *   *   *   *   
 
     // EXPORT
     const sendPMessage = (data_type, data_status) => {
         postmessagedata.value = {
             total: Object.keys(data.value).length,
-            responded: Object.values(data.value).filter(item => item !== null).length,
+            responded: Object.values(data.value).filter(item => item && item.correct !== null).length,
             seconds: time.value,
             inputs: convertObjectToArray(data.value),
             oda: id.value,
@@ -83,7 +92,7 @@ export const useOda = defineStore('oda', () => {
             status: data_status
         }
 
-        window.parent.postMessage(JSON.parse(JSON.stringify(postmessagedata.value)), '*')
+        window.parent.postMessage(JSON.stringify(postmessagedata.value), '*')
     }
 
     // IMPORT
@@ -91,8 +100,11 @@ export const useOda = defineStore('oda', () => {
     window.addEventListener('message', ({ data: messageData }) => {
         if (!messageData || messageData.datatype !== 'student_data') { return; }
         const {inputs, seconds } = messageData;
+        
         data.value = arrayToObject(inputs)
-        step.value = findBiggestKeyNotNull(data.value)+1
+
+
+        step.value = findFirstCorrectNullIndex()
         time.value = seconds
 
     });

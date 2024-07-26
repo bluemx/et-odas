@@ -16,8 +16,12 @@
 
             </section>
 
+            <!--
+            <pre class="whitespace-pre-wrap	text-left"><code class="whitespace-pre-wrap">
+                {{ JSON.stringify(oda.postmessagedata, null, 2) }}
+            </code></pre>
+            -->
         </div>
-
 
 
     <!-- //////////////////////////////////// -->
