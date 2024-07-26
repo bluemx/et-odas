@@ -5,7 +5,7 @@
           "class":"instrucciones font-bold text-5 text-gradient"
        },
        {
-          "audioplayer":"U1L1.mp3"
+          "audioplayer":"a/instruccion.mp3"
        },
        {
           "text":"En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres opciones, también en inglés. Las preguntas o enunciados y las opciones se dirán solo una vez."
@@ -21,7 +21,7 @@
           "class":"border-4 border-solid border-et-orange p-5 rounded-md",
           "content":[
              {
-                "audio":"q0.mp3",
+                "audio":"a/q0.mp3",
                 "question":"",
                 "options":[
                    "",
@@ -45,7 +45,7 @@
             "content": [
                 {
                     "counter": true,
-                    "audio": "q1.mp3",
+                    "audio": "a/q1.mp3",
                     "question": "",
                     "options": ["", "", ""],
                     "optionk": "c",
@@ -61,7 +61,7 @@
             "content": [
                 {
                     "counter": true,
-                    "audio": "q2.mp3",
+                    "audio": "a/q2.mp3",
                     "question": "",
                     "options": ["", "", ""],
                     "optionk": "a",
@@ -77,7 +77,7 @@
             "content": [
                 {
                     "counter": true,
-                    "audio": "q3.mp3",
+                    "audio": "a/q3.mp3",
                     "question": "",
                     "options": ["", "", ""],
                     "optionk": "c",
@@ -93,7 +93,7 @@
             "content": [
                 {
                     "counter": true,
-                    "audio": "q4.mp3",
+                    "audio": "a/q4.mp3",
                     "question": "",
                     "options": ["", "", ""],
                     "optionk": "a",
@@ -109,7 +109,7 @@
             "content": [
                 {
                     "counter": true,
-                    "audio": "q5.mp3",
+                    "audio": "a/q5.mp3",
                     "question": "",
                     "options": ["", "", ""],
                     "optionk": "b",
@@ -125,7 +125,7 @@
             "content": [
                 {
                     "counter": true,
-                    "audio": "q6.mp3",
+                    "audio": "a/q6.mp3",
                     "question": "",
                     "options": ["", "", ""],
                     "optionk": "c",
@@ -141,7 +141,7 @@
             "content": [
                 {
                     "counter": true,
-                    "audio": "q7.mp3",
+                    "audio": "a/q7.mp3",
                     "question": "",
                     "options": ["", "", ""],
                     "optionk": "c",
@@ -157,7 +157,7 @@
             "content": [
                 {
                     "counter": true,
-                    "audio": "q8.mp3",
+                    "audio": "a/q8.mp3",
                     "question": "",
                     "options": ["", "", ""],
                     "optionk": "a",
@@ -173,7 +173,7 @@
             "content": [
                 {
                     "counter": true,
-                    "audio": "q9.mp3",
+                    "audio": "a/q9.mp3",
                     "question": "",
                     "options": ["", "", ""],
                     "optionk": "b",
@@ -189,7 +189,7 @@
             "content": [
                 {
                     "counter": true,
-                    "audio": "q10.mp3",
+                    "audio": "a/q10.mp3",
                     "question": "",
                     "options": ["", "", ""],
                     "optionk": "a",
