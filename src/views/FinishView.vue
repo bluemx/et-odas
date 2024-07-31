@@ -16,9 +16,11 @@
             <div class="font-bold text-et-pink">Contestaste un total de {{ Object.keys(oda.data).length }} reactivos</div>
             <div class="font-bold text-et-orange">en un tiempo de {{ oda.formattedTime }}.</div>
 
+            <!--
             <div class="flex gap-10 mt-10 justify-center">
                 <RouterLink :to="'/'+oda.id" class="et-button et-pink no-underline font-bold text-6 cursor-pointer">REINICIAR</RouterLink>
             </div>
+            -->
 
         </div>    
     

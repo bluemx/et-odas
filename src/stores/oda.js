@@ -4,6 +4,8 @@ import odas from './odaslist.js'
 import { useRoute, useRouter } from 'vue-router'
 
 export const useOda = defineStore('oda', () => {
+    const istesting = ref(false)
+
     const route = useRoute()
     const router = useRouter()
 
@@ -146,6 +148,7 @@ export const useOda = defineStore('oda', () => {
         isplaying,
         timerinvertval,
         stepcount,
+        istesting,
         getODA,
         stepNext,
         stepPrev,

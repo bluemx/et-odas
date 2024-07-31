@@ -16,6 +16,7 @@ declare module 'vue' {
     ReactiveMessage: typeof import('./components/blocks/reactiveMessage.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TestingBtn: typeof import('./components/TestingBtn.vue')['default']
     TimerClock: typeof import('./components/TimerClock.vue')['default']
     TrainScene: typeof import('./components/TrainScene.vue')['default']
   }

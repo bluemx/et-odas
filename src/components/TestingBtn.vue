@@ -1,0 +1,22 @@
+<template>
+
+    <button v-if="checkUrl()" class="et-button !px-4 !py-1 fixed bottom-2 right-2 !border-2 !border-solid !border-white" 
+    :class="oda.istesting ? '!bg-et-orange': '' " 
+    @click="test()">
+        <template v-if="oda.istesting">Apagar test</template>
+        <template v-else>Modo test</template>
+    </button>
+</template>
+
+<script setup lang="ts">
+    import {useOda} from '@/stores/oda'
+    const oda = useOda()
+
+    const test = () => {
+        oda.istesting = !oda.istesting
+    }
+    const checkUrl = () => {
+        const url = window.location.hostname;
+        return url.includes("localhost") || url.includes("odas.win");
+    }
+</script>
