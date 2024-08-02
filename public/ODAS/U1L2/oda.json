@@ -31,7 +31,8 @@
                         "optionk": "c",
                         "optionw": "La respuesta correcta es Lola's cousin",
                         "eval": false,
-                        "type": "listening"
+                        "type": "listening",
+                "force_positive": true
                     }
                   ]
               },
@@ -51,7 +52,8 @@
                 "optionk": "b",
                 "optionw": "En esta conversación, es necesario entender que el hombre tiene un problema “Se siente enfermo, le duele el estómago”, y aquí estamos dando soluciones. La más lógica para un dolor de estómago, sería la respuesta que indique algo lógico o consecuente al problema presentado",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -67,7 +69,8 @@
                 "optionk": "c",
                 "optionw": "En este intercambio, el hombre pregunta “Quién hace tu cabello”, lo cual nos debe dar respuesta a una ocupación, pero tenemos 4 opciones con distintas ocupaciones, así que es necesario conocer vocabulario de las personas que hacen distintas cosas(oficios), en este caso: “hacer/arreglar el cabello”.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -83,7 +86,8 @@
                 "optionk": "a",
                 "optionw": "En esta pregunta, podríamos pensar que la palabra clave es “Where”: “dónde”. Sin embargo, debemos escuchar la pregunta entera para entender que se refiere al lugar donde se ven animales de distintos países y ecosistemas. La respuesta correcta es el único lugar en las opciones donde se puede ver esa variedad de animales.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -99,7 +103,8 @@
                 "optionk": "c",
                 "optionw": "La clave en esta pregunta es comprender una secuencia, “Qué hiciste antes de ir al teatro”, aquí la respuesta podría quedar entre A y B, puesto que ambas hablan de dos cuestiones en pasado. Sin embargo, la diferencia es que una se refiere más a una posición, o un lugar “estaba en la cama”y la respuesta B  refiere  que cenó con su esposa. La respuesta correcta debe dar pistas acerca de la temporalidad y estar cercana a la indicada en la pregunta.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -115,7 +120,8 @@
                 "optionk": "d",
                 "optionw": "En esta pregunta, debemos identificar el tiempo futuro para conocer la respuesta. En este caso, tenemos dos opciones: C y D. Debemos prestar atención a la diferencia entre una respuesta y la otra: La C se refiere a que el curso se terminará en enero, nos están dando un tiempo determinado, cuando la pregunta es “qué harás ya que hayas terminado el curso”, por lo tanto, la respuesta correcta debe enfocarse a una acción posterior al curso.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -131,7 +137,8 @@
                 "optionk": "a",
                 "optionw": "En esta pregunta, queremos saber el número de museos “how many”que la persona visitó el verano pasado. Lo confuso puede ser que en todas las respuestas se incluye la palabra “museum”(museo). Debemos identificar dos aspectos: el tiempo pasado simple y el número de museos.”.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -147,7 +154,8 @@
                 "optionk": "b",
                 "optionw": "Esta pregunta tiene dos palabras claves “most difficult” y “doctor”, así que debemos buscar las respuestas relacionadas con “medicina”, en este caso tenemos dos opciones, la B y la C. La lógica nos dice que un doctor, por lo general, no haría fila por medicina, sino que su labor sería otra, más adecuada a la respuesta.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -163,7 +171,8 @@
                 "optionk": "b",
                 "optionw": "En esta pregunta, estamos hablando de planes a futuro, en específico, en “winter” o en español: invierno. Una respuesta posible, sería no tener planes porque el clima está muy caluroso. Lo cual no tiene lógica con el invierno, que en este hemisferio es frío. Entonces, la respuesta correcta sería la que coincida con  la clave del clima.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -179,7 +188,8 @@
                 "optionk": "b",
                 "optionw": "Para responder esta pregunta, es necesario conocer de lugares y lo que podemos encontrar en cada lugar, en este caso, en el “supermarket”, o supermercado, podemos encontrar comida. Aquí tenemos dos respuestas que incluyen comida, la B (que es más bien despensa o víveres) y la D (sopa). Pero en el supermercado vamos a “comprar”, no a “ordenar”. Por lo tanto, nuestra respuesta correcta es la que coincida con la actividad que se desarrolla en el lugar indicado en la pregunta.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -195,7 +205,8 @@
                 "optionk": "b",
                 "optionw": "Para responder esta pregunta, debemos entender que la persona está haciendo una invitación utilizando el modal 'Would' y que la respuesta debe ser 'si' o 'no'” pero no algo directo. Una manera de decir 'si', la podemos encontrar en la respuesta correcta.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -211,7 +222,8 @@
                 "optionk": "c",
                 "optionw": "Aquí tenemos otra invitación, de una manera más directa, 'Do you want…' significa 'Quieres…' y seguramente por la invitación tan directa, la relación entre los hablantes es más cercana y casual. Por lo mismo, aquí encontraremos una respuesta más directa.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -227,7 +239,8 @@
                 "optionk": "b",
                 "optionw": "Para responder este ejercicio, debemos comprender que la palabra clave es 'Why' para preguntar: por qué, una razón o motivo. En este caso, la mujer pregunta ¿Por qué vas a ir al banco?, y aunque en las respuestas tenemos palabras o frases relacionadas con ir al banco, la respuesta correcta es la que siga la lógica, el banco no puede ser un lugar de diversión.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -243,7 +256,8 @@
                 "optionk": "c",
                 "optionw": "En esta pregunta, debemos poder seguir una conversación en la cual se hacen dos preguntas, una simple y una que es el seguimiento de la anterior. Después tenemos la pregunta de nuestro reactivo, donde queremos saber qué sucede con el perro, o 'qué le pasó'. Es necesario entender la expresión 'What 's wrong?' como algo cercano a 'Qué le sucedió?' y captar la idea principal de la conversación: el hombre no lo sabe, está con el veterinario pero no sabe qué le sucede.",
                 "eval": true,
-                "type": "listening+text"
+                "type": "listening+text",
+                "force_positive": true
             }
         ]
     },
@@ -259,7 +273,8 @@
                 "optionk": "d",
                 "optionw": "En esta conversación, es necesario entender que ambas personas están hablando de lo que quieren para sus cumpleaños. Por lo general, en un intercambio natural, una persona pregunta, la otra contesta y regresa la pregunta. Por lo que el hombre expresa lo que desea para su cumpleaños, en este caso. Es importante prestar atención a la pregunta escrita, puesto que se refiere al 'man' o al 'hombre'.",
                 "eval": true,
-                "type": "listening+text"
+                "type": "listening+text",
+                "force_positive": true
             }
         ]
     },
@@ -275,7 +290,8 @@
                 "optionk": "c",
                 "optionw": "Aquí tenemos una conversación en la cual la pregunta nos lleva a inferir por el contexto dónde se encuentran. La mujer habla de lápices y plumas, el hombre menciona la palabra 'aisle' (pasillo) una tercera pista es que hablan de cuadernos y cuadernos de boceto.",
                 "eval": true,
-                "type": "listening+text"
+                "type": "listening+text",
+                "force_positive": true
             }
         ]
     },
@@ -291,7 +307,8 @@
                 "optionk": "a",
                 "optionw": "En esta pregunta, queremos saber 'when' (cuando) van a ir a la playa las dos personas que forman parte de la conversación y podemos escuchar que ambas personas están tratando de hacer planes pero se interponen otras cosas como el trabajo. Podemos escuchar la intención de ambos de cambiar los planes, y esto lo podemos observar en la negociación con la pregunta 'Do you think we could change it to the following one?', y ya cuando el hombre confirma 'It's a plan!' podemos confirmar que si, van a ir a la playa pero no como en el plan original.",
                 "eval": true,
-                "type": "listening+text"
+                "type": "listening+text",
+                "force_positive": true
             }
         ]
     },
@@ -307,7 +324,8 @@
                 "optionk": "c",
                 "optionw": "En esta situación, el hombre y la mujer están hablando de trabajo. Él quiere saber qué está haciendo la mujer en un lugar (oficina) y ella le explica que fue a dejar su currículum, en este caso, se utiliza el sinónimo 'resume'. Él le pregunta que si sucede algo con la expresión 'what's wrong?' y ella le explica que está buscando mejores opciones.",
                 "eval": true,
-                "type": "listening+text"
+                "type": "listening+text",
+                "force_positive": true
             }
         ]
     },
@@ -323,7 +341,8 @@
                 "optionk": "c",
                 "optionw": "En esta conversación, es necesario entender la idea general de un audio en el cual se da información de manera unilateral. La persona que habla está utilizando palabras claves como: 'place' (lugar), la temporalidad '5 weeks' (5 semanas), 'physical activities with arts and science' (actividades físicas con artes y ciencia) y habla de hacer nuevos amigos, aprender y jugar. La pregunta va hacia el lugar, 'Where is the man talking?', y el único lugar donde pueden suceder estas actividades, que dura unas semanas es la opción correcta.",
                 "eval": true,
-                "type": "listening+text"
+                "type": "listening+text",
+                "force_positive": true
             }
         ]
     },
@@ -339,7 +358,8 @@
                 "optionk": "b",
                 "optionw": "En este ejercicio, queremos saber la situación de lo que sucede cuando una mujer que habla sobre 'exam conditions', el tono es formal, estricto, da órdenes o instrucciones. Al escuchar palabras como 'test room', 'pen', 'pencil', 'eraser', 'ID' (otra manera de llamar a una identificación o credencial), sabemos automáticamente que estamos hablando de un examen. Y al hablar de las instrucciones, la inferencia es que esto es justo antes de entrar a tomar el examen.",
                 "eval": true,
-                "type": "listening+text"
+                "type": "listening+text",
+                "force_positive": true
             }
         ]
     },
@@ -355,7 +375,8 @@
                 "optionk": "d",
                 "optionw": "Este es un intercambio en el cual un hombre habla de un 'proyecto escolar', nuestra primera palabra clave. La mujer le pregunta acerca de su proyecto y él contesta que es acerca de comenzar un nuevo negocio 'setting up a new business', así que desde este momento sabemos que no es un hombre de negocios ni un emprendedor.",
                 "eval": true,
-                "type": "listening+text"
+                "type": "listening+text",
+                "force_positive": true
             }
         ]
     },
@@ -376,7 +397,8 @@
                 "optionk": "B",
                 "optionw": "Para contestar este ejercicio, debemos identificar que la mujer habla en tiempo pasado simple y pasado con 'would' y 'used to'.  Tenemos una frase que nos da la clave del contexto general, y esta es la frase inicial 'When I was a little girl'. En la pregunta queremos saber 'de qué está hablando la mujer', así que es una idea general de lo que ella hacía cuando era niña. La respuesta (A) es demasiado amplia y la respuesta (D) es muy específica. La respuesta correcta está entre ambos aspectos.",
                 "eval": true,
-                "type": "listening+text"
+                "type": "listening+text",
+                "force_positive": true
             }
         ]
     },
@@ -397,7 +419,8 @@
                 "optionk": "D",
                 "optionw": "En este audio, tenemos información que se da de manera unilateral, un hombre hablando acerca de alguien más y que nos da pistas para responder la pregunta 'dónde vive el hombre?'. Podemos confundirnos porque él habla de otra persona, su hermana, pero lo primero que debemos leer en la pregunta escrita es 'Where' porque queremos saber el lugar y 'the man', puesto que la labor es inferir dónde vive el hombre.",
                 "eval": true,
-                "type": "listening+text"
+                "type": "listening+text",
+                "force_positive": true
             }
         ]
     },
@@ -418,7 +441,8 @@
                 "optionk": "A",
                 "optionw": "En esta conversación, podemos leer palabras relacionadas con el campo del trabajo, de la escritura, podría ser periodismo: \"new article\" (nuevo artículo), \"editor\" (editor), pero luego nos encontramos con palabras más específicas: \"new trends\"(nuevas tendencias), \"party dresses\"(vestidos de fiesta) y \"fashion\"(moda). Queremos saber la ocupación de la mujer, y por las palabras relacionadas con el campo de la moda y la escritura, podemos inferir la respuesta correcta.",
                 "eval": true,
-                "type": "listening+text"
+                "type": "listening+text",
+                "force_positive": true
             }
         ]
     },
@@ -439,7 +463,8 @@
                 "optionk": "C",
                 "optionw": "En este audio, podemos escuchar un intercambio entre un hombre y una mujer, quienes están hablando de planes para su aniversario. La mujer se muestra molesta y aclara que no tienen un plan.",
                 "eval": true,
-                "type": "listening+text"
+                "type": "listening+text",
+                "force_positive": true
             }
             
         ]
@@ -461,7 +486,8 @@
                 "optionk": "A",
                 "optionw": "En esta pregunta, tenemos un intercambio entre dos personas, la conversación comienza con la pregunta que tenemos escrita 'Where is John staying?'(dónde se va a quedar John), la cual tiene una explicación extensa sobre el primer plan, lo que John quería o prefería hacer pero al final, ella dice 'so he ended up in my place' lo que nos da como respuesta la opción correcta.",
                 "eval": true,
-                "type": "listening+text"
+                "type": "listening+text",
+                "force_positive": true
             }
             
         ]

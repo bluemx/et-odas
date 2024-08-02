@@ -1,5 +1,8 @@
 <template>
-    <div class="reactiveBtn flex items-center" :class="current?'selected':''">
+    <div class="reactiveBtn flex items-center" :class="active?'selected':''" @click="clicked">
+        <div class="btn z-10">{{ letters[index] }}</div>
+        <div class="text" v-if="visibleText"><slot></slot></div>
+        <!--
         <div class="z-10">
             <div class="btn"  @click="clicked()">
                 {{ letter.toUpperCase() }}
@@ -8,32 +11,43 @@
         <div v-if="text" class="text" @click="clicked()">
             {{text}}
         </div>
-        <div class="z-10" v-if="current && ok">
-            <div class="answer flex justify-center items-center" :class="current && ok?'isok':''">
-                <i v-if="current" class="i-custom-check text-6"></i>
+        -->
+        <div class="z-10" v-if="showOk && active">
+            <div class="answer flex justify-center items-center" :class="'isok'">
+                <i class="i-custom-check text-6"></i>
             </div>
         </div>
     </div>
 </template>
 <script setup>
+import UIfx from 'uifx'
+import clickMp3 from '/assets/sounds/click.mp3'
 
-
-
+const clicksound = new UIfx(clickMp3)
 
 const emit = defineEmits(['clicked'])
 const props = defineProps({
+    index: Number,
     data: Object,
     letter: String,
-    text: String,
+    text: [String, Boolean],
     current: [Boolean, String],
     ok: [Boolean, String],
-    freeze: Boolean
+    freeze: Boolean,
+    hideOk: Boolean,
+    visibleText: Boolean,
+    active: [Boolean, String],
+    showOk: Boolean
 })
+
+
+const letters = ['A', 'B', 'C', 'D', 'E'];
+
 
 const clicked = () => {
     if(props.freeze){return false}
-   
     emit('clicked')
+    clicksound.play()
 }
 
 </script>

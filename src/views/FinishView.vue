@@ -13,7 +13,7 @@
             <div class="font-bold text-6 text-silver">Has concluído con esta lección.</div>
 
             
-            <div class="font-bold text-et-pink">Contestaste un total de {{ Object.keys(oda.data).length }} reactivos</div>
+            <div class="font-bold text-et-pink">Contestaste {{ responded }} reactivos de un total de {{ total }}</div>
             <div class="font-bold text-et-orange">en un tiempo de {{ oda.formattedTime }}.</div>
 
             <!--
@@ -22,8 +22,12 @@
             </div>
             -->
 
-        </div>    
-    
+        </div>
+
+        
+    </div>
+    <div v-for="item in oda.data" class="flex flex-col gap-5 text-xs">
+        <div>{{ item }}</div>
     </div>
 </template>
     
@@ -33,5 +37,6 @@
     oda.getODA()
     oda.sendPMessage('student', 'finish')
 
-
+    const responded = Object.values(oda.data).filter(item => item && item.correct !== null).length
+    const total =  Object.keys(oda.data).length
 </script>

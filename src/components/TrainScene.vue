@@ -1,10 +1,16 @@
 <template>
-    <div v-show="oda.istesting ? true : oda.step == step" class="overflow-hidden animated animated-fade-in">
+    <div v-show="oda.istesting ? true : oda.step == step" class="overflow-hidden animated animated-fade-in py-20">
       <div class="bg-white p-4 md:p-10 my-5 rounded-md flex flex-col gap-5">
         <slot></slot>
       </div>      
       <template v-if="data.allokbtn">
             <ButtonNav next :disabled="!allOk"></ButtonNav>
+      </template>
+      <template v-if="data.navigation">
+          <div class="w-full flex justify-between">
+            <ButtonNav prev></ButtonNav>
+            <ButtonNav next></ButtonNav>
+          </div>
       </template>
     </div>
   </template>

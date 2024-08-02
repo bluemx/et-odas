@@ -1,0 +1,497 @@
+[
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"INSTRUCCIONES PARTE 1",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            {
+                "audioplayer":"a/instruccion.mp3"
+             },
+             {
+                "text":"En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres opciones, también en inglés. Las preguntas o enunciados  y las opciones se dirán solo una vez. Escuche cuidadosamente para poder entender por qué no aparece nada escrito en el folleto de examen para estos ejercicios. Seleccione la mejor opción para cada pregunta o enunciado y oscurezca el espacio de la letra correspondiente en la hoja de respuestas."
+             },
+             {
+              "text":"EXAMPLE",
+              "class":"mt-5 font-bold text-5 text-gradient"
+              },
+              { "text": "Recuerde que en estos ejercicios no aparece nada escrito en el folleto del examen."},
+             {
+                "class":"border-4 border-solid border-et-orange p-5 rounded-md",
+                "content":[
+                    {
+                        "title": "Example question",
+                        "audio": "a/q-0.mp3",
+                        "question": "Who would listen to this?",
+                        "options": ["A CEO", "A delivery person", "A teacher", "A student"],
+                        "optionk": "B",
+                        "optionw": "Para contestar este ejercicio, es necesario entender que  la pregunta “What time” en inglés, requiere una contestación que contenga una hora precisa del día. La alternativa (C) ‘Seven”es la única que indica una hora: Siete.",
+                        "eval": false,
+                        "type": "listening",
+                        "force_positive": true
+                    }
+                ]
+            },
+            {
+                "text": "Para contestar este ejercicio, es necesario entender que  la pregunta “What time” en inglés, requiere una contestación que contenga una hora precisa del día. La alternativa (C) ‘Seven”es la única que indica una hora: Siete."
+            },
+            { "buttonnav": "next"}
+        ]
+    },
+
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {
+                "title": "Question 1",
+                "audio": "a/q-1.mp3",
+                "question": "What’s your phone number?",
+                "options": [
+                    "Three three, four five, six seven, nine eight.",
+                    "I like books.",
+                    "Dogs and cats."
+                ],
+                "optionk": "A",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "easy"
+            },
+            {
+                "title": "Question 2",
+                "audio": "a/q-2.mp3",
+                "question": "What time is it?",
+                "options": [
+                    "It’s five o’clock.",
+                    "Nineteen hundred.",
+                    "Five, six, seven, eight."
+                ],
+                "optionk": "A",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "easy"
+            },
+            {
+                "title": "Question 3",
+                "audio": "a/q-3.mp3",
+                "question": "Do you want an aspirin?",
+                "options": [
+                    "I need an aspirin, doctor.",
+                    "Yes, my head hurts.",
+                    "An aspirin is good for your heart."
+                ],
+                "optionk": "B",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            },
+            {
+                "title": "Question 4",
+                "audio": "a/q-4.mp3",
+                "question": "Have you got some change?",
+                "options": [
+                    "Sure, I must have some coins.",
+                    "Let’s change.",
+                    "I don’t have any food."
+                ],
+                "optionk": "A",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            },
+            {
+                "title": "Question 5",
+                "audio": "a/q-5.mp3",
+                "question": "Did you go out last night?",
+                "options": [
+                    "No, I didn’t, I was too tired.",
+                    "No, I didn’t travel last night.",
+                    "I go out every morning."
+                ],
+                "optionk": "A",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {
+                "title": "Question 6",
+                "audio": "a/q-6.mp3",
+                "question": "How many dogs do you have?",
+                "options": [
+                    "Four.",
+                    "They are eight and nine.",
+                    "They have a dog."
+                ],
+                "optionk": "A",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "easy"
+            },
+            {
+                "title": "Question 7",
+                "audio": "a/q-7.mp3",
+                "question": "What color is your house?",
+                "options": [
+                    "Pineapple",
+                    "Yellow",
+                    "Grass"
+                ],
+                "optionk": "B",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "easy"
+            },
+            {
+                "title": "Question 8",
+                "audio": "a/q-8.mp3",
+                "question": "You are flying tomorrow morning, aren’t you?",
+                "options": [
+                    "No, my flight is on Wednesday.",
+                    "No, the bus is leaving.",
+                    "The midnight train to Georgia."
+                ],
+                "optionk": "A",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            },
+            {
+                "title": "Question 9",
+                "audio": "a/q-9.mp3",
+                "question": "What 's your sister’s name?",
+                "options": [
+                    "María.",
+                    "Roberto.",
+                    "Alejandro."
+                ],
+                "optionk": "A",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "easy"
+            },
+            {
+                "title": "Question 10",
+                "audio": "a/q-10.mp3",
+                "question": "What are you wearing for the cold?",
+                "options": [
+                    "Shoes",
+                    "A coat",
+                    "A bikini"
+                ],
+                "optionk": "B",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {
+                "title": "Question 11",
+                "audio": "a/q-11.mp3",
+                "question": "Where is the dog?",
+                "options": [
+                    "In the garden.",
+                    "The cat.",
+                    "Yes, it is."
+                ],
+                "optionk": "A",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "easy"
+            },
+            {
+                "title": "Question 12",
+                "audio": "a/q-12.mp3",
+                "question": "What is your favorite food?",
+                "options": [
+                    "Lemonade.",
+                    "A book.",
+                    "Italian."
+                ],
+                "optionk": "C",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "easy"
+            },
+            {
+                "title": "Question 13",
+                "audio": "a/q-13.mp3",
+                "question": "Whose dog is this?",
+                "options": [
+                    "It’s a big dog.",
+                    "It’s my sister’s.",
+                    "I like dogs."
+                ],
+                "optionk": "B",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "easy"
+            },
+            {
+                "title": "Question 14",
+                "audio": "a/q-14.mp3",
+                "question": "What should I do when I get home?",
+                "options": [
+                    "Clean the dishes.",
+                    "Get home by 8.",
+                    "You should go home."
+                ],
+                "optionk": "A",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            },
+            {
+                "title": "Question 15",
+                "audio": "a/q-15.mp3",
+                "question": "What are you having for breakfast?",
+                "options": [
+                    "Yes, please.",
+                    "I have a dog.",
+                    "I’m having milk and pancakes."
+                ],
+                "optionk": "C",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {
+                "title": "Question 16",
+                "audio": "a/q-16.mp3",
+                "question": "Did you pay for dinner?",
+                "options": [
+                    "Yes, I want dinner.",
+                    "Yes, I did.",
+                    "No, I don’t want dinner."
+                ],
+                "optionk": "B",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            },
+            {
+                "title": "Question 17",
+                "audio": "a/q-17.mp3",
+                "question": "At what time are we going to the mall?",
+                "options": [
+                    "At Four.",
+                    "November.",
+                    "Tuesday"
+                ],
+                "optionk": "A",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "easy"
+            },
+            {
+                "title": "Question 18",
+                "audio": "a/q-18.mp3",
+                "question": "Where do you buy shoes?",
+                "options": [
+                    "At the mall.",
+                    "At the coffee shop.",
+                    "Boots and sandals."
+                ],
+                "optionk": "A",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "easy"
+            },
+            {
+                "title": "Question 19",
+                "audio": "a/q-19.mp3",
+                "question": "Where do you usually go on vacation?",
+                "options": [
+                    "I walk the dog.",
+                    "We usually go to the beach.",
+                    "We have breakfast."
+                ],
+                "optionk": "B",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            },
+            {
+                "title": "Question 20",
+                "audio": "a/q-20.mp3",
+                "question": "How is your mom doing?",
+                "options": [
+                    "She’s fine, thanks.",
+                    "She is cooking dinner.",
+                    "She is going to the doctor."
+                ],
+                "optionk": "A",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {
+                "title": "Question 21",
+                "audio": "a/q-21.mp3",
+                "question": "Where can I get a train?",
+                "options": [
+                    "In the river.",
+                    "At the station.",
+                    "Next Tuesday."
+                ],
+                "optionk": "B",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            },
+            {
+                "title": "Question 22",
+                "audio": "a/q-22.mp3",
+                "question": "Have you paid the electricity bill?",
+                "options": [
+                    "Yes, yesterday.",
+                    "Yes, I want sugar in my coffee.",
+                    "Yes, can."
+                ],
+                "optionk": "A",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            },
+            {
+                "title": "Question 23",
+                "audio": "a/q-23.mp3",
+                "question": "Whose car is this?",
+                "options": [
+                    "It’s the dog’s.",
+                    "It’s my mom’s.",
+                    "It’s a red car."
+                ],
+                "optionk": "B",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            },
+            {
+                "title": "Question 24",
+                "audio": "a/q-24.mp3",
+                "question": "Would you like to get some coffee?",
+                "options": [
+                    "I want coffee with sugar.",
+                    "I’d love to! I want to run.",
+                    "Yes, I would, let’s go!"
+                ],
+                "optionk": "C",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "medium"
+            },
+            {
+                "title": "Question 25",
+                "audio": "a/q-25.mp3",
+                "question": "How old is your uncle?",
+                "options": [
+                    "He’s fine, thanks.",
+                    "He’s sixty.",
+                    "He is my favorite uncle."
+                ],
+                "optionk": "B",
+                "optionw": "La respuesta es incorrecta",
+                "eval": true,
+                "type": "listening",
+                "force_positive": true,
+                "difficulty": "easy"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"INSTRUCCIONES PARTE 2",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            {
+                "audioplayer":"a/instruccion2.mp3"
+             },
+             {
+                "text":"Las conversaciones y parlamentos no están impresos en su folleto de examen. Usted los oirá solo una vez; por lo tanto, escuche cuidadosamente para entenderlos. Las preguntas o enunciados breves y las posibles respuestas para las conversaciones y parlamentos breves aparecen impresos en su folleto del examen, después de escuchar cada conversación o parlamento, seleccione la mejor respuesta para cada ejercicio y oscurezca el espacio de la letra correspondiente a la hoja de respuestas."
+             },
+            { "buttonnav": "next"}
+        ]
+    }
+    
+ ]

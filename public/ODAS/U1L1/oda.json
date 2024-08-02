@@ -31,7 +31,8 @@
                         "optionk": "b",
                         "optionw": "Para contestar esta pregunta, es necesario entender que “How are you?” en inglés requiere una respuesta que indique el estado de ánimo o salud de la persona.",
                         "eval": false,
-                        "type": "listening"
+                        "type": "listening",
+                        "force_positive": true
                     }
                   ]
               },
@@ -54,7 +55,8 @@
                 "optionk": "c",
                 "optionw": "Para contestar esta pregunta es necesario entender que “Where” en inglés requiere un lugar como contestación. La alternativa es la única que indica un lugar: biblioteca.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -70,7 +72,8 @@
                 "optionk": "a",
                 "optionw": "Para responder esta pregunta, es necesario conocer que la palabra “name” se refiere a nombre y que “mom's” es el posesivo “tu mamá”, así que se cuestiona “el nombre de tu mamá”",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -86,7 +89,8 @@
                 "optionk": "c",
                 "optionw": "Para responder esta pregunta, debemos considerar que la frase “Do you like…” corresponde a “¿Te gusta…?” y esta es una respuesta cerrada: “sí” o “no”, por lo tanto hay una única respuesta correcta",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -102,7 +106,8 @@
                 "optionk": "a",
                 "optionw": "Nos encontramos de nuevo con la palabra de pregunta “Where”, la cual se refiere a lugar. La única respuesta correcta la podemos saber porque estamos usando una preposición de lugar.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -118,7 +123,8 @@
                 "optionk": "b",
                 "optionw": "En esta pregunta, puede ser confuso escuchar la palabra “dinner”tanto en la pregunta como en la respuesta, así que debemos prestar atención a la pregunta “What do you want”qué significa “qué quieres”y aquí la respuesta debe ser algo relacionado con comida.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -134,7 +140,8 @@
                 "optionk": "c",
                 "optionw": "En esta pregunta, la palabra clave es “When”, que significa “Cuándo”, por lo tanto, la única respuesta posible es la que se refiere a una fecha o a un marcador de tiempo",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -150,7 +157,8 @@
                 "optionk": "c",
                 "optionw": "Ahora regresamos a la palabra “name”en la pregunta, pero ahora con el posesivo “you”, así que está preguntando tu nombre, la única respuesta correcta sería  el único nombre propio en las opciones.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -166,7 +174,8 @@
                 "optionk": "a",
                 "optionw": "La palabra “Whose”puede ser complicada en español porque es “De quién…”para preguntar a quién pertenece cierto objeto. Así que debemos buscar la respuesta que nos de un posesivo.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -182,7 +191,8 @@
                 "optionk": "b",
                 "optionw": "En esta pregunta, la clave es la palabra “drink”, “tomar o beber”. Se puede confundir por la palabra “What”o “qué”, por lo tanto, nuestra clave es “drink”, y la respuesta sería lo único que se puede “tomar o beber”",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     },
@@ -198,7 +208,8 @@
                 "optionk": "a",
                 "optionw": "Regresamos a la palabra de pregunta “where”, o sea, “dónde”, que muchas veces se puede confundir con “when”por la pronunciación. La respuesta correcta sería aquella donde estamos utilizando la preposición de lugar y además da un lugar probable para una persona.",
                 "eval": true,
-                "type": "listening"
+                "type": "listening",
+                "force_positive": true
             }
         ]
     }

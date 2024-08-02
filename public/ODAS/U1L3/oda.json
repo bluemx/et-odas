@@ -28,7 +28,8 @@
                         "optionk": "B",
                         "optionw": "La respuesta correcta es A delivery person",
                         "eval": false,
-                        "type": "listening"
+                                        "type": "listening",
+                "force_positive": true
                     }
                   ]
               },
@@ -53,7 +54,8 @@
         "optionk": "A",
         "optionw": "En esta pregunta, comenzamos con un imperativo, estamos dando órdenes de restricciones, así que debe ser un lugar donde no se permiten tomar fotografías con flash, lo cual puede suceder en un museo o en una galería de arte (respuestas A o B), sin embargo, la clave nos la dará el vocabulario específico del área de arte, habla de Monet (un pintor) y de sus colores, etc. Por lo tanto, nuestra respuesta correcta es (A) An art gallery.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -74,7 +76,8 @@
         "optionk": "B",
         "optionw": "Para responder esta pregunta, debemos identificar palabras claves que entran en un mismo grupo de vocabulario, que tienen en común una clase. Algunas de las palabras claves son “tendencies”(tendencias), “microeconomic subgroups” (subgrupos microeconómicos). Estas palabras entran en el campo semántico de economía, por lo tanto, nuestra respuesta correcta esta relacionada con ese campo semántico.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -95,7 +98,8 @@
         "optionk": "A",
         "optionw": "En esta pregunta, es importante conocer palabras compuestas como “pre-boarding”(que implica lo que sucede antes de abordar) que pertenece al contexto de un medio de transporte. Después se dan más instrucciones, que implican el que las personas con necesidades especiales se deban acercar antes para comenzar el abordaje “begin boarding”. Este tipo de instrucciones, solamente se podrían escuchar, en la sala de espera de un aeropuerto.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -116,7 +120,8 @@
         "optionk": "B",
         "optionw": "De primera instancia, y es donde podemos caer en el error, la mujer pide una margarita, una bebida con alcohol. Automáticamente podríamos asociar este vocabulario a la respuesta de un bar. Pero, al seguir la conversación, observamos que habla de palabras en un contexto más amplio, por ejemplo “appetizer” o “steak”(un aperitivo o entrada y un filete)",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -137,7 +142,8 @@
         "optionk": "C",
         "optionw": "Por el vocabulario, podemos rápidamente identificar que estamos en el campo semántico o el contexto del aeropuerto, aviones, vuelos. Ahora debemos prestar atención a los detalles: La persona da un mensaje de bienvenida y se presenta “This is your captain speaking”, y da información sobre la altitud y la velocidad. Da la hora “The time is 3:00 pm”y al final da la frase que nos da la respuesta “We are expecting to land in Dubai in 15 hours”, por lo tanto, sabemos que esto es al inicio del vuelo: “When the flight has just begun”",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -158,7 +164,8 @@
         "optionk": "C",
         "optionw": "Lo importante aquí es obtener la idea general de lo que habla la mujer y conocer expresiones como “long-distance relationship”(relación a larga distancia) o “out of the blue”(el equivalente en español a “de la nada”)  y el “vanished from the face of earth” (desapareció de la faz de la tierra). Por lo tanto, nuestra respuesta sería la que corresponde a lo que él dijo y no cumplió.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -179,7 +186,8 @@
         "optionk": "B",
         "optionw": "Desde un inicio podemos identificar que la persona está hablando en la radio y está presentando a alguien. Lo importante es encontrar palabras claves que tengan algo en común, como “writer” (escritor), “masterpiece” (obra maestra), “best seller” (más vendido) y la que nos da la respuesta “bookstore” (librería, muchas veces confundida con “library”, que es biblioteca). Debemos prestar atención a estos detalles para que distractores como “musician”y “tour” no nos desvíen de la respuesta correcta.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -200,7 +208,8 @@
         "optionk": "B",
         "optionw": "En este audio, podemos notar que desde el tono la persona está anunciando o dando a conocer algo, en este caso, una compañía de inversiones. Al utilizar palabras como “elevate investing to a craft” podemos ver que el propósito de este audio es “persuadir”y al final, tenemos la pista de “discover more at…” (descubre más en…) y dan el sitio web. Por lo tanto, este audio es un comercial.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -221,7 +230,8 @@
         "optionk": "A",
         "optionw": "La clave en esta pregunta es identificar palabras que pertenezcan al mismo campo semántico. Podremos encontrar palabras que no conocemos, como “enamel”, pero en el mismo audio nos están explicando que es un tipo de tejido. Al escuchar que se mencionan las palabras “body”, “tissue”, “teeth”, sabemos que esto está relacionado con algo del cuerpo humano.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -242,7 +252,8 @@
         "optionk": "B",
         "optionw": "Para responder esta pregunta, es necesario comprender que las instrucciones en general se refieren a un proceso de contratación, o reclutamiento. Se habla de “uniforms” uniformes, “documents” documentos, y se menciona “recruitment process”o proceso de contratación. En las opciones tenemos tres palabras conocidas por niveles más bajos, sin embargo se puede prestar a confusión el “HR”, que es el acrónimo de “Human resources”, nuestra respuesta correcta. Aquí, si no conocemos la palabra y las otras no tienen sentido, las podemos eliminar e irnos por esta opción.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -263,7 +274,8 @@
         "optionk": "B",
         "optionw": "Aquí el primer punto para responder esta pregunta, “the relationship between the man and the woman” (la relación entre el hombre y la mujer), es que desde la primera frase, “Long time no see”(hace mucho tiempo que no nos vemos), nos indica que las personas tienen tiempo sin verse, así que esto nos lleva a las opciones A y B. Al hablar de escuela y la última vez que se vieron, definitivamente podemos inferir que no tenían una relación , sino que eran “Classmates”(compañeros de clase).",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -284,7 +296,8 @@
         "optionk": "B",
         "optionw": "Es una conversación, en la cual hablan de personajes, “the ending” o sea, el final, lo cual nos puede indicar un libro, una serie o una película. Sin embargo, la respuesta nos la da el hombre al decir “next season”, o sea, la siguiente temporada. Esa frase solamente se puede usar en el contexto de series de televisión.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -305,7 +318,8 @@
         "optionk": "D",
         "optionw": "Todas las respuestas nos están dando un entorno escolar, y al inicio del audio, escuchamos que se habla de un proyecto final “final project”, sin embargo, analizando las partes o las secciones del proyecto, sabemos que no es ni un campamento de verano ni un jardín de niños. La probabilidad indica que  en college (o universidad) es más probable que te den instrucciones para hacer un ensayo.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -326,7 +340,8 @@
         "optionk": "C",
         "optionw": "Aquí debemos leer entre líneas y ver que el hombre está tratando de negociar que se haga la fiesta navideña de ese año, dice: “it was fun”(fue divertida), y la mujer se enfoca en lo costoso que fue “it was expensive”. Al final, ella reafirma su punto de vista con un “as a long-time investment I don’t think it was worth it”(como una inversión a largo plazo, no vale la pena). Debemos saber interpretar eso en otras palabras más sencillas, en este caso “too much money and not worth it”.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -347,7 +362,8 @@
         "optionk": "D",
         "optionw": "Sabemos que estamos escuchando a alguien hablar en un medio de transporte. Es necesario tener vocabulario de viaje identificado, por ejemplo,  habla de equipaje “carry-on”, este tipo de maleta pequeña se utiliza en distintos medios de transporte. Aquí la clave para la respuesta correcta nos la da la palabra “turbulence”, (la turbulencia) que solamente ocurre en un vuelo.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -368,7 +384,8 @@
         "optionk": "C",
         "optionw": "Al hablar de una fiesta, automáticamente pensamos que estamos hablando de la respuesta D, amigos, pero aquí tenemos más información, por ejemplo, nos hablan de “matching outfits”, que igual se podría aplicar a amigos. Hasta que llegamos al final y se mencionan un concurso, y las palabras clave “couple of days off”(un par de días libres) y “HR department”(departamento de recursos humanos), por lo tanto, nuestra respuesta correcta debe estar en ese grupo semántico.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -389,7 +406,8 @@
         "optionk": "B",
         "optionw": "Desde el inicio, sabemos que hay cierta formalidad en el habla, puesto que se habla de una hora de llegada y que se espera que quien recibe este mensaje esté en la entrada “fifteen minutes before your class begins”(quince minutos antes de que tu clase comience), y al incluir la frase “a new generation of children who are willing to learn from you”(una nueva generación de niños que quieren aprender de ustedes), podemos deducir automáticamente  quienes reciben esta información.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -410,7 +428,8 @@
         "optionk": "B",
         "optionw": "Desde un inicio, sabemos que estamos hablando de términos médicos o relacionados con la biología o anatomía del cuerpo humano. Aquí tenemos que utilizar la lógica para elegir la respuesta correcta: un doctor/médico ya debería saber esta información, así que nuestra respuesta correcta es un estudiante de medicina, quien apenas está aprendiendo sobre el hígado.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -431,7 +450,8 @@
         "optionk": "A",
         "optionw": "En esta pregunta, debemos prestar atención al vocabulario que se utiliza desde el inicio: se habla de colores, primarios y secundarios. Al final se menciona el concepto “color harmony”, lo que nos indica que la respuesta correcta pertenece al campo semántico del arte.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -452,7 +472,8 @@
         "optionk": "D",
         "optionw": "En esta pregunta, tenemos que identificar que nos están pidiendo inferir el día de la semana en el que sucedió la conversación, ya que nuestras opciones son días de la semana. Ahora, el reto está en interpretar la palabra “weekend” (fin de semana) y saber que esto fue al día siguiente por la palabra “yesterday” (ayer), así que estamos hablando que esto sucedió el día siguiente del fin de semana.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -473,7 +494,8 @@
         "optionk": "B",
         "optionw": "En esta pregunta, tenemos una conversación en la cual la mujer habla de lo pesado que estuvo su trabajo y que tiene mucha hambre.  El hombre le pregunta qué quiere de cenar “What would you like to have for dinner?”, y ella habla de querer algo dulce “pancakes”, sin embargo, ella sabe que los pancakes son algo que se come por lo general por las mañanas, como desayuno. Al final, ella da a entender que por haber sido un día muy pesado, va a comerse los pancakes.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -494,7 +516,8 @@
         "optionk": "A",
         "optionw": "En esta pregunta, identificamos palabras que entran en el campo semántico del mar, el hablante está dando información sobre “The squid”(el pulpo). Esta palabra tal vez no sea conocida para muchas personas, pero ya que se menciona “tentacles” (tentáculos), sabemos que se habla de un animal marino. La clave está en la última frase: “Let’s observe them, they should be hidden between the rocks in this tank” (vamos a observarlos, deben estar escondidos entre las piedras en el tanque) lo cual nos da la señal de que están en un lugar donde hay un tanque de agua.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -515,7 +538,8 @@
         "optionk": "A",
         "optionw": "Para responder esta pregunta, debemos identificar el lugar donde sucede la conversación. Esto nos lleva a las palabras clave: “priest”(sacerdote) y “confession”(confesión), así que sabemos que la mujer se quiere confesar. Por esto mismo, el único lugar donde podría suceder esto es en la respuesta correcta.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -536,7 +560,8 @@
         "optionk": "D",
         "optionw": "En esta pregunta, queremos identificar lo que sucede para saber a quién se le está compartiendo la información presentada. Habla de “layer”(capa), “light”(claro o iluminado), “water”(agua) y “colors”(colores), seguramente esto pertenece a alguna clase, si conocemos un poco de pintura, sabemos que esto se refiere a acuarela sin decirlo explícitamente, por esto, nuestra respuesta debe corresponder al contexto de la enseñanza.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
         ]
     },
@@ -557,7 +582,8 @@
         "optionk": "A",
         "optionw": "Desde el inicio, sabemos que es una persona que va a pasar solamente un día con la audiencia. Al utilizar la expresión “right-hand side” (a su mano derecha), sabemos que está mostrando algo, y la otra palabra “Founders”(fundadores) delatan que la persona es un guía.",
         "eval": true,
-        "type": "listening+text"
+                        "type": "listening+text",
+                "force_positive": true
     }
 ]
 }

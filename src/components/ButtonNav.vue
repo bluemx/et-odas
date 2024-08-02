@@ -1,7 +1,7 @@
 <template>
     <button v-if="prev && oda.step>0" @click="oda.stepPrev()" class="et-button btnnav" :disabled="disabled"  :class="!disabled?'animated animated-head-shake':''">
         <i class="i-mynaui-chevron-left mr-5"></i>
-        GO BACK
+        BACK
     </button>
     <button v-if="next" @click="oda.stepNext()" class="et-button btnnav"  :disabled="disabled" :class="!disabled?'animated animated-head-shake':''">
         CONTINUE
