@@ -13,8 +13,11 @@
             <div class="font-bold text-6 text-silver">Has concluído con esta lección.</div>
 
             
-            <div class="font-bold text-et-pink">Contestaste {{ responded }} reactivos de un total de {{ total }}</div>
-            <div class="font-bold text-et-orange">en un tiempo de {{ oda.formattedTime }}.</div>
+            <div class=" px-2 rounded my-2 bg-slate-200 py-5 text-xl">
+                <div class="font-bold text-et-cyan">
+                    Reactivos correctos: {{ responded }}<span class="opacity-60">/{{ total }}</span> </div>
+                <div class="font-bold text-et-orange">Tiempo: {{ oda.formattedTime }}</div>
+            </div>
 
             <!--
             <div class="flex gap-10 mt-10 justify-center">
@@ -26,9 +29,12 @@
 
         
     </div>
-    <div v-for="item in oda.data" class="flex flex-col gap-5 text-xs">
-        <div>{{ item }}</div>
-    </div>
+    <!--
+        <div v-for="item in oda.data" class="flex flex-col gap-5 text-xs">
+            <div>{{ item }}</div>
+        </div>
+    -->
+
 </template>
     
 <script setup>

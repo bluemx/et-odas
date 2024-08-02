@@ -64,7 +64,7 @@ export const useOda = defineStore('oda', () => {
 
     const arrayToObject = arr => arr.reduce((obj, item) => {
         if (item) {
-            obj[item.questionid] = { ...item, ok: item.answerid };
+            obj[item.question.id] = { ...item };
         }
         return obj;
     }, {});
@@ -72,7 +72,7 @@ export const useOda = defineStore('oda', () => {
         const keys = Object.keys(data.value);
         for (let i = 0; i < keys.length; i++) {
             if (data.value[keys[i]].correct === null) {
-                return i;
+                return i+1;
             }
         }
         return -1; // Return -1 if no such object is found
@@ -119,6 +119,11 @@ export const useOda = defineStore('oda', () => {
         }
         sendPMessage('student', 'progress')
         stopallaudios()
+
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Optional: adds a smooth scrolling effect
+        });
     });
 
     const stopallaudios = (blockid) => {

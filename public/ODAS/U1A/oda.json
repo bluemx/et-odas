@@ -2,6 +2,7 @@
     {
         "block": "scene",
         "allokbtn": false,
+        "navigation": false,
         "content":[
             {
                 "text":"INSTRUCCIONES PARTE 1",
@@ -43,8 +44,8 @@
 
     {
         "block": "scene",
-        "allokbtn": true,
-        "navigation": false,
+        "allokbtn": false,
+        "navigation": true,
         "content":[
             {
                 "title": "Question 1",
@@ -59,7 +60,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -75,7 +77,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -91,7 +94,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -107,7 +111,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -123,15 +128,16 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             }
         ]
     },
     {
         "block": "scene",
-        "allokbtn": true,
-        "navigation": false,
+        "allokbtn": false,
+        "navigation": true,
         "content":[
             {
                 "title": "Question 6",
@@ -146,7 +152,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -162,7 +169,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -178,7 +186,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -194,7 +203,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -210,15 +220,16 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             }
         ]
     },
     {
         "block": "scene",
-        "allokbtn": true,
-        "navigation": false,
+        "allokbtn": false,
+        "navigation": true,
         "content":[
             {
                 "title": "Question 11",
@@ -233,7 +244,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -249,7 +261,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -265,7 +278,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -281,7 +295,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -297,15 +312,16 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             }
         ]
     },
     {
         "block": "scene",
-        "allokbtn": true,
-        "navigation": false,
+        "allokbtn": false,
+        "navigation": true,
         "content":[
             {
                 "title": "Question 16",
@@ -320,7 +336,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -336,7 +353,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -352,7 +370,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -368,7 +387,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -384,15 +404,16 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             }
         ]
     },
     {
         "block": "scene",
-        "allokbtn": true,
-        "navigation": false,
+        "allokbtn": false,
+        "navigation": true,
         "content":[
             {
                 "title": "Question 21",
@@ -407,7 +428,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -423,7 +445,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -439,7 +462,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -455,7 +479,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -471,7 +496,8 @@
                 "optionw": "La respuesta es incorrecta",
                 "eval": true,
                 "type": "listening",
-                "force_positive": true,
+                "force_positive": false,
+                                "force_positive": false,
                 "difficulty": "easy"
             }
         ]
@@ -479,6 +505,7 @@
     {
         "block": "scene",
         "allokbtn": false,
+        "navigation": false,
         "content":[
             {
                 "text":"INSTRUCCIONES PARTE 2",
@@ -491,6 +518,466 @@
                 "text":"Las conversaciones y parlamentos no están impresos en su folleto de examen. Usted los oirá solo una vez; por lo tanto, escuche cuidadosamente para entenderlos. Las preguntas o enunciados breves y las posibles respuestas para las conversaciones y parlamentos breves aparecen impresos en su folleto del examen, después de escuchar cada conversación o parlamento, seleccione la mejor respuesta para cada ejercicio y oscurezca el espacio de la letra correspondiente a la hoja de respuestas."
              },
             { "buttonnav": "next"}
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "title": "Question 1",
+                "audio": "a/a-1.mp3",
+                "question": "What is a mandatory task after signing the contract?",
+                "options": [
+                    "Sign the contract.",
+                    "Provide an extra copy of their ID.",
+                    "Check your contact details.",
+                    "Talk to a lawyer."
+                ],
+                "optionk": "B",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 2",
+                "audio": "a/a-2.mp3",
+                "question": "Who is the woman?",
+                "options": [
+                    "Luis’ friend",
+                    "Rosy’s best friend.",
+                    "Miranda",
+                    "Pablo’s best friend."
+                ],
+                "optionk": "B",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 3",
+                "audio": "a/a-3.mp3",
+                "question": "This announcement would be heard on",
+                "options": [
+                    "An exam session",
+                    "A church",
+                    "A school presentation",
+                    "A plane"
+                ],
+                "optionk": "A",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 4",
+                "audio": "a/a-4.mp3",
+                "question": "What are the man and the woman going to do?",
+                "options": [
+                    "They are making dinner.",
+                    "They are going to the grocery store.",
+                    "Nothing.",
+                    "She wants to go to the supermarket."
+                ],
+                "optionk": "B",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 5",
+                "audio": "a/a-5.mp3",
+                "question": "This announcement would be heard in a/an",
+                "options": [
+                    "Plane",
+                    "Bus station",
+                    "Airport",
+                    "Train station"
+                ],
+                "optionk": "D",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "title": "Question 6",
+                "audio": "a/a-6.mp3",
+                "question": "What is the largest lake In the world?",
+                "options": [
+                    "The Caspian Sea",
+                    "Lake Michigan",
+                    "Lake Victoria",
+                    "Lake Superior"
+                ],
+                "optionk": "A",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 7",
+                "audio": "a/a-7.mp3",
+                "question": "What happened to Rosie?",
+                "options": [
+                    "She was walking her dogs when she heard a noise.",
+                    "She was trying to film a video from a different perspective.",
+                    "She was trying to do her job and broke her knee.",
+                    "She was filming a video, climbed a tree and broke her hip."
+                ],
+                "optionk": "D",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 8",
+                "audio": "a/a-8.mp3",
+                "question": "What are they having for breakfast?",
+                "options": [
+                    "Pancakes",
+                    "An omelet",
+                    "Pancakes and an omelet",
+                    "They share"
+                ],
+                "optionk": "C",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 9",
+                "audio": "a/a-9.mp3",
+                "question": "What does the woman mean?",
+                "options": [
+                    "She needs to leave now.",
+                    "She is asking Tom for help.",
+                    "She wants a hand.",
+                    "She wants her passport."
+                ],
+                "optionk": "B",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 10",
+                "audio": "a/a-10.mp3",
+                "question": "Why was their semester difficult?",
+                "options": [
+                    "Because there wasn’t a way of solving case studies.",
+                    "Because case studies were complex.",
+                    "Because there were different scenarios.",
+                    "Because case studies were hard to solve."
+                ],
+                "optionk": "A",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Difficult"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "title": "Question 11",
+                "audio": "a/a-11.mp3",
+                "question": "Which type of books are not appealing to the man?",
+                "options": [
+                    "Thrillers",
+                    "Science fiction",
+                    "Poetry",
+                    "Novels"
+                ],
+                "optionk": "B",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 12",
+                "audio": "a/a-12.mp3",
+                "question": "What is the person talking about?",
+                "options": [
+                    "Mountains",
+                    "Beach",
+                    "Cruise ship",
+                    "City"
+                ],
+                "optionk": "A",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 13",
+                "audio": "a/a-13.mp3",
+                "question": "Who would say this?",
+                "options": [
+                    "A teacher",
+                    "An assistant",
+                    "A salesman",
+                    "A doctor"
+                ],
+                "optionk": "C",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 14",
+                "audio": "a/a-14.mp3",
+                "question": "What is the relationship between the two speakers?",
+                "options": [
+                    "Mom and daughter",
+                    "Father and daughter",
+                    "A doctor and a patient",
+                    "A patient and a therapist"
+                ],
+                "optionk": "D",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 15",
+                "audio": "a/a-15.mp3",
+                "question": "Which book is the woman reading?",
+                "options": [
+                    "The analyst",
+                    "Bridget Jones",
+                    "The law of attraction",
+                    "She is not reading a book at the moment."
+                ],
+                "optionk": "A",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Difficult"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "title": "Question 16",
+                "audio": "a/a-16.mp3",
+                "question": "Who owns the shoes?",
+                "options": [
+                    "The woman’s sister.",
+                    "Lola’s",
+                    "Mary’s",
+                    "The man’s sister"
+                ],
+                "optionk": "B",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 17",
+                "audio": "a/a-17.mp3",
+                "question": "Where does this conversation take place?",
+                "options": [
+                    "At a restaurant",
+                    "At a barbeque",
+                    "At the museum",
+                    "At a cooking class"
+                ],
+                "optionk": "D",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 18",
+                "audio": "a/a-18.mp3",
+                "question": "What is this person trying to do?",
+                "options": [
+                    "Sell something.",
+                    "Motivate people.",
+                    "Read a book.",
+                    "Write a book."
+                ],
+                "optionk": "B",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 19",
+                "audio": "a/a-19.mp3",
+                "question": "Where would you hear this?",
+                "options": [
+                    "On a cruise ship",
+                    "On the plane",
+                    "On the train",
+                    "On the bus"
+                ],
+                "optionk": "A",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 20",
+                "audio": "a/a-20.mp3",
+                "question": "Who would say this information?",
+                "options": [
+                    "A receptionist.",
+                    "A doctor.",
+                    "A nurse.",
+                    "A teacher."
+                ],
+                "optionk": "A",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "title": "Question 21",
+                "audio": "a/a-21.mp3",
+                "question": "What happened in the conversation?",
+                "options": [
+                    "The receptionist wanted to confirm the man’s appointment.",
+                    "The receptionist offered a discount to the man because they were late.",
+                    "The man was offered a discount because his appointment was rescheduled, but he rejected it.",
+                    "The doctor is sick so he won’t be able to see the man."
+                ],
+                "optionk": "C",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 22",
+                "audio": "a/a-22.mp3",
+                "question": "This would be heard at a:",
+                "options": [
+                    "College graduation",
+                    "Welcome party",
+                    "Convention",
+                    "Fitness event"
+                ],
+                "optionk": "A",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 23",
+                "audio": "a/a-23.mp3",
+                "question": "This would be heard at:",
+                "options": [
+                    "An art museum",
+                    "An aquarium",
+                    "At the zoo",
+                    "At school"
+                ],
+                "optionk": "A",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 24",
+                "audio": "a/a-24.mp3",
+                "question": "What is the woman looking for?",
+                "options": [
+                    "A coffee shop",
+                    "Her kid",
+                    "Her luggage",
+                    "Her husband"
+                ],
+                "optionk": "C",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 25",
+                "audio": "a/a-25.mp3",
+                "question": "What is the purpose of this speech?",
+                "options": [
+                    "To inform",
+                    "To persuade",
+                    "To entertain",
+                    "To instruct"
+                ],
+                "optionk": "B",
+                "optionw": "",
+                "eval": true,
+                "type": "listening+text",
+                                "force_positive": false,
+                "difficulty": "Medium"
+            }
         ]
     }
     
