@@ -14,7 +14,6 @@ declare module 'vue' {
     Reactive: typeof import('./components/blocks/reactive.vue')['default']
     ReactiveBtn: typeof import('./components/blocks/reactiveBtn.vue')['default']
     ReactiveMessage: typeof import('./components/blocks/reactiveMessage.vue')['default']
-    ReactiveOption: typeof import('./components/blocks/reactiveOption.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TestingBtn: typeof import('./components/TestingBtn.vue')['default']
