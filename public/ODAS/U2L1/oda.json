@@ -1,0 +1,163 @@
+[
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"Part 1: Use of language",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            { "text": "Assessment: Easy - Practice and Explanation", "class": "font-bold"},
+             {
+                "text":"En la sección de preguntas fáciles, el alumno se enfoca en la comprensión de las palabras clave y en que la respuestas sea la correspondiente a la palabra de pregunta. Por ejemplo, el uso afirmativo del “verb to be” en tiempo presente nos brinda tres opciones (am, is, are), de las cuales, sólo una será correcta. En cuanto al resto de los tiempos simples, el alumno necesita recordar las reglas gramaticales que memorizó e identificar la respuesta correcta. Los alumnos suelen olvidar las distintas reglas para conjugaciones de verbos regulares y verbos irregulares, así como la sintaxis y la ortografía (Spelling) de ciertas palabras, ya que en L1 las palabras se escriben como suenan.  "
+             },
+             
+              { "buttonnav": "next"}
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"Part 2: Language use",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {
+                "text":"This part of the test has two types of exercises and it focuses on the use of the language."
+             },
+             {
+                "text":"Read each question carefully and choose the best answer. There is only one correct answer. "
+             },
+             
+              { "buttonnav": "next"}
+        ]
+    },
+
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+
+                {
+                    "title": "Question 1",
+                    "audio": null,
+                    "question": "Peter _____ great at Science.",
+                    "options": ["isn’t", "aren’t", "am not"],
+                    "optionk": "a",
+                    "optionw": "Para contestar esta pregunta es necesario entender que el “verb to be” en presente simple, conjugado para la tercera persona es “is” en positivo, “isn’t” o “is not” en negativo. La única alternativa posible es la que incluye una opción adecuada al sujeto en tercera persona.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 2",
+                    "audio": null,
+                    "question": "_____I wrong here?",
+                    "options": ["Am", "Is", "Are"],
+                    "optionk": "a",
+                    "optionw": "Para completar esta pregunta es necesario entender que el “verb to be” en presente simple, conjugado para la primera persona se presenta como “am”. La alternativa es la única que incluye una opción posible para la primera persona.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 3",
+                    "audio": null,
+                    "question": "My friend and I ______ athletic.",
+                    "options": ["am", "are", "is"],
+                    "optionk": "b",
+                    "optionw": "Para responder esta pregunta es necesario saber que el “verb to be” en presente simple, utilizado para sujetos que indiquen ser plurales (en este caso “My friend and I”, dos personas) es “are” en positivo, “aren’t” o “are not” en negativo. La alternativa es la única que incluye una opción posible para los sujetos de esta pregunta.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 4",
+                    "audio": null,
+                    "question": "____Fran and Yetta have plans?",
+                    "options": ["Does", "Do", "Are"],
+                    "optionk": "b",
+                    "optionw": "Para completar esta pregunta se necesita saber que el verbo “do/does” se puede traducir como “hacer”. También, es utilizado como verbo auxiliar para completar preguntas o ideas que contengan una acción. Para los sujetos que puedan ser reemplazados por los pronombres “I”, “you”, “we” y “they”, debemos utilizar “Do” o su forma negativa “Don’t”/ “Do not” según sea el caso. La alternativa es la única que incluye una opción posible para los sujetos de esta pregunta.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 5",
+                    "audio": null,
+                    "question": "Niles _____like pets.",
+                    "options": ["doesn’t", "don’t", "do"],
+                    "optionk": "a",
+                    "optionw": "Para completar esta oración es necesario saber que el verbo “do/does” se puede traducir como “hacer”. También, es utilizado como verbo auxiliar para completar preguntas o ideas que contengan una acción. Para los sujetos que puedan ser reemplazados por los pronombres “he”, “she”, “it” y “they”, debemos utilizar “does” o su forma negativa “doesn’t”/ “does not” según sea el caso. La alternativa es la única que incluye una opción posible para el sujeto de esta pregunta.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 6",
+                    "audio": null,
+                    "question": "Colin _____the terrace.",
+                    "options": ["sweeping", "sweep", "sweeps"],
+                    "optionk": "c",
+                    "optionw": "Para completar esta oración se necesita saber que un verbo regular en presente simple para un sujeto que puede ser reemplazado por los pronombres “he”, “she”, “it” necesita conjugarse, para ello se agrega al final del infinitivo la letra “s”, si el verbo se utiliza en positivo. La alternativa es la única que incluye una opción posible para el sujeto de esta pregunta, siendo el infinitivo “sweep”.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                }
+
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {
+                "title": "Question 7",
+                "audio": null,
+                "question": "Select the correct option.",
+                "options": ["Becky didn’t called yesterday.", "Becky didn’t call yesterday.", "Becky did not calls  yesterday."],
+                "optionk": "b",
+                "optionw": "Para seleccionar la oración correctamente estructurada es necesario saber que el verbo auxiliar  do,en pretérito es “did.”  Cuando did o didn’t/ did not, como es su forma en negativo son utilizados, el siguiente verbo debe estar en infinitivo. La alternativa es la única que incluye una opción correcta “didn’t” + (verbo en infinitivo).",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 8",
+                "audio": null,
+                "question": "Did Pablo ____ the party?",
+                "options": ["enjoys", "enjoyed", "enjoy"],
+                "optionk": "c",
+                "optionw": "Para completar la pregunta de forma correcta se necesita saber que el verbo auxiliar “did” puede usarse en forma interrogativa. Cuando “did” es utilizado en una pregunta, el siguiente verbo debe estar en infinitivo. La alternativa es la única que incluye una opción correcta “Did” + (verbo en infinitivo).",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 9",
+                "audio": null,
+                "question": "Alan______a lot of water after the gym.",
+                "options": ["drank", "drink", "did drank"],
+                "optionk": "a",
+                "optionw": "Para seleccionar una respuesta adecuada para esta pregunta, es necesario saber que la palabra “after” (después) nos indica temporalidad, la acción por lo tanto, fue realizada por el sujeto en tiempo pasado. La alternativa es la única que incluye una opción correcta para el pasado simple del infinitivo “drink”, el cual es un verbo irregular.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 10",
+                "audio": null,
+                "question": "Select the correct sentence.",
+                "options": ["Mr. Brown already talked about that topic.", "Mr. Brown already talk about that topic.", "Mr. Brown already talking about that topic."],
+                "optionk": "a",
+                "optionw": "Para seleccionar la respuesta correcta se necesita saber que cuando utilizamos la palabra “already”, generalmente nos referimos a algo que ya se hizo o ya pasó. Los verbos regulares en pasado simple cuyo infinitivo termina en consonante, deberán conjugarse con las letras -ed al final. La alternativa es la única que incluye una opción adecuada para este caso.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            }
+        ]
+    }
+ ]
