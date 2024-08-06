@@ -1,0 +1,381 @@
+[
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"Part 1: Use of language",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            { "text": "Lesson/Assessment: Difficult - Practice and Explanation", "class": "font-bold"},
+             {
+                "text":"En la sección de preguntas difíciles, se requiere un conocimiento mucho más complejo del uso del lenguaje, comprensión lectora y de análisis que va más allá del entendimiento de palabras  y tiempos verbales simples y compuestos. En este caso, es necesario recordar claramente y entender los distintos tiempos verbales, así como el correcto uso de conectores, verbos modales (o verbos auxiliares) y condicionales para ser capaz de identificar errores en oraciones y textos. Esto aplica en todas las preguntas de desarrollo avanzado o difícil, donde el alumno ya sabe identificar qué es lo que gramaticalmente completa mejor una idea y cómo esa idea podría estructurarse con una redacción distinta.  En algunos casos se utilizará la comprensión de la idea general y en otros tantos la información de palabras claves y la habilidad de “leer con detalle”."
+             },
+             
+              { "buttonnav": "next"}
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"Part 2: Language use",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {
+                "text":"This part of the test has five different types of exercises. This part focuses on the use of the language."
+             },
+             {
+                "text":"Read each question carefully and choose the best answer. There is only one correct answer."
+             },
+             
+              { "buttonnav": "next"}
+        ]
+    },
+
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+
+               
+                
+
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {
+                "text": "The text below must be completed by the options from questions 6-10.", "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            {
+                "text": "Once upon a time, society considered reading an important habit (6)…….  a great skill to have. (7)……., people used to take time from their daily routine to read (8)……. they analyzed the set of information they were willing to obtain. Now, we (9) …….go back to that time when people did not get as easily distracted as they do now. It is crucial to understand the benefits of reading in order to prioritize it. Reading will surely improve humanity’s audacity, independence and cognition.  So, (10)……. we look for something interesting to read now?",
+                "class": "bg-slate-200 p-4 block rounded text-xl"
+            },
+
+                {
+                    "title": "Question 1",
+                    "audio": null,
+                    "question": "Which is the correct sentence?",
+                    "options": [
+                        "Matt will be helping out his dad next weekend.",
+                        "Matt will helping out his dad next weekend.",
+                        "Matt be helping out his dad next weekend.",
+                        "Matt would had been helping out his dad next weekend."
+                    ],
+                    "optionk": "a",
+                    "optionw": "Es importante entender que cuando usamos el “future continuous” (will+ be+ verb-ing) hablamos de acciones en el futuro que durarán un cierto periodo de tiempo.  La alternativa es la única que cumple con una estructura correcta y completa.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 2",
+                    "audio": null,
+                    "question": "Which is the correct sentence?",
+                    "options": [
+                        "Julia had been meeting them  the festival before.",
+                        "Julia had met them before the festival.",
+                        "Julia had meeting them before the festival.",
+                        "Julia met had them before the festival."
+                    ],
+                    "optionk": "b",
+                    "optionw": "Es necesario entender que usamos past perfect (had+ past participle + complement) para diversas acciones del pasado, incluida y es el caso de la alternativa correcta, para hablar de una acción que ocurrió antes de un tiempo específico en el pasado.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 3",
+                    "audio": null,
+                    "question": "Which is the correct sentence?",
+                    "options": [
+                        "Dr. Troy use to go to his practice every day when he was starting the business.",
+                        "Dr. Troy used was going to his practice every day when he was the business.",
+                        "Dr. Troy went to his practice every day when he has starting the business.",
+                        "Dr. Troy used to go to his practice every day when the business was just getting started."
+                    ],
+                    "optionk": "d",
+                    "optionw": "Es importante recordar que usamos “used to” + “verb in infinitive” para referirnos a una acción que era repetitiva (un hábito por ejemplo) en el pasado. Cuando usamos esa estructura gramatical, solemos complementar esa primera idea con una segunda idea. En este caso, la segunda idea es que esto sucedía cuando el negocio apenas estaba comenzando.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 4",
+                    "audio": null,
+                    "question": "Which is the correct sentence?",
+                    "options": [
+                        "Sean did use to cooking vegetables more than he did protein.",
+                        "Sean used to cooking vegetables more than he did protein.",
+                        "Sean got used to cooking vegetables more than he did protein.",
+                        "Sean got use to cooking vegetables more than he did protein."
+                    ],
+                    "optionk": "c",
+                    "optionw": "La clave es recordar que usamos got + used+ to + verb -ing para referirnos a cuando el sujeto se acostumbró a realizar alguna actividad. En este caso, la segunda parte de la oración nos indica que hay un comparativo (usando la palabra “than”).",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 5",
+                    "audio": null,
+                    "question": "If I… it was your anniversary,  I………your event.",
+                    "options": [
+                        "hadn’t heard, would have attended",
+                        "had heard, would have attended",
+                        "heard, will attended",
+                        "has heard, would have attend"
+                    ],
+                    "optionk": "b",
+                    "optionw": "La tercera condicional (past perfect + would+ subject+ have +past participle) plantea situaciones del pasado que no sucedieron o que de alguna manera, ya expresarlas suena como a algo “imaginario”. La alternativa es la respuesta que corresponde a este tipo de condicional.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                }
+
+            
+
+               
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {"text": "From questions 11-15 choose the alternative that is the closest in meaning to the provided sentences.", "class":"instrucciones font-bold text-5 text-gradient"},
+
+                {
+                    "title": "Question 11",
+                    "audio": null,
+                    "question": "Matt is a doctor. He likes to study. He is at college. He is smart. He is ingenious.",
+                    "options": [
+                        "Matt is a doctor.",
+                        "Matt, who is at college, wants to become a doctor because he is smart and ingenious.",
+                        "Matt is at college. He likes to study. Matt is smart. Matt is ingenious.",
+                        "Matt, who is ingenious, smart and likes to study, is at university hoping to become a doctor."
+                    ],
+                    "optionk": "d",
+                    "optionw": "La única respuesta que incluye toda la información es la alternativa correcta. En la primera, se dice que Matt es un doctor, lo cual es incorrecto. En la segunda, falta incluir que le gusta estudiar, lo cual también sucede en la tercera opción, la cual, tiene oraciones no conectadas entre ellas.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 12",
+                    "audio": null,
+                    "question": "Annie is young. Annie likes to play ball. Annie has two siblings. Annie is a good daughter.",
+                    "options": [
+                        "Annie is young. Annie likes to play ball. Annie has two siblings.",
+                        "Annie, who is young and a good daughter, likes to play ball and has two siblings.",
+                        "Annie, young, good daughter, plays ball and has two siblings.",
+                        "Is young, a good daughter, has two siblings, is Annie."
+                    ],
+                    "optionk": "b",
+                    "optionw": "La alternativa es la única que nos proporciona todo los detalles del sujeto, en un orden correcto, sin utilizar signos de puntuación de manera innecesaria. A la alternativa (a) le falta un detalle y unir ideas. A la (c ) le falta unión del sujeto con el adjetivo del inicio.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 13",
+                    "audio": null,
+                    "question": "Gabrielle loves attention. Gabrielle is not such a good friend. Gabrielle is rude. Gabrielle needs therapy.",
+                    "options": [
+                        "Rude Gabrielle, who is not such a good friend and who loves attention, needs therapy.",
+                        "Needs therapy, Gabrielle. She is not a good friend. Gabrielle likes attention. Rude.",
+                        "Gabrielle loves attention. Gabrielle is rude. Gabrielle needs therapy.",
+                        "Gabrielle is rude, not a good friend, loves attention and therapy."
+                    ],
+                    "optionk": "a",
+                    "optionw": "Es necesario entender que se deben incluir todas las ideas de las cuatro oraciones anteriores de una forma correcta, completa y evitando utilizar puntuación innecesaria.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 14",
+                    "audio": null,
+                    "question": "Kimber is attractive. Kimber likes exercising. Kimber is in show business. Kimber is photogenic.",
+                    "options": [
+                        "Is Kimber an attractive, phonogetic, athletic lady in show business?",
+                        "Kimber is attractive and photogenic. She likes exercising.",
+                        "Kimber likes exercise. She is attractive. She is photogenic.",
+                        "Attractive and photogenic Kimber, who likes exercising, is in show business."
+                    ],
+                    "optionk": "d",
+                    "optionw": "Cuando describimos a un sujeto, es posible incluir sus adjetivos calificativos antes, posteriormente describir lo que le gusta al sujeto (en este caso es ejercitarse) y después agregar a qué se dedica o qué es lo que hace. La alternativa correcta nos brinda esta estructura, así como la información de las cuatro oraciones iniciales.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 15",
+                    "audio": null,
+                    "question": "Eden and Olivia are family. They are tall. Eden and Olivia are both gymnasts. Eden and Olivia are beautiful.",
+                    "options": [
+                        "Eden and Olivia, who are family, are tall, beautiful gymnasts.",
+                        "Eden and Olivia are beautiful and tall. They are family.",
+                        "Eden and Olivia, who are family, are beautiful, tall gymnasts.",
+                        "Eden and Olivia are family. They are beautiful. They are tall. They are into gymnastics."
+                    ],
+                    "optionk": "c",
+                    "optionw": "Podría pensarse que la “a” y la “c” son iguales, pero si ponemos atención al orden de los adjetivos, podemos recordar que los adjetivos de “opinión” van antes que aquellos que describen “tamaño”.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                }
+
+            
+                
+
+            
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {"text": "From questions 16-20 identify the correct answer for one of the underlined options. There is only one correct answer for each question.", "class":"instrucciones font-bold text-5 text-gradient"},
+
+                {
+                    "title": "Question 16",
+                    "audio": null,
+                    "question": "If you <u a>want</u> to be a surgeon, you need to <u b>practice</u> and to be <u c>patience</u>. <u d>No error</u>.",
+                    "options": ["wanted", "practicing", "patient", "No error"],
+                    "optionk": "a",
+                    "optionw": "La alternativa correcta  nos indica que debemos cambiar un sustantivo por un adjetivo. Ya que para que esta oración esté completa se necesita entender que esta persona necesita ser paciente, en vez de “ser paciencia”.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 17",
+                    "audio": null,
+                    "question": "Jenna and Julia were <u a>work</u> <u b>on</u> a project <u c>when</u> I arrived. <u d>No error</u>.",
+                    "options": ["working", "at", "if", "No error"],
+                    "optionk": "a",
+                    "optionw": "Es importante recordar que cuando utilizamos past continuous (was/ were + verb-ing) nos referimos a una acción que sucedía o estaba sucediendo cuando una segunda acción se ejecutó. La alternativa correcta nos recuerda la estructura correcta que se requiere.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 18",
+                    "audio": null,
+                    "question": "<u a>The</u> jet <u b>was</u> flown by an <u c>Italy</u> driver. <u d>No error</u>.",
+                    "options": ["An", "were", "Italian", "No error"],
+                    "optionk": "c",
+                    "optionw": "Cuando hablamos de un conductor y su nacionalidad, debemos utilizar “Italian” (italiano) en vez de “Italy” (Italia).",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 19",
+                    "audio": null,
+                    "question": "Dylan <u a>will</u> be <u b>invited</u> to the wedding <u c>by</u> his brother. <u d>No error</u>.",
+                    "options": ["would", "invitation", "bye", "No error"],
+                    "optionk": "d",
+                    "optionw": "Cuando hablamos de situaciones en el futuro, podemos usar distintas estructuras gramaticales. Una de ellas es futuro con “will”. En este caso, se dice que el sujeto “será invitado a la boda por su hermano”. Para ello, fue necesario utilizar “by” al hablar de quien invita al sujeto inicial.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 20",
+                    "audio": null,
+                    "question": "Friends <u a>nor</u> family <u b>normally</u> <u c>get</u> together for weddings. <u d>No error</u>.",
+                    "options": ["and", "normal", "getting", "No error"],
+                    "optionk": "a",
+                    "optionw": "La palabra “nor” se traduce en “ni”. Que ni amigos, ni familia se reúnan en las bodas no tiene sentido. Es por ello que la alternativa correcta indicaría que amigos y familia normalmente se reúnen para las bodas.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                }
+
+            
+                
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {"text": "From questions 21-25 look attentively at the reading and select the correct answer for each question.", "class":"instrucciones font-bold text-5 text-gradient"},
+            {
+                "text": "(1)Being an employee might be difficult sometimes. (2) At some point, it is complicated to follow instructions most of the time. (3) A survey made this year, found that 75% of Mexicans are unhappy and unsatisfied with their jobs.  (4) Knowing that employees are constant looking for another job while they have one is not particularly motivating for entrepreneurs either. (5) A balance must be found among both parts. (6) Employees and employers must look for ways and actions that benefit all of the people involved. (7) At the end, they are working for the same goals, aren’t they?",
+                "class": "bg-slate-200 p-4 block rounded text-xl"
+            },
+
+                {
+                    "title": "Question 21",
+                    "audio": null,
+                    "question": "Which word would be the most appropriate to start sentence 1?",
+                    "options": ["As a result", "To begin with", "To conclude", "Consequently"],
+                    "optionk": "b",
+                    "optionw": "La alternativa nos ayuda a introducir la idea del texto, con las palabras “para empezar”.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 22",
+                    "audio": null,
+                    "question": "Select the sentence that may complete better the ideas between sentences 3 and 4.",
+                    "options": ["Working is never good for anyone.", "Nevermind, I’ll find someone like you.", "Isn’t this a big problem?", "This is a regular situation around the world."],
+                    "optionk": "c",
+                    "optionw": "La alternativa correcta nos ayuda a hacer énfasis entre las ideas establecidas en las oraciones 3 y 4, entre las cuales se detecta un grave problema a nivel social en México.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 23",
+                    "audio": null,
+                    "question": "Which of the following is INCORRECTLY used?",
+                    "options": ["The word  “employee” in sentence 1.", "The word “complicated” in sentence 2.", "The word “found” in sentence 3.", "The word “constant” in sentence 4."],
+                    "optionk": "d",
+                    "optionw": "Es clave recordar que cuando queremos describir un verbo, necesitamos utilizar un adverbio. Los adverbios regularmente termina en -ly.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 24",
+                    "audio": null,
+                    "question": "Select the sentence that is in passive voice.",
+                    "options": ["75% of Mexicans are unhappy and unsatisfied with their jobs.", "A balance must be found among both parts.", "It is complicated to follow instructions most of the time.", "Employees and employers must look for ways and actions that benefit all of the people involved."],
+                    "optionk": "b",
+                    "optionw": "Es clave recordar que la voz pasiva hace énfasis en el objeto de la acción y no en quién o quienes realizan la acción.  La alternativa correcta se enfoca en el balance y no en quienes deben encontrarlo.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 25",
+                    "audio": null,
+                    "question": "Select the sentence that concludes the text correctly.",
+                    "options": ["It is just a pickle!", "No matter what we do, nothing will ever change.", "Employers and employees can be friends.", "It is just a matter of joining perspectives and forces, looking for a greater good."],
+                    "optionk": "d",
+                    "optionw": "La alternativa (d) nos revela que si se reúnen las perspectivas y fuerzas de los empleadores y los empleados (sujetos de quienes hemos estado hablando el resto del texto), se buscará un bien común.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                }
+
+            
+             
+
+            
+        ]
+    }
+ ]
