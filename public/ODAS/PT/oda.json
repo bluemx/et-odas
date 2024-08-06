@@ -1,0 +1,39 @@
+[
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": false,
+        "content":[
+            {
+                "text":"INSTRUCCIONES",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {
+                "text":"Este examen contiene preguntas fáciles, medianas y difíciles."
+             },
+             
+            { "buttonnav": "next"}
+        ]
+    },
+
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            { "title": "Question 1", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
+            { "title": "Question 2", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
+            { "title": "Question 3", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
+            { "title": "Question 4", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
+            { "title": "Question 5", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
+            { "title": "Question 6", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
+            { "title": "Question 7", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
+            { "title": "Question 8", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
+            { "title": "Question 9", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
+            { "title": "Question 10", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true }
+            
+        ]
+    }
+    
+    
+ ]

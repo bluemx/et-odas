@@ -10,13 +10,17 @@
             </div>
             
             <div class="font-bold text-8 text-et-cyan">¡Felicidades!</div>
-            <div class="font-bold text-6 text-silver">Has concluído con esta lección.</div>
+            <div class="font-bold text-6 text-silver">Has concluído.</div>
 
             
             <div class=" px-2 rounded my-2 bg-slate-200 py-5 text-xl">
                 <div class="font-bold text-et-cyan">
                     Reactivos correctos: {{ responded }}<span class="opacity-60">/{{ total }}</span> </div>
                 <div class="font-bold text-et-orange">Tiempo: {{ oda.formattedTime }}</div>
+            </div>
+
+            <div v-if="oda.CEFRLevel" class="text-center text-3xl my-2 text-white p-2 rounded bg-et-pink font-bold">
+                Your level is {{ oda.CEFRLevel }}
             </div>
 
             <!--

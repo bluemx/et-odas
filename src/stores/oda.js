@@ -20,6 +20,8 @@ export const useOda = defineStore('oda', () => {
     const audiops = ref({})
     const isplaying = ref({})
 
+    const CEFRLevel = ref(null)
+
 
     const timerinvertval = ref()
     
@@ -94,6 +96,18 @@ export const useOda = defineStore('oda', () => {
             status: data_status
         }
 
+
+        if(id.value == 'PT'){
+            let positives = postmessagedata.value.positive
+            if(positives>=0 && positives<=39){ CEFRLevel.value = 'Pre A1'}
+            else if(positives>=40 && positives<=77){ CEFRLevel.value = 'A1'}
+            else if(positives>=78 && positives<=127){ CEFRLevel.value = 'A2'}
+            else if(positives>=128 && positives<=159){ CEFRLevel.value = 'B1'}
+            else if(positives>=160 && positives<=200){ CEFRLevel.value = 'B2'}
+            postmessagedata.value.CEFRLevel = CEFRLevel.value
+        }
+
+
         window.parent.postMessage(JSON.stringify(postmessagedata.value), '*')
     }
 
@@ -161,6 +175,7 @@ export const useOda = defineStore('oda', () => {
         stopallaudios,
         sendPMessage,
         convertObjectToArray,
-        postmessagedata
+        postmessagedata,
+        CEFRLevel
     }
 })
