@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col justify-center gap-10 my-2 relative p-2 min-h-[300px]">
+    <div class="flex flex-col justify-center gap-10 my-2 relative p-2 min-h-[300px] reactive">
         <div v-if="data.title" class="font-bold text-6 text-et-silver">{{ data.title }}</div>
         <!--audio-->
         <template v-if="data.audio">
@@ -7,7 +7,7 @@
         </template>
         <!--question-->
         <template v-if="data.type!=='listening'">
-            <strong class="text-xl">{{ data.question }}</strong>
+            <strong class="text-xl leading-8" v-html="data.question"></strong>
         </template>
         <!--options-->
         <div v-if="data.options && data.optionk" class="flex gap-5 flex-wrap" :class=" data.type=='listening' ? 'justify-center' : 'flex-col'">
@@ -180,3 +180,6 @@ const reset = () => {
 
 
 </script>
+
+
+

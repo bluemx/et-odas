@@ -1,0 +1,401 @@
+[
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"Part 1: Use of language",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            { "text": "Lesson/Assessment: Medium - Practice and Explanation", "class": "font-bold"},
+             {
+                "text":"En la sección de preguntas de  mediana dificultad, se requiere un conocimiento más a fondo del uso del lenguaje. Comprensión lectora y análisis que va más allá del entendimiento  de palabras  y tiempos verbales simples, así como la capacidad de relacionar las palabras claves con sus correspondientes respuestas. En este caso, es necesario entender los distintos tiempos verbales, tanto simples como compuestos, así como el correcto uso de conectores y verbos modales (o verbos auxiliares) para ser capaz de identificar errores en oraciones y pequeños textos. Esto aplica en todas las preguntas de desarrollo mediano, donde el alumno ya sabe identificar qué es lo que gramaticalmente completa mejor una idea. En algunos casos se utilizará la comprensión de idea general y en otros tantos la información de palabras claves y la habilidad de “leer entre líneas”."
+             },
+             
+              { "buttonnav": "next"}
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"Part 2: Language use",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {
+                "text":"This part of the test has five different types of exercises. This part focuses on the use of the language."
+             },
+             {
+                "text":"Read each question carefully and choose the best answer. There is only one correct answer."
+             },
+             
+              { "buttonnav": "next"}
+        ]
+    },
+
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+
+                {
+                    "title": "Question 1",
+                    "audio": null,
+                    "question": "Which is the correct sentence?",
+                    "options": ["Bill has cooked dinner for us in the past.", "Bill has cooking dinner for us in the past.", "Bill have cooked dinner for us in the past.", "Bill having cooked dinner for us in the past."],
+                    "optionk": "a",
+                    "optionw": "Para seleccionar la oración correcta en este caso es necesario entender que usamos “present perfect” (have/ has + past participle) para actividades o situaciones que ya sucedieron ( por lo general más de una vez y no especifican una fecha exacta) y que es muy probable que se repitan en el futuro. Para sujetos que puedan reemplazarse con los pronombres “he”, “she”, “it” la fórmula es “has” + “verb in past participle”.  La alternativa es la única que incluye la opción posible para el sujeto en esta pregunta.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 2",
+                    "audio": null,
+                    "question": "Which is the correct sentence?",
+                    "options": ["Danny should ate something before she left.", "Danny should eating something before she left.", "Danny do should have eat something before she left.", "Danny should have eaten something before she left."],
+                    "optionk": "d",
+                    "optionw": "Usamos la palabra “should” para expresar “deber”. Cuando queremos decir que alguien debió de haber realizado alguna acción (la cual no sucedió), es propio utilizar “should”+ “have”+ “past participle”. La alternativa es la única que sigue la estructura correcta para hacer una sugerencia de la acción.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 3",
+                    "audio": null,
+                    "question": "Which is the correct sentence?",
+                    "options": ["George be more prudent during the meeting.", "George will be more prudent during the meeting.", "George will be more during the meeting.", "George will was more prudent during the meeting."],
+                    "optionk": "b",
+                    "optionw": "Cuando nos referimos a una promesa o una predicción, utilizamos el verbo modal “will”. Si la intención es decir que el sujeto será de alguna forma, debemos seguir la estructura “will” + “be”+ adjective.  La alternativa es la opción correcta para esta pregunta.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 4",
+                    "audio": null,
+                    "question": "That man…..what the best option…",
+                    "options": ["would say, will is", "should said, is", "says, will not be", "will say, could be"],
+                    "optionk": "d",
+                    "optionw": "Se utiliza el verbo modal “will” para hablar de situaciones en el futuro. Este debe ser seguido por una acción. A su vez, “could” indica posibilidad. La intención de esta oración es decir que el hombre dirá cuál podría ser la mejor opción. La alternativaes la única manera de completar la oración de forma gramaticalmente correcta.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 5",
+                    "audio": null,
+                    "question": "Charles……the……English teacher .",
+                    "options": ["has being, good", "have been, better", "has been, best", "has was, best"],
+                    "optionk": "c",
+                    "optionw": "Recordemos que es necesario entender que usamos “present perfect” (have/ has + past participle) para actividades o situaciones que  ya se presentaron y que en ocasiones, continúan en el tiempo presente. Si estamos comparando entre este maestro (el sujeto) y los demás maestros, el artículo “the” nos indica que necesitamos usar el superlativo. Los superlativos terminan en -est o comienzan con “most” + “adjective”.  La alternativa es la única opción que completa esta oración.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                }
+
+            
+                
+
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {
+                "text": "The text below must be completed by the options from questions 6-10.", "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            {
+                "text": "When we start (6)....about mysterious people, we believe it (7)....established they should look dangerous as well. That reality could not be (8) …. from the truth. People (9).... those ones that keep secrets might look and act different among them. Furthermore, there are several reasons why individuals can seem to be mysterious and the answers tend to vary. So, in conclusion, not everything and everyone are what they appear to be. Keep on (10)....for details around you. They are important when it comes to discovering the truth. ",
+                "class": "bg-slate-200 p-4 block rounded text-xl"
+            },
+
+                {
+                    "title": "Question 6",
+                    "audio": null,
+                    "question": "What is the correct form?",
+                    "options": ["thought", "is thinking", "thinking", "have been thinking"],
+                    "optionk": "c",
+                    "optionw": "Es necesario entender que un relato puede plantearse con un conector, un sujeto y verbos de acción. En el caso de una narrativa en tiempo real, podemos usar infinitive + gerund. La respuesta es la única que sigue esta regla.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 7",
+                    "audio": null,
+                    "question": "Which is the correct form?",
+                    "options": ["has been", "has been be", "were not", "was"],
+                    "optionk": "a",
+                    "optionw": "Usamos el “present perfect” para una acción que indica inicio en el tiempo pasado y continúa en el presente ( es decir, puede ser actual). En este caso, como tenemos el sujeto “it”, utilizamos “has” y no “have” + “past participle”. Así indicamos que “esto ha sido establecido”. La alternativa corresponde a la única opción gramaticalmente correcta.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 8",
+                    "audio": null,
+                    "question": "Which is the correct comparative form?",
+                    "options": ["far", "more far", "further", "most further"],
+                    "optionk": "c",
+                    "optionw": "En esta pregunta es necesario entender que se está hablando de dos realidades: la que se cree y la que es. Es por ello que debemos usar un adjetivo comparativo. Cuando el adjetivo tiene una sílaba, se le suele agregar la terminación -er. Cuando el adjetivo tiene más de dos sílabas, el adjetivo suele necesitar “more” antes de la palabra. Existen excepciones a las reglas. En este caso, la alternativa corresponde a la respuesta correcta.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 9",
+                    "audio": null,
+                    "question": "What should people know?",
+                    "options": ["should known", "should knew", "should know", "shouldn’t known"],
+                    "optionk": "c",
+                    "optionw": "Para expresar algo que “debería de ser” podemos usar “should”+ “infinitive”. En esta oración queremos expresar que la gente debería de saber ciertos aspectos de las personas misteriosas.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 10",
+                    "audio": null,
+                    "question": "What is the correct form of the verb?",
+                    "options": ["looking", "will look", "had looked", "looked"],
+                    "optionk": "a",
+                    "optionw": "Usamos el verbo compuesto (o phrasal verb) “keep on” para expresar continuidad en algo. Las palabras que pueden seguir de un verbo compuesto pueden variar. Una opción es el gerundio, el cual es el verbo con terminación en -ing. La alternativa corresponde a la opción descrita en este reactivo.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                }
+            
+            
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {"text": "From questions 11-15 choose the alternative that is the closest in meaning to the provided sentences.", "class":"instrucciones font-bold text-5 text-gradient"},
+
+                {
+                    "title": "Question 11",
+                    "audio": null,
+                    "question": "The lady is young. The lady has a stomachache. It is now. The lady complains.",
+                    "options": [
+                        "The lady complains because of the stomachache.",
+                        "The lady has a stomachache. She complains. And young.",
+                        "The young lady complains because she has a stomachache.",
+                        "The lady has a stomachache now."
+                    ],
+                    "optionk": "c",
+                    "optionw": "La clave en esta pregunta es comprender que la respuesta correcta debe incluir todos los aspectos de las oraciones presentadas al inicio. La primera opción carece de la palabra “young”, a la segunda le falta sintaxis u orden correcto de todas las palabras. Y a la opción “d” le falta la mitad de la información. La opción correcta nos indica una queja en tiempo presente y nos deja saber que el sujeto es una dama joven.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 12",
+                    "audio": null,
+                    "question": "Diego is smart. He has got a business. Diego is good at negotiating.",
+                    "options": [
+                        "Diego is smart. Diego has a business. Diego negotiates.",
+                        "Diego, who is smart and good at negotiating, has a business.",
+                        "Diego is good at business and negotiating and smart.",
+                        "Diego has a business because he is smart."
+                    ],
+                    "optionk": "b",
+                    "optionw": "En esta pregunta, debemos tomar en cuenta que se utilizan dos formas de describir al sujeto, una como una persona inteligente y otra como buen negociante o bueno para negociar. También, debemos incluir que tiene un negocio. La opción correcta es la única que incluye la información completa con una sintaxis adecuada, la cual nos permite entender y evita repetir palabras y/o usar puntuación innecesaria.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 13",
+                    "audio": null,
+                    "question": "Eloise has a secret. Eloise is in trouble. Eloise should be more honest. Her secret is big.",
+                    "options": [
+                        "The trouble Eloise is in, is big and she should be more honest.",
+                        "Eloise should be more honest. Eloise has a secret. Eloise likes trouble.",
+                        "Eloise is secretive and she is in trouble.",
+                        "Eloise, who is in trouble because of her big secret, should be more honest."
+                    ],
+                    "optionk": "d",
+                    "optionw": "En esta pregunta, debemos asegurarnos que todos los detalles se incluyan. En ocasiones, utilizamos la palabra “who” para referirnos al sujeto (cuando esté ya ha sido mencionado) y nos da la libertad de describir más del mismo. En la opción correcta se describe por completo al sujeto y se indica la acción a tomar, sugerida en una de las oraciones al inicio.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 14",
+                    "audio": null,
+                    "question": "Alexander works well at his current job. Alexander is motivated. He likes to study. Alexander likes to improve himself.",
+                    "options": [
+                        "Alexander, who likes to improve himself and to study, is motivated and works well at his current job.",
+                        "Alexander likes improvement. He likes to study. He likes motivation. He likes his job.",
+                        "Motivated, improved and studious Alexander has a job.",
+                        "Alexander likes motivation, his job and to study."
+                    ],
+                    "optionk": "a",
+                    "optionw": "En este tipo de ejercicios, es importante lograr reunir las oraciones del inicio, con sentido y evitando puntuación y repetición innecesaria. Al mencionar al sujeto, la palabra “who” + la descripción de lo que al sujeto le gusta y posteriormente, lo que él hace, logramos el cometido en la opción correcta. El resto de las opciones se mantienen incompletas /sin sentido gramatical.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 15",
+                    "audio": null,
+                    "question": "The Internet can help. The use of the Internet is complex. The Internet is necessary. The Internet is a Pandora’s box.",
+                    "options": [
+                        "Pandora’s Box is the Internet because it is complex. It can help and necessary.",
+                        "The Internet is Pandora’s Box, it is necessary and it is complex and it helps.",
+                        "The complex and necessary Internet, much like Pandora's Box, can be helpful.",
+                        "It helps, the Internet. It is necessary. It is complex and helps. Pandora’s Box."
+                    ],
+                    "optionk": "c",
+                    "optionw": "La clave en esta idea es comprender cómo se describe al Internet, se compara con una Caja de Pandora y se expresa una opinión sobre lo que puede hacer por las personas. En este entendido, la opción correcta es aquella que respeta el orden de las ideas y mantiene todos los aspectos mencionados en las cuatro oraciones cortas del inicio.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                }
+
+            
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {"text": "From questions 16-20 identify the correct answer for one of the underlined options. There is only one correct answer for each question.", "class":"instrucciones font-bold text-5 text-gradient"},
+
+                {
+                    "title": "Question 16",
+                    "audio": null,
+                    "question": "We <u A>certainly</u> <u b>will believe</u> there is <u c>a</u> chance. <u d>No error</u>.",
+                    "options": ["in addition", "believe", "an", "No error"],
+                    "optionk": "b",
+                    "optionw": "En esta pregunta es necesario identificar que cuando se tiene una creencia en el presente, el verbo modal no es necesario para expresarla. Recordemos que este verbo nos ayuda a indicar sucesos en el futuro.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 17",
+                    "audio": null,
+                    "question": "Penelope <u a>will studying</u> Medicine <u b>later</u> <u c>on</u>.  <u d>No error</u>.",
+                    "options": ["will be studying", "lately", "at", "No error"],
+                    "optionk": "a",
+                    "optionw": "La clave es recordar que los verbos que terminan en -ing suelen tener usos sumamente particulares, así como lo son las conjugaciones que se hacen con ellos cuando se les incluye en el texto. Cuando los usamos con el verbo modal “will”, deben ser seguidos por “be”+ “verb -ing”.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 18",
+                    "audio": null,
+                    "question": "<u a>The</u> temperature <u b>has</u> been <u c>increasingly</u> lately.  <u d>No error</u>.",
+                    "options": ["These", "have", "increasing", "No error"],
+                    "optionk": "c",
+                    "optionw": "Es necesario recordar que cuando se habla de algo que ha estado pasando, podemos usar “present perfect continuous” (has/have + been+ verb -ing). La palabra “increasingly” es un adverbio, el cual no pertenece a esta estructura gramatical.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 19",
+                    "audio": null,
+                    "question": "My husband <u a>would</u> have been at <u b>the</u> hospital if it had been <u c>possible</u>.  <u d>No error</u>.",
+                    "options": ["will", "no “the” is necessary", "positive", "No error"],
+                    "optionk": "d",
+                    "optionw": "La clave es entender que estamos hablando de una posibilidad, y es por ello que usamos “would” en vez de “will”. A su vez, recordemos que utilizamos el artículo “the” para referirnos a sustantivos en específico, en este caso, a un hospital en particular.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 20",
+                    "audio": null,
+                    "question": "<u a>Despite</u> the challenging <u b>situation</u>, she got to <u c>graduated</u>.  <u d>No error</u>.",
+                    "options": ["As even", "situations", "graduate", "No error"],
+                    "optionk": "c",
+                    "optionw": "En esta oración es necesario entender que después de la palabra “to” (si se requiere un verbo), éste será en infinitivo.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {"text": "From questions 21-25 look attentively at the reading and select the correct answer.", "class":"instrucciones font-bold text-5 text-gradient"},
+            {
+                "text": "(1)History we have seen how women have fought for every right they have nowadays. (2) For example, women are able to vote, to work, to make decisions about how they look, how they want to live, and more. (3) In addition, there is still a long way to go. (4) Woman everywhere should “have a say” on what they decide to study, if they want to get married and if they want to have children. (5) Economic violence must finish once in for all, so women can be completely independent.",
+                "class": "bg-slate-200 p-4 block rounded text-xl"
+            },
+
+                {
+                    "title": "Question 21",
+                    "audio": null,
+                    "question": "Which word would be the most appropriate to start sentence 1?",
+                    "options": ["Resulting", "And", "Throughout", "Nevertheless"],
+                    "optionk": "c",
+                    "optionw": "La clave es entender que la primera parte de este relato utiliza “present perfect” el cual nos indica que estamos hablando de una acción que comenzó en el pasado y continúa en la actualidad. La opción  es la única que completa la primera parte de este relato al indicar continuidad.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 22",
+                    "audio": null,
+                    "question": "Select the sentence that completes the ideas between sentences 1 and 2.",
+                    "options": ["Nothing has really changed.", "It hasn’t been easy, but there are surely great changes.", "It has been an easy struggle.", "Problems are everywhere."],
+                    "optionk": "b",
+                    "optionw": "Para ligar las ideas, es necesario entender que  entre la oración 1 y la 2 debe de haber una idea que rectifique la dificultad del movimiento de liberación de la mujer y a su vez, reconocer que ha habido cambios, para así, continuar con ejemplos positivos.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 23",
+                    "audio": null,
+                    "question": "Which of the following is INCORRECTLY used?",
+                    "options": ["The word “fought” in sentence 1.", "The word “make” in sentence 2.", "The words “In addition” in sentence 3.", "The words “have a say” in sentence 4."],
+                    "optionk": "c",
+                    "optionw": "La respuesta contiene un conector, el cual se encarga de agregar o sumar una idea en vez de contrastarla . El sentido de la lectura nos indica que en este momento (oración 3), debemos de hacer hincapié en todo lo que falta por hacer en cuanto a la liberación femenina se refiere.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 24",
+                    "audio": null,
+                    "question": "Which of the following is INCORRECTLY used?",
+                    "options": ["The word “History” in sentence 1.", "The word “example” in sentence 2.", "The words “still” in sentence 3.", "The word “woman” in sentence 4."],
+                    "optionk": "d",
+                    "optionw": "En la oración número 4, al hablar de todas las mujeres, debemos referimos a ellas en plural.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                },
+                {
+                    "title": "Question 25",
+                    "audio": null,
+                    "question": "Select the sentence that completes the ideas after sentence 5.",
+                    "options": ["Free, independent, smart women will surely make this world a better place.", "Freedom is overrated.", "Marriage is an interesting path to take.", "The economy is crashing down."],
+                    "optionk": "a",
+                    "optionw": "Al hablar de la violencia económica, nos referimos a un problema mayormente padecido por mujeres. Es por ello que al señalar esta acción, la continuación de esta oración debe cerrar con una pequeña conclusión de lo que la libertad (acción opuesta a vivir en violencia) nos puede brindar como sociedad.",
+                    "eval": true,
+                    "type": "practice",
+                    "force_positive": true
+                }
+
+            
+        ]
+    }
+ ]

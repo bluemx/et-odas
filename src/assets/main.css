@@ -14,3 +14,57 @@ html,body{padding:0; margin:0;}
   height: 1em;
 	display: inline-block;
 }
+
+
+
+
+.reactive u{
+	text-decoration-thickness: 3px;
+	position: relative;
+}
+
+.reactive u:after{
+	position: absolute;
+	top: 100%; 
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 8px;
+}
+.reactive u[a]{
+	color: var(--et-silver);
+	text-decoration-color: var(--et-orange);
+}
+.reactive u[a]:after{
+	content: "A";
+	color: var(--et-orange);
+}
+
+.reactive u[b]{
+	color: var(--et-silver);
+	text-decoration-color: var(--et-cyan);
+}
+.reactive u[b]:after{
+	content: "B";
+	color: var(--et-cyan);
+}
+
+.reactive u[c]{
+	color: var(--et-silver);
+	text-decoration-color: var(--et-pink);
+}
+.reactive u[c]:after{
+	content: "C";
+	color: var(--et-pink);
+}
+
+.reactive u[d]{
+	color: var(--et-silver);
+	text-decoration-color: var(--et-green);
+}
+.reactive u[d]:after{
+	content: "D";
+	color: var(--et-green);
+}
