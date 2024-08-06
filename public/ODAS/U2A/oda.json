@@ -1,0 +1,656 @@
+[
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": false,
+        "content":[
+            {
+                "text":"INSTRUCCIONES",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {
+                "text":"Este examen contiene preguntas fáciles, medianas y difíciles."
+             },
+             {"text":"En la sección de preguntas fáciles, el alumno se enfoca en la comprensión de las palabras clave. Por ejemplo, el uso afirmativo del “verb to be” en tiempo presente nos brinda tres opciones (am, is, are), de las cuales, sólo una será correcta. En cuanto al resto de los tiempos simples, el alumno necesita recordar las reglas gramaticales que memorizó e identificar la respuesta correcta. Los alumnos suelen olvidar las distintas reglas para conjugaciones de verbos regulares y verbos irregulares, así como la sintaxis y la ortografía (Spelling) de ciertas palabras, ya que en español las palabras se escriben como suenan."},
+             {"text":"En la sección de preguntas medianas, se requiere un conocimiento más a fondo del uso del lenguaje, comprensión lectora y de análisis que va más allá del entendimiento  de palabras  y tiempos verbales simples y la capacidad de relacionar las palabras claves con sus correspondientes significados. En este caso, es necesario entender los distintos tiempos verbales, tanto simples como compuestos, así como el correcto uso de conectores y verbos modales (o verbos auxiliares) para ser capaz de identificar errores en oraciones y pequeños textos."},
+             {"text":"Esto aplica en todas las preguntas de desarrollo mediano, donde el alumno ya sabe identificar qué es lo que gramaticalmente completa mejor una idea. En algunos casos se utilizará la comprensión de idea general y en otros tantos la información de palabras claves y la habilidad de “leer entre líneas”."},
+             {"text":"En la sección de preguntas difíciles, se requiere un conocimiento mucho más complejo del uso del lenguaje, comprensión lectora y de análisis que va más allá del entendimiento de palabras  y tiempos verbales simples y compuestos. En este caso, es necesario recordar claramente y entender los distintos tiempos verbales, así como el correcto uso de conectores, verbos modales (o verbos auxiliares) y condicionales para ser capaz de identificar errores en oraciones y textos."},
+             {"text":"Esto aplica en todas las preguntas de desarrollo avanzado o difícil, donde el alumno ya sabe identificar qué es lo que gramaticalmente completa mejor una idea y cómo esa idea podría verse con una redacción distinta. "},
+             {"text":"En algunos casos se utilizará la comprensión de idea general y en otros tantos la información de palabras claves y la habilidad de “leer con detalle”."},
+             
+            { "buttonnav": "next"}
+        ]
+    },
+
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "title": "Question 1",
+                "audio": null,
+                "question": "Which is the correct sentence?",
+                "options": ["Mrs. Cox is angry.", "Mrs. Cox am angry.", "Mrs. Cox are angry.", "Mrs. Cox can is angry."],
+                "optionk": "a",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 2",
+                "audio": null,
+                "question": "Which is the correct sentence?",
+                "options": ["There aren’t three cat in my house.", "There isn’t three cats in my house.", "There are three cats in my house.", "Aren’t three there cats in my house?"],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 3",
+                "audio": null,
+                "question": "Which is the correct sentence?",
+                "options": ["Is Karla are at the park?", "Karla are at the park.", "Karla am at the park.", "Karla isn’t at the park."],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 4",
+                "audio": null,
+                "question": "Which is the correct sentence?",
+                "options": ["Please, may might I be excused?", "Could be I excused?", "Might I be excuse?", "May I be excused?"],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 5",
+                "audio": null,
+                "question": "Which is the correct sentence?",
+                "options": ["Karina and Kimber was born in Mexico City.", "Karina and Kimber were born in Mexico City.", "Karina and Kimber born were in Mexico City.", "Born Karina and Kimber were in Mexico City."],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 6",
+                "audio": null,
+                "question": "Which is the correct sentence?",
+                "options": ["Evelyn doesn’t liked vegetables.", "Evelyn don’t like vegetables.", "Evelyn doesn’t like vegetables.", "Evelyn doesn’t likes vegetables."],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 7",
+                "audio": null,
+                "question": "Which is the correct sentence?",
+                "options": ["I do am glad to see you.", "I is glad to see you.", "I are glad to see you.", "I am glad to see you."],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "title": "Question 8",
+                "audio": null,
+                "question": "Which is the correct sentence?",
+                "options": ["Palmer and Troy leaves the store early last Saturday.", "Palmer and Troy left the store early last Saturday.", "Palmer and Troy was leaving the store early last Saturday.", "Palmer and Troy was left the store early last Saturday."],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 9",
+                "audio": null,
+                "question": "Lizeth…..a pie when John arrived.",
+                "options": ["were baking", "bake", "baking", "was baking"],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 10",
+                "audio": null,
+                "question": "Wayne……with Math since he was a little child.",
+                "options": ["struggled", "has struggled", "struggles", "struggling"],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 11",
+                "audio": null,
+                "question": "The coat is ………. the table.",
+                "options": ["on", "during", "at", "an"],
+                "optionk": "a",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 12",
+                "audio": null,
+                "question": "The emperor ……his wishes since the beginning of times.",
+                "options": ["is going to express", "will express", "having expressed", "had expressed"],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 13",
+                "audio": null,
+                "question": "..….water do you want?",
+                "options": ["How many", "How often", "How much", "How are"],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "title": "Question 14",
+                "audio": null,
+                "question": "This is ……problem.",
+                "options": ["my", "mine", "hers", "yours"],
+                "optionk": "a",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 15",
+                "audio": null,
+                "question": "Connor………..for everyone at the office.",
+                "options": ["never shop", "shops", "shopping", "shops never"],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 16",
+                "audio": null,
+                "question": "…...apartments do you see?",
+                "options": ["How much", "How many", "How long", "How much many"],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {"text": "The text below must be completed by the options from questions 17-24.  Questions 17-24 are based on the following text:", "class":"instrucciones font-bold text-5 text-gradient"},
+            {
+                "text": "It (17)……… important to remember what we (18)………about exercise. It (19) ………: movement can change your life’s course. If we (20) ………strict diets in order to drop a few pounds, why shouldn’t explore better options, such as diverse types of fitness activities, to do so? Exercise does not only help our bodies.  (21) ………, did you know that physical activity improves your memory and brain function? (22) ………, it helps to reduce feelings of anxiety and depression.  Exercise (23)………more of a trending topic in the last few years. For example, more women participate in different disciplines around the world. If you pay enough attention, you may notice how men and women (24) ………in events such as the Olympics and different world cups.",
+                "class": "bg-slate-200 p-4 block rounded text-xl"
+            },
+            {
+                "title": "Question 17",
+                "audio": null,
+                "question": "",
+                "options": ["does", "are", "is", "didn't"],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 18",
+                "audio": null,
+                "question": "",
+                "options": ["know", "knew", "knowing", "will knew"],
+                "optionk": "a",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 19",
+                "audio": null,
+                "question": "",
+                "options": ["established", "been has established", "has been established", "would establish"],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 20",
+                "audio": null,
+                "question": "",
+                "options": ["would experienced", "did experienced", "experiences", "have experienced"],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 21",
+                "audio": null,
+                "question": "",
+                "options": ["For instance", "In conclusion", "While", "Whether"],
+                "optionk": "a",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 22",
+                "audio": null,
+                "question": "",
+                "options": ["Although", "Despite", "Lately", "In addition"],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 23",
+                "audio": null,
+                "question": "",
+                "options": ["becoming", "has become", "have become", "had became"],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 24",
+                "audio": null,
+                "question": "",
+                "options": ["equally are participate", "are equal participating", "are equally participating", "would equally are participating"],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+            
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            
+            {"text": "From questions 25-33 choose the alternative that is the closest in meaning to the provided sentences.", "class":"instrucciones font-bold text-5 text-gradient"},
+            {
+                "title": "Question 25",
+                "audio": null,
+                "question": "",
+                "options": ["Cycling is the best discipline ever! Even though it can be expensive, it is fun and a good sport.", "Cycling is expensive. Cycling is fun. Cycling is a good sport. Cycling is low impact.", "Cycling, which is fun, a good sport and, at times, expensive, is considered to be a low impact exercise.", "A good sport, fun, expensive and low impact is Cycling."],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 26",
+                "audio": null,
+                "question": "",
+                "options": ["Sports Gina, Maxwell. Dating Gina, Maxwell. Running, Gina and Maxwell.", "Sporty Gina and Maxwell run together. You can tell, they like each other.", "Gina and Maxwell are sporty and run together. Maxwell wants a date with Gina.", "Gina and Maxwell run together. They like sports. They like dating."],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 27",
+                "audio": null,
+                "question": "",
+                "options": ["The TV show has a big cast. It’s famous. It’s edgy. A lot of seasons it has.", "The TV show: famous, edgy, a lot of seasons and big cast.", "The show TV has edges. It has fame. A lot of seasons and a big cast.", "The edgy, famous TV show has a big cast and a lot of seasons."],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 28",
+                "audio": null,
+                "question": "",
+                "options": ["The city has dams that are filled and it is green and it has water and it has rain.", "The plants are green, the rain is a lot, the city has water and there are dams.", "Since it started to rain, the city and the dams are filled with water. As well, the plants look greener than before.", "Plants: green. City: with water. Dams: filled."],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "title": "Question 29",
+                "audio": null,
+                "question": "",
+                "options": ["Frank and Dylan are good friends. Dylan, a reporter and Frank, an athlete.", "Frank, the reporter and Dylan, the athlete, are good old friends. They are usually connected by their jobs.", "Frank and Dylan usually work together. One is a reporter, the other one, an athlete. They have been friends since they were practically babies.", "Frank and Dylan have been working together since they were little. One is a reporter, the other one, is an athlete."],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 30",
+                "audio": null,
+                "question": "",
+                "options": ["Sandy’s car: eco friendly, small, gasoline and she is happy with it.", "A car is small and eco-friendly. It does not waste a lot of gasoline. It is Sandy’s.", "Sandy is happy with her new car, which is small. It does not waste a lot of gasoline.", "Sandy’s small, new, eco-friendly car saves gasolina, which makes her happy."],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 31",
+                "audio": null,
+                "question": "",
+                "options": ["Mr. Seabrook is a nice person who works at the library. He got news and looks happy.", "Unfortunately, Mr. Seabrook is a cheerful person. He is nice and just got good news. He works at the librarian.", "Mr. Seabrook is good, cheerful, with good news and with a library.", "Mr. Seabrook, who is a nice person and works at the library, just got good news. Therefore, he looks cheerful."],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 32",
+                "audio": null,
+                "question": "",
+                "options": ["Medium dog and obedient is Gracie who lives at the beach.", "Lives at the beach. It is medium and obedient. It is a dog.", "Obedient and medium size Gracie is a dog that lives at the beach.", "At the beach, Gracie, the dog, lives. She is medium and obedient and a pet."],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 33",
+                "audio": null,
+                "question": "",
+                "options": ["Curtis and Sarah, who are married to each other, are  doctors that live in Africa.", "Married: Curtis and Sarah. Doctors: Curtis and Sarah. Africans: Sarah and Curtis.", "Curtis and Sarah, which are married to each other, live in Africa and are doctors.", "Curtis is husband, while Sarah is wife. Both doctors. Both live in Africa."],
+                "optionk": "a",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {"text": "From questions 34-42 identify the correct answer for one of the underlined options. There is only one correct answer for each question.", "class":"instrucciones font-bold text-5 text-gradient"},
+            {
+                "title": "Question 34",
+                "audio": null,
+                "question": "Luisa must <u a>have</u> <u b>being</u> there for me. I have always <u c>been</u> a great friend. <u d>No error</u>.",
+                "options": ["has", "been", "being", "No error"],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 35",
+                "audio": null,
+                "question": "Mercy will think <u a>about</u> <u b>her</u> new plans <u c>lately</u>. <u d>No error</u>.",
+                "options": ["in", "his", "later", "No error"],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 36",
+                "audio": null,
+                "question": "Singers <u a>have</u> been <u b>clearing</u> about what they <u c>want</u> now. <u d>No error</u>.",
+                "options": ["has", "clear", "wanted", "No error"],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 37",
+                "audio": null,
+                "question": "Nicole <u a>would</u> <u b>like</u> to <u c>got</u> new tickets for tonight’s game. <u d>No error</u>.",
+                "options": ["will", "liked", "get", "No error"],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 38",
+                "audio": null,
+                "question": "<u a>Strength</u> training <u b>continues</u> to <u c>burn</u> fat long after you finish your workout.  <u d>No error</u>.",
+                "options": ["strong", "continued", "burning", "No error"],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 39",
+                "audio": null,
+                "question": "<u a>Did</u> Ricky <u b>understanding</u> what the problem <u c>was</u> about? <u d>No error</u>.",
+                "options": ["Do", "understand", "were", "No error"],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 40",
+                "audio": null,
+                "question": "That song <u a>has</u> <u b>become</u> one of the <u c>more</u> iconic songs in the history. <u d>No error</u>.",
+                "options": ["have", "became", "most", "No error"],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 41",
+                "audio": null,
+                "question": "<u a>Had</u> he <u b>finish</u> the project before he <u c>went</u> to the party? <u d>No error</u>.",
+                "options": ["have", "finished", "go", "No error"],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 42",
+                "audio": null,
+                "question": "The reunion <u a>got</u> fun, so, we <u b>stayed</u> longer than we <u c>have</u> planned. <u d>No error</u>.",
+                "options": ["get", "staying", "has", "No error"],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+            
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            
+            {"text": "From questions 43-50 look attentively at the reading and select the correct answer.", "class":"instrucciones font-bold text-5 text-gradient"},
+            {
+                "text": "(1).......Plastic surgery has become popular in the last few years. (2) Around 600 B.C., an Indian surgeon performed the first recorded surgeons. (3)Billions of surgeries have been performed around the world. (4) Some have been and still are practically because of human vanity. (5)....others present for various, deeper reasons. (6)……., it is safe to say plastic surgery is here to stay. (7) It is a multi billion dollar business and it appears it will continue being that way for the years up come. (8)Nowadays, new technologies like lasers, laparoscopic cameras and other advances are helping to reduce the size of incisions in plastic surgery, which helps to reduce risks for bleeding and infection while still delivering excellent results. (10) This is surely motivating for patients everywhere.",
+                "class": "bg-slate-200 p-4 block rounded text-xl"
+            },
+            {
+                "title": "Question 43",
+                "audio": null,
+                "question": "Which set of words would be the most appropriate to start sentence 1?",
+                "options": ["Believing", "Besides", "During", "We might believe"],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 44",
+                "audio": null,
+                "question": "Select the sentence that completes the ideas between sentences 1 and 2.",
+                "options": ["Plastic surgery is a popular activity.", "When in reality, plastic or cosmetic surgery has existed for a long time now.", "Plastic surgeons are working internationally.", "The results you might get are according to your surgeon."],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 45",
+                "audio": null,
+                "question": "Which of the following is INCORRECTLY used?",
+                "options": ["The word “plastic” in sentence 1.", "The word “surgeons” in sentence 2.", "The word “surgeries” in sentence 3.", "The word “practically” in sentence 4."],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "title": "Question 46",
+                "audio": null,
+                "question": "Which word would be the most appropriate to start sentence 5?",
+                "options": ["In conclusion", "While", "Despite", "First of all"],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 47",
+                "audio": null,
+                "question": "Select the sentence that could replace sentence 4.",
+                "options": ["Vanity is a problem since it has caused surgeons to perform plastic surgery on people.", "Plastic surgery might be the cause of greater issues people may have.", "Human vanity is and has been one of the main causes for practicing plastic surgery on people.", "Plastic surgery has been around for a long time. This causes mental and emotional issues."],
+                "optionk": "c",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 48",
+                "audio": null,
+                "question": "Which of the following is INCORRECTLY used?",
+                "options": ["The word “Indian” in sentence 2.", "The word “world” in sentence 3.", "The word “deeper” in sentence 5.", "The words “up come” in sentence 7."],
+                "optionk": "d",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 49",
+                "audio": null,
+                "question": "Which word would be the most appropriate to start sentence 6?",
+                "options": ["Nevertheless", "In the end", "At first", "Besides"],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 50",
+                "audio": null,
+                "question": "Which sentence has the same meaning/similar as sentence 10?",
+                "options": ["Surgery is for everyone, no matter what they say.", "This is probably where patients might find extra motivation.", "This makes everyone desire to get something done.", "Lasers and technologies help surgeons."],
+                "optionk": "b",
+                "optionw": "",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+        ]
+    }
+    
+    
+ ]

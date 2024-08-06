@@ -61,7 +61,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -78,7 +77,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -95,7 +93,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -112,7 +109,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -129,7 +125,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             }
         ]
@@ -153,7 +148,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -170,7 +164,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -187,7 +180,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -204,7 +196,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -221,7 +212,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             }
         ]
@@ -245,7 +235,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -262,7 +251,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -279,7 +267,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -296,7 +283,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -313,7 +299,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             }
         ]
@@ -337,7 +322,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -354,7 +338,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -371,7 +354,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "easy"
             },
             {
@@ -388,7 +370,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -405,7 +386,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             }
         ]
@@ -429,7 +409,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -446,7 +425,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -463,7 +441,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -480,7 +457,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "medium"
             },
             {
@@ -497,7 +473,6 @@
                 "eval": true,
                 "type": "listening",
                 "force_positive": false,
-                                "force_positive": false,
                 "difficulty": "easy"
             }
         ]
