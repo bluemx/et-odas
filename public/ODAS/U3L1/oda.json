@@ -1,0 +1,168 @@
+[
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"Lesson 1: (Easy)",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            { "text": "Reading Comprehension and Vocabulary", "class": "font-bold"},
+             {
+                "text":"La sección fácil de “Comprensión de lectura y vocabulario” consta de dos tipos de ejercicios: de vocabulario y de lectura de comprensión. Los ejercicios de vocabulario evalúan la habilidad para reconocer el vocabulario básico utilizado en contextos variados. Para este tipo de ejercicios es necesario reconocer las palabras de vocabulario que se presentan y determinar cuál es la única respuesta correcta para responder alguna pregunta o completar alguna frase.    Los ejercicios de lectura miden una variedad de destrezas. Algunos ejercicios evalúan la comprensión literal de las ideas incluidas en el pasaje.En este tipo de ejercicios es necesario leer el texto completo para comprender las ideas generales de éstos. La respuesta se encuentra en su mayoría efectivamente  y de manera mas explícita en el texto. En otros, se debe analizar el texto presentado.Para responder este tipo de preguntas es necesario volver al texto para inferir o hacer una conclusión con base en lo que se leyó."
+             },
+             
+              { "buttonnav": "next"}
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"Reading Comprehension and Vocabulary",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {
+                "text":"This part of the test has two types of exercises, vocabulary and reading comprehension."
+             },
+             {
+                "text":"Read each question carefully and choose the best answer. There is only one correct answer."
+             },
+             
+              { "buttonnav": "next"}
+        ]
+    },
+
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+
+            {
+                "title": "Question 1",
+                "audio": null,
+                "question": "You do this at school most of the time.",
+                "options": ["eat", "learn", "cook", "swim"],
+                "optionk": "B",
+                "optionw": "Para responder este ejercicio, nos debemos enfocar a las palabras que están relacionadas con otras. Podemos decir que si, los alumnos “comen”en la escuela, o “nadan”porque son actividades que podrían pertenecer al contexto, sin embargo, al prestar atención a la frase “most of the time”(la mayor parte del tiempo) sabemos que la mayor parte del tiempo no comemos o nadamos en la escuela.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 2",
+                "audio": null,
+                "question": "It is the place where people keep old objects. It is usually on the top of a house.",
+                "options": ["Garage", "Bedroom", "Kitchen", "Attic"],
+                "optionk": "D",
+                "optionw": "En este caso, todas las palabras pertenecen a partes de la casa. Debemos leer la frase “keep old objects”(guardar objetos viejos) y también “it is usually on the top of a house” (la ubicación). Por sentido común, sabemos que el “garage”no se encuentra comúnmente encima de la casa.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 3",
+                "audio": null,
+                "question": "Yesterday, I ______ soup and a steak.",
+                "options": ["eat", "ate", "go", "went"],
+                "optionk": "B",
+                "optionw": "Lo más importante aquí es notar que la palabra “yesterday”nos indica que es algo que ya sucedió, así que debemos ir directamente a los verbos en pasado. Ahora, por las palabras de contenido “soup”y “salad”, sabemos que la acción está relacionada con algo que es alimento.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 4",
+                "audio": null,
+                "question": "I want to see a film, let’s go to the:",
+                "options": ["Theater", "Restaurant", "Bank", "Cinema"],
+                "optionk": "D",
+                "optionw": "Para responder esta pregunta, debemos conocer las palabras de lugar y lo que se hace en cada lugar. Por ejemplo, no verías una película en un restaurante o en un banco. Podría prestarse a confusión el tener las palabras “theater”y “cinema”, pero hay una diferencia entre uno y otro, puesto que en uno, tenemos personas actuando en vivo y en el otro, una película.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 5",
+                "audio": null,
+                "question": "The opposite of “boring”",
+                "options": ["Not interesting", "Bored", "Fun", "Funny"],
+                "optionk": "C",
+                "optionw": "Para contestar este ejercicio, debemos conocer los antónimos y tener cuidado con las palabras que son parecidas pero que tienen distintos usos. Si hablamos de “boring”y “bored”, tienen significados parecidos, al igual que “fun”y “funny”, sin embargo, uno es un sustantivo y otro es un adjetivo.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            }
+
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {"text": "Los ejercicios 6 al 10 se basan en el siguiente párrafo:", "class":"instrucciones font-bold text-5 text-gradient"},
+            {
+                "text": "Hello Sam, I'd like to <u>stop by</u> your place and talk later tonight. We should <u>hang out</u> soon, just like in the old days. We were so close in high school, and I miss it; I miss <u>picking you up</u> from your place every Monday and Wednesday. We used to <u>get together</u> at least four times a week in the afternoons; it was amazing.  Remember when we <u>broke into</u> the school library to get your backpack? It was crazy!",
+                "class": "bg-slate-200 p-4 block rounded text-xl"
+            },
+            {
+                "title": "Question 6",
+                "audio": null,
+                "question": "In line 1, stop by means",
+                "options": ["To visit someone", "To stop", "To stop doing something", "To walk somewhere"],
+                "optionk": "A",
+                "optionw": "Para contestar este ejercicio, debemos leer la frase completa y enfocarnos en las palabras de contenido “your place” y “talk later” para inferir que a la persona le gustaría “parar por tu casa y hablar más tarde”.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 7",
+                "audio": null,
+                "question": "In line 1, hang out means",
+                "options": ["To spend time relaxing", "To hang something outside", "To spend time outside", "To hang someone"],
+                "optionk": "A",
+                "optionw": "Para responder este ejercicio, debemos leer nuevamente la oración entera y enfocarnos en las palabras que indican temporalidad “soon”, “just” y “old days”, así que es algo que desea hacer pronto como en el pasado. Ahora, la frase idiomática “hang out”pierde el significado de las palabras individuales, por lo que no es “colgar fuera”, sino que se refiere a pasar el tiempo con otra persona.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 8",
+                "audio": null,
+                "question": "In line 2, pick you up means",
+                "options": ["Take something from the floor", "Go somewhere to collect someone", "Take someone", "Get someone up"],
+                "optionk": "B",
+                "optionw": "Para responder este ejercicio, debemos analizar que tenemos la frase compuesta por un verbo y una preposición separadas por un pronombre. Al leer la oración completa nos daremos cuenta de que no estamos tomando algo, estamos recogiendo a alguien.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 9",
+                "audio": null,
+                "question": "In line 3, get together means",
+                "options": ["A reunion", "To get somewhere", "To go somewhere with someone", "To have a meeting"],
+                "optionk": "D",
+                "optionw": "En esta ocasión, lo primero que debemos identificar es que la frase puede tener dos significados, una como sustantivo y otra como acción, eso lo determina el contexto. Ahora, al leer toda la oración completa, el autor habla de algo que solían hacer juntos cada cierto tiempo.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 10",
+                "audio": null,
+                "question": "In line 5, broke into means",
+                "options": ["To suddenly begin to do something", "To enter a place illegally", "To start a new job", "To break something"],
+                "optionk": "B",
+                "optionw": "Para responder este ejercicio, debemos enfocarnos en la palabra de contenido “llibrary”, los amigos solían entrar a este lugar. El contexto nos dice que lo hicieron porque querían recuperar algo de un lugar, así que tuvieron que entrar. La frase del final nos dice “it was crazy!”así que podemos inferir que era algo no permitido.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            }
+        ]
+    }
+ ]
