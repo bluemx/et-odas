@@ -1,0 +1,503 @@
+[
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"Lesson 2",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            { "text": "Reading Comprehension & Vocabulary", "class": "font-bold"},
+             {
+                "text":"En esta sección de reactivos de mediana dificultad podemos encontrar ejercicios  enfocados a habilidades lectoras y comprensión de vocabulario. Para este tipo de ejercicio, es necesario emplear distintas estrategias de lectura y lograr inferir el significado de ciertas palabras. Al ser un nivel intermedio en este examen, debemos enfocarnos en leer oraciones completas o en algunas otras, párrafos completos, los cuales nos dan una idea principal y una idea subsecuente. También podemos encontrar reactivos en los que se interpretan y parafrasean oraciones o ideas de las lecturas a un nivel intermedio bajo. Debemos inferir cuestiones de vocabulario que se utilizan según el contexto de la lectura."
+             },
+             {
+                "text":"Los ejercicios de lectura, en este nivel, también nos llevan a comprender expresiones idiomáticas en el contexto laboral, referencias dentro del texto e identificar tipos y propósitos de los textos de manera general."
+             },
+             
+              { "buttonnav": "next"}
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"Reading Comprehension and Vocabulary",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {
+                "text":"This part of the test has two types of exercises, vocabulary and reading comprehension."
+             },
+             {
+                "text":"Read each question carefully and choose the best answer. There is only one correct answer."
+             },
+             
+              { "buttonnav": "next"}
+        ]
+    },
+
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {
+                "text": "Los ejercicios 1 al 5 se basan en el siguiente párrafo:", "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"1", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "Every time I told my friends I would solo travel, I would hear the same thing over and over: ”Isn't that dangerous?” ”Why don't you ask someone to come with you?”", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"5", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "When I was 21, I traveled to Nicaragua to take on a project teaching English to young learners. It was a volunteer program. Most of my expenses were covered by the school, but I still had to pay some fees. Even though my parents supported me from day one, the rest of my family and friends were concerned for my safety; they couldn't handle the idea of me living with a host family I had never met.", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"10", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "Was it scary? Yes. Was it worth it? Of course! Would I do it again? Yes, I would, and I will! <br>The first things I learned were all about safety, for example: 1. Wear clothes that cover most of your body... 2. Don't walk around at night. 3. Don't talk to strangers. 4. Have some extra cash in your pocket instead of your purse. 5. Take only the essential things with you, amongst others. It felt like home!", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "title": "Question 1",
+                "audio": null,
+                "question": "In line 1, solo travel means",
+                "options": ["To travel alone", "To travel with someone", "To travel to one place", "To walk somewhere"],
+                "optionk": "A",
+                "optionw": "Para responder esta pregunta, debemos leer toda la primera oración, hasta donde dice 'Why don't you ask someone to come with you?', lo que implica que la persona necesita un acompañante para su viaje. Si es que necesita compañía, el sentido implícito nos dará la clave para responder adecuadamente.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 2",
+                "audio": null,
+                "question": "In line 4, take on means",
+                "options": ["To accept a particular job", "To take something", "To create something", "To take something with her hands"],
+                "optionk": "A",
+                "optionw": "Para responder esta pregunta, tenemos un verbo frasal que está conectado a algo, en este caso a 'project teaching English to young learners', o un proyecto para enseñar inglés a niños, así que estamos hablando de un tipo de empleo.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 3",
+                "audio": null,
+                "question": "How did her family take the idea of the author’s decision to do solo travel?",
+                "options": ["Her parents and other relatives loved it.", "Her parents were concerned about her living with another family.", "They were worried.", "Her parents were supportive, but the rest of her family didn’t like it."],
+                "optionk": "D",
+                "optionw": "Para responder esta pregunta, debemos leer el párrafo que comienza en la línea 6. Tenemos una condicional, por lo tanto, tenemos opiniones opuestas de una parte y la otra.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 4",
+                "audio": null,
+                "question": "What does she refer to with 'it' in line 9?",
+                "options": ["To her trip in Nicaragua.", "To solo traveling.", "To being safe in another country.", "To live with another family."],
+                "optionk": "A",
+                "optionw": "En esta pregunta debemos buscar la referencia de 'it', no tenemos el antecedente de manera explícita, sin embargo, en los dos párrafos anteriores, ella habla en su gran mayoría de una experiencia de viaje.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 5",
+                "audio": null,
+                "question": "In line 14, when she writes: 'it felt like home!', what does she mean?",
+                "options": ["She was very happy at that place.", "The place was a bit dangerous, just like the country she is from.", "Her host family made her feel like home.", "She was homesick, she missed her family."],
+                "optionk": "B",
+                "optionw": "Para responder esta pregunta, debemos leer desde el inicio del párrafo, donde menciona la palabra 'safety', y todos los puntos que toca son de seguridad, señal de que hay algo en la seguridad o la inseguridad del lugar que le recuerda a casa.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            }
+
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {
+                "text": "Los ejercicios 6 al 10 se basan en el siguiente párrafo:", "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"1", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "A few years ago, people showed incredible adaptability, realizing that they were too focused on work trying to build a career when the world stopped for months.  Out of the blue, the world was facing a health and economic crisis that caused so many fatalities, people getting sick, and people losing family members.", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"5", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "It was something that completely changed the way people viewed life. Most people were climbing up the professional ladder rather than keeping a healthy lifestyle or cultivating personal relationships.", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"10", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "The pandemic helped people shift their perspective regarding their priorities and realize that maintaining a healthy work-life balance is crucial for overall well-being. The key to achieving this balance lies in setting boundaries, prioritizing tasks, and making time for personal interests and relationships", "class":"p-4 text-xl"
+                    }
+                ]
+            }, 
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"15", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "Individuals can better manage their professional and personal lives by establishing clear work hours and dedicating specific time to unwind and pursue hobbies. Additionally, incorporating regular exercise, meditation, and time spent with loved ones can contribute to a harmonious work-life balance.", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "title": "Question 6",
+                "audio": null,
+                "question": "In line 3, out of the blue means",
+                "options": ["Suddenly", "The blue sky", "Slowly", "To stop"],
+                "optionk": "A",
+                "optionw": "Para responder esta pregunta, debemos leer toda la oración, donde se muestran hechos que ocurren rápidamente y de forma inesperada.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 7",
+                "audio": null,
+                "question": "In line 6, climbing up the professional ladder means",
+                "options": ["Climbing a mountain", "Moving up in different positions in a company", "Going up in a ladder", "To learn new skills"],
+                "optionk": "B",
+                "optionw": "Para contestar esta pregunta, es necesario conocer vocabulario relativo a negocios y empresas, ya que la frase 'climbing up the professional ladder' indica algo de subir de una manera profesional. No debemos comprender la frase en un sentido literal de subir una escalera.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 8",
+                "audio": null,
+                "question": "In line 5, it refers to",
+                "options": ["The pandemic", "Adaptability", "People changing their lifestyle", "Lifestyle"],
+                "optionk": "A",
+                "optionw": "Es importante leer todo el texto para comprender que ese 'it' se refiere al hecho global que logró todos esos cambios en la cultura laboral y de balance de vida. No estamos hablando de la adaptabilidad, o un estilo de vida, estamos hablando de lo que la causó.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 9",
+                "audio": null,
+                "question": "The main idea of the text is:",
+                "options": ["Achieving a life-work balance after the pandemic.", "Tips to have a balance between life and work.", "Shifting priorities", "Adding exercise and meditation to your life"],
+                "optionk": "A",
+                "optionw": "Debemos leer todo el texto y unir los dos temas principales. Si nos enfocamos en uno solo, podríamos elegir la respuesta B, donde nos habla sobre tips para mantener un balance entre la vida y el trabajo, o la D, añadir ejercicio y meditación, lo cual es una parte del texto. Aquí debemos unir la causa y efecto principales para establecer una idea principal.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 10",
+                "audio": null,
+                "question": "Where could you find this text?",
+                "options": ["In a recipe book", "In an autobiography", "In a lifestyle blog", "In a travel blog"],
+                "optionk": "C",
+                "optionw": "Analizar el tipo de texto es importante para reconocer dónde lo podríamos leer. Si fuera una autobiografía, estaríamos observando características de estilo como el lenguaje en primera persona, o si habláramos de un libro de cocina, tendríamos un contenido relacionado con ingredientes. Aquí estamos buscando un texto que se relaciona más con el estilo de vida.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            }
+
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {
+                "text": "Los ejercicios 11 al 18 se basan en el siguiente párrafo:", "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"1", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "Management skills vary across different countries due to cultural, organizational, and societal differences. I will examine how management skills differ in various countries and the factors that influence these differences.", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"5", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "In the United States, management often focuses on individualism, innovation, and risk-taking. American managers are encouraged to be decisive, assertive, and goal-oriented. This approach comes from the American business culture, which values competition and entrepreneurial spirit.", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"10", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "In contrast, management emphasizes consensus-building, teamwork, and harmony in Japan. Japanese managers aim for long-term relationships with employees and stakeholders, and making decisions is mostly done as a collective process. This reflects the influence of Japanese cultural values such as respect for hierarchy and group harmony.", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"15", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "In Germany, management is marked by a strong focus on precision, planning, and efficiency. German managers are known for their thoroughness and attention to detail; decision-making is often rooted in a deep analysis of data and facts. This reflects the German business culture, which values reliability and quality. In contrast, in Brazil, management is characterized by warmth, flexibility, and personal relationships.", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"20", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "Brazilian managers often prioritize building trust and rapport with their teams, and decision-making is influenced by personal connections and emotions. This reflects the Brazilian cultural emphasis on interpersonal relationships and a relaxed approach to time management. These examples illustrate how management skills are shaped by a complex interplay of cultural, historical, and societal factors.", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"20", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "Understanding and respecting these differences is essential for successful international business operations and effective cross-cultural management. By recognizing and adapting to diverse management styles, global leaders can build strong relationships, foster collaboration, and achieve success in a multicultural business environment.", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "title": "Question 11",
+                "audio": null,
+                "question": "What type of text is this?",
+                "options": ["A magazine article", "A blog post", "An essay", "A brochure"],
+                "optionk": "C",
+                "optionw": "En este caso, debemos leer todo el texto y además de observar las características de estilo, podemos ver que existe una introducción, un desarrollo y una conclusión. Un artículo de revista maneja una estructura distinta, además de que el vocabulario es algo más informal, de igual manera, un post de un blog es algo más casual. Los conectores de ideas también son importantes para definir el tipo de texto que estamos leyendo.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 12",
+                "audio": null,
+                "question": "The main purpose of the text is:",
+                "options": ["To compare and contrast management skills across different countries to build a multicultural business environment.", "To describe management skills in general and choose the best type of management for an international company.", "To convince people of the best type of management.", "To reflect on different types of management skills."],
+                "optionk": "A",
+                "optionw": "Todas las opciones podrían ser válidas, pero debemos enfocarnos en que esto no es un ensayo de opinión, ni un ensayo de reflexión. Al exponer distintos tipos de liderazgo o gerencias, estamos describiendo, pero más allá de ello, comparando. Y esta comparación va más allá de solamente hacer un contraste, tiene un propósito.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 13",
+                "audio": null,
+                "question": "In line 6, this refers to:",
+                "options": ["Management skills", "Management in the United States", "American business culture", "Being decisive, assertive and goal-oriented"],
+                "optionk": "B",
+                "optionw": "Para responder esta pregunta, debemos leer desde la línea 4, donde se habla de la gerencia y su enfoque en el país que se menciona. El párrafo se centra en esto y no tanto en su cultura de trabajo, de negocios o de habilidades de gerencia en general.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 14",
+                "audio": null,
+                "question": "In line 8, in contrast means:",
+                "options": ["The idea is a follow up from the previous one.", "The previous idea and the following one are similar.", "The author will continue writing about the United States.", "The idea is the opposite or contradicts the previous one."],
+                "optionk": "D",
+                "optionw": "Para responder esta pregunta, hay dos cuestiones importantes: la primera, es leer ambas ideas en general para saber que no es una continuación del mismo tipo de liderazgo gerencial y la segunda es que estamos hablando de ideas que son enfoques distintos.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 15",
+                "audio": null,
+                "question": "In line 10, this refers to:",
+                "options": ["The idea of making decisions as a collective process.", "Japanese managers.", "Japanese cultural values.", "A respect for hierarchy."],
+                "optionk": "A",
+                "optionw": "Para responder esta pregunta, debemos comenzar a leer desde la línea 8, donde podemos observar que la idea que se engloba antes del 'this' es básicamente a lo que se refiere. Si hablamos en un sentido más general, podríamos decir que estamos hablando de la cultura de valores japonesa, sin embargo, estamos leyendo sobre una idea más particular.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 16",
+                "audio": null,
+                "question": "In line 14, the word rooted could be substituted by:",
+                "options": ["Firmly established", "planted", "enhanced", "believed in"],
+                "optionk": "A",
+                "optionw": "En esta pregunta, nos encontramos con el análisis del vocabulario, porque al hablar de una 'raíz' o algo que está 'enraizado', podríamos decir que algo está 'plantado', pero esto no va con el contexto que tenemos, el cual está relacionado con negocio.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 17",
+                "audio": null,
+                "question": "In line 22, which factors does the author refer to?",
+                "options": ["Brazilian managers", "Cultural, historical and societal", "Brazilian work culture", "Personal relationships"],
+                "optionk": "B",
+                "optionw": "Para responder esta pregunta, sabemos que estamos hablando de la cultura laboral o de gerencia de Brasil, pero debemos enfocarnos en la línea 22, donde se habla de cómo las habilidades gerenciales son formadas por ciertos aspectos que se mencionan después.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 18",
+                "audio": null,
+                "question": "Where does the conclusion begin?",
+                "options": ["Line 1", "Line 20", "Line 23", "Line 24"],
+                "optionk": "C",
+                "optionw": "En la estructura de un ensayo, tenemos una introducción, desarrollo y conclusión. La conclusión empieza cuando estamos cerrando el tema e hilando las ideas principales o uniendo las ideas de la introducción con nuestra propia opinión.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            }
+
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {
+                "text": "Los ejercicios 19 al 25 se basan en el siguiente párrafo:", "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"1", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "As I sat on the riverwalk, some memories came to mind and gave me goosebumps up and down my body. I was an American infantryman fighting in Europe, and I experienced almost every aspect of the fighting in France and Germany.", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"5", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "I traveled ashore under fire at Normandy and raced across central France. I survived being shot, and once I recovered from my wounds, I returned to fight in Germany.", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "class":"flex gap-5 items-center bg-slate-200 p-4",
+                "content":[
+                    {"text":"10", "class":"text-et-silver text-xl" },
+                    {
+                        "text": "I would rather not mention the infantry divisions or regiments I served. I can barely remember the names of the towns I liberated. This does not mean the divisions I served or the towns I liberated are unimportant; I prefer to focus on the world as an infantryman and my daily focus: survival. <br>I want to share with the world what soldiers endured. We were forced to kill enemy soldiers and watch our close friends being killed and mutilated.  Not only was I an infantry scout, but I was also a medic, so you can have an idea of what I have seen.", "class":"p-4 text-xl"
+                    }
+                ]
+            },
+            {
+                "title": "Question 19",
+                "audio": null,
+                "question": "The text is about",
+                "options": ["Peace", "War", "A doctor", "A soldier"],
+                "optionk": "B",
+                "optionw": "Para responder esta pregunta, debemos leer todo el texto y fijarnos en el vocabulario dominante, por ejemplo, tenemos palabras como 'infantryman', 'fighting', 'shot', 'regiments', 'liberated' que nos indican que es algo relacionado a un tema en particular.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 20",
+                "audio": null,
+                "question": "Which type of text is this?",
+                "options": ["A memoir", "An autobiography", "A novel", "An essay"],
+                "optionk": "A",
+                "optionw": "En esta pregunta, podríamos confundirnos por el sentir 'histórico' que observamos al leer que el autor escribe la mayoría en pasado. Tiene tintes novelescos, sin embargo, la manera en la que relata los detalles sin tanto énfasis en fechas específicas, nos dice que no se trata de una autobiografía.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 21",
+                "audio": null,
+                "question": "What is the setting?",
+                "options": ["World War II", "The United States", "Europe", "Germany"],
+                "optionk": "B",
+                "optionw": "El 'setting' es el momento y lugar donde ocurre la historia o el relato. Para responder esta pregunta, debemos leer todo el texto y notar que habla de varios lugares y las acciones que ocurren en estos lugares. Aunque sea de manera 'general', tenemos un contexto histórico importante.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 22",
+                "audio": null,
+                "question": "Where is the author from?",
+                "options": ["Germany", "France", "Europe", "United States of America"],
+                "optionk": "D",
+                "optionw": "El texto no especifica que es de los Estados Unidos, pero sí menciona la nacionalidad. Para encontrarla, debemos leer la línea 2.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 23",
+                "audio": null,
+                "question": "In line 1, what does he refer to when he writes gave me goosebumps?",
+                "options": ["His skin got rough because of remembering his experience.", "He felt fear.", "He was shivering because of excitement.", "He was happy to remember war."],
+                "optionk": "A",
+                "optionw": "En esta pregunta, tenemos una expresión que se refiere a ciertas emociones, y dependiendo del contexto, puede ser algo feliz, emociones positivas, de enojo, miedo o traumático. Si estamos hablando de la guerra, no puede ser algo alegre o emocionante.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 24",
+                "audio": null,
+                "question": "In line 7, why does he say he doesn’t mention the infantry divisions or regimens he served?",
+                "options": ["Because they were very important.", "Because he doesn’t remember any of them.", "Because his story or his memoir has another focus.", "Because of a confidentiality agreement."],
+                "optionk": "C",
+                "optionw": "Para contestar esta pregunta, debemos ir a la línea 7 y leer las siguientes 4 líneas. Él aclara algo de la importancia de éstas, pero hace una aclaración del por qué la preferencia de o la elección de no mencionarlas.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 25",
+                "audio": null,
+                "question": "In line 12, what does the word endured mean?",
+                "options": ["went through", "continued", "remained", "lasted"],
+                "optionk": "A",
+                "optionw": "En este caso, tenemos sinónimos de la palabra 'endured', pero al tomar en cuenta el contexto, debemos enfocarnos en las vivencias de los soldados. Los soldados no decidieron continuar con algo, sino que pasaron, vivieron, soportaron o sufrieron la guerra.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            }
+
+        ]
+    }
+ ]
