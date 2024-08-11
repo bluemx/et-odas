@@ -1,9 +1,10 @@
-// uno.config.ts
 import { defineConfig } from "unocss";
+import safelist from './uno-safelist.json';
+
 
 export default defineConfig({
-  // ...UnoCSS options
-  theme:{
+  safelist,
+  theme: {
     colors: {
       etLight: '#f7f7f7',
       etDark: '#250004',
@@ -14,6 +15,6 @@ export default defineConfig({
       etGolden: '#fcc600',
       etGreen: '#afc41c',
       etCyan: '#2b82cc',
-    }
+    },
   }
 });

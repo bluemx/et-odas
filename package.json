@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "extract:classes": "node extract-classes.js",
+    "dev": "bun run extract:classes && vite --host",
     "build": "vite build",
     "preview": "vite preview",
     "build-watch": "vite build --watch"

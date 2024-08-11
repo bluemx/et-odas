@@ -27,7 +27,7 @@ export default defineConfig({
       ],
       transformers: [
         transformerDirectives(),
-      ],
+      ]
     }),
     Components({
       resolvers: [],

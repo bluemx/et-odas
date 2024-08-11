@@ -1,0 +1,880 @@
+[
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": false,
+        "content":[
+            {
+                "text":"INSTRUCCIONES",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {"text":"Este examen contiene preguntas fáciles, medianas y difíciles."},
+             {"text":"En la sección de preguntas fáciles, el alumno se enfoca en la comprensión de las palabras clave. Por ejemplo, el uso afirmativo del “verb to be” en tiempo presente nos brinda tres opciones (am, is, are), de las cuales, sólo una será correcta. En cuanto al resto de los tiempos simples, el alumno necesita recordar las reglas gramaticales que memorizó e identificar la respuesta correcta. Los alumnos suelen olvidar las distintas reglas para conjugaciones de verbos regulares y verbos irregulares, así como la sintaxis y la ortografía (Spelling) de ciertas palabras, ya que en español las palabras se escriben como suenan."},
+             {"text":"En la sección de preguntas medianas, se requiere un conocimiento más a fondo del uso del lenguaje, comprensión lectora y de análisis que va más allá del entendimiento  de palabras  y tiempos verbales simples y la capacidad de relacionar las palabras claves con sus correspondientes significados. En este caso, es necesario entender los distintos tiempos verbales, tanto simples como compuestos, así como el correcto uso de conectores y verbos modales (o verbos auxiliares) para ser capaz de identificar errores en oraciones y pequeños textos."},
+             {"text":"Esto aplica en todas las preguntas de desarrollo mediano, donde el alumno ya sabe identificar qué es lo que gramaticalmente completa mejor una idea. En algunos casos se utilizará la comprensión de idea general y en otros tantos la información de palabras claves y la habilidad de “leer entre líneas”."},
+             {"text":"En la sección de preguntas difíciles, se requiere un conocimiento mucho más complejo del uso del lenguaje, comprensión lectora y de análisis que va más allá del entendimiento de palabras  y tiempos verbales simples y compuestos. En este caso, es necesario recordar claramente y entender los distintos tiempos verbales, así como el correcto uso de conectores, verbos modales (o verbos auxiliares) y condicionales para ser capaz de identificar errores en oraciones y textos."},
+             {"text":"Esto aplica en todas las preguntas de desarrollo avanzado o difícil, donde el alumno ya sabe identificar qué es lo que gramaticalmente completa mejor una idea y cómo esa idea podría verse con una redacción distinta. "},
+             {"text":"En algunos casos se utilizará la comprensión de idea general y en otros tantos la información de palabras claves y la habilidad de “leer con detalle”."},
+             
+            { "buttonnav": "next"}
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"Reading Comprehension and Vocabulary",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {
+                "text":"This part of the test has two types of exercises, vocabulary and reading comprehension."
+             },
+             {
+                "text":"Read each question carefully and choose the best answer. There is only one correct answer."
+             },
+             
+              { "buttonnav": "next"}
+        ]
+    },
+
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "title": "Question 1",
+                "audio": null,
+                "question": "Which word means the same as sad?",
+                "options": ["Melancholic", "Sadly", "Unhappy"],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 2",
+                "audio": null,
+                "question": "She is thirsty, she must",
+                "options": ["eat vegetables.", "drink water.", "go to the gym."],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 3",
+                "audio": null,
+                "question": "My husband cooks delicious _____.",
+                "options": ["food", "skirt", "supermarket"],
+                "optionk": "a",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 4",
+                "audio": null,
+                "question": "What do you call a young cat?",
+                "options": ["baby", "kitten", "puppy"],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 5",
+                "audio": null,
+                "question": "Where can you buy groceries?",
+                "options": ["bookstore", "airport", "supermarket"],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 6",
+                "audio": null,
+                "question": "My dad’s mom is my..?",
+                "options": ["mom", "grandmother", "grandfather"],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 7",
+                "audio": null,
+                "question": "Joan has _____with the Doctor.",
+                "options": ["a meeting", "a reservation", "an appointment"],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 8",
+                "audio": null,
+                "question": "______and vegetables help a balanced diet.",
+                "options": ["Fruits", "Potato chips", "Lots of pasta"],
+                "optionk": "a",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 9",
+                "audio": null,
+                "question": "The_____from Mexico to the US took 5 hours.",
+                "options": ["train", "training", "biking"],
+                "optionk": "a",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 10",
+                "audio": null,
+                "question": "I can ____ what the problem is.",
+                "options": ["watch", "see", "look"],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 11",
+                "audio": null,
+                "question": "If you’re sweaty, you will probably __________",
+                "options": ["get in the kitchen", "go to bed", "take a bath"],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 12",
+                "audio": null,
+                "question": "__________.",
+                "options": ["Good night", "Good afternoon", "Good morning"],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 13",
+                "audio": null,
+                "question": "How_______ cars do you see?",
+                "options": ["much", "many", "some"],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 14",
+                "audio": null,
+                "question": "I will need _____to make pizza.",
+                "options": ["cheese", "octopus", "cookies"],
+                "optionk": "a",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 15",
+                "audio": null,
+                "question": "A_____prepares meals professionally.",
+                "options": ["clients", "helper", "chef"],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+
+        ]
+    },
+    
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {"text":"The below texts are followed by questions. After reading each text, choose the correct answer. Answer all the questions using information from the text."},
+            {
+                "class":"grid grid-cols-1 md:grid-cols-2 gap-2 ",
+                "content":[
+                    {
+                        "content":[
+                            {"text": "BREAKFAST", "class":"font-bold text-xl text-gradient"},
+                            { "class":"p-4 bg-slate-200", "text":"*All types of eggs. <br>Two eggs, however you want to mix them.<br>*Pancakes<br>Four pieces with fruit."}
+                        ]
+                    },
+                    {
+                        "content":[
+                            {"text": "7 am - 11:30 am", "class":" text-xl text-orange"},
+                            {"class":"p-4 bg-slate-200", "text":"$10<br>Sides- You can select ham/sausage/potatoes<br>$8<br>Fruit-banana/blueberries"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "class":"grid grid-cols-1 md:grid-cols-2 gap-2 ",
+                "content":[
+                    {
+                        "content":[
+                            {"text": "LUNCH", "class":"font-bold text-xl text-gradient"},
+                            { "class":"p-4 bg-slate-200", "text":"*Parmesan chicken<br>*Pizza<br>Individual size"}
+                        ]
+                    },
+                    {
+                        "content":[
+                            {"text": "12 pm-5:30 pm", "class":" text-xl text-orange"},
+                            {"class":"p-4 bg-slate-200", "text":"$15<br>Sides- Salad and pasta or rice<br>$10<br>Side- Salad"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "class":"grid grid-cols-1 md:grid-cols-2 gap-2 ",
+                "content":[
+                    {
+                        "content":[
+                            {"text": "DINNER", "class":"font-bold text-xl text-gradient"},
+                            { "class":"p-4 bg-slate-200", "text":"*Lasagna<br>*Salad<br>Mixture of vegetables, croutons and chicken"}
+                        ]
+                    },
+                    {
+                        "content":[
+                            {"text": "6 pm- 9 pm", "class":" text-xl text-orange"},
+                            {"class":"p-4 bg-slate-200", "text":"$12<br>Sides- Salad<br>$11"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "class":"grid grid-cols-1 md:grid-cols-2 gap-2 ",
+                "content":[
+                    {
+                        "content":[
+                            {"text": "DRINKS", "class":"font-bold text-xl text-gradient"},
+                            { "class":"p-4 bg-slate-200", "text":"lemonade<br>soda<br>coffee<br>tea"}
+                        ]
+                    },
+                    {
+                        "content":[
+                            {"text": "7 am- 9 pm", "class":" text-xl text-orange"},
+                            {"class":"p-4 bg-slate-200", "text":"$3.5<br>$2 (refill)<br>$1.5<br>$2 (refill)"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Question 16",
+                "audio": null,
+                "question": "You can have eggs for breakfast _____.",
+                "options": ["omelette and scrambled.", "your least favorite mixture.", "presented in different ways."],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 17",
+                "audio": null,
+                "question": "Drinks are served ____.",
+                "options": ["during the early morning", "all day long", "the same time (schedule) the meals are in service"],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 18",
+                "audio": null,
+                "question": "The parmesan chicken includes_____.",
+                "options": ["salad, pasta and rice", "salad and pasta or rice", "pasta and salad"],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 19",
+                "audio": null,
+                "question": "If I order a cup of tea and a glass of lemonade, I will pay:",
+                "options": ["$5.50", "$3.50", "$2.00"],
+                "optionk": "a",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+            
+        ]
+    },
+    
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "text": "8 Tips for Cruising Your Problems Away", "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            {
+                "class": "flex gap-5 items-center bg-slate-200 p-4",
+                "content": [
+                    {"text": "1", "class": "text-et-silver text-xl"},
+                    {
+                        "text": "Pack Smart: Pack clothes for thematic nights you are interested in at the main restaurant. As well, make sure your clothes are accurate for the places you have on (5)route. Avoid unnecessary, last minute shopping. It is helpful if you select colors from the same palette for your wardrobe."
+                    }
+                ]
+            },
+            {
+                "class": "flex gap-5 items-center bg-slate-200 p-4",
+                "content": [
+                    {"text": "2", "class": "text-et-silver text-xl"},
+                    {
+                        "text": "Arrive a Day Early: By doing this, you’ll get to explore the local culture. As well, (10) you’ll be more fresh and ready at the port, just right before starting your adventure."
+                    }
+                ]
+            },
+            {
+                "class": "flex gap-5 items-center bg-slate-200 p-4",
+                "content": [
+                    {"text": "3", "class": "text-et-silver text-xl"},
+                    {
+                        "text": "Get to Know the Ship: Taking a self-guided ship tour will help you (15) discover “where” you want to do “what” during the time on the ship. This way, you’ll get to take full advantage of the time you spend here. This includes short routes to dash back to your stateroom."
+                    }
+                ]
+            },
+            {
+                "class": "flex gap-5 items-center bg-slate-200 p-4",
+                "content": [
+                    {"text": "4", "class": "text-et-silver text-xl"},
+                    {
+                        "text": "Match your Tech to your Itinerary: Depending on what you are doing, where you are going and the time that is taking you, it will be smart to consider binoculars, a camera with zoom lens, a spare battery (25) (since no one wants a dead smartphone), a drone (or a mini drone), a go pro, and, for sure, a waterproof case for your smartphone."
+                    }
+                ]
+            },
+            {
+                "class": "flex gap-5 items-center bg-slate-200 p-4",
+                "content": [
+                    {"text": "5", "class": "text-et-silver text-xl"},
+                    {
+                        "text": "Use the Cruise App: In the app, you can (30) find the whole ship’s itinerary, with activities all around it. As well, you may take a look at the menus in advance. It is also possible to check your ship’s account."
+                    }
+                ]
+            },
+            {
+                "class": "flex gap-5 items-center bg-slate-200 p-4",
+                "content": [
+                    {"text": "6", "class": "text-et-silver text-xl"},
+                    {
+                        "text": "Take Time Out: Wanting to “take advantage” of every second on the cruise might be hard to understand and internalize. It is only fair that you take moments to enjoy the wonderful views, to do absolutely nothing and to relax. You (40) might even take a spa’s treatment, since they normally have sales on the ship."
+                    }
+                ]
+            },
+            {
+                "class": "flex gap-5 items-center bg-slate-200 p-4",
+                "content": [
+                    {"text": "7", "class": "text-et-silver text-xl"},
+                    {
+                        "text": "Document your Trip: Besides the obvious (taking pictures and videos of your experiences), try writing or drawing (45) about them while you have them “fresh”. This will be awesome material for you and your traveling partners later on."
+                    }
+                ]
+            },
+            {
+                "title": "Question 20",
+                "audio": null,
+                "question": "What is the purpose of the text?",
+                "options": [
+                    "To give recommendations on how to take a cruise and to get a more enjoyable experience.",
+                    "To persuade the reader to take a cruise.",
+                    "To inform about cruises."
+                ],
+                "optionk": "a",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 21",
+                "audio": null,
+                "question": "Why is it important to check your tech before going on the ship?",
+                "options": [
+                    "To buy everything that is mentioned in this section.",
+                    "To ensure you have the “best tools” to document your trip.",
+                    "To have lots of pictures and videos."
+                ],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 22",
+                "audio": null,
+                "question": "What are useful hacks while you are in the ship?",
+                "options": [
+                    "To get to know the ship on your very first day.",
+                    "To explore the cruise's app.",
+                    "All of the above."
+                ],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 23",
+                "audio": null,
+                "question": "What is the most common way of documenting your trip?",
+                "options": [
+                    "Taking pictures and videos.",
+                    "Keeping a written journal about it.",
+                    "Drawing the experiences you had."
+                ],
+                "optionk": "a",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 24",
+                "audio": null,
+                "question": "How do tips contribute to a better experience?",
+                "options": [
+                    "By completely changing your life.",
+                    "You must do what people tell you on their tips list.",
+                    "By learning from other people’s experiences."
+                ],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 25",
+                "audio": null,
+                "question": "How does good packing provide a more complete experience?",
+                "options": [
+                    "You may save a lot of money by packing accurately (no unnecessary, last minute shopping).",
+                    "You’ll have a better time on thematic nights.",
+                    "All of the above."
+                ],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+        ]
+    },
+    
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "text": "8 Tips for Cruising Your Problems Away", "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            {
+                "class": "flex flex-col gap-2 bg-slate-200 p-4 text-xl",
+                "content": [
+                    {"text": "Oh, Dreams Dreams Dreams<br>When I was a little girl, my head was filled with dreams. I wanted to be a lawyer, so I could defend those who were not being treated with justice. I also felt like (5)modeling, because most things in life might not be as perfect as a fashion show, but, by modeling, I would have been surrounded by beauty. Most of all, I wanted to be a member of the Educational System, (10)to be part of what I consider, is the base of everything."}
+                ]
+            },
+            {
+                "class": "flex flex-col gap-2 bg-slate-200 p-4 text-xl",
+                "content": [
+                    {"text": "The Expectations<br>For a long time, I worked as an English teacher. But suddenly, I got an offer I could not refuse: an important company wanted (15) me to train teachers, even if I have not done it before, even if I was too young. They said “Talent is not defined by age, and we are sure that your skills will help you accomplish an excellent job”."}
+                ]
+            },
+            {
+                "class": "flex flex-col gap-2 bg-slate-200 p-4 text-xl",
+                "content": [
+                    {"text": "The Preparation<br>(20) For weeks, I studied the Program, the topics, the inner organization.. I rehearsaled in front of my mirror and, sometimes, even recorded myself while speaking. I gave my whole heart to this   (25) project. After all, I was finally making an impact on the ones who influence the young minds every day."}
+                ]
+            },
+            {
+                "class": "flex flex-col gap-2 bg-slate-200 p-4 text-xl",
+                "content": [
+                    {"text": "The Difficulties<br>Just the afternoon before the team and I had to teach, the company let us know that (30) due to the interest in the Program, the number of teachers to be trained had increased. The digits now were about the double of the initial amount. This meant, we had to recount all of the the materials (35) we were needing for each group (which were more than eleven) and most of all, it meant that my nervousness and my anxiety were increasing by the minute."}
+                ]
+            },
+            {
+                "class": "flex flex-col gap-2 bg-slate-200 p-4 text-xl",
+                "content": [
+                    {"text": "The Greatest Moments<br>Once we arrived to the conference center, (40) the tutors (all of us) took our materials, gave our best wishes to each other and looked for our classrooms.  It was only then, that I had to forget about all of my fears : fear about failing, feeling (45) scared about not being enough for those teachers, suspecting that I did not know enough. I mean, who did I think I was? I was only a young English teacher that came from a small city. (50) So, I took the biggest breath and started my lecture. It was at that very moment when I knew what I wanted to do for the years to come: My desire was to improve my teaching in order to lead         (55) others to do the same."}
+                ]
+            },
+            {
+                "class": "flex flex-col gap-2 bg-slate-200 p-4 text-xl",
+                "content": [
+                    {"text": "The Learning Time<br>I am sure my lecture that day (and the following ones) was far from perfect. It was what it was. But that is it. As humans, we learn by doing, not only from studying. (60)Looking back on this moment, it is amazing to see how much I have grown, how much I have evolved. If you are lucky and work hard enough, this process never stops. You have to take some risks when (65) you are trying to find something that makes you passionate again. That makes you better. You must learn it will not be easy, nor perfect, but it  sure will be worth it. So, my advice is for you to take all of the (70) chances you get. You will surely regret more what you did not do, than what you actually did!"}
+                ]
+            },
+            {
+                "title": "Question 26",
+                "audio": null,
+                "question": "When the author mentions her interests as a kid, she refers to:",
+                "options": ["She had only one.", "It is not mentioned", "She had three."],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 27",
+                "audio": null,
+                "question": "There was a lot of support from the other tutors to the author.",
+                "options": ["The statement is true.", "The statement is false.", "It is not mentioned."],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 28",
+                "audio": null,
+                "question": "At the end of the reading, the feeling is mostly:",
+                "options": ["Sorrounded by confusion", "Positive", "Indifferent"],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 29",
+                "audio": null,
+                "question": "What were the predominant emotions during the story?",
+                "options": ["Anger and disappointment", "Confidence and sadness", "Anxiety and nervousness"],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 30",
+                "audio": null,
+                "question": "In line 55, “others” most like refers to:",
+                "options": ["The teachers", "The fans", "The tutors"],
+                "optionk": "a",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 31",
+                "audio": null,
+                "question": "In line 58 “it” refers to…",
+                "options": ["The show", "The classroom", "The lecture"],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 32",
+                "audio": null,
+                "question": "By reading this piece, you may conclude that the author:",
+                "options": ["Found what she wanted to do since the beginning of her career", "Tried out something new and discovered what she wanted to do (professionally speaking)", "Attempted to have several jobs until she found another one"],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "text":"Part 2",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {
+                "text":"In the below exercises you will find paragraphs with underlined words. After reading each text, choose the option with a similar meaning"
+             },
+             {
+                "class":"bg-slate-200 p-4 text-xl",
+                "text":"When deciding to get married, it is common for people to fear being <u>stranded</u> by their partners. This, in any moment of the wedding process, or even, afterwards (5) the event has finished and the years have gone by. Nowadays, having a long term relationship is more <u>frangible</u>  than it was thirty years ago. The use of social media and the extended freedom that most (10) people act on, is not helpful for this matter. Even though it is harder to commit now, it is <u>habitual</u> to hear from people we know that they got engaged to be married. In conclusion, you can have a wonderful, (15) married life if you work on it every day."
+             },
+             {
+                "title": "Question 33",
+                "audio": null,
+                "question": "In line 2, stranded means:",
+                "options": ["leave in", "abandoned", "lead"],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 34",
+                "audio": null,
+                "question": "In line 7, frangible means:",
+                "options": ["breaking", "to be broken", "delicate"],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 35",
+                "audio": null,
+                "question": "In line 12, habitual means:",
+                "options": ["habit", "recurrent", "routine"],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 36",
+                "audio": null,
+                "question": "In line 9, beating around the bush means:",
+                "options": ["Hitting a plant", "Avoiding the main topic", "Circling around in a story"],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 37",
+                "audio": null,
+                "question": "In line 14, barking up at the wrong tree means:",
+                "options": ["Going into a mistaken direction", "Getting close to a mistaken tree", "A dog’s wrong action"],
+                "optionk": "a",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 38",
+                "audio": null,
+                "question": "In line 16, a blessing in disguise means:",
+                "options": ["Disguising is exciting", "Something that seems unlucky at first but turns out to be good", "Blessings for the world"],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+             
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "class":"bg-slate-200 p-4 text-xl",
+                "text":"Traveling has definitely become an easier <u>leisure</u> activity than it was years ago. First of all, there is a wider variety of companies in each means of transportation. This (5)makes all of it more <u>affordable</u>. As well, credit cards <u>allow</u> travelers to reserve their staying and traveling tickets in advance. In addition, they can require split payments in (10)order to organize their finances better.  In conclusion, <u>nowadays</u> there are several tools that can make planning and paying for a trip a simple task."
+             },
+             {
+                "title": "Question 39",
+                "audio": null,
+                "question": "In line 2, leisure means:",
+                "options": ["lentils", "insurance", "free time"],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 40",
+                "audio": null,
+                "question": "In line 5, affordable means:",
+                "options": ["cost-effective", "unreachable", "expensive"],
+                "optionk": "a",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 41",
+                "audio": null,
+                "question": "In line 6, allow means:",
+                "options": ["permit", "allowing", "allowance"],
+                "optionk": "a",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 42",
+                "audio": null,
+                "question": "In line 12, nowadays means:",
+                "options": ["no days", "in these times", "more days"],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "class":"bg-slate-200 p-4 text-xl flex flex-col gap-2",
+                "content":[
+                    {"text": "How Hard is it to be an Entrepreneur?"},
+                    {"text": "An entrepreneur is a person who operates a business taking if not all, most of the financial risks in order to do so."},
+                    {"text": "It sounds complex, and it is. But it is also an exciting thing to do. Did you know that out of the total world population, over 600 million are entrepreneurs? From every 13 people in the world, 1 owns a business."},
+                    {"text": "It is common to hear about how lucky successful entrepreneurs are, but they are people who make their own luck."},
+                    {"text": "While a lot of points may be different for entrepreneurs, certain things remain common among them. Here are 6 important facts about them:"},
+                    {"text": "1. They are quite persistent. It is impossible to make it to the top without staying with your business long enough. As a business man or woman, you will go through difficult and tough times. But when talking about persistence, no one beats entrepreneurs."},
+                    {"text": "2. Convenience is not in their books. Especially during the beginning of their stories, they give up on all the luxuries they had and invest in their business."},
+                    {"text": "3. Entrepreneurs work long hours. Surveys have revealed that they work between 30 and 60 hours per week, while the majority work between 40 and 59 hours per week."},
+                    {"text": "4. Benefit the society. Most entrepreneurs plan to provide a product or service that satisfies the needs of the public. Even if the economical part is surely important, they also desire to benefit others with what they are providing."},
+                    {"text": "5. Curiosity is crucial. While being in a full-time job may keep your head in clear, systematic guidelines, being an entrepreneur is about keeping asking questions, keep on investigating and creating new products, new services, new ways of doing things."},
+                    {"text": "6. Plan A, B, C, D. While entrepreneurs are persistent, they are also prepared for their businesses not to rise or work right away. They must have other sources of income, at least at the beginning. Dreams are important, but people also need to find a way to make a living while they chase their dreams. Entrepreneurs are prepared for that. If not, most businesses will fail within the first 6 months of existence."},
+                    {"text": "Being an entrepreneur is an interesting challenge and path to take, isn’t it?"}
+                ]
+             },
+             {
+                "title": "Question 43",
+                "audio": null,
+                "question": "Why did the author write this text?",
+                "options": ["To inform about entrepreneurs", "To advocate for entrepreneurs", "To entertain"],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 44",
+                "audio": null,
+                "question": "How does the author support his position?",
+                "options": ["By giving examples of what entrepreneurs have in common.", "By giving economical reasons that support his view.", "By addressing the problems of entrepreneurs."],
+                "optionk": "a",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 45",
+                "audio": null,
+                "question": "What specific point is not mentioned?",
+                "options": ["How entrepreneurs tend to have other sources of income", "How entrepreneurs care about benefit others", "How much it costs to be an entrepreneur"],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 46",
+                "audio": null,
+                "question": "What should be the role of entrepreneurs towards society?",
+                "options": ["They should keep society as the last thing in their priorities.", "They should help society towards creating/ improving a product or providing a service.", "They must invite society to colaborate as users and owners of their businesses."],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 47",
+                "audio": null,
+                "question": "What does the text imply about entrepreneurship?",
+                "options": ["It is complex but, at the same time, everyone can do it.", "It is something most of the population may look for because of its rewards.", "It is complex but people who actually make it, have common traits/ follow certain patterns."],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 48",
+                "audio": null,
+                "question": "How does entrepreneurship impact the world? Select the most complete answer.",
+                "options": ["It makes money travel faster.", "It provides more different choices for the consumer and more freedom (on the long haul) to the entrepreneur.", "It sets a good example."],
+                "optionk": "b",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 49",
+                "audio": null,
+                "question": "What was mentioned in the text, is an important matter regarding the economical part?",
+                "options": ["Entrepreneurs tend to avoid luxuries at all costs when they are starting their businesses.", "Entrepreneurs need investors at the beginning of their businesses.", "People must save a lot of money before trying to start a new business."],
+                "optionk": "a",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            },
+            {
+                "title": "Question 50",
+                "audio": null,
+                "question": "How can people impact positively on new businesses?",
+                "options": ["By trying out their products /services instead of going to bigger companies.", "By recommending new businesses to people they know.", "All of the above."],
+                "optionk": "c",
+                "optionw": "Respuesta incorrecta",
+                "eval": true,
+                "type": "practice",
+                "force_positive": false
+            }
+
+        ]
+    }
+    
+    
+ ]
