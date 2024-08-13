@@ -7,9 +7,9 @@
             
             
             <section class="max-w-[1200px] w-full md:w-/10 mx-auto my-5 text-left my-auto ">
-                <TimerClock />                
-                <template v-for="(item, index) in odajson">
+                <template v-for="(item, index) in oda.odajson">
                     <TrainScene :step="index" v-if="item.block=='scene'" :data="item">
+                        <TimerClock :step="index" />                
                         <BlockRenderer :data="item.content" :step="index" :blockid="index.toString()" />
                     </TrainScene>
                 </template>
@@ -36,7 +36,7 @@
     const oda = useOda()
     oda.getODA()
 
-    const odajson = ref(null)
+    
 
 
     async function getOdaData() {
@@ -47,7 +47,7 @@
             throw new Error(`Response status: ${response.status}`);
             }
             const json = await response.json();
-            odajson.value = json
+            oda.odajson = json
         } catch (error) {
             console.error(error.message);
         }

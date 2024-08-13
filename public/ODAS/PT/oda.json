@@ -3,15 +3,37 @@
         "block": "scene",
         "allokbtn": false,
         "navigation": false,
+        "nocounter": true,
         "content":[
             {
                 "text":"INSTRUCCIONES",
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
              {
-                "text":"Este examen contiene preguntas fáciles, medianas y difíciles."
+                "text":"En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres opciones, también en inglés. Las preguntas o enunciados  y las opciones se dirán solo una vez. Escuche cuidadosamente para poder entender porque no aparece nada escrito en el folleto de examen para estos ejercicios. Seleccione la mejor opción para cada pregunta o enunciado y oscurezca el espacio de la letra correspondiente en la hoja de respuestas."
              },
-             
+             {
+                "text":"EXAMPLE",
+                "class":"mt-5 font-bold text-5 text-gradient"
+            },
+            { "text": "Recuerde que en estos ejercicios no aparece nada escrito en el folleto del examen."},
+            {
+                "class":"border-4 border-solid border-et-orange p-5 rounded-md",
+                "content":[
+                    {
+                        "title": "Example question",
+                        "audio": "a/q0.mp3",
+                        "question": "How are you doing?",
+                        "options": ["I’m fine, thanks.", "I’m Luisa.", "I’m from Guadalajara"],
+                        "optionk": "a",
+                        "optionw": false,
+                        "eval": false,
+                        "type": "listening",
+                        "force_positive": false
+                    }
+                ]
+            },
+            {"text": "Para contestar este ejercicio, es necesario entender que “How are you doing?” se refiere al estado de ánimo, así que la única respuesta aceptable es (A) “I’m fine, thanks” que significa “estoy bien, gracias”."},
             { "buttonnav": "next"}
         ]
     },
@@ -19,19 +41,386 @@
     {
         "block": "scene",
         "allokbtn": false,
-        "navigation": true,
+        "navigation": false,
+        "nocounter": true,
+        "timelimit": 1500,
         "content":[
-            { "title": "Question 1", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
-            { "title": "Question 2", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
-            { "title": "Question 3", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
-            { "title": "Question 4", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
-            { "title": "Question 5", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
-            { "title": "Question 6", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
-            { "title": "Question 7", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
-            { "title": "Question 8", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
-            { "title": "Question 9", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true },
-            { "title": "Question 10", "audio": null, "question": "This is the question...?", "options": ["Correct", "Incorrect"], "optionk": "a", "optionw": "", "type": "practice", "force_positive": false, "eval": true }
-            
+            {
+                "title": "Question 1",
+                "audio": "a/q1.mp3",
+                "question": "What day is today?",
+                "options": [
+                    "Monday",
+                    "Breakfast",
+                    "Shoe"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Easy"
+            },
+            {
+                "title": "Question 2",
+                "audio": "a/q2.mp3",
+                "question": "What’s your brother’s name?",
+                "options": [
+                    "Banana",
+                    "Apple",
+                    "John"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Easy"
+            },
+            {
+                "title": "Question 3",
+                "audio": "a/q3.mp3",
+                "question": "Where can you buy groceries?",
+                "options": [
+                    "At the library",
+                    "At the dentist",
+                    "At the supermarket"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Easy"
+            },
+            {
+                "title": "Question 4",
+                "audio": "a/q4.mp3",
+                "question": "How old is your brother?",
+                "options": [
+                    "His name is Daniel.",
+                    "He’s fourteen.",
+                    "He’s sad."
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Medium"
+            },
+            {
+                "title": "Question 5",
+                "audio": "a/q5.mp3",
+                "question": "Where is your backpack?",
+                "options": [
+                    "Telephone.",
+                    "In my room.",
+                    "Pasta."
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Easy"
+            },
+            {
+                "title": "Question 6",
+                "audio": "a/q6.mp3",
+                "question": "Where did you go yesterday?",
+                "options": [
+                    "I went to the movies.",
+                    "I’ll go to the movies.",
+                    "I can’t go out."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Medium"
+            },
+            {
+                "title": "Question 7",
+                "audio": "a/q7.mp3",
+                "question": "Do you like Italian food?",
+                "options": [
+                    "Yes, I love it.",
+                    "Chinese food.",
+                    "Delicious!"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Easy"
+            },
+            {
+                "title": "Question 8",
+                "audio": "a/q8.mp3",
+                "question": "Where do you eat dinner?",
+                "options": [
+                    "Homework.",
+                    "In the kitchen.",
+                    "Opportunity."
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Easy"
+            },
+            {
+                "title": "Question 9",
+                "audio": "a/q9.mp3",
+                "question": "Where do you watch TV?",
+                "options": [
+                    "I have a dog.",
+                    "I study at home.",
+                    "In the living room."
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Easy"
+            },
+            {
+                "title": "Question 10",
+                "audio": "a/q10.mp3",
+                "question": "What time do you usually study?",
+                "options": [
+                    "I study from 5 to 7.",
+                    "My friends.",
+                    "A cat and a dog."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Easy"
+            },
+            {
+                "title": "Question 11",
+                "audio": "a/q11.mp3",
+                "question": "Who do you usually study with?",
+                "options": [
+                    "I study Mondays and Thursdays.",
+                    "I usually study at 6:00 pm",
+                    "I usually study with my best friend."
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Medium"
+            },
+            {
+                "title": "Question 12",
+                "audio": "a/q12.mp3",
+                "question": "What do you do after school?",
+                "options": [
+                    "I have lunch.",
+                    "I say hello to my teacher.",
+                    "I should do my homework."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Medium"
+            },
+            {
+                "title": "Question 13",
+                "audio": "a/q13.mp3",
+                "question": "What’s your favorite class?",
+                "options": [
+                    "I love history.",
+                    "I took Science.",
+                    "I hate spelling."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Medium"
+            },
+            {
+                "title": "Question 14",
+                "audio": "a/q14.mp3",
+                "question": "What 's Mary' s favorite food?",
+                "options": [
+                    "She loves chicken soup.",
+                    "She doesn’t like fries.",
+                    "She had a sandwich."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Medium"
+            },
+            {
+                "title": "Question 15",
+                "audio": "a/q15.mp3",
+                "question": "What did you have for breakfast?",
+                "options": [
+                    "I study.",
+                    "A car",
+                    "I had pancakes."
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Easy"
+            },
+            {
+                "title": "Question 16",
+                "audio": "a/q16.mp3",
+                "question": "Where did you go on vacation?",
+                "options": [
+                    "Television",
+                    "Hawaii",
+                    "My books."
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Easy"
+            },
+            {
+                "title": "Question 17",
+                "audio": "a/q17.mp3",
+                "question": "What should I do to get a scholarship at college?",
+                "options": [
+                    "You should see a doctor.",
+                    "You should go to the movies.",
+                    "You should study a lot."
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Medium"
+            },
+            {
+                "title": "Question 18",
+                "audio": "a/q18.mp3",
+                "question": "My brother is broke.",
+                "options": [
+                    "He should get a job.",
+                    "He should read a book.",
+                    "He should have fun."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Medium"
+            },
+            {
+                "title": "Question 19",
+                "audio": "a/q19.mp3",
+                "question": "What are you having for dessert?",
+                "options": [
+                    "A burger",
+                    "Ice cream",
+                    "Meatballs"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Medium"
+            },
+            {
+                "title": "Question 20",
+                "audio": "a/q20.mp3",
+                "question": "What’s your favorite music?",
+                "options": [
+                    "Pop",
+                    "Action",
+                    "Mystery."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Easy"
+            },
+            {
+                "title": "Question 21",
+                "audio": "a/q21.mp3",
+                "question": "What time do you go to bed?",
+                "options": [
+                    "A cat",
+                    "Fine, thanks.",
+                    "Nine pm"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Easy"
+            },
+            {
+                "title": "Question 22",
+                "audio": "a/q22.mp3",
+                "question": "Can you swim?",
+                "options": [
+                    "I love swimming.",
+                    "Sure!",
+                    "I swim twice a week."
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Medium"
+            },
+            {
+                "title": "Question 23",
+                "audio": "a/q23.mp3",
+                "question": "What are you taking to your art’s class?",
+                "options": [
+                    "Watercolors and brushes.",
+                    "I’m taking an aspirin.",
+                    "I want to take a break."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Medium"
+            },
+            {
+                "title": "Question 24",
+                "audio": "a/q24.mp3",
+                "question": "Is Lorelai going to the movies?",
+                "options": [
+                    "Yes, she is.",
+                    "Lorelai loves watching movies.",
+                    "Lorelai’s favorite movie is the notebook."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Medium"
+            },
+            {
+                "title": "Question 25",
+                "audio": "a/q25.mp3",
+                "question": "Did you make our hotel reservation?",
+                "options": [
+                    "Yes, I did.",
+                    "We must make our hotel reservation.",
+                    "Hotels have nice rooms."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "listening",
+                "difficult": "Medium"
+            },
+            { "buttonnav": "next"}
         ]
     }
     

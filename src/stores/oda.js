@@ -12,15 +12,23 @@ export const useOda = defineStore('oda', () => {
     const info = ref(null)
     const id = ref(null)
     const step = ref(0)
+    
+    
     const time = ref(0)
+    const timers = ref({})
+
+
     const data = ref({})
     const stepcount = ref(0)
+
 
     const postmessagedata = ref(null)
     const audiops = ref({})
     const isplaying = ref({})
 
     const CEFRLevel = ref(null)
+
+    const odajson = ref(null)
 
 
     const timerinvertval = ref()
@@ -54,6 +62,12 @@ export const useOda = defineStore('oda', () => {
         const seconds = time.value % 60
         return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`
     })
+
+    const timeFormat = (time) => {
+    const minutes = Math.floor(time / 60)
+        const seconds = time % 60
+        return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`
+    }
 
 
     // EXPORT IMPORT CONVERTIONS 
@@ -176,6 +190,9 @@ export const useOda = defineStore('oda', () => {
         sendPMessage,
         convertObjectToArray,
         postmessagedata,
-        CEFRLevel
+        CEFRLevel,
+        odajson,
+        timeFormat,
+        timers
     }
 })

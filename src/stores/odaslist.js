@@ -2,7 +2,7 @@ var list = {
   "U1L1": {
     "unit": 1,
     "lesson": 1,
-    "name": "unit 1 Lesson 1",
+    "name": "Unit 1 Lesson 1",
     "theme": "Practice & Explanation",
     "difficulty": "Easy",
     "unitTheme": "Listening Comprehension",
@@ -11,7 +11,7 @@ var list = {
   "U1L2": {
     "unit": 1,
     "lesson": 2,
-    "name": "unit 1 Lesson 2",
+    "name": "Unit 1 Lesson 2",
     "theme": "Practice & Explanation",
     "difficulty": "Medium",
     "unitTheme": "Listening Comprehension",
@@ -20,7 +20,7 @@ var list = {
   "U1L3": {
     "unit": 1,
     "lesson": 3,
-    "name": "unit 1 Lesson 3",
+    "name": "Unit 1 Lesson 3",
     "theme": "Practice & Explanation",
     "difficulty": "Difficult",
     "unitTheme": "Listening Comprehension",
@@ -29,7 +29,7 @@ var list = {
   "U1A": {
     "unit": 1,
     "lesson": null,
-    "name": "unit 1 Assessment",
+    "name": "Unit 1 Assessment",
     "theme": "Listening Exam",
     "difficulty": "",
     "unitTheme": "Listening Comprehension",
@@ -38,7 +38,7 @@ var list = {
   "U2L1": {
     "unit": 2,
     "lesson": 1,
-    "name": "unit 2 Lesson 1",
+    "name": "Unit 2 Lesson 1",
     "theme": "Practice & Explanation",
     "difficulty": "Easy",
     "unitTheme": "Language Use",
@@ -47,7 +47,7 @@ var list = {
   "U2L2": {
     "unit": 2,
     "lesson": 2,
-    "name": "unit 2 Lesson 2",
+    "name": "Unit 2 Lesson 2",
     "theme": "Practice & Explanation",
     "difficulty": "Medium",
     "unitTheme": "Language Use",
@@ -56,7 +56,7 @@ var list = {
   "U2L3": {
     "unit": 2,
     "lesson": 3,
-    "name": "unit 2 Lesson 3",
+    "name": "Unit 2 Lesson 3",
     "theme": "Practice & Explanation",
     "difficulty": "Difficult",
     "unitTheme": "Language Use",
@@ -65,7 +65,7 @@ var list = {
   "U2A": {
     "unit": 2,
     "lesson": null,
-    "name": "unit 2 Assessment",
+    "name": "Unit 2 Assessment",
     "theme": "Language use Exam",
     "difficulty": "",
     "unitTheme": "Language Use",
@@ -74,7 +74,7 @@ var list = {
   "U3L1": {
     "unit": 3,
     "lesson": 1,
-    "name": "unit 3 Lesson 1",
+    "name": "Unit 3 Lesson 1",
     "theme": "Practice & Explanation",
     "difficulty": "Easy",
     "unitTheme": "Reading Comprehension & Vocabulary",
@@ -83,7 +83,7 @@ var list = {
   "U3L2": {
     "unit": 3,
     "lesson": 2,
-    "name": "unit 3 Lesson 2",
+    "name": "Unit 3 Lesson 2",
     "theme": "Practice & Explanation",
     "difficulty": "Medium",
     "unitTheme": "Reading Comprehension & Vocabulary",
@@ -92,7 +92,7 @@ var list = {
   "U3L3": {
     "unit": 3,
     "lesson": 3,
-    "name": "unit 3 Lesson 3",
+    "name": "Unit 3 Lesson 3",
     "theme": "Practice & Explanation",
     "difficulty": "Difficult",
     "unitTheme": "Reading Comprehension & Vocabulary",
@@ -101,7 +101,7 @@ var list = {
   "U3A": {
     "unit": 3,
     "lesson": null,
-    "name": "unit 3 Assessment",
+    "name": "Unit 3 Assessment",
     "theme": "Reading Exam",
     "difficulty": "",
     "unitTheme": "Reading Comprehension & Vocabulary",
@@ -113,6 +113,7 @@ var list = {
     "name": "Practice Test",
     "theme": "",
     "difficulty": "",
+    "unitTheme": "",
     "evaluation": true
   }
 }
