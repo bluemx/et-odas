@@ -9,7 +9,7 @@
 </div>
 
 <!-- TIMELIMIT -->
-<div v-if="oda.odajson[oda.step]?.timelimit" class="fixed top-0 w-full left-0">
+<div v-if="oda.odajson[oda.step]?.timelimit" class="fixed top-0 w-full left-0 z-50">
     <div class="bg-et-pink w-fit py-2 font-bold text-white text-xl mx-auto rounded-b transition-all duration-300" :class="timeprogress==0?'pt-20':''">
         <div class="px-10  flex gap-2 justify-center items-center ">
             <div class="i-mynaui-clock-octagon"></div>

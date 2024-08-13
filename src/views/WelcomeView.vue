@@ -13,11 +13,11 @@
                 </div>
                 <div class="flex gap-2  justify-between bg-slate-300/20 p-2 rounded items-center">
                 <div class="font-bold text-5 text-carrot">Uso de lengua y redacción indirecta</div>
-                <div class="font-bold text-4 bg-et-silver text-white rounded min-w-30 text-center">40 minutos</div>
+                <div class="font-bold text-4 bg-et-silver text-white rounded min-w-30 text-center">30 minutos</div>
                 </div>
                 <div class="flex gap-2  justify-between bg-slate-400/20 p-2 rounded items-center">
                     <div class="font-bold text-5 text-orange">Comprensión de lectura y vocabulario</div>
-                    <div class="font-bold text-4 bg-et-silver text-white rounded min-w-30 text-center">25 minutos</div>
+                    <div class="font-bold text-4 bg-et-silver text-white rounded min-w-30 text-center">45 minutos</div>
                 </div>
             </div>
         </div>

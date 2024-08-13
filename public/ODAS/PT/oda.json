@@ -58,7 +58,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Easy"
+                "difficulty": "Easy"
             },
             {
                 "title": "Question 2",
@@ -73,7 +73,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Easy"
+                "difficulty": "Easy"
             },
             {
                 "title": "Question 3",
@@ -88,7 +88,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Easy"
+                "difficulty": "Easy"
             },
             {
                 "title": "Question 4",
@@ -103,7 +103,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Medium"
+                "difficulty": "Medium"
             },
             {
                 "title": "Question 5",
@@ -118,7 +118,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Easy"
+                "difficulty": "Easy"
             },
             {
                 "title": "Question 6",
@@ -133,7 +133,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Medium"
+                "difficulty": "Medium"
             },
             {
                 "title": "Question 7",
@@ -148,7 +148,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Easy"
+                "difficulty": "Easy"
             },
             {
                 "title": "Question 8",
@@ -163,7 +163,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Easy"
+                "difficulty": "Easy"
             },
             {
                 "title": "Question 9",
@@ -178,7 +178,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Easy"
+                "difficulty": "Easy"
             },
             {
                 "title": "Question 10",
@@ -193,7 +193,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Easy"
+                "difficulty": "Easy"
             },
             {
                 "title": "Question 11",
@@ -208,7 +208,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Medium"
+                "difficulty": "Medium"
             },
             {
                 "title": "Question 12",
@@ -223,7 +223,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Medium"
+                "difficulty": "Medium"
             },
             {
                 "title": "Question 13",
@@ -238,7 +238,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Medium"
+                "difficulty": "Medium"
             },
             {
                 "title": "Question 14",
@@ -253,7 +253,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Medium"
+                "difficulty": "Medium"
             },
             {
                 "title": "Question 15",
@@ -268,7 +268,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Easy"
+                "difficulty": "Easy"
             },
             {
                 "title": "Question 16",
@@ -283,7 +283,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Easy"
+                "difficulty": "Easy"
             },
             {
                 "title": "Question 17",
@@ -298,7 +298,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Medium"
+                "difficulty": "Medium"
             },
             {
                 "title": "Question 18",
@@ -313,7 +313,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Medium"
+                "difficulty": "Medium"
             },
             {
                 "title": "Question 19",
@@ -328,7 +328,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Medium"
+                "difficulty": "Medium"
             },
             {
                 "title": "Question 20",
@@ -343,7 +343,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Easy"
+                "difficulty": "Easy"
             },
             {
                 "title": "Question 21",
@@ -358,7 +358,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Easy"
+                "difficulty": "Easy"
             },
             {
                 "title": "Question 22",
@@ -373,7 +373,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Medium"
+                "difficulty": "Medium"
             },
             {
                 "title": "Question 23",
@@ -388,7 +388,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Medium"
+                "difficulty": "Medium"
             },
             {
                 "title": "Question 24",
@@ -403,7 +403,7 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Medium"
+                "difficulty": "Medium"
             },
             {
                 "title": "Question 25",
@@ -418,8 +418,451 @@
                 "optionw": false,
                 "eval": true,
                 "type": "listening",
-                "difficult": "Medium"
+                "difficulty": "Medium"
             },
+            {
+                "text":"Comprensión auditiva.",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {
+                "text":"Las conversaciones y parlamentos no están impresos en su folleto de examen. Usted los oirá solo una vez; por lo tanto, escuche cuidadosamente para entenderlos. Las preguntas o enunciados breves y las posibles respuestas para las conversaciones y parlamentos breves aparecen impresos en su folleto del examen, después de escuchar cada conversación o parlamento, seleccione la mejor respuesta para cada ejercicio y oscurezca el espacio de la letra correspondiente en la hoja de respuestas."
+             },
+            
+            {
+                "title": "Question 26",
+                "audio": "a/q26.mp3",
+                "question": "Where would you hear this?",
+                "options": [
+                    "In a hotel.",
+                    "In a theater.",
+                    "At the airport.",
+                    "In a TV show."
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 27",
+                "audio": "a/q27.mp3",
+                "question": "What does the man mean?",
+                "options": [
+                    "He is happy he is in detention.",
+                    "He doesn’t care that he was noisy.",
+                    "He was noisy on purpose because he wanted to get back at Josh.",
+                    "He likes the idea of Josh being in detention."
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 28",
+                "audio": "a/q28.mp3",
+                "question": "What will the lady probably do?",
+                "options": [
+                    "She wants help to do the dishes",
+                    "He doesn’t want to help her.",
+                    "He is asking for help to do the dishes.",
+                    "She will help the man wash the dishes."
+                ],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 29",
+                "audio": "a/q29.mp3",
+                "question": "Where would you hear this?",
+                "options": [
+                    "On a cruise ship",
+                    "On a bus",
+                    "On the plane",
+                    "On a train"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 30",
+                "audio": "a/q30.mp3",
+                "question": "This announcement would be heard in a",
+                "options": [
+                    "Museum of natural history",
+                    "TV show",
+                    "Museum of Space",
+                    "Aquarium"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 31",
+                "audio": "a/q31.mp3",
+                "question": "What does the man mean?",
+                "options": [
+                    "He told the lady not to ask any questions.",
+                    "He wants the lady to get a job ASAP.",
+                    "He is suggesting she clears all doubts before making a decision.",
+                    "He is pushing her to make a decision based on what she already knows."
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 32",
+                "audio": "a/q32.mp3",
+                "question": "What does the man mean?",
+                "options": [
+                    "He wants to take Spanish lessons.",
+                    "He took Spanish classes too.",
+                    "When you use a language you have better results.",
+                    "He wants to live in Ecuador."
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 33",
+                "audio": "a/q33.mp3",
+                "question": "Where would you hear this?",
+                "options": [
+                    "At the cafeteria",
+                    "At a soccer game",
+                    "At school",
+                    "At the airport"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 34",
+                "audio": "a/q34.mp3",
+                "question": "What’s the boy talking about?",
+                "options": [
+                    "Making friends in another country",
+                    "He was alone.",
+                    "He didn’t know his way around school.",
+                    "He loves talking to people."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 35",
+                "audio": "a/q35.mp3",
+                "question": "What does the woman want for Mother’s day?",
+                "options": [
+                    "A dress",
+                    "A perfume",
+                    "She doesn’t know",
+                    "A necklace"
+                ],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 36",
+                "audio": "a/q36.mp3",
+                "question": "What does the man need?",
+                "options": [
+                    "A dictionary.",
+                    "A map",
+                    "A map and a dictionary.",
+                    "He doesn’t know."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 37",
+                "audio": "a/q37.mp3",
+                "question": "What does the woman imply?",
+                "options": [
+                    "She was with a different man.",
+                    "Her husband was not at home.",
+                    "Her husband’s behavior was abnormal.",
+                    "He was the man she married."
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 38",
+                "audio": "a/q38.mp3",
+                "question": "How many times a week do you play tennis?",
+                "options": [
+                    "I love tennis.",
+                    "Tennis is my favorite sport.",
+                    "Twice a week.",
+                    "Monday, Tuesday and Friday."
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 39",
+                "audio": "a/q39.mp3",
+                "question": "How many apples are they buying?",
+                "options": [
+                    "Three",
+                    "Eight",
+                    "Four",
+                    "They are not taking any apples."
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 40",
+                "audio": "a/q40.mp3",
+                "question": "Who would say this?",
+                "options": [
+                    "A tour guide",
+                    "A teacher",
+                    "A travel agent",
+                    "A sailor"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 41",
+                "audio": "a/q41.mp3",
+                "question": "The person who is being interviewed is:",
+                "options": [
+                    "A teacher",
+                    "A psychologist",
+                    "An actor",
+                    "A writer"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 42",
+                "audio": "a/q42.mp3",
+                "question": "Where would you hear this?",
+                "options": [
+                    "At the zoo",
+                    "At the library",
+                    "At the aquarium",
+                    "At the park"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 43",
+                "audio": "a/q43.mp3",
+                "question": "Who would say this?",
+                "options": [
+                    "A dentist",
+                    "A doctor",
+                    "A teacher",
+                    "A biologist"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 44",
+                "audio": "a/q44.mp3",
+                "question": "Where would you hear this?",
+                "options": [
+                    "At school",
+                    "At the library",
+                    "At the gym",
+                    "At the supermarket."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 45",
+                "audio": "a/q45.mp3",
+                "question": "What is the girl doing for summer break?",
+                "options": [
+                    "She is going to go to the beach, visit her family and take a class.",
+                    "She is going to go to the beach and read a book.",
+                    "She is going to go to the beach, visit her family, take a class and read a book.",
+                    "She is going to take a class."
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 46",
+                "audio": "a/q46.mp3",
+                "question": "Where would you hear this?",
+                "options": [
+                    "At the dentist office.",
+                    "At the hospital.",
+                    "At school.",
+                    "At the lab."
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 47",
+                "audio": "a/q47.mp3",
+                "question": "What does the woman do for a living?",
+                "options": [
+                    "She is a model.",
+                    "She is an artist.",
+                    "She is a reporter.",
+                    "She is a fashion critic."
+                ],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 48",
+                "audio": "a/q48.mp3",
+                "question": "What does the woman mean?",
+                "options": [
+                    "She was not entirely happy with the ballerina’s performance because of their punctuality.",
+                    "She liked the audience to be happy.",
+                    "She wanted to talk to the audience and apologize.",
+                    "She knows her ballerinas are great."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 49",
+                "audio": "a/q49.mp3",
+                "question": "Where would you hear this?",
+                "options": [
+                    "At a funeral",
+                    "At a farewell party.",
+                    "At a graduation party.",
+                    "At a family reunion."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 50",
+                "audio": "a/q50.mp3",
+                "question": "Who would share this piece of information?",
+                "options": [
+                    "The secretary",
+                    "The teacher",
+                    "The Head of Human Resources.",
+                    "An actress."
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+
+                "difficulty": "Medium"
+            },
+            { "buttonnav": "next"}
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": false,
+        "nocounter": true,
+        "timelimit": 2400,
+        "content":[
+            
             { "buttonnav": "next"}
         ]
     }

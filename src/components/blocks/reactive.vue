@@ -1,6 +1,10 @@
 <template>
     <div class="flex flex-col justify-center gap-10 my-2 relative p-2 min-h-[300px] reactive">
+        
         <div v-if="data.title" class="font-bold text-6 text-et-silver">{{ data.title }}</div>
+        <div v-if="data.lecture" v-html="data.lecture" class="bg-slate-200 text-lg p-4 rounded mt-2 mb-1"></div>
+
+
         <!--audio-->
         <template v-if="data.audio">
             <audioplayer :file="data.audio" :blockid="blockid+'-reactive'"></audioplayer>
