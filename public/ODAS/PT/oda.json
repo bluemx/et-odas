@@ -6,7 +6,7 @@
         "nocounter": true,
         "content":[
             {
-                "text":"INSTRUCCIONES",
+                "text":"COMPRENSIÓN AUDITIVA",
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
              {
@@ -441,7 +441,7 @@
                 "optionk": "B",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Medium"
             },
@@ -458,7 +458,7 @@
                 "optionk": "C",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Difficult"
             },
@@ -475,7 +475,7 @@
                 "optionk": "D",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Medium"
             },
@@ -492,7 +492,7 @@
                 "optionk": "A",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Medium"
             },
@@ -509,7 +509,7 @@
                 "optionk": "A",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Difficult"
             },
@@ -526,7 +526,7 @@
                 "optionk": "C",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Difficult"
             },
@@ -543,7 +543,7 @@
                 "optionk": "C",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Difficult"
             },
@@ -560,7 +560,7 @@
                 "optionk": "C",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Medium"
             },
@@ -577,7 +577,7 @@
                 "optionk": "A",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Medium"
             },
@@ -594,7 +594,7 @@
                 "optionk": "D",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Medium"
             },
@@ -611,7 +611,7 @@
                 "optionk": "A",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Medium"
             },
@@ -628,7 +628,7 @@
                 "optionk": "C",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Difficult"
             },
@@ -645,7 +645,7 @@
                 "optionk": "C",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
                 "difficulty": "Medium"
             },
             {
@@ -661,7 +661,7 @@
                 "optionk": "B",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Medium"
             },
@@ -678,7 +678,7 @@
                 "optionk": "C",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Difficult"
             },
@@ -695,7 +695,7 @@
                 "optionk": "B",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Difficult"
             },
@@ -712,7 +712,7 @@
                 "optionk": "C",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Medium"
             },
@@ -729,7 +729,7 @@
                 "optionk": "B",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Difficult"
             },
@@ -746,7 +746,7 @@
                 "optionk": "A",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Difficult"
             },
@@ -763,7 +763,7 @@
                 "optionk": "C",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Difficult"
             },
@@ -780,7 +780,7 @@
                 "optionk": "B",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Medium"
             },
@@ -797,7 +797,7 @@
                 "optionk": "D",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Difficult"
             },
@@ -814,7 +814,7 @@
                 "optionk": "A",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Medium"
             },
@@ -831,7 +831,7 @@
                 "optionk": "A",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Difficult"
             },
@@ -848,7 +848,7 @@
                 "optionk": "C",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",
+                "type": "listening+text",
 
                 "difficulty": "Medium"
             },
@@ -860,8 +860,1662 @@
         "allokbtn": false,
         "navigation": false,
         "nocounter": true,
+        "content":[
+            {
+                "text":"USO DE LA LENGUA Y REDACCIÓN INDIRECTA",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {
+                "text":"En los siguientes ejercicios se presentan ejercicios y enunciados que están incompletos. Seleccione la opción que mejor responda a la pregunta o complete el enunciado y oscurezca el espacio de la letra correspondiente en la hoja de respuestas."
+             },
+             {
+                "text":"EXAMPLE",
+                "class":"mt-5 font-bold text-5 text-gradient"
+            },
+            { "text": "Recuerde que en estos ejercicios no aparece nada escrito en el folleto del examen."},
+            {
+                "class":"border-4 border-solid border-et-orange p-5 rounded-md",
+                "content":[
+                    {
+                        "title": "Example question",
+                        "audio": false,
+                        "question": "________ books over there are the ones I need in order to finish my homework.",
+                        "options": ["This", "That", "These", "Those"],
+                        "optionk": "d",
+                        "optionw": false,
+                        "eval": false,
+                        "type": "practice",
+                        "difficulty": "Easy", 
+                        "force_positive": false
+                    }
+                ]
+            },
+            {"text": "Para contestar este ejercicio es necesario determinar si el sujeto es singular o plural. En este caso, es “plural”, lo cual elimina las posibilidades  (A) y (B) que son singulares. Luego debemos determinar si los libros están cerca o lejos. Si hablamos de que los libros están “over there” significa que están lejos, así que la única respuesta correcta es “those”."},
+            { "buttonnav": "next"}
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": false,
+        "nocounter": true,
+        "timelimit": 1800,
+        "content":[
+            {
+                "title": "Question 1",
+                "audio": false,
+                "question": "Louis _______ have a blue_______.",
+                "options": [
+                    "don’t – car",
+                    "doesn’t – car",
+                    "has -cars",
+                    "hasn’t - cars"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 2",
+                "audio": false,
+                "question": "______ you like the tour?",
+                "options": [
+                    "Has – do",
+                    "Did -was",
+                    "How – was",
+                    "Did - is"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 3",
+                "audio": false,
+                "question": "The purse is ______ the car. Just right there, in the passenger’s seat.",
+                "options": [
+                    "On",
+                    "At",
+                    "In",
+                    "Under"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Easy"
+            },
+            {
+                "title": "Question 4",
+                "audio": false,
+                "question": "How _______ rocks are there in your collection?",
+                "options": [
+                    "Many",
+                    "Much",
+                    "Long",
+                    "Days"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Easy"
+            },
+            {
+                "title": "Question 5",
+                "audio": false,
+                "question": "This ______ my backpack.",
+                "options": [
+                    "Are",
+                    "Will",
+                    "Be",
+                    "Is"
+                ],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Easy"
+            },
+            {
+                "title": "Question 6",
+                "audio": false,
+                "question": "Mike _____ reading by _______.",
+                "options": [
+                    "Were – himself",
+                    "Was – himself",
+                    "Was – herself",
+                    "Were - herself"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 7",
+                "audio": false,
+                "question": "Harvey ______he ______going to win the case.",
+                "options": [
+                    "Knew – wasn’t",
+                    "Know – wasn’t",
+                    "Knew – were",
+                    "Knows – weren’t"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 8",
+                "audio": false,
+                "question": "Rachel_____my best friend in the whole wide world.",
+                "options": [
+                    "Are",
+                    "Is",
+                    "Have",
+                    "Were"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Easy"
+            },
+
+            {
+                "text":"Instrucciones",
+                "class":"instrucciones font-bold text-5 text-gradient mt-10"
+            },
+            
+            { "text": "En los siguientes ejercicios se presenta un párrafo con algunas oraciones en las que se han omitido algunas palabras. Después de leerlo, seleccione la opción que mejor complete la oración. Oscurezca el espacio de la letra correspondiente en la hoja de respuestas."},
+
+            {"text": "Los ejercicios 9-16 se basan en el siguiente párrafo. La primera oración pertenece al ejemplo."},
+            {
+                "class":"text-xl bg-slate-200 rounded p-4",
+                "text": "The security guard (0) ______through the night shift. That (9) ______not really a big problem (10) ______ the early morning (11)________. Jessica wanted to leave the building (12) ______ she couldn’t. The guard was not opening the gate for her and she was (13) ______ running late for her class. She tried to (14) ______ him but he (15) ______ pick up. So Jessica arrived to her morning class late. This (16) ______ if he would have been more responsible. Poor Jessica!"},
+            {
+                "text":"Ejemplo",
+                "class":"instrucciones font-bold text-5 text-gradient mt-10"
+            },
+            {
+                "class":"border-4 border-solid border-et-orange p-5 rounded-md",
+                "content":[
+                    {
+                        "title": "Example question",
+                        "audio": false,
+                        "question": "The security guard (0) ______through the night shift.",
+                        "options": ["Were sleeping ", "Sleep", "Slept", "Sleeping"],
+                        "optionk": "c",
+                        "optionw": false,
+                        "eval": false,
+                        "type": "practice",
+                        "difficulty": "Easy", 
+                        "force_positive": false
+                    }
+                ]
+            },
+            {"text": "En este caso, estamos hablando de un relato en el pasado, por lo cual, nuestra respuesta forzosamente debe ser en pasado. Ahora, cuando el sujeto es segunda persona del singular, la declinación del verbo debe ser “was” o, por lo que nuestra única respuesta aceptable es el verbo en pasado simple, es decir la opción (C), slept."},
+            {
+                "title": "Question 9",
+                "audio": false,
+                "question": false,
+                "options": [
+                    "were",
+                    "was",
+                    "happening",
+                    "go"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Easy"
+            },
+            {
+                "title": "Question 10",
+                "audio": false,
+                "question": false,
+                "options": [
+                    "when",
+                    "as if",
+                    "until",
+                    "while"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 11",
+                "audio": false,
+                "question": false,
+                "options": [
+                    "come",
+                    "came",
+                    "coming",
+                    "were coming"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Easy"
+            },
+            {
+                "title": "Question 12",
+                "audio": false,
+                "question": false,
+                "options": [
+                    "who",
+                    "which",
+                    "or",
+                    "but"
+                ],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 13",
+                "audio": false,
+                "question": false,
+                "options": [
+                    "already",
+                    "never",
+                    "seldom",
+                    "generally"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 14",
+                "audio": false,
+                "question": false,
+                "options": [
+                    "like call",
+                    "call",
+                    "called",
+                    "calling"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Easy"
+            },
+            {
+                "title": "Question 15",
+                "audio": false,
+                "question": false,
+                "options": [
+                    "wouldn’t",
+                    "wasn’t",
+                    "were",
+                    "used to"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 16",
+                "audio": false,
+                "question": false,
+                "options": [
+                    "wouldn’t has happened",
+                    "happened",
+                    "wouldn’t had happened",
+                    "didn’t happen"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": false,
+                "difficulty": "Difficult"
+            },
+            {
+                "text":"Instrucciones",
+                "class":"instrucciones font-bold text-5 text-gradient mt-10"
+            },
+            
+            { "text": "En los siguientes ejercicios, seleccione la opción que presenta la mejor forma de combinar las palabras, frases u oraciones de forma tal que se conserve el significado original. Oscurezca el espacio de la letra correspondiente en la hoja de respuestas."},
+
+            {
+                "class":"text-xl bg-slate-200 rounded p-4",
+                "text": "The security guard (0) ______through the night shift. That (9) ______not really a big problem (10) ______ the early morning (11)________. Jessica wanted to leave the building (12) ______ she couldn’t. The guard was not opening the gate for her and she was (13) ______ running late for her class. She tried to (14) ______ him but he (15) ______ pick up. So Jessica arrived to her morning class late. This (16) ______ if he would have been more responsible. Poor Jessica!"},
+            {
+                "text":"Ejemplo",
+                "class":"instrucciones font-bold text-5 text-gradient mt-10"
+            },
+            {
+                "class":"border-4 border-solid border-et-orange p-5 rounded-md",
+                "content":[
+                    {
+                        "title": "Example question",
+                        "audio": false,
+                        "lecture": "The man got tired.<br>The man is old.<br>It happened last year.<br>The man can’t stop sleeping.",
+                        "question": false,
+                        "options": ["The old man got tired last year and can’t stop sleeping anymore.", "The old man got tired last year.", "Last year the man old can’t stop sleeping and he’s tired.", "The man was old and can’t stop sleeping."],
+                        "optionk": "A",
+                        "optionw": false,
+                        "eval": false,
+                        "type": "practice",
+                        "difficulty": "Easy", 
+                        "force_positive": false
+                    }
+                ]
+            },
+            {"text": "La oración (B) es correcta pero incompleta, ya que le falta información, al igual que la (D), que no tiene la información de cuándo fue que el hombre se comenzó a sentir cansado. Las palabras en la alternativa (C) no están en orden. Solamente la alternativa (A) combina las oraciones con toda la información en el orden correcto."},
+
+            {
+                "title": "Question 17",
+                "audio": false,
+                "question": "Choose the alternative that is closest in meaning to the following sentences.",
+                "options": [
+                    "Melina got in the Summer her trophee and wants to be a pro.",
+                    "Melina got her ice skating trophee in the Summer and wants to become a professional.",
+                    "Melina wants to be a professional. In Summer she got her ice skating trophee.",
+                    "Melina got her ice skating trophee in Summer."
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": "Melina got her ice skating trophee.<br>She got her ice skating trophee in the Summer.<br>She wants to become a professional.",
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 18",
+                "audio": false,
+                "question": "Choose the alternative that is closest in meaning to the following sentences.",
+                "options": [
+                    "Grandma and Grandpa go to the park and play chess.",
+                    "They go to the park Grandma and Grandpa to play chess and they are my favorite.",
+                    "My favorite people, Grandma and Grandpa, go to the park to play chess.",
+                    "I have favorite grandparents who go to the park to play chess."
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": "Grandma and Grandpa are smart.<br>They are my favorite people.<br>They go to the park.<br>Grandma and Grandpa play chess.",
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 19",
+                "audio": false,
+                "question": "Choose the alternative that is closest in meaning to the following sentences.",
+                "options": [
+                    "The slippery frogs are swimming in the pond.",
+                    "The frogs are swimming in the pond and slippery.",
+                    "The frogs are slippery and swim.",
+                    "They are swimming in the pond and they slip."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": "The frogs are in the pond.<br>The frogs are swimming.<br>The frogs are slippery.",
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 20",
+                "audio": false,
+                "question": "Choose the alternative that is closest in meaning to the following sentences.",
+                "options": [
+                    "Carmen wants to try a different career, and she works from Monday to Saturday. Is an accountant.",
+                    "Carmen is an accountant who works from Monday to Saturday and wants to try a different career.",
+                    "Carmen, an accountant who likes her career, works from Monday to Saturday and wants to try a different career.",
+                    "Carmen wants to be an accountant and she likes her career."
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": "Carmen is an accountant.<br>Carmen works from Monday to Saturday.<br>Carmen likes her career.<br>Carmen wants to try a different career.",
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 21",
+                "audio": false,
+                "question": "Choose the alternative that is closest in meaning to the following sentences.",
+                "options": [
+                    "Helen desires to travel to Turkey, but her doctor advised against it since she will have an important surgery a week from now.",
+                    "Helen doesn’t have permission to go to Turkey because she has an important surgery.",
+                    "Helen desires to go to Turkey but she has surgery in a week.",
+                    "Helen has an important surgery tomorrow because she can’t travel to Turkey."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": "Helen desires to travel to Turkey.<br>Her doctor advised against it.<br>She has an important surgery in a week.",
+                "difficulty": "Difficult"
+            },
+            {
+                "title": "Question 22",
+                "audio": false,
+                "question": "Choose the alternative that is closest in meaning to the following sentences.",
+                "options": [
+                    "My coaches are proud of me and they want to teach me some new moves.",
+                    "My coaches saw me in class and are so proud of me that they would like to teach me new, more complex moves.",
+                    "My coaches want to teach me new moves since they are proud of me.",
+                    "My coaches and I are having a class together because they are proud of me."
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": "My coaches saw me in class.<br>My coaches are proud.<br>They want to teach me new, more complex moves.",
+                "difficulty": "Medium"
+            },
+            {
+                "title": "Question 23",
+                "audio": false,
+                "question": "Choose the alternative that is closest in meaning to the following sentences.",
+                "options": [
+                    "Bigorexia or muscle dysmorphia is a mental disorder that mostly affects males and causes compulsive exercising.",
+                    "Bigorexia causes compulsive exercising and affects males.",
+                    "Bigorexia comes with exercising. It is a mental disorder and affects only males.",
+                    "Muscles are the ones that use exercise for bigorexia."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "lecture": "Bigorexia is a mental disorder.<br>Bigorexia is also called muscle dysmorphia.<br>Bigorexia mostly affects males.<br>Bigorexia causes compulsive exercising.",
+                "difficulty": "Difficult"
+            },
+
+            {
+                "text":"Instrucciones",
+                "class":"instrucciones font-bold text-5 text-gradient mt-10"
+            },
+            
+            { "text": "En cada una de las siguientes oraciones, hay cuatro palabras o frases subrayadas que se señalan con las letras A, B, C y D. Puede que en estas haya un error o no exista ninguno. Si identifica algún error, seleccione la letra que identifica la parte que debe ser cambiada para hacer la oración correcta. Oscurezca el espacio de la letra correspondiente en la hoja de respuestas. Si no hay error, escoja la letra D."},
+            {
+                "text":"Ejemplo",
+                "class":"instrucciones font-bold text-5 text-gradient mt-10"
+            },
+            {
+                "class":"border-4 border-solid border-et-orange p-5 rounded-md",
+                "content":[
+                    {
+                        "title": "Example question",
+                        "audio": false,
+                        "question": "<u a>People</u> who want to <u b>become</u> lawyers <u c>needs</u> to go to Law School. <u c>No error</u>",
+                        "options": ["", "", "", ""],
+                        "optionk": "C",
+                        "optionw": false,
+                        "eval": false,
+                        "type": "inline",
+                        "difficulty": "Easy", 
+                        "force_positive": false
+                    }
+                ]
+            },
+            {"text": "Para contestar este ejercicio es necesario examinar cada parte subrayada de la oración para determinar si hay algún error. La letra (C), la palabra “needs”, tiene error, puesto que corresponde al sujeto “lawyers”. “Needs” se usa para la tercera persona en singular. La respuesta correcta en este caso es “need”."},
+            {
+                "title": "Question 24",
+                "audio": false,
+                "question": "The girls <u a>are</u> happy <u b>to</u> <u c>have</u> a sleepover. <u d>No error.</u>",
+                "options": ["","","",""],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "inline",               
+                "difficulty": "Easy",
+                "force_positive": false
+            },
+            {
+                "title": "Question 25",
+                "audio": false,
+                "question": "Janice <u a>don’t</u> like <u b>anything</u> from <u c>France's</u> cuisine. <u d>No error.</u>",
+                "options": ["","","",""],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "inline",               
+                "difficulty": "Easy",
+                "force_positive": false
+            },
+            {
+                "title": "Question 26",
+                "audio": false,
+                "question": "The bookshelf <u a>for</u> <u b>this</u> materials should have <u c>been</u> there. <u d>No error.</u>",
+                "options": ["","","",""],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "inline",               
+                "difficulty": "Easy",
+                "force_positive": false
+            },
+            {
+                "title": "Question 27",
+                "audio": false,
+                "question": "Have you <u a>never</u> seen <u b>an</u> opportunity like that to slip away <u c>from</u> you? <u d>No error.</u>",
+                "options": ["","","",""],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "inline",               
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+            {
+                "title": "Question 28",
+                "audio": false,
+                "question": "<u a>Traveling</u> is <u b>merely</u> one of the <u c>greatest</u> pleasures in life. <u d>No error.</u>",
+                "options": ["","","",""],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "inline",
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+            {
+                "title": "Question 29",
+                "audio": false,
+                "question": "<u a>Two</u> of my favorite TV shows is <u b>about</u> lawyers who are <u c>overqualified</u>. <u d>No error.</u>",
+                "options": ["","","",""],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",               
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+            {
+                "title": "Question 30",
+                "audio": false,
+                "question": "The person <u a>that</u> has acted on the problem <u b>has been become</u> the new hero in <u c>his</u> community.<u d>No error.</u>",
+                "options": [
+                    "this",
+                    "has become",
+                    "its",
+                    "No error"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+            {
+                "title": "Question 31",
+                "audio": false,
+                "question": "Michael <u a>graduates</u> <u b>from</u> Medicine School five years <u c>ago</u>.<u d>No error.</u>",
+                "options": [
+                    "graduated",
+                    "to",
+                    "towards",
+                    "No error"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+            {
+                "title": "Question 32",
+                "audio": false,
+                "question": "She <u a>had</u> already <u b>go</u> to her pilates class when it <u c>started</u> raining.<u d>No error.</u>",
+                "options": [
+                    "has",
+                    "gone",
+                    "start",
+                    "No error"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+            {
+                "title": "Question 33",
+                "audio": false,
+                "question": "Donna <u a>think</u> <u b>about</u> her future, <u c>but</u> “the picture” was not clear.<u d>No error.</u>",
+                "options": [
+                    "was thinking",
+                    "in",
+                    "additionally",
+                    "No error"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+
+            {
+                "text":"Instrucciones",
+                "class":"instrucciones font-bold text-5 text-gradient mt-10"
+            },
+            
+            { "text": "A continuación se presenta una lectura con ejercicios basados en su contenido. Después de leerla, seleccione la contestación correcta para cada ejercicio. Oscurezca el espacio de la letra correspondiente en la hoja de respuestas."},
+            {
+                "text":"Ejemplo",
+                "class":"instrucciones font-bold text-5 text-gradient mt-10"
+            },
+            { "text": "Los ejercicios 34-40 se basan en la siguiente lectura:"},
+            {
+                "class":"border-4 border-solid border-et-orange p-5 rounded-md",
+                "content":[
+                    {
+                        "title": "Example question",
+                        "audio": false,
+                        "question": "Which sentence does not belong in the text?",
+                        "options": ["1", "2", "3", "4"],
+                        "optionk": "D",
+                        "optionw": false,
+                        "eval": false,
+                        "type": "practice",
+                        "difficulty": "Easy", 
+                        "force_positive": false,
+                        "lecture": "(1) Having a job is a great blessing, it also comes with responsibilities. (2) For instance, the idea of a sick teacher is not well accepted in society’s mind. (3)Teachers need to be strong and invincible. (4) Working out is hard to do. (5) Challenges which are included in each job are different. (6) Doctors regularly sleep just a couple of hours a day, and sometimes, they cannot even do that. (7) The amount of work and the long hours they put in is __________ unbearable. (8) Another example is how private security guards, mostly those who work for gated societies, have to remain for days in a tiny space, fulfilling their basic needs. (9) To conclude, every job has its own challenges, and it’s important to know if we are ready and wild to accept them even before selecting a career."
+                    }
+                ]
+            },
+            {"text": "Para contestar este ejercicio es necesario leer todo el texto. Luego lea de nuevo cada una de las oraciones. El hecho de que entrenar sea difícil (oración 4) no tiene nada que ver directamente con el hecho de que tener un trabajo a veces sea un reto. Por consiguiente, esa es la oración que no pertenece al texto."},
+            {
+                "title": "Question 34",
+                "audio": false,
+                "question": "Which sentence would be most appropriate to follow sentence 1?",
+                "options": [
+                    "3",
+                    "7",
+                    "5",
+                    "6"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+            {
+                "title": "Question 35",
+                "audio": false,
+                "question": "Which word would be the most appropriate to start sentence 1?",
+                "options": [
+                    "But",
+                    "However",
+                    "Otherwise",
+                    "While"
+                ],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+            {
+                "title": "Question 36",
+                "audio": false,
+                "question": "Which of the following words is INCORRECTLY used?",
+                "options": [
+                    "The words “well accepted” in sentence 2.",
+                    "The word “challenges” in sentence 5.",
+                    "The word “unbearable” in sentence 7.",
+                    "The word “societies” in sentence 8"
+                ],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+            {
+                "title": "Question 37",
+                "audio": false,
+                "question": "What’s the word that best completes sentence 7?",
+                "options": [
+                    "Sometimes",
+                    "Never",
+                    "On weekends",
+                    "Daily"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+            {
+                "title": "Question 38",
+                "audio": false,
+                "question": "Which other way could we use to start sentence 2?",
+                "options": [
+                    "In addition",
+                    "However",
+                    "For example",
+                    "Nevertheless"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+            {
+                "title": "Question 39",
+                "audio": false,
+                "question": "Which of the following words is INCORRECTLY used?",
+                "options": [
+                    "The word “blessing” in sentence 1",
+                    "The word “sick” in sentence 2",
+                    "The word “another “in sentence 8",
+                    "The word “wild” in sentence 9."
+                ],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+            {
+                "title": "Question 40",
+                "audio": false,
+                "question": "Which words could start sentence 9?",
+                "options": [
+                    "Finally",
+                    "Because",
+                    "However",
+                    "Nevertheless"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+
+            { "buttonnav": "next"}
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": false,
+        "nocounter": true,
         "timelimit": 2400,
         "content":[
+            {
+                "text":"COMPRENSIÓN DE LECTURA Y VOCABULARIO",
+                "class":"instrucciones font-bold text-5 text-gradient mt-10"
+            },
+            
+            { "text": "En los siguientes ejercicios, se presenta un párrafo. Después de leerlo, seleccione la opción con un significado similar al que se plantea en cada pregunta. Oscurezca el espacio de la letra correspondiente en la hoja de respuestas."},
+            { "text": "Los ejercicios 1-5 se basan en el siguiente párrafo."},
+            { "class":"text-xl bg-slate-200 rounded p-4", "text": "Knowing about computers and social media (in general, about technology)  a few years back was quite complex. The knowledge included investigating and understanding about emerging technologies and new ways to communicate. The speed in which they evolved, felt like society was getting everything out of (5) hand. Nowadays, people who dominate these technological areas are a dime a dozen. I certainly believe that it has to do with those who stayed through thick and thin during the companies’ processes (while migrating their data, for example) and were actually on the ball. My friends and I can still recall when our teachers used to explain how to research information on the (10) net and how to create a digital document. You may think it’s not rocket science, but back then, while feeling frustrated (since I lacked abilities to face the changes), I had to get my act together to avoid having an outburst."},
+            {
+                "class":"border-4 border-solid border-et-orange p-5 rounded-md",
+                "content":[
+                    {
+                        "title": "Example question",
+                        "audio": false,
+                        "question": "In line 4 , “getting something out of hand” means..",
+                        "options": ["To escape from the hands", "To go", "To be difficult to control", "To be impossible"],
+                        "optionk": "C",
+                        "optionw": false,
+                        "eval": false,
+                        "type": "practice",
+                        "difficulty": "Easy", 
+                        "force_positive": false
+                    }
+                ]
+            },
+            {"text": "Para contestar este ejercicio es necesario leer todo el texto y luego volver a la línea 4. La expresión idiomática “get something (en este caso, everything) ”significa “que algo se sale de las manos”, es decir, que algo se sale de control. Dentro de este contexto, habla de la rapidez con la que surgieron las nuevas tecnologías años atrás, y el descontrol momentáneo que esto causó."},
+            {
+                "title": "Question 1",
+                "audio": false,
+                "question": "In line 6, “a dime a dozen” means:",
+                "options": [
+                    "Something is common",
+                    "A lot of money",
+                    "It is pricy",
+                    "There is a lot of something"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+            {
+                "title": "Question 2",
+                "audio": false,
+                "question": "In line 7, the idiomatic expression “through thick and thin” means:",
+                "options": [
+                    "To have space",
+                    "With a lot of problems",
+                    "Under all circumstances",
+                    "Go through something"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+            {
+                "title": "Question 3",
+                "audio": false,
+                "question": "In line 8, the expression “on the ball” means:",
+                "options": [
+                    "Quick to understand things",
+                    "Being fast with a ball",
+                    "To be good at sports",
+                    "Knowing some things"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+            {
+                "title": "Question 4",
+                "audio": false,
+                "question": "In line 10, the expression “it’s not rocket science” means:",
+                "options": [
+                    "It’s not complicated",
+                    "It does not have to be done by a scientist",
+                    "Science and rockets are hard objects to build",
+                    "Sometimes things are hard, sometimes they are not so much"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+            {
+                "title": "Question 5",
+                "audio": false,
+                "question": "In line 12, the expression “get my act together” means:",
+                "options": [
+                    "To go acting in life",
+                    "To collect something",
+                    "To get together with others",
+                    "To organize oneself in order to achieve something"
+                ],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+
+            { "text": "Los ejercicios 6-9 se basan en la siguiente lectura:"},
+            { "class":"text-xl bg-slate-200 rounded p-4", "text": "Maria was a young, beautiful kid who had practically had everything she ever wanted just by asking for it. She was smart, good with people, funny and super creative. While growing up, she discovered she wanted to see the world. Even though her parents were not particularly solvent, they started (5)saving money for her to live in another country for at least six months. It is important to consider they have been around different countries because they had a travel agency when Maria was younger. They had also had the opportunity to study abroad when they were high schoolers, so they knew this was something they wanted for their kid. It was an invaluable learning (10)experience, and they were confident Maria would benefit from it.<br><br>It was difficult to decide where she wanted to go and if her parents could actually pay for it. Maria had a younger brother, who was quite close in age. So expenses were heavy at that moment.<br><br>Maria dreamed about going to Australia so she could practice and improve (15) her English level. As well, she had imagined living in London or Paris. Those options were out of range, so they agreed on six months in Canada. There, she will practice English and French. <br><br>The day came, and Maria departed for Canada. New places, new friends, new everything! It seemed like Maria had everything she ever dreamt! One day, (20) she was invited to the coolest bar in town. It is important to mention, Maria was underage and her friends were a year older than she was. She knew that, in theory, she was supposed to decline the offer. But she really wanted to go. It was then, when she decided to go and do everything in her power to access the place. Unfortunately for her, she was immediately asked (25) to leave the premises and the school called her parents. She was sent back home on her first week away. She lost that semester at her old school and had to remain a whole school year without enrolling. <br><br>She definitely got a valuable lesson (the hard way) from her mistakes."},
+            {
+                "title": "Question 6",
+                "audio": false,
+                "question": "How do you think the main character felt by the end of the story?",
+                "options": [
+                    "Hopeless",
+                    "Happy and excited",
+                    "Fatigue",
+                    "Sad and angry"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",               
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+            {
+                "title": "Question 2",
+                "audio": false,
+                "question": "What does the narrator refer to when he says “the coolest bar” in line 20?",
+                "options": [
+                    "A place with cool temperature",
+                    "A trendy place",
+                    "A new bar",
+                    "A regular place"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",               
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+            {
+                "title": "Question 3",
+                "audio": false,
+                "question": "Why did she decide to go to the bar?",
+                "options": [
+                    "Someone made her",
+                    "She thought it was her right",
+                    "She wanted to fit in even better with her new friends",
+                    "She was afraid"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",               
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+            {
+                "title": "Question 4",
+                "audio": false,
+                "question": "What does the narrator refer to with “the day came” on line 18?",
+                "options": [
+                    "Moving to the middle of nowhere",
+                    "The day her brother was waiting for",
+                    "When a day arrives",
+                    "The moment of studying abroad"
+                ],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",               
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+
+            {
+                "text":"Instrucciones",
+                "class":"instrucciones font-bold text-5 text-gradient mt-10"
+            },
+            
+            { "text": "Las siguientes lecturas están seguidas por ejercicios basados en su contenido. Después de leerlas, seleccione la mejor respuesta para cada ejercicio y oscurezca el espacio de la letra correspondiente en la hoja de respuestas. Responda a todos los ejercicios basándose en lo que las lecturas afirman o implican."},
+            { "text": "Los ejercicios 10-17 se basan en la siguiente lectura:"},
+            { "class":"text-xl bg-slate-200 rounded p-4", "text": "It is common to hear about how human beings have affected the world’s natural appearance and health. As time passes, temperatures increase around the planet, leaving no place unaltered. By polluting the globe, society has managed to break their own heatwave records within each year. During (5)2022, wildfires destroyed vast areas of flora and fauna across the European continent. “How could this happen?”, you may be wondering. Well, it turns out unbearably hot temperatures take moisture from the ground, which helps lightning from storms to create a spark that starts the whole vegetation.<br><br> At the same time, in China, the population had to deal with power cuts. In (10)addition, the drought affected crop production not only there, but worldwide. <br><br>When temperatures increase, the possibilities of flood increase with them. Areas like Pakistan and New Zealand were devastated by floods this year. In Asia, dry periods have lately occurred at critical planting times, while (15)surprising downpours have destroyed homes and drowned out entire crops. This is a clear example of how global warming has totally affected communities of all sizes.<br><br>The burning of fossil fuels traps the heat in the atmosphere, which probably has been the main cause of human-induced climate change. <br><br>(20) As a society, it is advisable to explore the 2030 Agenda and to take action. On the contrary, the temperatures will continue rising and it will become unbearable to live on the only planet we know has the perfect conditions for us, the human race. Furthermore, the effects of increasing heat on the body, make it difficult for humans to maintain a safe body temperature. (25)People working outdoors are unquestionably more at risk. <br><br>It is time to accept that even the richest countries have limited means to solve these problems. Countries are forced to select between building some parts of their areas again or to develop better ways to cope with future climate crises. <br><br>The shortage of water and food will not help humanity to stop polluting the (30)world, which causes global warming. So now, if we think about it long enough, this situation feels like a never ending cycle."},
+            {
+                "title": "Question 10",
+                "audio": false,
+                "question": "What is the purpose of this text?",
+                "options": [
+                    "To inform",
+                    "To entertain",
+                    "To release stress",
+                    "To express feelings"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+            {
+                "title": "Question 11",
+                "audio": false,
+                "question": "“There” in line 10 refers to…",
+                "options": [
+                    "Pakistan",
+                    "China",
+                    "New Zealand",
+                    "Europe"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+            {
+                "title": "Question 12",
+                "audio": false,
+                "question": "In line 7, “turns out” refers to…",
+                "options": [
+                    "To happen in a particular case",
+                    "To look for",
+                    "Research",
+                    "To make something"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+            {
+                "title": "Question 13",
+                "audio": false,
+                "question": "In the text, how many types of direct affectations from increasing temperatures does the author mention?",
+                "options": [
+                    "One to two",
+                    "Three to four",
+                    "Eight to ten",
+                    "One to three"
+                ],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+            {
+                "title": "Question 14",
+                "audio": false,
+                "question": "In line 29, what do the words “shortage of water” refer to:",
+                "options": [
+                    "There is not enough water in the world for its population.",
+                    "There is more than enough water for everyone.",
+                    "The creation of strategies to get more water.",
+                    "Water is another topic on the side."
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+            {
+                "title": "Question 15",
+                "audio": false,
+                "question": "In line 27, “limited means” could be changed for:",
+                "options": [
+                    "Limited areas",
+                    "In short supply",
+                    "Not enough reasons",
+                    "Restricted nature"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+            {
+                "title": "Question 16",
+                "audio": false,
+                "question": "This text was written by:",
+                "options": [
+                    "An administrator",
+                    "A poet",
+                    "A scientist",
+                    "A software creator"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Medium",
+                "force_positive": false
+            },
+            {
+                "title": "Question 17",
+                "audio": false,
+                "question": "This text is aimed for:",
+                "options": [
+                    "Business people",
+                    "Everybody",
+                    "Engineers",
+                    "Students"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",
+                "difficulty": "Difficult",
+                "force_positive": false
+            },
+
+            {
+                "text":"Instrucciones",
+                "class":"instrucciones font-bold text-5 text-gradient mt-10"
+            },
+            
+            { "text": "Las siguientes oraciones están seguidas por opciones, alguna  opción debe completarlas. Después de leerlas, seleccione la mejor respuesta para cada ejercicio y oscurezca el espacio de la letra correspondiente en la hoja de respuestas."},
+            { "text": "Los ejercicios 18 al 22 se enfocan en vocabulario."},
+            {
+                "title": "Question 18",
+                "audio": false,
+                "question": "It is what you regularly do in a pool.",
+                "options": [
+                    "eat",
+                    "learn",
+                    "cook",
+                    "swim"
+                ],
+                "optionk": "D",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",               
+                "difficulty": "Easy",
+                "force_positive": false
+            },
+            {
+                "title": "Question 19",
+                "audio": false,
+                "question": "It is the place where people normally keep their cars when they are not using them.",
+                "options": [
+                    "Garage",
+                    "Bedroom",
+                    "Kitchen",
+                    "Attic"
+                ],
+                "optionk": "A",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",               
+                "difficulty": "Easy",
+                "force_positive": false
+            },
+            {
+                "title": "Question 20",
+                "audio": false,
+                "question": "I felt hungry, so I ate a ______.",
+                "options": [
+                    "car",
+                    "steak",
+                    "backpack",
+                    "washing machine"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",               
+                "difficulty": "Easy",
+                "force_positive": false
+            },
+            {
+                "title": "Question 21",
+                "audio": false,
+                "question": "I need to pay some bills, I will go to the:",
+                "options": [
+                    "Theater",
+                    "Park",
+                    "Bank",
+                    "Cinema"
+                ],
+                "optionk": "C",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",               
+                "difficulty": "Easy",
+                "force_positive": false
+            },
+            {
+                "title": "Question 22",
+                "audio": false,
+                "question": "The opposite of “excited” is:",
+                "options": [
+                    "Hungry",
+                    "Depressed",
+                    "Fun",
+                    "Funny"
+                ],
+                "optionk": "B",
+                "optionw": false,
+                "eval": true,
+                "type": "practice",               
+                "difficulty": "Easy",
+                "force_positive": false
+            },
+            
+            { "text": "Los ejercicios 23 al 27 se basan en el siguiente párrafo:"},
+            {   "class":"text-xl bg-slate-200 rounded p-4",
+                 "text": "Kevin <u>wakes up</u> every morning at 5 o’clock. He regularly <u>works out</u> from 90 to120 minutes a day. He <u>gets along</u> with his peers at the gym. He normally <u>runs into</u> his good friends between 6 and 7 in the morning, since they take indoor cycling classes together. Most of the time, they talk for around 15 minutes before <u>taking off</u>."},
+                 {
+                    "title": "Question 23",
+                    "audio": false,
+                    "question": "In line 1, wakes up means:",
+                    "options": [
+                        "To stop sleeping",
+                        "To stop",
+                        "To sleep",
+                        "To stand up"
+                    ],
+                    "optionk": "A",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Easy",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 24",
+                    "audio": false,
+                    "question": "In line 1, works out means:",
+                    "options": [
+                        "To exercise",
+                        "To do something well",
+                        "To work",
+                        "To be out and to work"
+                    ],
+                    "optionk": "A",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Easy",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 25",
+                    "audio": false,
+                    "question": "In line 2, gets along means:",
+                    "options": [
+                        "To get somewhere",
+                        "To have a friendly relationship",
+                        "To have friends",
+                        "To understand something"
+                    ],
+                    "optionk": "B",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Easy",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 26",
+                    "audio": false,
+                    "question": "In line 2, runs into means:",
+                    "options": [
+                        "To start running",
+                        "To run and crash against someone",
+                        "To run",
+                        "To meet someone by chance"
+                    ],
+                    "optionk": "D",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Easy",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 27",
+                    "audio": false,
+                    "question": "In line 4, taking off means:",
+                    "options": [
+                        "To break",
+                        "To take",
+                        "To leave",
+                        "To arrive"
+                    ],
+                    "optionk": "C",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Easy",
+                    "force_positive": false
+                },
+                 
+            { "text": "Los ejercicios 28-35 se basan en la siguiente lectura:"},
+            {   "class":"text-xl bg-slate-200 rounded p-4",
+                 "text": "When anxiety creates a storm, bringing something new and unmanageable, it might be time to consider learning about panic attacks…A panic attack could be considered as an episode of intense anxiety. While having one, you may experience racing heartbeat, dizziness, lack of air, (5)trembling and muscle tension. Panic attacks have different durations; they can go from a few minutes up to thirty minutes. While panic attacks last less than one hour, their effects on a person may last for a few hours (when referring to physical and emotional effects). <br><br>Another way of calling a panic attack is an “anxiety attack”. Up to 35% of the (10)population experience a panic attack at some time in their lives.<br><br>To avoid further complications, it is crucial to get treatment for this.  For instance, it is said that a person who experiences recurring panic attacks has a panic disorder. Panic disorders are related to anxiety disorders.<br><br>Some challenges that can be faced by people who suffer from this are (15)associated with the inconveniences that come from having one: breathing difficulties, accelerated heart rate, tense muscles, a dry mouth, hot flushes and more. For instance, something as simple as having a conversation or driving, becomes a complex task. <br><br>When panic attacks happen more than once, it is important to go back to the (20)drawing board and to detect what is causing such high levels of anxiety. Since having this problem is not necessarily related to stressful situations, it is interesting to mention that stress-free situations, such as watching T.V. may trigger a panic attack. Living with this might be a tall order. <br><br>The recommendation is to always seek medical advice before you do (25)something else. Doctors help you make sure that any recurring symptoms are not due to other illnesses, such as diabetes, asthma, hyperthyroidism, cardiac complaints and more.<br><br>Stress and anxiety are a big part of panic attacks. Knowing that, it is key to remember that everybody has their own ways of coping with both of them. For (30) instance, some people may find painting relaxing. Others look for interesting readings to keep themselves away from situations that might cause problems.Yoga, pilates and mindfulness are trendy tools that keep their users in a better mood. Personally, I am on cloud nine whenever I ride a bike. So, for the sake of everyone, know yourself better and find ways (35)to detect difficulties on time. "},
+           
+                 {
+                    "title": "Question 28",
+                    "audio": false,
+                    "question": "The objective of this article is:",
+                    "options": [
+                        "To inform people about panic attacks.",
+                        "To give you a solution for attacks.",
+                        "To persuade you not to have attacks.",
+                        "To learn about panic."
+                    ],
+                    "optionk": "A",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Medium",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 29",
+                    "audio": false,
+                    "question": "What major problems can panic attacks cause?",
+                    "options": [
+                        "A bad response",
+                        "Serious health problems",
+                        "Attention difficulties",
+                        "Hyperventilation"
+                    ],
+                    "optionk": "B",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Medium",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 30",
+                    "audio": false,
+                    "question": "According to the text, what are some examples of simple challenges?",
+                    "options": [
+                        "sleeping",
+                        "arriving to the bank",
+                        "driving a car",
+                        "starting a business"
+                    ],
+                    "optionk": "C",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Difficult",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 31",
+                    "audio": false,
+                    "question": "In line 19, what does “to go back to the drawing board“ refer to?",
+                    "options": [
+                        "To get creative",
+                        "To investigate different options",
+                        "To go to a different place",
+                        "To start over from the beginning"
+                    ],
+                    "optionk": "D",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Difficult",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 32",
+                    "audio": false,
+                    "question": "What happens when we suffer from panic attacks for a prolonged period of time?",
+                    "options": [
+                        "It becomes chronic difficulty.",
+                        "You can feel nausea.",
+                        "There is inflammation in the Nervous System.",
+                        "It may harm your body."
+                    ],
+                    "optionk": "A",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Difficult",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 33",
+                    "audio": false,
+                    "question": "In line 23, what does “tall order” refer to?",
+                    "options": [
+                        "To have high expectations",
+                        "The task is difficult to accomplish",
+                        "We are increasing our height",
+                        "We must take care of ourselves"
+                    ],
+                    "optionk": "B",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Difficult",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 34",
+                    "audio": false,
+                    "question": "In line 29, what does “them” refer to?",
+                    "options": [
+                        "different periods of time",
+                        "changes",
+                        "stress and anxiety",
+                        "bad habits"
+                    ],
+                    "optionk": "C",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Medium",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 35",
+                    "audio": false,
+                    "question": "In line 33, what does “on cloud nine” mean?",
+                    "options": [
+                        "Flying",
+                        "To be extremely happy",
+                        "To have high hopes",
+                        "To get a great deal"
+                    ],
+                    "optionk": "B",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Difficult",
+                    "force_positive": false
+                },
+           
+           
+                 { "text": "Los ejercicios 36-45 se basan en la siguiente lectura."},
+            {   "class":"text-xl bg-slate-200 rounded p-4",
+                 "text": "When we are little, all we hear is about how good sports are and how nice it is to choose a physical activity that we enjoy. Regularly, during childhood, the most common options are: soccer, basketball, volleyball, ballet and karate. But as we grow up, we discover the pleasure (or the lack of it) for other activities. For instance, (5)jumping in an individual trampoline is a friendly cardio that provides a full body workout in 40 minutes. Another example is indoor cycling, which gives you the opportunity to increase your heart rate and to have fun at the same time. Both options are considered to have low impact on the knees area (which is a conflictive body part as people get older). Like those activities, we may find an infinite set of (10) options that make our inner child feel delighted and healthy at the same time. But, what is the downside? There is a big difference between being athletic and suffering from bigorexia. <br><br><br><br>Bigorexia or muscle dysmorphia can be defined as a mental disorder in which the person perceives that their body looks different than it does. It is “less muscular” than (15)it actually is. This leads to obsessive and unhealthy behaviors, it mainly causes compulsive exercising and eating disorders, but it may also include the use of anabolic steroids. <br><br><br><br>Bigorexia can “appear” in different stages of life, nevertheless, it most often develops in late adolescence. Bigorexia is associated with anxiety and depression, eating (20)disorders, substance abuse and general problems (mainly with school, work and relationships).<br><br><br><br>One study found that 33% of boys ages 11-18 were not satisfied with their body shape. In addition, there are a lot of undiagnosed people suffering from muscle dysmorphia, a situation which increases in society. According to data, a study found (25) that people who had adverse childhoods, have a considerable chance of getting muscle dysmorphia later on. <br><br><br><br>Video games, social media, and, in general, the Internet keep the idea of extremely muscular men quite present in our daily lives. This fact keeps males too focused on unreachable physical goals. The way male action figures are presented are not (30)humanly possible.<br><br><br><br>Social media makes comparisons easier. The use of hashtags and the efficiency of artificial intelligence provide exactly what we think we need the most and also, probably what affects us in a deeper way. Considering the amount of “before and after” testimonies that are all over the net, accepting our body shape and genes (35)becomes next to impossible.<br><br><br><br>Educating society and reducing social media time can help. According to the American Psychological Association, people who reduce their social media time by 50% tend to have notable improvement in the way they feel about their overall appearance. Creating awareness about the strong problems most youngsters are (40) going through would certainly make it easier for society to lend a hand to people who may be struggling with muscle dysmorphia and any other mental disease.  <br><br><br><br>While bigorexia is more common in males, anorexia is more common in females. Anorexia is an eating disorder characterized by an abnormally low body weight that focuses on an intense fear of gaining weight. What bigorexia and anorexia may have (45) in common are the distorted perceptions those who suffer from them have by looking at themselves in the mirror. Additionally, in an unconscious way, subjects damage their bodies by taking their “wishes” to the extreme. Furthermore, people who have these disorders do not accept themselves and most likely suffer from low self-esteem, even if it does not look like that to the “simple eye”. Moreover, both (50)disorders regularly start during adolescence. Bigorexia and anorexia may cause or be caused, up until some point, because of stress and anxiety.  <br><br><br><br>Anorexia patients can also be helped in a similar way bigorexia patients do. Everything can be traced back to society and to society’s good or bad education. As well, a high level of emotional intelligence can be key towards allowing those who (55) are close to diagnosed people to improve their behaviors around them. To make them feel more comfortable and probably even, to cope with their situations in a better, more productive way.  Teaching children about different body types, tolerance and the beauty in diversity will certainly help create another future for the upcoming generations."},
+                 {
+                    "title": "Question 36",
+                    "audio": false,
+                    "question": "The article was written by:",
+                    "options": [
+                        "A school janitor",
+                        "A psychologist",
+                        "An engineer",
+                        "An absent parent"
+                    ],
+                    "optionk": "B",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Medium",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 37",
+                    "audio": false,
+                    "question": "How can you know if you suffer from bigorexia?",
+                    "options": [
+                        "Because you do not ingest enough calories for your daily activities",
+                        "Because you do not feel comfortable nor are realistic with your muscle mass",
+                        "By not going to the gym",
+                        "Because you want to exercise and eat well"
+                    ],
+                    "optionk": "B",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Difficult",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 38",
+                    "audio": false,
+                    "question": "In line 15, the word “obsessive” can be replaced by:",
+                    "options": [
+                        "obsessed",
+                        "annoying",
+                        "compulsive",
+                        "mad"
+                    ],
+                    "optionk": "C",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Medium",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 39",
+                    "audio": false,
+                    "question": "In line 25, the word “considerable” means?",
+                    "options": [
+                        "significant",
+                        "considering",
+                        "intolerable",
+                        "adorable"
+                    ],
+                    "optionk": "A",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Difficult",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 40",
+                    "audio": false,
+                    "question": "The message in lines 27-30 is:",
+                    "options": [
+                        "Females are too focused on their physical appearance.",
+                        "This fact keeps males too focused on unreachable goals.",
+                        "Video games, social media and the Internet are in our daily lives.",
+                        "The Internet presents unreachable physical goals, which most males desire to follow."
+                    ],
+                    "optionk": "D",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Difficult",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 41",
+                    "audio": false,
+                    "question": "What is the main difference between bigorexia and anorexia?",
+                    "options": [
+                        "Bigorexia focuses on the idea of being less muscular and anorexia creates an illusion of needing a lower, unhealthy body weight",
+                        "Both are mental disorders that focused on having a mistaken body perception",
+                        "Decreased confidence and self-esteem, anxiety, and stress",
+                        "Bigorexia is about losing weight and anorexia is about wanting more muscle mass"
+                    ],
+                    "optionk": "A",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Difficult",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 42",
+                    "audio": false,
+                    "question": "In line 35, what does the expression “becomes next to impossible” refer to?",
+                    "options": [
+                        "To how difficult it is to accept our genes",
+                        "To the level of complexity of trying to reach inaccessible body standards",
+                        "To how hard it is to have a successful “before and after” transformation",
+                        "It is more than impossible to accomplish a body change"
+                    ],
+                    "optionk": "B",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Difficult",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 43",
+                    "audio": false,
+                    "question": "In line 40, what does the expression “to lend a hand” mean?",
+                    "options": [
+                        "to ask for an opportunity",
+                        "to raise a hand",
+                        "to take somebody’s hand",
+                        "to help"
+                    ],
+                    "optionk": "D",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Difficult",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 44",
+                    "audio": false,
+                    "question": "In line 45, what does the expression “distorted perceptions” refer to?",
+                    "options": [
+                        "To the wrong perceptions people may get",
+                        "To the wrong way of looking at each other",
+                        "To the way people with anorexia or bigorexia think of themselves",
+                        "To perceptions that had gone wrong"
+                    ],
+                    "optionk": "C",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Difficult",
+                    "force_positive": false
+                },
+                {
+                    "title": "Question 45",
+                    "audio": false,
+                    "question": "Lines 52-59, what conclusion might be the most accurate?",
+                    "options": [
+                        "By having a well-prepared, better society, we can help others to cope with their struggles (including bigorexia and anorexia)",
+                        "It is society’s responsibility to solve mental related issues",
+                        "Teaching population about different body types is the only solution for bigorexia and anorexia",
+                        "Emotional intelligence allows others to improve"
+                    ],
+                    "optionk": "A",
+                    "optionw": false,
+                    "eval": true,
+                    "type": "practice",
+                    "difficulty": "Difficult",
+                    "force_positive": false
+                },
+
             
             { "buttonnav": "next"}
         ]

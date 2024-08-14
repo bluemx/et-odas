@@ -2,21 +2,21 @@
     <div class="flex flex-col justify-center gap-10 my-2 relative p-2 min-h-[300px] reactive">
         
         <div v-if="data.title" class="font-bold text-6 text-et-silver">{{ data.title }}</div>
+        
         <div v-if="data.lecture" v-html="data.lecture" class="bg-slate-200 text-lg p-4 rounded mt-2 mb-1"></div>
-
 
         <!--audio-->
         <template v-if="data.audio">
             <audioplayer :file="data.audio" :blockid="blockid+'-reactive'"></audioplayer>
         </template>
         <!--question-->
-        <template v-if="data.type!=='listening'">
+        <template v-if="props.data.type!=='listening' && data.question">
             <strong class="text-xl leading-8" v-html="data.question"></strong>
         </template>
         <!--options-->
-        <div v-if="data.options && data.optionk" class="flex gap-5 flex-wrap" :class=" data.type=='listening' ? 'justify-center' : 'flex-col'">
+        <div v-if="data.options && data.optionk" class="flex gap-5 flex-wrap" :class=" optionsInline ? 'justify-center' : 'flex-col'">
             <div v-for="(item, index) in renderOptions">
-                <ReactiveBtn :index="index" :show-ok="data.force_positive && selected?.correct" :visible-text="data.type!=='listening'" :active="item == selected " @clicked="clicked(item, index)">{{ item.text }}</ReactiveBtn>
+                <ReactiveBtn :index="index" :show-ok="data.force_positive && selected?.correct" :visible-text="!optionsInline" :active="item == selected " @clicked="clicked(item, index)" >{{ item.text }}</ReactiveBtn>
             </div>
         </div>
   
@@ -50,6 +50,9 @@ const props = defineProps({
     step: Number,
     blockid: String
 })
+
+
+const optionsInline = (props.data.type=='listening' || props.data.type=='inline')
 
 const oda = useOda()
 const selected = ref(null)

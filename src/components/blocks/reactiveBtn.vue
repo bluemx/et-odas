@@ -2,16 +2,7 @@
     <div class="reactiveBtn flex items-center" :class="active?'selected':''" @click="clicked">
         <div class="btn z-10">{{ letters[index] }}</div>
         <div class="text" v-if="visibleText"><slot></slot></div>
-        <!--
-        <div class="z-10">
-            <div class="btn"  @click="clicked()">
-                {{ letter.toUpperCase() }}
-            </div>
-        </div>
-        <div v-if="text" class="text" @click="clicked()">
-            {{text}}
-        </div>
-        -->
+
         <div class="z-10" v-if="showOk && active">
             <div class="answer flex justify-center items-center" :class="'isok'">
                 <i class="i-custom-check text-6"></i>
