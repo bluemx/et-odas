@@ -70,6 +70,15 @@ export const useOda = defineStore('oda', () => {
     }
 
 
+    const totalpoints = computed(()=>{
+        
+        let total = Object.values(data.value).reduce((total, current) => total + (current.points || 0), 0);
+
+
+        return total
+    })
+
+
     // EXPORT IMPORT CONVERTIONS 
     // *    *   *   *   *   *   *   *   *   
     
@@ -107,17 +116,19 @@ export const useOda = defineStore('oda', () => {
             positive: Object.values(data.value).filter(item => item!==null && item.correct==true).length,
             //oda_info: info.value,
             datatype: data_type,
-            status: data_status
+            status: data_status,
+            points: totalpoints.value
         }
 
 
         if(id.value == 'PT'){
             let positives = postmessagedata.value.positive
-            if(positives>=0 && positives<=39){ CEFRLevel.value = 'Pre A1'}
-            else if(positives>=40 && positives<=77){ CEFRLevel.value = 'A1'}
-            else if(positives>=78 && positives<=127){ CEFRLevel.value = 'A2'}
-            else if(positives>=128 && positives<=159){ CEFRLevel.value = 'B1'}
-            else if(positives>=160 && positives<=200){ CEFRLevel.value = 'B2'}
+            let points = totalpoints.value
+            if(points>=0 && points<=39){ CEFRLevel.value = 'Pre A1'}
+            else if(points>=40 && points<=77){ CEFRLevel.value = 'A1'}
+            else if(points>=78 && points<=127){ CEFRLevel.value = 'A2'}
+            else if(points>=128 && points<=159){ CEFRLevel.value = 'B1'}
+            else if(points>=160 && points<=200){ CEFRLevel.value = 'B2'}
             postmessagedata.value.CEFRLevel = CEFRLevel.value
         }
 
@@ -130,13 +141,9 @@ export const useOda = defineStore('oda', () => {
     window.addEventListener('message', ({ data: messageData }) => {
         if (!messageData || messageData.datatype !== 'student_data') { return; }
         const {inputs, seconds } = messageData;
-        
         data.value = arrayToObject(inputs)
-
-
         step.value = findFirstCorrectNullIndex()
         time.value = seconds
-
     });
 
     // Watcher for step
@@ -193,6 +200,7 @@ export const useOda = defineStore('oda', () => {
         CEFRLevel,
         odajson,
         timeFormat,
-        timers
+        timers,
+        totalpoints
     }
 })

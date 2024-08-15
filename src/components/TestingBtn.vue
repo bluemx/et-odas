@@ -1,8 +1,12 @@
 <template>
 
     <template v-if="checkUrl()">
+        <button  class="et-button !px-1 !text-xs !py-1 fixed bottom-2 right-36 !border-2 !border-solid !border-white" 
+        @click="answer()">
+            Contestar
+        </button>
+
         <button  class="et-button !px-1 !text-xs !py-1 fixed bottom-2 right-20 !border-2 !border-solid !border-white" 
-        
         @click="gotofinish()">
             Ir a final
         </button>
@@ -19,6 +23,9 @@
 
 <script setup lang="ts">
     import {useOda} from '@/stores/oda'
+    import { useEventBus } from '@vueuse/core';
+    const busallok = useEventBus<string>('allok');
+    
     const oda = useOda()
 
     const test = () => {
@@ -30,5 +37,8 @@
     }
     const gotofinish = () => {
         oda.step = oda.stepcount
+    }
+    const answer = () => {
+        busallok.emit()
     }
 </script>

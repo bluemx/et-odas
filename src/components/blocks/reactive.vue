@@ -19,7 +19,7 @@
                 <ReactiveBtn :index="index" :show-ok="data.force_positive && selected?.correct" :visible-text="!optionsInline" :active="item == selected " @clicked="clicked(item, index)" >{{ item.text }}</ReactiveBtn>
             </div>
         </div>
-  
+        
 
         
         <template v-if="force_positive_message">
@@ -40,6 +40,8 @@ import snapMp3 from '/assets/sounds/snap.mp3'
 import snapOkMp3 from '/assets/sounds/snapok.mp3'
 
 const bus = useEventBus('reactives')
+const busallok = useEventBus('allok')
+
 const snap = new UIfx(snapMp3)
 const snapok = new UIfx(snapOkMp3)
 const letters = ['a', 'b', 'c', 'd', 'e'];
@@ -80,7 +82,8 @@ onMounted(()=>{
             ...initItem,
             id: letters[index],
             text: item,
-            correct: props.data.optionk.toLowerCase() == letters[index]
+            correct: props.data.optionk.toLowerCase() == letters[index],
+            points: (props.data.optionk.toLowerCase() == letters[index] && props.data?.points) ? props.data?.points : 0
         }
     })
 
@@ -102,6 +105,7 @@ onMounted(()=>{
                 id: null,
                 text: null,
                 correct: null,
+                points: 0
             }
             /*
             watch(selected, (newValue) => {
@@ -126,6 +130,7 @@ onMounted(()=>{
 })
 
 const clicked = (item, index) => {    
+    console.log(item,index)
     // Force Positive && Already CORRECT is selected
     if(selected.value?.correct && props.data.force_positive){ return false }
     
@@ -181,8 +186,18 @@ const reset = () => {
 
 
 
+const listenerok = (event: any) => {
+    const theitem = renderOptions.value.find((item, index) => {
+        if (item.correct) {
+            return { item, index };
+        }
+    });
 
+    const theindex = renderOptions.value.indexOf(theitem);
 
+    clicked(theitem,theindex)
+}
+busallok.on(listenerok)
 
 
 

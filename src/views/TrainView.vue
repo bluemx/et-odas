@@ -23,10 +23,7 @@
             -->
         </div>
 
-
         <TestingBtn></TestingBtn>
-
-    <!-- //////////////////////////////////// -->
         <ContinueLater></ContinueLater>
     </div>
 </template>
