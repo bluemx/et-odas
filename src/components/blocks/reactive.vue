@@ -130,7 +130,6 @@ onMounted(()=>{
 })
 
 const clicked = (item, index) => {    
-    console.log(item,index)
     // Force Positive && Already CORRECT is selected
     if(selected.value?.correct && props.data.force_positive){ return false }
     

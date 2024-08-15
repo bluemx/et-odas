@@ -14,7 +14,7 @@
                 "text":"En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres o cuatro opciones, también en inglés. Las preguntas o enunciados y las opciones se dirán solo una vez."
              },
              {
-                "text":"Seleccione la mejor opción para cada pregunta o enunciado y oscurezca el espacio de la letra correspondiente en la hoja de respuestas. "
+                "text":"Selecciona la mejor opción para cada pregunta o enunciado dando un click sobre la letra correspondiente."
              },
              {
               "text":"EXAMPLE",
@@ -29,7 +29,7 @@
                         "question": "Man: Are you Monica? Woman: Yes, I am. Who are you? Man: I’m Lola’s cousin. You are her sister, right?. Who is the man?",
                         "options": ["Monica’s sister", "Lola’s sister", "Lola’s cousin", "Monica’s friend"],
                         "optionk": "c",
-                        "optionw": "La respuesta correcta es Lola's cousin",
+                        "optionw": "La respuesta correcta es C) Lola's cousin ",
                         "eval": false,
                         "type": "listening",
                 "force_positive": true
@@ -50,7 +50,7 @@
                 "question": "I’m feeling sick, my stomach hurts.",
                 "options": ["You should remove your stomach.", "You should have some Pepto.", "You should listen to some music.", "You need to go to the hospital."],
                 "optionk": "b",
-                "optionw": "En esta conversación, es necesario entender que el hombre tiene un problema “Se siente enfermo, le duele el estómago”, y aquí estamos dando soluciones. La más lógica para un dolor de estómago, sería la respuesta que indique algo lógico o consecuente al problema presentado",
+                "optionw": "En esta conversación, es necesario entender que el hombre tiene un problema “Se siente enfermo, le duele el estómago”, y aquí estamos dando soluciones. La respuesta más lógica para un dolor de estómago, sería la que indique algo consecuente al problema presentado.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
@@ -67,7 +67,7 @@
                 "question": "Who does your hair?",
                 "options": ["A cook", "A doctor", "A hairdresser", "A writer"],
                 "optionk": "c",
-                "optionw": "En este intercambio, el hombre pregunta “Quién hace tu cabello”, lo cual nos debe dar respuesta a una ocupación, pero tenemos 4 opciones con distintas ocupaciones, así que es necesario conocer vocabulario de las personas que hacen distintas cosas(oficios), en este caso: “hacer/arreglar el cabello”.",
+                "optionw": "En este intercambio, el hombre pregunta “Quién hace tu cabello”, lo cual nos debe dar como  respuesta  una ocupación. Tenemos 4 opciones con distintas ocupaciones, así que es necesario conocer vocabulario de las personas que hacen distintas cosas(oficios), en este caso: ”hacer/arreglar el cabello”.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
@@ -101,7 +101,7 @@
                 "question": "What did you do before going to the theater?",
                 "options": ["I was in bed.", "I had dinner with my wife.", "Right before the theater I had a drink.", "I wasn’t thinking."],
                 "optionk": "c",
-                "optionw": "La clave en esta pregunta es comprender una secuencia, “Qué hiciste antes de ir al teatro”, aquí la respuesta podría quedar entre A y B, puesto que ambas hablan de dos cuestiones en pasado. Sin embargo, la diferencia es que una se refiere más a una posición, o un lugar “estaba en la cama”y la respuesta B  refiere  que cenó con su esposa. La respuesta correcta debe dar pistas acerca de la temporalidad y estar cercana a la indicada en la pregunta.",
+                "optionw": "La clave en esta pregunta es comprender una secuencia, “Qué hiciste antes de ir al teatro”, aquí la respuesta podría quedar entre A y B, puesto que ambas hablan de dos cuestiones en pasado. Sin embargo, la diferencia es que una se refiere más a una posición o un lugar “estaba en la cama”y la respuesta B  refiere que cenó con su esposa. La respuesta correcta debe dar pistas acerca de la temporalidad y estar cercana a la indicada en la pregunta.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
@@ -135,7 +135,7 @@
                 "question": "How many museums did you visit last summer?",
                 "options": ["I guess I visited about ten museums.", "I have visited a hundred museums.", "I love going to museums every summer.", "Last summer, my favorite museum was closed."],
                 "optionk": "a",
-                "optionw": "En esta pregunta, queremos saber el número de museos “how many”que la persona visitó el verano pasado. Lo confuso puede ser que en todas las respuestas se incluye la palabra “museum”(museo). Debemos identificar dos aspectos: el tiempo pasado simple y el número de museos.”.",
+                "optionw": "En esta pregunta, queremos saber el número de museos “how many”que la persona visitó el verano pasado. Lo confuso puede ser que en todas las respuestas se incluye la palabra “museum”(museo). Debemos identificar dos aspectos: el tiempo pasado simple y el número de museos.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
@@ -169,7 +169,7 @@
                 "question": "What are your plans for next winter?",
                 "options": ["We don’t have plans, it’s too hot.", "I may travel to see our family in Chicago, it will be nice to see the snow.", "We would love to have dinner at this new restaurant.", "Next summer we would like to go to the beach."],
                 "optionk": "b",
-                "optionw": "En esta pregunta, estamos hablando de planes a futuro, en específico, en “winter” o en español: invierno. Una respuesta posible, sería no tener planes porque el clima está muy caluroso. Lo cual no tiene lógica con el invierno, que en este hemisferio es frío. Entonces, la respuesta correcta sería la que coincida con  la clave del clima.",
+                "optionw": "En esta pregunta, estamos hablando de planes a futuro, en específico, en “winter” o en español: invierno. Una respuesta posible, sería no tener planes porque el clima está muy caluroso, lo cual no tiene lógica ya que el invierno en este hemisferio es frío. Entonces, la respuesta correcta sería la que coincida con  la clave del clima.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
@@ -186,7 +186,7 @@
                 "question": "Are you going to the supermarket?",
                 "options": ["Yes, I’m going to cash the check.", "Yes, I need to buy some groceries.", "Yes, we are going to the cinema.", "Yes, I want to order soup."],
                 "optionk": "b",
-                "optionw": "Para responder esta pregunta, es necesario conocer de lugares y lo que podemos encontrar en cada lugar, en este caso, en el “supermarket”, o supermercado, podemos encontrar comida. Aquí tenemos dos respuestas que incluyen comida, la B (que es más bien despensa o víveres) y la D (sopa). Pero en el supermercado vamos a “comprar”, no a “ordenar”. Por lo tanto, nuestra respuesta correcta es la que coincida con la actividad que se desarrolla en el lugar indicado en la pregunta.",
+                "optionw": "Para responder esta pregunta, es necesario conocer de lugares y lo que podemos encontrar en cada lugar, en este caso, en el “supermarket” o supermercado, podemos encontrar comida. Aquí tenemos dos respuestas que incluyen comida, la B (que es más bien despensa o víveres) y la D (sopa). Pero en el supermercado vamos a “comprar”, no a “ordenar”. Por lo tanto, nuestra respuesta correcta es la que coincida con la actividad que se desarrolla en el lugar indicado en la pregunta.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
@@ -248,6 +248,11 @@
         "block": "scene",
         "allokbtn": true,
         "content":[
+            {
+                "text":"INSTRUCCIONES",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            {"text": "En este segundo tipo de reactivos, los alumnos leerán tanto la pregunta como las opciones de respuesta. Se escucharán audios acerca de las conversaciones  con el objetivo de detectar información específica en las mismas."},
             {
                 "title": "Question 13",
                 "audio": "a/a13.mp3",
@@ -339,7 +344,7 @@
                 "question": "Where is the man talking?",
                 "options": ["At home.", "At work.", "At Summer camp.", "It was pouring rain."],
                 "optionk": "c",
-                "optionw": "En esta conversación, es necesario entender la idea general de un audio en el cual se da información de manera unilateral. La persona que habla está utilizando palabras claves como: 'place' (lugar), la temporalidad '5 weeks' (5 semanas), 'physical activities with arts and science' (actividades físicas con artes y ciencia) y habla de hacer nuevos amigos, aprender y jugar. La pregunta va hacia el lugar, 'Where is the man talking?', y el único lugar donde pueden suceder estas actividades, que dura unas semanas es la opción correcta.",
+                "optionw": "En esta conversación, es necesario entender la idea general de un audio en el cual se da información de manera unilateral. La persona que habla está utilizando palabras claves como: 'place' (lugar), la temporalidad '5 weeks' (5 semanas), 'physical activities with arts and science' (actividades físicas con artes y ciencia) y habla de hacer nuevos amigos, aprender y jugar.  La pregunta va hacia el lugar, “Where is the man talking?“, y el único lugar donde pueden suceder estas actividades, que duran unas semanas es la opción correcta.",
                 "eval": true,
                 "type": "listening+text",
                 "force_positive": true
@@ -356,7 +361,7 @@
                 "question": "What’s the situation?",
                 "options": ["People just had an exam.", "People are about to take an exam.", "People are studying for the exam.", "They are at the library."],
                 "optionk": "b",
-                "optionw": "En este ejercicio, queremos saber la situación de lo que sucede cuando una mujer que habla sobre 'exam conditions', el tono es formal, estricto, da órdenes o instrucciones. Al escuchar palabras como 'test room', 'pen', 'pencil', 'eraser', 'ID' (otra manera de llamar a una identificación o credencial), sabemos automáticamente que estamos hablando de un examen. Y al hablar de las instrucciones, la inferencia es que esto es justo antes de entrar a tomar el examen.",
+                "optionw": "En este ejercicio, queremos conocer bajo qué situación una mujer habla sobre ”exam conditions”. El tono es formal, estricto, da órdenes o instrucciones. Al escuchar palabras como ”test room”, ”pen”, ”pencil”, ”eraser”, ”ID” (otra manera de llamar a una identificación o credencial), sabemos automáticamente que estamos hablando de un examen. Y al hablar de las instrucciones, la inferencia es que esto es justo antes de entrar a tomar el examen.",
                 "eval": true,
                 "type": "listening+text",
                 "force_positive": true
@@ -416,8 +421,8 @@
                     "Utah.",
                     "New Jersey."
                 ],
-                "optionk": "D",
-                "optionw": "En este audio, tenemos información que se da de manera unilateral, un hombre hablando acerca de alguien más y que nos da pistas para responder la pregunta 'dónde vive el hombre?'. Podemos confundirnos porque él habla de otra persona, su hermana, pero lo primero que debemos leer en la pregunta escrita es 'Where' porque queremos saber el lugar y 'the man', puesto que la labor es inferir dónde vive el hombre.",
+                "optionk": "C",
+                "optionw": "En este audio, tenemos información que se da de manera unilateral, un hombre hablando acerca de alguien más y que nos da pistas para responder la pregunta ”¿dónde vive el hombre?”. Podemos confundirnos porque él habla de otra persona, su hermana, pero lo primero que debemos leer en la pregunta escrita es 'Where' porque queremos saber el lugar y 'the man', puesto que la labor es inferir dónde vive el hombre.",
                 "eval": true,
                 "type": "listening+text",
                 "force_positive": true
@@ -439,7 +444,7 @@
                     "She talks about fashion."
                 ],
                 "optionk": "A",
-                "optionw": "En esta conversación, podemos leer palabras relacionadas con el campo del trabajo, de la escritura, podría ser periodismo: \"new article\" (nuevo artículo), \"editor\" (editor), pero luego nos encontramos con palabras más específicas: \"new trends\"(nuevas tendencias), \"party dresses\"(vestidos de fiesta) y \"fashion\"(moda). Queremos saber la ocupación de la mujer, y por las palabras relacionadas con el campo de la moda y la escritura, podemos inferir la respuesta correcta.",
+                "optionw": "En esta conversación, podemos leer palabras relacionadas con el campo del trabajo de la escritura, podría ser periodismo ”new article” (nuevo artículo), ”editor” (editor), pero luego nos encontramos con palabras más específicas: ”new trends” (nuevas tendencias), ”party dresses” (vestidos de fiesta) y ”fashion” (moda). Queremos saber la ocupación de la mujer, y por las palabras relacionadas con el campo de la moda y la escritura, podemos inferir la respuesta correcta.",
                 "eval": true,
                 "type": "listening+text",
                 "force_positive": true
