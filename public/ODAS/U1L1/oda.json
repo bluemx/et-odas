@@ -14,7 +14,7 @@
                 "text":"En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres opciones, también en inglés. Las preguntas o enunciados y las opciones se dirán solo una vez."
              },
              {
-                "text":"Escuche cuidadosamente para poder entender por qué no aparece nada escrito en el folleto del examen para estos ejercicios. Seleccione la mejor opción para cada pregunta o enunciado y oscurezca el espacio de la letra correspondiente en la hoja de respuestas."
+                "text":"Escuche cuidadosamente para poder entender por qué no aparece nada escrito en el folleto del examen para estos ejercicios. Selecciona la mejor opción para cada pregunta o enunciado dando un click sobre la letra correspondiente"
              },
              {
               "text":"EXAMPLE",
@@ -29,16 +29,13 @@
                         "question": "How are you?",
                         "options": ["I’m eight years old.", "Fine, thanks. And you?", "I smile."],
                         "optionk": "b",
-                        "optionw": "Para contestar esta pregunta, es necesario entender que “How are you?” en inglés requiere una respuesta que indique el estado de ánimo o salud de la persona.",
+                        "optionw": "La respuesta correcta es la  (B), de no ser la correcta, se proporciona una explicación que te ayude a corregir. No podrás seguir avanzando hasta que contestes de forma adecuada. Recuerda que puedes repetir el audio las veces que sean necesarias.",
                         "eval": false,
                         "type": "listening",
                         "force_positive": true
                     }
                   ]
               },
-              {
-                  "text": "La respuesta correcta es la  (B), de no ser la correcta, se proporciona una explicación que te ayude a corregir."
-               },
               { "buttonnav": "next"}
         ]
     },
@@ -121,7 +118,7 @@
                 "question": "What do you want for dinner?",
                 "options": ["Dinner was delicious.", "A burger", "Yes, I want a burger."],
                 "optionk": "b",
-                "optionw": "En esta pregunta, puede ser confuso escuchar la palabra “dinner”tanto en la pregunta como en la respuesta, así que debemos prestar atención a la pregunta “What do you want”qué significa “qué quieres”y aquí la respuesta debe ser algo relacionado con comida.",
+                "optionw": "En esta pregunta, puede ser confuso escuchar la palabra “dinner”tanto en la pregunta como en la respuesta, así que debemos prestar atención a la pregunta “What do you want” la cual significa “qué quieres” y aquí la respuesta debe ser algo relacionado con comida.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
