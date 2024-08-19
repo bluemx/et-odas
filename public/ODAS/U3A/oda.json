@@ -167,7 +167,7 @@
             {
                 "title": "Question 12",
                 "audio": null,
-                "question": "__________.",
+                "question": "__________.  It is only 8:00 a.m.",
                 "options": ["Good night", "Good afternoon", "Good morning"],
                 "optionk": "c",
                 "optionw": "Respuesta incorrecta",
@@ -343,66 +343,54 @@
                 "text": "8 Tips for Cruising Your Problems Away", "class":"instrucciones font-bold text-5 text-gradient"
             },
             {
-                "class": "flex gap-5 items-center bg-slate-200 p-4",
-                "content": [
-                    {"text": "1", "class": "text-et-silver text-xl"},
-                    {
-                        "text": "Pack Smart: Pack clothes for thematic nights you are interested in at the main restaurant. As well, make sure your clothes are accurate for the places you have on (5)route. Avoid unnecessary, last minute shopping. It is helpful if you select colors from the same palette for your wardrobe."
-                    }
-                ]
-            },
-            {
-                "class": "flex gap-5 items-center bg-slate-200 p-4",
-                "content": [
-                    {"text": "2", "class": "text-et-silver text-xl"},
-                    {
-                        "text": "Arrive a Day Early: By doing this, you’ll get to explore the local culture. As well, (10) you’ll be more fresh and ready at the port, just right before starting your adventure."
-                    }
-                ]
-            },
-            {
-                "class": "flex gap-5 items-center bg-slate-200 p-4",
-                "content": [
-                    {"text": "3", "class": "text-et-silver text-xl"},
-                    {
-                        "text": "Get to Know the Ship: Taking a self-guided ship tour will help you (15) discover “where” you want to do “what” during the time on the ship. This way, you’ll get to take full advantage of the time you spend here. This includes short routes to dash back to your stateroom."
-                    }
-                ]
-            },
-            {
-                "class": "flex gap-5 items-center bg-slate-200 p-4",
-                "content": [
-                    {"text": "4", "class": "text-et-silver text-xl"},
-                    {
-                        "text": "Match your Tech to your Itinerary: Depending on what you are doing, where you are going and the time that is taking you, it will be smart to consider binoculars, a camera with zoom lens, a spare battery (25) (since no one wants a dead smartphone), a drone (or a mini drone), a go pro, and, for sure, a waterproof case for your smartphone."
-                    }
-                ]
-            },
-            {
-                "class": "flex gap-5 items-center bg-slate-200 p-4",
-                "content": [
-                    {"text": "5", "class": "text-et-silver text-xl"},
-                    {
-                        "text": "Use the Cruise App: In the app, you can (30) find the whole ship’s itinerary, with activities all around it. As well, you may take a look at the menus in advance. It is also possible to check your ship’s account."
-                    }
-                ]
-            },
-            {
-                "class": "flex gap-5 items-center bg-slate-200 p-4",
-                "content": [
-                    {"text": "6", "class": "text-et-silver text-xl"},
-                    {
-                        "text": "Take Time Out: Wanting to “take advantage” of every second on the cruise might be hard to understand and internalize. It is only fair that you take moments to enjoy the wonderful views, to do absolutely nothing and to relax. You (40) might even take a spa’s treatment, since they normally have sales on the ship."
-                    }
-                ]
-            },
-            {
-                "class": "flex gap-5 items-center bg-slate-200 p-4",
-                "content": [
-                    {"text": "7", "class": "text-et-silver text-xl"},
-                    {
-                        "text": "Document your Trip: Besides the obvious (taking pictures and videos of your experiences), try writing or drawing (45) about them while you have them “fresh”. This will be awesome material for you and your traveling partners later on."
-                    }
+                "textlines": [
+                    "1. Pack Smart: Pack clothes for thematic",
+                    "nights you are interested in at the main",
+                    "restaurant. As well, make sure your clothes",
+                    "are accurate for the places you have on",
+                    "route. Avoid unnecessary, last minute",
+                    "shopping. It is helpful if you select colors",
+                    "from the same palette for your wardrobe.",
+                    "2. Arrive a Day Early: By doing this, you'll",
+                    "get to explore the local culture. As well,",
+                    "you'll be more fresh and ready at the",
+                    "port, just right before starting your",
+                    "adventure.",
+                    "3. Get to Know the Ship: Taking a",
+                    "self-guided ship tour will help you",
+                    "discover ”where” you want to do",
+                    "”what” during the time on the ship. This",
+                    "way, you'll get to take full advantage of the",
+                    "time you spend here. This includes short",
+                    "routes to dash back to your stateroom",
+                    "4. Match your Tech to your Itinerary:",
+                    "Depending on what you are doing, where",
+                    "you are going and the time that is taking",
+                    "you, it will be smart to consider binoculars,",
+                    "a camera with zoom lens, a spare battery",
+                    "(since no one wants a dead",
+                    "smartphone), a drone (or a mini drone), a",
+                    "go pro, and, for sure, a waterproof case for",
+                    "your smartphone.",
+                    "5. Use the Cruise App: In the app, you can",
+                    "find the whole ship's itinerary, with",
+                    "activities all around it. As well, you may",
+                    "take a look at the menus in advance. It is",
+                    "also possible to check your ship's account.",
+                    "6. Take Time Out: Wanting to ”take",
+                    "advantage” of every second on the",
+                    "cruise might be hard to understand and",
+                    "internalize. It is only fair that you take",
+                    "moments to enjoy the wonderful views, to",
+                    "do absolutely nothing and to relax. You",
+                    "might even take a spa's treatment,",
+                    "since they normally have sales on the ship.",
+                    "7. Document your Trip: Besides the",
+                    "obvious (taking pictures and videos of your",
+                    "experiences), try writing or drawing",
+                    "about them while you have them",
+                    "”fresh”. This will be awesome material for",
+                    "you and your traveling partners later on."
                 ]
             },
             {
@@ -503,44 +491,98 @@
         "allokbtn": false,
         "navigation": true,
         "content":[
+           
             {
-                "text": "8 Tips for Cruising Your Problems Away", "class":"instrucciones font-bold text-5 text-gradient"
-            },
-            {
-                "class": "flex flex-col gap-2 bg-slate-200 p-4 text-xl",
-                "content": [
-                    {"text": "Oh, Dreams Dreams Dreams<br>When I was a little girl, my head was filled with dreams. I wanted to be a lawyer, so I could defend those who were not being treated with justice. I also felt like (5)modeling, because most things in life might not be as perfect as a fashion show, but, by modeling, I would have been surrounded by beauty. Most of all, I wanted to be a member of the Educational System, (10)to be part of what I consider, is the base of everything."}
-                ]
-            },
-            {
-                "class": "flex flex-col gap-2 bg-slate-200 p-4 text-xl",
-                "content": [
-                    {"text": "The Expectations<br>For a long time, I worked as an English teacher. But suddenly, I got an offer I could not refuse: an important company wanted (15) me to train teachers, even if I have not done it before, even if I was too young. They said “Talent is not defined by age, and we are sure that your skills will help you accomplish an excellent job”."}
-                ]
-            },
-            {
-                "class": "flex flex-col gap-2 bg-slate-200 p-4 text-xl",
-                "content": [
-                    {"text": "The Preparation<br>(20) For weeks, I studied the Program, the topics, the inner organization.. I rehearsaled in front of my mirror and, sometimes, even recorded myself while speaking. I gave my whole heart to this   (25) project. After all, I was finally making an impact on the ones who influence the young minds every day."}
-                ]
-            },
-            {
-                "class": "flex flex-col gap-2 bg-slate-200 p-4 text-xl",
-                "content": [
-                    {"text": "The Difficulties<br>Just the afternoon before the team and I had to teach, the company let us know that (30) due to the interest in the Program, the number of teachers to be trained had increased. The digits now were about the double of the initial amount. This meant, we had to recount all of the the materials (35) we were needing for each group (which were more than eleven) and most of all, it meant that my nervousness and my anxiety were increasing by the minute."}
-                ]
-            },
-            {
-                "class": "flex flex-col gap-2 bg-slate-200 p-4 text-xl",
-                "content": [
-                    {"text": "The Greatest Moments<br>Once we arrived to the conference center, (40) the tutors (all of us) took our materials, gave our best wishes to each other and looked for our classrooms.  It was only then, that I had to forget about all of my fears : fear about failing, feeling (45) scared about not being enough for those teachers, suspecting that I did not know enough. I mean, who did I think I was? I was only a young English teacher that came from a small city. (50) So, I took the biggest breath and started my lecture. It was at that very moment when I knew what I wanted to do for the years to come: My desire was to improve my teaching in order to lead         (55) others to do the same."}
-                ]
-            },
-            {
-                "class": "flex flex-col gap-2 bg-slate-200 p-4 text-xl",
-                "content": [
-                    {"text": "The Learning Time<br>I am sure my lecture that day (and the following ones) was far from perfect. It was what it was. But that is it. As humans, we learn by doing, not only from studying. (60)Looking back on this moment, it is amazing to see how much I have grown, how much I have evolved. If you are lucky and work hard enough, this process never stops. You have to take some risks when (65) you are trying to find something that makes you passionate again. That makes you better. You must learn it will not be easy, nor perfect, but it  sure will be worth it. So, my advice is for you to take all of the (70) chances you get. You will surely regret more what you did not do, than what you actually did!"}
-                ]
+                "textlines": [
+                    "Oh, Dreams Dreams Dreams",
+                    "When I was a little girl, my head was filled with dreams.",
+                    "I wanted to be a lawyer, so I could defend those",
+                    "who were not being treated with justice. I also felt like",
+                    "modeling, because most things in life might",
+
+                    "not be as perfect as a fashion show",
+                    "but, by modeling,",
+                    "I would have been surrounded by beauty.",
+                    "Most of all, I wanted to be a member of the Educational System,",
+                    "to be part of what I consider, is the base of everything.",
+
+                    "The Expectations",
+                    "For a long time, I worked as an English teacher.",
+                    "But suddenly, I got an offer I could not refuse:",
+                    "an important company wanted",
+                    "me to train teachers, even if I have not done it before,",
+                    
+                    "even if I was too young.",
+                    "They said “Talent is not defined by age,",
+                    "and we are sure that your skills will ",
+                    "help you accomplish an excellent job”.",
+                    "The Preparation",
+
+                    "For weeks, I studied the Program, the topics, the inner organization..",
+                    "I rehearsaled in front of my mirror and, sometimes,",
+                    "even recorded myself while speaking.",
+                    " I gave my whole heart to this",
+                    "project. After all,",
+                    
+                    "I was finally making an impact",
+                    "on the ones who influence the young minds every day.",
+                    "The Difficulties",
+                    "Just the afternoon before the team and I had to teach, the company let us know that",
+                    "due to the interest in the Program,",
+                    
+                    "the number of teachers to be trained had increased.",
+                    "The digits now were about the double of the initial amount.",
+                    "This meant, we had to recount all",
+                    "of the the materials",
+                    "we were needing for each group (which were more than eleven)",
+
+                    "and most of all it meant that my nervousness and my anxiety",
+                    "were increasing by the minute.",
+                    "The Greatest Moments",
+                    "Once we arrived to the conference center, ",
+                    "the tutors (all of us) took our materials,",
+
+                    "gave our best wishes to each other",
+                    "and looked for our classrooms. ",
+                    "It was only then, that I had to forget about all of my fears :",
+                    " fear about failing, feeling ",
+                    "scared about not being enough for those teachers,",
+                    
+                    "suspecting that I did not know enough.",
+                    "I mean, who did I think I was?",
+                    "I was only a young English teacher",
+                    "that came from a small city.",
+                    "So, I took the biggest breath and started my lecture.",
+                    
+                    "It was at that very moment",
+                    "when I knew what I wanted to do for the years to come:",
+                    "My desire was to improve",
+                    "my teaching in order to lead",
+                    "others to do the same.",
+                    
+                    "The Learning Time",
+                    "I am sure my lecture that day (and the following ones) was far from perfect.",
+                    "It was what it was. But that is it.",
+                    "As humans, we learn by doing, not only from studying.",
+                    "Looking back on this moment,",
+                    
+                    "it is amazing to see how much I have grown,",
+                    "how much I have evolved.",
+                    "If you are lucky and work hard enough, this process never stops.",
+                    "You have to take some risks when",
+                    "you are trying to find something that makes you passionate again.",
+
+                    "That makes you better.",
+                    "You must learn it will not be easy,",
+                    "nor perfect, but it  sure will be worth it.",
+                    "So, my advice is for you to take all of the",
+                    "chances you get.",
+                    
+                    "You will surely regret more what you did not do,",
+                    "than what you actually did! "
+
+
+                  ]
             },
             {
                 "title": "Question 26",
@@ -634,13 +676,28 @@
                 "text":"In the below exercises you will find paragraphs with underlined words. After reading each text, choose the option with a similar meaning"
              },
              {
-                "class":"bg-slate-200 p-4 text-xl",
-                "text":"When deciding to get married, it is common for people to fear being <u>stranded</u> by their partners. This, in any moment of the wedding process, or even, afterwards (5) the event has finished and the years have gone by. Nowadays, having a long term relationship is more <u>frangible</u>  than it was thirty years ago. The use of social media and the extended freedom that most (10) people act on, is not helpful for this matter. Even though it is harder to commit now, it is <u>habitual</u> to hear from people we know that they got engaged to be married. In conclusion, you can have a wonderful, (15) married life if you work on it every day."
-             },
+                "textlines": [
+                    "When deciding to get married, it is",
+                    "common for people to fear being <u>stranded</u>",
+                    "by their partners. This, in any moment of",
+                    "the wedding process, or even, afterwards",
+                    "(5) the event has finished and the years",
+                    "have gone by. Nowadays, having a long",
+                    "term relationship is more <u>frangible</u> than it",
+                    "was thirty years ago. The use of social",
+                    "media and the extended freedom that most",
+                    "(10) people act on, is not helpful for this",
+                    "matter. Even though it is harder to commit",
+                    "now, it is <u>habitual</u> to hear from people we",
+                    "know that they got engaged to be married.",
+                    "In conclusion, you can have a wonderful,",
+                    "(15) married life if you work on it every day."
+                 ]
+            },
              {
                 "title": "Question 33",
                 "audio": null,
-                "question": "In line 2, stranded means:",
+                "question": "In line 2, <u>stranded</u> means:",
                 "options": ["leave in", "abandoned", "lead"],
                 "optionk": "b",
                 "optionw": "Respuesta incorrecta",
@@ -651,7 +708,7 @@
             {
                 "title": "Question 34",
                 "audio": null,
-                "question": "In line 7, frangible means:",
+                "question": "In line 7, <u>frangible</u> means:",
                 "options": ["breaking", "to be broken", "delicate"],
                 "optionk": "c",
                 "optionw": "Respuesta incorrecta",
@@ -662,18 +719,47 @@
             {
                 "title": "Question 35",
                 "audio": null,
-                "question": "In line 12, habitual means:",
+                "question": "In line 12, <u>habitual</u> means:",
                 "options": ["habit", "recurrent", "routine"],
                 "optionk": "b",
                 "optionw": "Respuesta incorrecta",
                 "eval": true,
                 "type": "practice",
                 "force_positive": false
+            }
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": true,
+        "content":[
+            {
+                "textlines": [
+                    "I remember some time ago when trying to",
+                    "get in touch with my longtime friends was",
+                    "getting uncomfortable. Whenever I",
+                    "proposed to see them, they would give me",
+                    "(5) some excuse, which, I know now, was",
+                    "intended for me to stop trying. There was a",
+                    "moment when I shared my thoughts on this",
+                    "situation with them, and, as a response,",
+                    "they were for sure, <u>beating around the</u>",
+                    "<u>bush</u>. It turned out, they did not feel",
+                    "connected anymore to the person that I",
+                    "have become and felt as if we had nothing",
+                    "else in common. So, by trying to stay",
+                    "friends, I was definitely <u>barking up at the</u>",
+                    "<u>wrong tree.</u>",
+                    "In the end, it was a <u>blessing disguise</u>. Now, I",
+                    "have a new group of friends that have more",
+                    "similar interests as I do."
+                ]
             },
             {
                 "title": "Question 36",
                 "audio": null,
-                "question": "In line 9, beating around the bush means:",
+                "question": "In line 9, <u>beating around the bush</u> means:",
                 "options": ["Hitting a plant", "Avoiding the main topic", "Circling around in a story"],
                 "optionk": "b",
                 "optionw": "Respuesta incorrecta",
@@ -684,7 +770,7 @@
             {
                 "title": "Question 37",
                 "audio": null,
-                "question": "In line 14, barking up at the wrong tree means:",
+                "question": "In line 14, <u>barking up at the wrong tree</u> means:",
                 "options": ["Going into a mistaken direction", "Getting close to a mistaken tree", "A dog’s wrong action"],
                 "optionk": "a",
                 "optionw": "Respuesta incorrecta",
@@ -695,7 +781,7 @@
             {
                 "title": "Question 38",
                 "audio": null,
-                "question": "In line 16, a blessing in disguise means:",
+                "question": "In line 16, a <u>blessing in disguise</u> means:",
                 "options": ["Disguising is exciting", "Something that seems unlucky at first but turns out to be good", "Blessings for the world"],
                 "optionk": "b",
                 "optionw": "Respuesta incorrecta",
@@ -712,13 +798,25 @@
         "navigation": true,
         "content":[
             {
-                "class":"bg-slate-200 p-4 text-xl",
-                "text":"Traveling has definitely become an easier <u>leisure</u> activity than it was years ago. First of all, there is a wider variety of companies in each means of transportation. This (5)makes all of it more <u>affordable</u>. As well, credit cards <u>allow</u> travelers to reserve their staying and traveling tickets in advance. In addition, they can require split payments in (10)order to organize their finances better.  In conclusion, <u>nowadays</u> there are several tools that can make planning and paying for a trip a simple task."
-             },
+                "textlines": [
+                    "Traveling has definitely become an easier",
+                    "<u>leisure</u> activity than it was years ago. First",
+                    "of all, there is a wider variety of companies",
+                    "in each means of transportation. This",
+                    "(5) makes all of it more <u>affordable</u>. As well,",
+                    "credit cards <u>allow</u> travelers to reserve their",
+                    "staying and traveling tickets in advance. In",
+                    "addition, they can require split payments in",
+                    "(10)order to organize their finances better.",
+                    "In conclusion, <u>nowadays</u> there are several",
+                    "tools that can make planning and paying for",
+                    "a trip a simple task."
+                ]
+            },
              {
                 "title": "Question 39",
                 "audio": null,
-                "question": "In line 2, leisure means:",
+                "question": "In line 2, <u>leisure</u> means:",
                 "options": ["lentils", "insurance", "free time"],
                 "optionk": "c",
                 "optionw": "Respuesta incorrecta",
@@ -729,7 +827,7 @@
             {
                 "title": "Question 40",
                 "audio": null,
-                "question": "In line 5, affordable means:",
+                "question": "In line 5, <u>affordable</u> means:",
                 "options": ["cost-effective", "unreachable", "expensive"],
                 "optionk": "a",
                 "optionw": "Respuesta incorrecta",
@@ -740,7 +838,7 @@
             {
                 "title": "Question 41",
                 "audio": null,
-                "question": "In line 6, allow means:",
+                "question": "In line 6, <u>allow</u> means:",
                 "options": ["permit", "allowing", "allowance"],
                 "optionk": "a",
                 "optionw": "Respuesta incorrecta",
@@ -751,7 +849,7 @@
             {
                 "title": "Question 42",
                 "audio": null,
-                "question": "In line 12, nowadays means:",
+                "question": "In line 12, <u>nowadays</u> means:",
                 "options": ["no days", "in these times", "more days"],
                 "optionk": "b",
                 "optionw": "Respuesta incorrecta",
@@ -768,22 +866,68 @@
         "navigation": true,
         "content":[
             {
-                "class":"bg-slate-200 p-4 text-xl flex flex-col gap-2",
-                "content":[
-                    {"text": "How Hard is it to be an Entrepreneur?"},
-                    {"text": "An entrepreneur is a person who operates a business taking if not all, most of the financial risks in order to do so."},
-                    {"text": "It sounds complex, and it is. But it is also an exciting thing to do. Did you know that out of the total world population, over 600 million are entrepreneurs? From every 13 people in the world, 1 owns a business."},
-                    {"text": "It is common to hear about how lucky successful entrepreneurs are, but they are people who make their own luck."},
-                    {"text": "While a lot of points may be different for entrepreneurs, certain things remain common among them. Here are 6 important facts about them:"},
-                    {"text": "1. They are quite persistent. It is impossible to make it to the top without staying with your business long enough. As a business man or woman, you will go through difficult and tough times. But when talking about persistence, no one beats entrepreneurs."},
-                    {"text": "2. Convenience is not in their books. Especially during the beginning of their stories, they give up on all the luxuries they had and invest in their business."},
-                    {"text": "3. Entrepreneurs work long hours. Surveys have revealed that they work between 30 and 60 hours per week, while the majority work between 40 and 59 hours per week."},
-                    {"text": "4. Benefit the society. Most entrepreneurs plan to provide a product or service that satisfies the needs of the public. Even if the economical part is surely important, they also desire to benefit others with what they are providing."},
-                    {"text": "5. Curiosity is crucial. While being in a full-time job may keep your head in clear, systematic guidelines, being an entrepreneur is about keeping asking questions, keep on investigating and creating new products, new services, new ways of doing things."},
-                    {"text": "6. Plan A, B, C, D. While entrepreneurs are persistent, they are also prepared for their businesses not to rise or work right away. They must have other sources of income, at least at the beginning. Dreams are important, but people also need to find a way to make a living while they chase their dreams. Entrepreneurs are prepared for that. If not, most businesses will fail within the first 6 months of existence."},
-                    {"text": "Being an entrepreneur is an interesting challenge and path to take, isn’t it?"}
+                "textlines": [
+                    "How Hard is it to be an Entrepreneur?",
+                    "An entrepreneur is a person who operates",
+                    "a business taking if not all, most of the",
+                    "financial risks in order to do so.",
+                    "It sounds complex, and it is. But it is also an",
+                    "(5) exciting thing to do. Did you know that",
+                    "out of the total world population, over 600",
+                    "million are entrepreneurs. From every 13",
+                    "people in the world, 1 owns a business.",
+                    "It is common to hear about how lucky",
+                    "(10)successful entrepreneurs are, but they",
+                    "are people who make their own luck.",
+                    "While a lot of points may be different for",
+                    "entrepreneurs, certain things remain",
+                    "common among them. Here are 6",
+                    "important facts about them:",
+                    "1.They are quite persistent",
+                    "It is impossible to make it to the top",
+                    "without staying with your business long",
+                    "enough. As a business man or woman you",
+                    "will go through difficult and though times.",
+                    " But when talking about persistence, no",
+                    "one beats entrepreneurs.",
+                    "2. Convenience is not in their books",
+                    "Especially during the beginning of their",
+                    "stories, they give up on all the luxuries they",
+                    "had and invest in their business.",
+                    "3. Entrepreneurs work long hours",
+                    " Surveys have revealed that they work",
+                    "between 30 and 60 hours per week, while",
+                    "the majority work between 40 and 59",
+                    "hours per week.",
+                    "4. Benefit the society",
+                    "Most entrepreneurs plan to provide a",
+                    " product or service that satisfies the",
+                    "needs of the public. Even if the economical",
+                    "part is surely important, they also desire to",
+                    "benefit others with what they are",
+                    "providing.",
+                    "5. Curiosity is crucial",
+                    " While being in a full time job may keep",
+                    "your head in clear, systematic guidelines,",
+                    "being an entrepreneur is about keep asking",
+                    "questions, keep on investigating and",
+                    "creating new products, new services, new",
+                    " ways of doing things.",
+                    "6. Plan A, B, C, D.",
+                    "While entrepreneurs are persistent, they",
+                    "are also prepared for their businesses not",
+                    "to raise or work right away. They must have",
+                    "other sources of income, at least at the",
+                    "beginning. Dreams are important, but",
+                    "people also need to find a way to make a",
+                    "living while they chase their dreams.",
+                    "Entrepreneurs are prepared for that. If not,",
+                    "most businesses will fail within the first 6",
+                    "months of existence.",
+                    "Being an entrepreneur is an interesting",
+                    "challenge and path to take, isn't it?"
                 ]
-             },
+            },
              {
                 "title": "Question 43",
                 "audio": null,
