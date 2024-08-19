@@ -25,63 +25,40 @@
                 "text": "Los ejercicios 1 al 7 se basan en el siguiente párrafo:", "class":"instrucciones font-bold text-5 text-gradient"
             },
             {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"1", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "The year was 1789, and France was on the brink of revolution. Francois, a young and passionate soldier, was tangled in the fervor of the times. As the streets of Paris erupted with protests and calls for change, Francois felt a sense of duty to his country and its people."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"5", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "Despite his initial fear and hesitations, he joined the ranks of the revolutionaries, driven by a desire to fight for freedom and equality. Although his convictions were tested as he witnessed the chaos and violence that accompanied the revolution, he remained steadfast in his belief that change was necessary for the betterment of France."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"10", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "Through battles and hardships, Francois emerged as a respected and courageous soldier, revered by his comrades for his unwavering dedication to the cause. He found himself at the forefront of pivotal moments in the revolution, standing alongside his fellow soldiers as they fought for liberty."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"15", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "As the revolution raged on, Francois faced moments of doubt and anguish, grappling with the harsh realities of war and the sacrifices it demanded. Yet, through it all, he held onto a glimmer of hope that the tumultuous times would lead to a brighter future for France."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"20", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "When the dust finally settled and the revolution ended, Francois looked back on the journey with a mixture of pride and sorrow. He had witnessed the fall of the old order and the birth of a new era, but he had also seen the toll it took on the lives of countless individuals."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"25", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "Now, as France embarked on a tumultuous path towards rebuilding, he remained committed to serving his country, not just as a soldier, but as a protector of the values that had spurred the revolution in the first place. Though the road ahead was uncertain, Francois was determined to play his part in shaping the future of a nation that had been forever changed by the fervor of the French Revolution."
-                    }
+                "textlines": [
+                    "The year was 1789, and France was on the brink of revolution. Francois, a",
+                    "young and passionate soldier, was tangled in the fervor of the times. As the",
+                    "streets of Paris erupted with protests and calls for change, Francois felt a sense",
+                    "of duty to his country and its people.",
+                    "Despite his initial fear and hesitations, he joined the ranks of the revolutionaries,",
+                    "driven by a desire to fight for freedom and equality. Although his convictions",
+                    "were tested as he witnessed the chaos and violence that accompanied the",
+                    "revolution, he remained steadfast in his belief that change was necessary for the",
+                    "betterment of France.",
+                    "Through battles and hardships, Francois emerged as a respected and",
+                    "courageous soldier, revered by his comrades for his unwavering dedication to",
+                    "the cause. He found himself at the forefront of pivotal moments in the revolution,",
+                    "standing alongside his fellow soldiers as they fought for liberty.",
+                    "As the revolution raged on, Francois faced moments of doubt and anguish,",
+                    "grappling with the harsh realities of war and the sacrifices it demanded. Yet,",
+                    "through it all, he held onto a glimmer of hope that the tumultuous times would",
+                    "lead to a brighter future for France.",
+                    "When the dust finally settled and the revolution ended, Francois looked back on",
+                    "the journey with a mixture of pride and sorrow. He had witnessed the fall of the",
+                    "old order and the birth of a new era, but he had also seen the toll it took on the",
+                    "lives of countless individuals.",
+                    "Now, as France embarked on a tumultuous path towards rebuilding, he",
+                    "remained committed to serving his country, not just as a soldier, but as a",
+                    "protector of the values that had spurred the revolution in the first place. Though",
+                    "the road ahead was uncertain, Francois was determined to play his part in",
+                    "shaping the future of a nation that had been forever changed by the fervor of the",
+                    "French Revolution."
                 ]
             },
             {
                 "title": "Question 1",
                 "audio": null,
-                "question": "In line 1, on the brink of means",
+                "question": "In line 1, <u>on the brink of</u> means",
                 "options": ["When something just begun", "About to experience something", "On a special date", "In the end"],
                 "optionk": "B",
                 "optionw": "Para responder esta pregunta, además de conocer el idioma, se requiere tener una idea de cultura general, en este caso, el año en el que comenzó la revolución francesa. De igual manera, para descartar las opciones, podemos observar que no estamos hablando de una fecha en particular, ni de algo ya comenzado, sino de algo que va a suceder.",
@@ -92,7 +69,7 @@
             {
                 "title": "Question 2",
                 "audio": null,
-                "question": "In line 5, we could change Despite for the following options except:",
+                "question": "In line 5, we could change <u>Despite</u> for the following options except:",
                 "options": ["In spite of", "Even though", "In addition to", "Regardless of"],
                 "optionk": "C",
                 "optionw": "Para responder esta pregunta, debemos, en primer lugar, leer bien la pregunta, nos está indicando que hay tres opciones que son sinónimos y una que no lo es. Ahora, debemos intercambiar la palabra “despite” por las opciones para observar cuál altera el significado.",
@@ -114,8 +91,8 @@
             {
                 "title": "Question 4",
                 "audio": null,
-                "question": "In line 11, what does the word revered mean?",
-                "options": ["admired", "disliked", "Despised", "Hated"],
+                "question": "In line 11, what does the word <u>revered</u> mean?",
+                "options": ["ADMIRED", "DISLIKED", "DESPISED", "HATED"],
                 "optionk": "A",
                 "optionw": "Para responder esta pregunta, debemos leer todo el párrafo y observar que las palabras que se mencionan “respected” (respetado), “courageous”(valiente), “found himself at the forefront of pivotal moments” (se encontró al frente de batalla en momentos esenciales) por lo que la palabra que estamos buscando, es una que tenga algo positivo.",
                 "eval": true,
@@ -125,7 +102,7 @@
             {
                 "title": "Question 5",
                 "audio": null,
-                "question": "In line 16, the word it refers to",
+                "question": "In line 16, the word <u>it</u> refers to",
                 "options": ["The revolution", "The situation as a whole", "The rage of the revolution", "A brighter future for France"],
                 "optionk": "B",
                 "optionw": "Para responder esta pregunta, debemos leer todo el párrafo, donde explica que Francois tuvo muchos momentos de angustia y duda, pero a pesar de todo eso, se aferró a ese rayo de luz para salir. Así que estamos haciendo referencia al 'a pesar de eso'.",
@@ -136,10 +113,10 @@
             {
                 "title": "Question 6",
                 "audio": null,
-                "question": "In line 16, the expression glimmer of hope could be substituted by the following options except:",
+                "question": "In line 16, the expression <u>glimmer of hope</u> could be substituted by the following options except:",
                 "options": ["Ray of hope", "light of hope", "beacon of hope", "Hope for flowers"],
-                "optionk": "D",
-                "optionw": "En esta pregunta, nos enfrentamos a cuatro respuestas que incluyen la respuesta “hope”. Si no conocemos el significado de las palabras de manera individual, podemos guiarnos por el patrón o estructura. Las expresiones correctas son las que sigan el mismo patrón o estructura que la frase original.",
+                "optionk": "B",
+                "optionw": "En esta pregunta, nos enfrentamos a cuatro respuestas que incluyen la respuesta “hope”. Si no conocemos el significado de las palabras de manera individual, podemos guiarnos por el patrón o estructura. Las expresiones correctas son las que siguen el mismo patrón o estructura que la frase original.",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
@@ -166,86 +143,53 @@
                 "text": "Los ejercicios 8 al 13 se basan en el siguiente párrafo:", "class":"instrucciones font-bold text-5 text-gradient"
             },
             {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"1", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "Empowering Women in Business: Breaking Barriers and Shaping the Future"
-                    }
+                "textlines": [
+                    "Empowering Women in Business: Breaking Barriers and Shaping the Future",
+                    "In the present dynamic and constantly changing business spheres, women are",
+                    "making significant roles, reshaping industries, and breaking barriers that have",
+                    "long hindered their progress. As we celebrate their accomplishments and",
+                    "recognize the challenges they continue to overcome, we must highlight women's",
+                    "invaluable contributions to business and their transformative impact on",
+                    "economies worldwide.",
+                    "One of the most notable aspects of the modern business environment is the",
+                    "increasing representation of women in leadership positions. From multinational",
+                    "corporations to entrepreneurial ventures, women assume central roles as CEOs,",
+                    "executives, and founders, driving innovation and fostering inclusive work cultures.",
+                    "This transformation reflects a more diverse and equitable workforce and brings",
+                    "fresh perspectives and approaches to decision-making and problem-solving.",
+                    "Moreover, women entrepreneurs are forging their paths and redefining",
+                    "entrepreneurship.",
+                    "By fostering supportive communities and providing access to resources and",
+                    "opportunities, these initiatives are catalysts for advancing gender equality and",
+                    "promoting a more inclusive business ecosystem.",
+                    "It's important to acknowledge that despite the progress made, gender disparities",
+                    "persist in many facets of the business world. Women continue to encounter",
+                    "challenges related to pay equity, representation in boardrooms, and access to",
+                    "funding for their ventures. Addressing these disparities requires a concerted effort",
+                    "from businesses, policymakers, and society as a whole to enact meaningful",
+                    "change and create a level playing field for all aspiring and established women in",
+                    "business.",
+                    "Looking ahead, the momentum of women in business is poised to accelerate",
+                    "further, driven by ongoing advocacy, proactive measures, and the collective",
+                    "determination to shatter stereotypes and outdated norms. By embracing diversity,",
+                    "championing inclusivity, and fostering environments where women can thrive, we",
+                    "can unlock the full potential of talented individuals and propel businesses and",
+                    "economies to new heights of success.",
+                    "Ultimately, the success of women in business is not solely a women's issue but a",
+                    "global imperative. Embracing their leadership, innovation, and expertise is not",
+                    "only the right thing to do but also the smart thing to do for a prosperous and",
+                    "thriving future.",
+                    "In conclusion, women in business are catalysts for change, equipped with the",
+                    "vision, resilience, and leadership to drive businesses forward and shape a more",
+                    "inclusive and prosperous future for all. Their impact extends far beyond",
+                    "boardrooms and bottom lines, serving as an inspiration and a testament to the",
+                    "transformative power of diversity and gender equality in the business world. As",
+                    "we commemorate their achievements and ongoing journey, let us continue to",
+                    "champion and support women in business, recognizing their indispensable role in",
+                    "shaping a dynamic and inclusive global business landscape"
                 ]
             },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"5", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "In the present dynamic and constantly changing business spheres, women are making significant roles, reshaping industries, and breaking barriers that have long hindered their progress. As we celebrate their accomplishments and recognize the challenges they continue to overcome, we must highlight women's invaluable contributions to business and their transformative impact on economies worldwide."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"10", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "One of the most notable aspects of the modern business environment is the increasing representation of women in leadership positions. From multinational corporations to entrepreneurial ventures, women assume central roles as CEOs, executives, and founders, driving innovation and fostering inclusive work cultures. This transformation reflects a more diverse and equitable workforce and brings fresh perspectives and approaches to decision-making and problem-solving."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"15", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "Moreover, women entrepreneurs are forging their paths and redefining entrepreneurship. By fostering supportive communities and providing access to resources and opportunities, these initiatives are catalysts for advancing gender equality and promoting a more inclusive business ecosystem."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"20", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "It's important to acknowledge that despite the progress made, gender disparities persist in many facets of the business world. Women continue to encounter challenges related to pay equity, representation in boardrooms, and access to funding for their ventures. Addressing these disparities requires a concerted effort from businesses, policymakers, and society as a whole to enact meaningful change and create a level playing field for all aspiring and established women in business."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"25", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "Looking ahead, the momentum of women in business is poised to accelerate further, driven by ongoing advocacy, proactive measures, and the collective determination to shatter stereotypes and outdated norms. By embracing diversity, championing inclusivity, and fostering environments where women can thrive, we can unlock the full potential of talented individuals and propel businesses and economies to new heights of success."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"30", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "Ultimately, the success of women in business is not solely a women's issue but a global imperative. Embracing their leadership, innovation, and expertise is not only the right thing to do but also the smart thing to do for a prosperous and thriving future."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"35", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "In conclusion, women in business are catalysts for change, equipped with the vision, resilience, and leadership to drive businesses forward and shape a more inclusive and prosperous future for all. Their impact extends far beyond boardrooms and bottom lines, serving as an inspiration and a testament to the transformative power of diversity and gender equality in the business world. "
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"40", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "As we commemorate their achievements and ongoing journey, let us continue to champion and support women in business, recognizing their indispensable role in shaping a dynamic and inclusive global business landscape."
-                    }
-                ]
-            },
+            
             {
                 "title": "Question 8",
                 "audio": null,
@@ -260,7 +204,7 @@
             {
                 "title": "Question 9",
                 "audio": null,
-                "question": "In line 7, what does the author want to say by using the word representation?",
+                "question": "In line 7, what does the author want to say by using the word <u>representation</u>?",
                 "options": ["That women represent women everywhere.", "That there are women playing different roles in a wide variety of companies.", "That women are becoming more empowered.", "That women are entrepreneurs."],
                 "optionk": "B",
                 "optionw": "Para responder esta pregunta, debemos leer las líneas que desarrollan la idea después de la palabra “representation”, donde podemos observar que se mencionan distintos papeles y posiciones que juegan las mujeres en los negocios. Las otras ideas podrían hacer sentido, pero realmente no demuestran el por qué se habla de una representación de la mujer en puestos de liderazgo.",
@@ -271,7 +215,7 @@
             {
                 "title": "Question 10",
                 "audio": null,
-                "question": "In line 18, the word despite introduces:",
+                "question": "In line 18, the word <u>despite</u> introduces:",
                 "options": ["An idea", "A condition", "A supporting detail", "A proposal"],
                 "optionk": "B",
                 "optionw": "Para responder esta pregunta, debemos leer toda la oración completa y no quedarnos con el “general”, que en este caso sería “introduce una idea”, porque realmente si bien cumple esta función, debemos prestar atención al tipo de idea que estamos leyendo. “Debemos reconocer que a pesar de esto, sucede esta otra cosa”.",
@@ -282,7 +226,7 @@
             {
                 "title": "Question 11",
                 "audio": null,
-                "question": "In line 20, these disparities refer to:",
+                "question": "In line 20, <u>these disparities refer</u> to:",
                 "options": ["Men in businesses.", "Stereotypes.", "A concerted effort from business, policymakers and the society.", "Challenges related to pay equity, representation in boardrooms and access to funding their ventures."],
                 "optionk": "D",
                 "optionw": "Para responder esta pregunta, debemos leer el contexto. Si hablamos de disparities (disparidades), es algo que tiene una connotación negativa, ahora, estos son impedimentos. En las líneas 18-20 podemos encontrar los retos a los que se enfrentan las mujeres.",
@@ -323,39 +267,21 @@
                 "text": "Los ejercicios 14 al 18 se basan en el siguiente párrafo:", "class":"instrucciones font-bold text-5 text-gradient"
             },
             {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"1", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "Dear Mr. Johnson,"
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"5", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "Hope this finds you well. It has been brought to my attention that some members from your department have been missing our weekly meetings for months. It is important to mention they have not sent their reports on time either.As we are at a critical juncture in our company, with the impending renewal of all our permits and contracts, it is imperative that all members are prepared to implement the key points from our last certifications. Failure to do so may jeopardize their continued membership in our company."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"10", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "We are well aware of the implications of all the hiring and training processes. We would like to avoid this, which is the main reason behind this email. Please let us know if there is anything we can do to help you prepare an action plan for solving this situation as soon as possible."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"15", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "Best, <br>John Adler"
-                    }
+                "textlines": [
+                    "Dear Mr. Johnson,",
+                    "Hope this finds you well. It has been brought to my attention that some members",
+                    "from your department have been missing our weekly meetings for months. It is",
+                    "important to mention they have not sent their reports on time either.",
+                    "As we are at a critical juncture in our company, with the impending renewal of all",
+                    "our permits and contracts, it is imperative that all members are prepared to",
+                    "implement the key points from our last certifications. Failure to do so may",
+                    "jeopardize their continued membership in our company.",
+                    "We are well aware of the implications of all the hiring and training processes. We",
+                    "would like to avoid this, which is the main reason behind this email.",
+                    "Please let us know if there is anything we can do to help you prepare an action",
+                    "plan for solving this situation as soon as possible.",
+                    "Best,",
+                    "John Adler"
                 ]
             },
             {
@@ -386,7 +312,7 @@
                 "question": "What is the tone of the text?",
                 "options": ["Formal", "Semiformal", "Neutral", "Informal"],
                 "optionk": "A",
-                "optionw": "Al leer el correo, podemos notar el tipo de vocabulario empleado, las palabras son un poco más complejas que lo que sería un correo informal, no se utilizan contracciones.",
+                "optionw": "Al leer el correo, podemos notar el tipo de vocabulario empleado, las palabras son un poco más complejas de lo que sería un correo informal, no se utilizan contracciones.",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
@@ -394,7 +320,7 @@
             {
                 "title": "Question 17",
                 "audio": null,
-                "question": "In line 6, what does critical mean?",
+                "question": "In line 6, what does <u>critical</u> mean?",
                 "options": ["Crucial", "Unimportant", "Complimentary", "Minor"],
                 "optionk": "A",
                 "optionw": "Para responder esta pregunta, debemos leer todo el párrafo de la línea 6 a la 9, donde se hace un resumen del estado de la compañía en ese momento. Podemos ver que es algo importante, así que la palabra “critical” tiene un significado de algo mayor.",
@@ -405,7 +331,7 @@
             {
                 "title": "Question 18",
                 "audio": null,
-                "question": "In line 8, what does the phrase failure to do so mean?",
+                "question": "In line 8, what does the phrase <u>failure to do</u> so mean?",
                 "options": ["If people have tried unsuccessfully to complete a task.", "When people fail over and over.", "Processes failure.", "When you are able to complete a task."],
                 "optionk": "A",
                 "optionw": "Aquí estamos hablando de fallar la realización de algo en particular. Debemos leer desde la línea 6 para contestar la pregunta y no dejarnos distraer por las respuestas que contienen la palabra.",
@@ -416,10 +342,10 @@
             {
                 "title": "Question 19",
                 "audio": null,
-                "question": "The text is about",
-                "options": ["Love", "A girl taking a job opportunity away from home.", "Someone’s career", "Luxury brands"],
-                "optionk": "B",
-                "optionw": "En este texto si, se mencionan las cuatro opciones, y podríamos decir que es una historia de amor, pero también se menciona la carrera de la protagonista y las marcas de lujo, pero el punto central de la historia es otra.",
+                "question": "What is the purpose of this email?",
+                "options": ["To inform John Adler his team is not working properly.", " To fire people. ", "To create a strategy to keep people in Mr. Johnson’s team. ", "To hire and train new people. "],
+                "optionk": "C",
+                "optionw": "Vemos que hay varias “quejas”u “observaciones”por parte de John Adler, sin embargo, se ofrece una solución, así que nuestra respuesta es la que debe ofrecer una solución para el problema.",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
@@ -427,10 +353,10 @@
             {
                 "title": "Question 20",
                 "audio": null,
-                "question": "Which type of text is this?",
-                "options": ["A memoir", "A letter", "A novel", "An essay"],
-                "optionk": "C",
-                "optionw": "Para descartar las opciones, debemos observar las características generales del texto. En este caso, no hay algo que indique que hay un mensaje o que sea algo en primera persona. También debemos tomar en cuenta que no se exponen puntos de vista.",
+                "question": "Which sentence is a good summary of this mail?",
+                "options": ["It’s a proposal for a new position to have a new team.", "John is asking Mr. Johnson for an action plan to train and keep his team.","The company is at a crucial moment and John wants to fire everyone.","The situation is critical."],
+                "optionk": "B",
+                "optionw": "Para contestar esta pregunta, debemos leer todo el texto de nuevo y quedarnos con el mensaje principal: Tenemos un problema que queremos solucionar. Realmente no se presenta una propuesta en particular, ni se percibe que John quiere despedir a todos en el equipo. Sí, se plantea una situación crítica o importante, pero el correo no está solamente cumpliendo la función de informar.",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
@@ -446,37 +372,66 @@
                 "text": "Los ejercicios 21 al 25 se basan en el siguiente párrafo:", "class":"instrucciones font-bold text-5 text-gradient"
             },
             {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"1", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "It was a difficult decision, stay in Chicago or move to Paris. She knew she needed to change her life before she grew older in a relationship; she wasn't entirely happy with. It was an opportunity of a lifetime, but she was scared she wouldn't make it in a different country where she didn't even speak the language."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"5", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "She was bound to send a reply within the following 24 hours, as there were over a hundred applicants for that same position. Working in advertisement was rewarding but also like swimming in a pond with sharks. It was a highly competitive environment with people playing dirty all the time."
-                    }
-                ]
-            },
-            {
-                "class":"flex gap-5 items-center bg-slate-200 p-4",
-                "content":[
-                    {"text":"10", "class":"text-et-silver text-xl" },
-                    {
-                        "text": "It was 11:59 when Lisa decided to send that reply, she knew she would have to take a leap of faith and move across the sea to find out if her relationship was meant to work out or not, but more importantly, if she had the wood to become a successful advertisement agent. She was ready to work for the greatest luxury brands in the world. It was her first time working with high end products, but she knew that if she was called out for this opportunity, she had all she needed to become the best."
-                    }
+                "textlines": [
+                    "It was a difficult decision, stay in Chicago or move to Paris. She knew she needed",
+                    "to change her life before she grew older in a relationship; she wasn't entirely",
+                    "happy with. It was an opportunity of a lifetime, but she was scared she wouldn't",
+                    "make it in a different country where she didn't even speak the language.",
+                    "She was bound to send a reply within the following 24 hours, as there were over a",
+                    "hundred applicants for that same position. Working in advertisement was",
+                    "rewarding but also like swimming in a pond with sharks. It was a highly",
+                    "competitive environment with people playing dirty all the time.",
+                    "It was 11:59 when Lisa decided to send that reply, she knew she would have to",
+                    "take a leap of faith and move across the sea to find out if her relationship was",
+                    "meant to work out or not, but more importantly, if she had the wood to become a",
+                    "successful advertisement agent. She was ready to work for the greatest luxury",
+                    "brands in the world. It was her first time working with high end products, but she",
+                    "knew that if she was called out for this opportunity, she had all she needed to",
+                    "become the best."
                 ]
             },
             {
                 "title": "Question 21",
-                "audio": null,
-                "question": "On line 5, what does bound mean?",
-                "options": ["something that was not supposed to happen", "Something that just happened", "A possibility", "Something that is certain to happen"],
+                "audio": "The text is about",
+                "question": "¿De qué trata el texto?",
+                "options": [
+                    "Love",
+                    "A girl taking a job opportunity away from home.",
+                    "Someone’s career",
+                    "Luxury brands"
+                ],
+                "optionk": "B",
+                "optionw": "En este texto si, se mencionan las cuatro opciones, y podríamos decir que es una historia de amor, pero también se menciona la carrera de la protagonista y las marcas de lujo, pero el punto central de la historia es otra.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 22",
+                "audio": "Which type of text is this?",
+                "question": "¿Qué tipo de texto es este?",
+                "options": [
+                    "A memoir",
+                    "A letter",
+                    "A novel",
+                    "An essay"
+                ],
+                "optionk": "C",
+                "optionw": "Para descartar las opciones, debemos observar las características generales del texto. En este caso, no hay algo que indique que hay un mensaje o que sea algo en primera persona. También debemos tomar en cuenta que no se exponen puntos de vista.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 23",
+                "audio": "On line 5, what does bound mean?",
+                "question": "En la línea 5, ¿qué significa bound?",
+                "options": [
+                    "something that was not supposed to happen",
+                    "Something that just happened",
+                    "A possibility",
+                    "Something that is certain to happen"
+                ],
                 "optionk": "D",
                 "optionw": "Para contestar esta pregunta, debemos leer toda la oración, si seguimos la lectura, sabemos que no es algo que acaba de suceder, es algo a futuro y que de una manera u otra debe suceder.",
                 "eval": true,
@@ -484,10 +439,15 @@
                 "force_positive": true
             },
             {
-                "title": "Question 22",
-                "audio": null,
-                "question": "Who is the text about?",
-                "options": ["Lisa", "An unknown girl", "A boy", "A boyfriend"],
+                "title": "Question 24",
+                "audio": "Who is the text about?",
+                "question": "¿De quién trata el texto?",
+                "options": [
+                    "Lisa",
+                    "An unknown girl",
+                    "A boy",
+                    "A boyfriend"
+                ],
                 "optionk": "A",
                 "optionw": "El texto comienza con “she”, (ella) y más adelante, en el texto se menciona el nombre de la protagonista. Si bien, hay otros personajes involucrados, al final debemos leer la mayor parte del texto para conocer cuál es el nombre de la protagonista.",
                 "eval": true,
@@ -495,33 +455,16 @@
                 "force_positive": true
             },
             {
-                "title": "Question 23",
-                "audio": null,
-                "question": "How would you describe the protagonist of the story?",
-                "options": ["Nervous", "Optimistic", "Angry", "Depressed"],
-                "optionk": "B",
-                "optionw": "Podríamos decir que está nerviosa, más no enojada. Es importante observar que a pesar de todo lo que está viviendo y la incertidumbre de lo que va a suceder, ella demuestra una actitud positiva ante el cambio.",
-                "eval": true,
-                "type": "practice",
-                "force_positive": true
-            },
-            {
-                "title": "Question 24",
-                "audio": null,
-                "question": "Who is the text about?",
-                "options": ["Lisa", "An unknown girl", "A boy", "A boyfriend"],
-                "optionk": "a",
-                "optionw": "El texto comienza con “she”, (ella) y más adelante, en el texto se menciona el nombre de la protagonista. Si bien, hay otros personajes involucrados, al final debemos leer la mayor parte del texto para conocer cuál es el nombre de la protagonista.",
-                "eval": true,
-                "type": "practice",
-                "force_positive": true
-            },
-            {
                 "title": "Question 25",
-                "audio": null,
-                "question": "How would you describe the protagonist of the story?",
-                "options": ["Nervous", "Optimistic", "Angry", "Depressed"],
-                "optionk": "b",
+                "audio": "How would you describe the protagonist of the story?",
+                "question": "¿Cómo describirías a la protagonista de la historia?",
+                "options": [
+                    "Nervous",
+                    "Optimistic",
+                    "Angry",
+                    "Depressed"
+                ],
+                "optionk": "B",
                 "optionw": "Podríamos decir que está nerviosa, más no enojada. Es importante observar que a pesar de todo lo que está viviendo y la incertidumbre de lo que va a suceder, ella demuestra una actitud positiva ante el cambio.",
                 "eval": true,
                 "type": "practice",
