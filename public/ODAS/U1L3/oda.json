@@ -11,8 +11,12 @@
                 "audioplayer":"a/instruccion.mp3"
              },
              {
-                "text":"En esta lección, usted escuchará ciertos audios, ya sean monólogos o intercambios entre dos personas. Para estos ejercicios, leerá las preguntas y respuestas en el folleto del examen. Seleccione la mejor opción para cada pregunta o enunciado y oscurezca el espacio de la letra correspondiente en la hoja de respuestas."
+                "text":"En este tipo de reactivos de mayor dificultad, los alumnos leerán tanto la pregunta como las opciones de respuesta. Se escucharán audios acerca de las conversaciones  con el objetivo de detectar información específica en las mismas."
              },
+             {
+                "text":"Selecciona la mejor opción para cada pregunta o enunciado dando un click sobre la letra correspondiente."
+             },
+             
              {
               "text":"EXAMPLE",
               "class":"mt-5 font-bold text-5 text-gradient"
@@ -26,10 +30,10 @@
                         "question": "Who would listen to this?",
                         "options": ["A CEO", "A delivery person", "A teacher", "A student"],
                         "optionk": "B",
-                        "optionw": "La respuesta correcta es A delivery person",
+                        "optionw": "Por lo tanto, nuestra respuesta correcta es (A) An art gallery.",
                         "eval": false,
-                                        "type": "listening",
-                "force_positive": true
+                        "type": "listening+text",
+                        "force_positive": true
                     }
                   ]
               },
@@ -96,7 +100,7 @@
             "A mall"
         ],
         "optionk": "A",
-        "optionw": "En esta pregunta, es importante conocer palabras compuestas como “pre-boarding”(que implica lo que sucede antes de abordar) que pertenece al contexto de un medio de transporte. Después se dan más instrucciones, que implican el que las personas con necesidades especiales se deban acercar antes para comenzar el abordaje “begin boarding”. Este tipo de instrucciones, solamente se podrían escuchar, en la sala de espera de un aeropuerto.",
+        "optionw": "En esta pregunta, es importante conocer palabras compuestas como “pre-boarding”(que implica lo que sucede antes de abordar) que pertenece al contexto de un medio de transporte. Después se dan más instrucciones, que implican que las personas con necesidades especiales deben acercarse antes para comenzar el abordaje “begin boarding”. Este tipo de instrucciones, solamente se podrían escuchar, en la sala de espera de un aeropuerto.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -140,7 +144,7 @@
             "While boarding"
         ],
         "optionk": "C",
-        "optionw": "Por el vocabulario, podemos rápidamente identificar que estamos en el campo semántico o el contexto del aeropuerto, aviones, vuelos. Ahora debemos prestar atención a los detalles: La persona da un mensaje de bienvenida y se presenta “This is your captain speaking”, y da información sobre la altitud y la velocidad. Da la hora “The time is 3:00 pm”y al final da la frase que nos da la respuesta “We are expecting to land in Dubai in 15 hours”, por lo tanto, sabemos que esto es al inicio del vuelo: “When the flight has just begun”",
+        "optionw": "Por el vocabulario, podemos rápidamente identificar que estamos en el campo semántico o el contexto del aeropuerto, aviones, vuelos. Ahora debemos prestar atención a los detalles: La persona da un mensaje de bienvenida y se presenta “This is your captain speaking”, y da información sobre la altitud y la velocidad. Da la hora “The time is 3:00 pm”y al final da la frase que nos da la respuesta “We are expecting to land in Dubai in 15 hours”, por lo tanto, sabemos que esto es al inicio del vuelo.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -198,7 +202,7 @@
             {
         "title": "Question 8",
         "audio": "a/a-8.mp3",
-        "question": "We are listening+text to a…",
+        "question": "We are listening to a...",
         "options": [
             "Podcast",
             "An advertisement",
@@ -250,7 +254,7 @@
             "A teacher"
         ],
         "optionk": "B",
-        "optionw": "Para responder esta pregunta, es necesario comprender que las instrucciones en general se refieren a un proceso de contratación, o reclutamiento. Se habla de “uniforms” uniformes, “documents” documentos, y se menciona “recruitment process”o proceso de contratación. En las opciones tenemos tres palabras conocidas por niveles más bajos, sin embargo se puede prestar a confusión el “HR”, que es el acrónimo de “Human resources”, nuestra respuesta correcta. Aquí, si no conocemos la palabra y las otras no tienen sentido, las podemos eliminar e irnos por esta opción.",
+        "optionw": "Para responder esta pregunta, es necesario comprender que las instrucciones en general se refieren a un proceso de contratación, o reclutamiento. Se habla de “uniforms” uniformes, “documents” documentos, y se menciona “recruitment process”o proceso de contratación. En las opciones tenemos tres palabras conocidas por niveles más bajos, sin embargo se puede prestar a confusión el “HR”, que es el acrónimo de “Human resources”, nuestra respuesta correcta. Recuerda que  si no conocemos la palabra y las otras no tienen sentido, las podemos eliminar e irnos por esta opción.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -272,7 +276,7 @@
             "They are husband and wife"
         ],
         "optionk": "B",
-        "optionw": "Aquí el primer punto para responder esta pregunta, “the relationship between the man and the woman” (la relación entre el hombre y la mujer), es que desde la primera frase, “Long time no see”(hace mucho tiempo que no nos vemos), nos indica que las personas tienen tiempo sin verse, así que esto nos lleva a las opciones A y B. Al hablar de escuela y la última vez que se vieron, definitivamente podemos inferir que no tenían una relación , sino que eran “Classmates”(compañeros de clase).",
+        "optionw": "Aquí el primer punto para responder esta pregunta, “the relationship between the man and the woman” (la relación entre el hombre y la mujer), es que desde la primera frase, “Long time no see”(hace mucho tiempo que no nos vemos), nos indica que las personas tienen tiempo sin verse, así que esto nos lleva a las opciones A y B. Al hablar de escuela y la última vez que se vieron, definitivamente podemos inferir que no tenían una relación , sino que su relación dependía de las circunstancias.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -316,7 +320,7 @@
             "At college"
         ],
         "optionk": "D",
-        "optionw": "Todas las respuestas nos están dando un entorno escolar, y al inicio del audio, escuchamos que se habla de un proyecto final “final project”, sin embargo, analizando las partes o las secciones del proyecto, sabemos que no es ni un campamento de verano ni un jardín de niños. La probabilidad indica que  en college (o universidad) es más probable que te den instrucciones para hacer un ensayo.",
+        "optionw": "Todas las respuestas nos están dando un entorno escolar, y al inicio del audio, escuchamos que se habla de un proyecto final “final project”, sin embargo, analizando las partes o las secciones del proyecto, sabemos que no es ni un campamento de verano ni un jardín de niños. La probabilidad indica el lugar donde es más probable que te den instrucciones para hacer un ensayo.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -338,7 +342,7 @@
             "Employees were very happy."
         ],
         "optionk": "C",
-        "optionw": "Aquí debemos leer entre líneas y ver que el hombre está tratando de negociar que se haga la fiesta navideña de ese año, dice: “it was fun”(fue divertida), y la mujer se enfoca en lo costoso que fue “it was expensive”. Al final, ella reafirma su punto de vista con un “as a long-time investment I don’t think it was worth it”(como una inversión a largo plazo, no vale la pena). Debemos saber interpretar eso en otras palabras más sencillas, en este caso “too much money and not worth it”.",
+        "optionw": "Aquí debemos leer entre líneas y ver que el hombre está tratando de negociar que se haga la fiesta navideña de ese año, dice: “it was fun”(fue divertida), y la mujer se enfoca en lo costoso que fue “it was expensive”. Al final, ella reafirma su punto de vista con un “as a long-time investment I don’t think it was worth it”(como una inversión a largo plazo, no vale la pena). Debemos saber interpretar eso en otras palabras.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -404,7 +408,7 @@
             "College graduates"
         ],
         "optionk": "B",
-        "optionw": "Desde el inicio, sabemos que hay cierta formalidad en el habla, puesto que se habla de una hora de llegada y que se espera que quien recibe este mensaje esté en la entrada “fifteen minutes before your class begins”(quince minutos antes de que tu clase comience), y al incluir la frase “a new generation of children who are willing to learn from you”(una nueva generación de niños que quieren aprender de ustedes), podemos deducir automáticamente  quienes reciben esta información.",
+        "optionw": "Desde el inicio, sabemos que hay cierta formalidad en el habla, puesto que se habla de una hora de llegada y que se espera que quien recibe este mensaje esté en la entrada “fifteen minutes before your class begins”(quince minutos antes de que tu clase comience), y al incluir la frase “a new generation of children who are willing to learn from you”(una nueva generación de niños que quieren aprender de ustedes), podemos deducir automáticamente quiénes reciben esta información.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -426,7 +430,7 @@
             "A doctor"
         ],
         "optionk": "B",
-        "optionw": "Desde un inicio, sabemos que estamos hablando de términos médicos o relacionados con la biología o anatomía del cuerpo humano. Aquí tenemos que utilizar la lógica para elegir la respuesta correcta: un doctor/médico ya debería saber esta información, así que nuestra respuesta correcta es un estudiante de medicina, quien apenas está aprendiendo sobre el hígado.",
+        "optionw": "Desde un inicio, sabemos que estamos hablando de términos médicos o relacionados con la biología o anatomía del cuerpo humano. Aquí tenemos que utilizar la lógica para elegir la respuesta correcta: un doctor/médico ya debería saber esta información.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -470,7 +474,7 @@
             "Monday"
         ],
         "optionk": "D",
-        "optionw": "En esta pregunta, tenemos que identificar que nos están pidiendo inferir el día de la semana en el que sucedió la conversación, ya que nuestras opciones son días de la semana. Ahora, el reto está en interpretar la palabra “weekend” (fin de semana) y saber que esto fue al día siguiente por la palabra “yesterday” (ayer), así que estamos hablando que esto sucedió el día siguiente del fin de semana.",
+        "optionw": "En esta pregunta, tenemos que identificar que nos están pidiendo inferir el día de la semana en el que sucedió la conversación, ya que nuestras opciones son días de la semana. Ahora, el reto está en interpretar la palabra “weekend” (fin de semana) y saber que esto fue al día siguiente por la palabra “yesterday” (ayer), así que esto sucedió el día siguiente del fin de semana.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -492,7 +496,7 @@
             "The lady just finished her shift."
         ],
         "optionk": "B",
-        "optionw": "En esta pregunta, tenemos una conversación en la cual la mujer habla de lo pesado que estuvo su trabajo y que tiene mucha hambre.  El hombre le pregunta qué quiere de cenar “What would you like to have for dinner?”, y ella habla de querer algo dulce “pancakes”, sin embargo, ella sabe que los pancakes son algo que se come por lo general por las mañanas, como desayuno. Al final, ella da a entender que por haber sido un día muy pesado, va a comerse los pancakes.",
+        "optionw": "En esta pregunta, tenemos una conversación en la cual la mujer habla de lo pesado que estuvo su trabajo y que tiene mucha hambre.  El hombre le pregunta qué quiere de cenar “What would you like to have for dinner?”, y ella habla de querer algo dulce “pancakes”, sin embargo, ella sabe que los pancakes son algo que se come por lo general en las  mañanas, como desayuno.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -580,7 +584,7 @@
             "A mother"
         ],
         "optionk": "A",
-        "optionw": "Desde el inicio, sabemos que es una persona que va a pasar solamente un día con la audiencia. Al utilizar la expresión “right-hand side” (a su mano derecha), sabemos que está mostrando algo, y la otra palabra “Founders”(fundadores) delatan que la persona es un guía.",
+        "optionw": "Desde el inicio, sabemos que es una persona que va a pasar solamente un día con la audiencia. Al utilizar la expresión “right-hand side” (a su mano derecha), sabemos que está mostrando algo, y la otra palabra “Founders”(fundadores) delatan la ocupación de la persona.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
