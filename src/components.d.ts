@@ -17,6 +17,7 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TestingBtn: typeof import('./components/TestingBtn.vue')['default']
+    TextLine: typeof import('./components/blocks/TextLine.vue')['default']
     TimerClock: typeof import('./components/TimerClock.vue')['default']
     TrainScene: typeof import('./components/TrainScene.vue')['default']
   }

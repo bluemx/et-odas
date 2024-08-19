@@ -23,6 +23,11 @@
             <reactive :step="step" :data="item" :nextbtn="item.nextbtn" :blockid="blockid+'-'+index" />
         </template>
 
+        <!-- TEXT LINES -->
+         <template v-else-if="item?.textlines">
+            <TextLine :texts="item?.textlines"></TextLine>
+         </template>
+
         <!-- ButtonNav -->
          <template v-else-if="item?.buttonnav=='next'">
             <ButtonNav next></ButtonNav>
