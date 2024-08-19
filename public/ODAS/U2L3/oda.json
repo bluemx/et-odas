@@ -33,30 +33,11 @@
               { "buttonnav": "next"}
         ]
     },
-
     {
         "block": "scene",
         "allokbtn": true,
         "navigation": false,
         "content":[
-
-               
-                
-
-        ]
-    },
-    {
-        "block": "scene",
-        "allokbtn": true,
-        "navigation": false,
-        "content":[
-            {
-                "text": "The text below must be completed by the options from questions 6-10.", "class":"instrucciones font-bold text-5 text-gradient"
-            },
-            {
-                "text": "Once upon a time, society considered reading an important habit (6)…….  a great skill to have. (7)……., people used to take time from their daily routine to read (8)……. they analyzed the set of information they were willing to obtain. Now, we (9) …….go back to that time when people did not get as easily distracted as they do now. It is crucial to understand the benefits of reading in order to prioritize it. Reading will surely improve humanity’s audacity, independence and cognition.  So, (10)……. we look for something interesting to read now?",
-                "class": "bg-slate-200 p-4 block rounded text-xl"
-            },
 
                 {
                     "title": "Question 1",
@@ -85,7 +66,7 @@
                         "Julia met had them before the festival."
                     ],
                     "optionk": "b",
-                    "optionw": "Es necesario entender que usamos past perfect (had+ past participle + complement) para diversas acciones del pasado, incluida y es el caso de la alternativa correcta, para hablar de una acción que ocurrió antes de un tiempo específico en el pasado.",
+                    "optionw": "Es necesario entender que usamos past perfect (had+ past participle + complement) para diversas acciones del pasado,así como para hablar de una acción que ocurrió antes de un tiempo específico en el pasado. Es el caso de la alternativa correcta.",
                     "eval": true,
                     "type": "practice",
                     "force_positive": true
@@ -133,11 +114,110 @@
                         "has heard, would have attend"
                     ],
                     "optionk": "b",
-                    "optionw": "La tercera condicional (past perfect + would+ subject+ have +past participle) plantea situaciones del pasado que no sucedieron o que de alguna manera, ya expresarlas suena como a algo “imaginario”. La alternativa es la respuesta que corresponde a este tipo de condicional.",
+                    "optionw": "El tercer condicional (past perfect + would+ subject+ have +past participle) plantea situaciones del pasado que no sucedieron o que de alguna manera, ya expresarlas suena como a algo “imaginario”. La alternativa es la respuesta que corresponde a este tipo de condicional.",
                     "eval": true,
                     "type": "practice",
                     "force_positive": true
                 }
+
+            
+
+               
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": true,
+        "navigation": false,
+        "content":[
+            {
+                "text": "The text below must be completed by the options from questions 6-10.", "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            {
+                "text": "Once upon a time, society considered reading an important habit (6)…….  a great skill to have. (7)……., people used to take time from their daily routine to read (8)……. they analyzed the set of information they were willing to obtain. Now, we (9) …….go back to that time when people did not get as easily distracted as they do now. It is crucial to understand the benefits of reading in order to prioritize it. Reading will surely improve humanity’s audacity, independence and cognition.  So, (10)……. we look for something interesting to read now?",
+                "class": "bg-slate-200 p-4 block rounded text-xl"
+            },
+
+            {
+                "title": "Question 6",
+                "audio": "",
+                "question": "",
+                "options": [
+                    "shall",
+                    "must",
+                    "as well as",
+                    "as a consequence"
+                ],
+                "optionk": "c",
+                "optionw": "Es clave observar que en el complemento número 6, se menciona a la lectura como un hábito importante y se le brinda el mismo nivel al ser una habilidad genial que poseer.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 7",
+                "audio": "",
+                "question": "",
+                "options": [
+                    "While",
+                    "Must",
+                    "Have to",
+                    "As a consequence"
+                ],
+                "optionk": "d",
+                "optionw": "Después de una breve introducción de cómo la lectura era en el pasado, es propio mencionar que, como consecuencia, las personas actuaban de cierta manera.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 8",
+                "audio": "",
+                "question": "",
+                "options": [
+                    "while",
+                    "must",
+                    "has to",
+                    "shouldn’t"
+                ],
+                "optionk": "a",
+                "optionw": "La clave es buscar una opción que nos permita completar la idea con la palabra “mientras” ya que en el ejemplo se sugiere que los sujetos leen mientras analizan la información a la que se les expone.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 9",
+                "audio": "",
+                "question": "",
+                "options": [
+                    "must",
+                    "should",
+                    "have not to",
+                    "whereas"
+                ],
+                "optionk": "a",
+                "optionw": "En el texto se expone la idea preocupante de la falta de lectura. Es por ello que se busca la alternativa que nos indica “deber” en la acción a tomar.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            },
+            {
+                "title": "Question 10",
+                "audio": "",
+                "question": "",
+                "options": [
+                    "as a consequence",
+                    "as well as",
+                    "while",
+                    "shall"
+                ],
+                "optionk": "d",
+                "optionw": "En esta parte, se invita a la audiencia a buscar algo interesante que leer. Es por ello que la alternativa que completa de forma correcta esta interrogante, se utiliza para expresar algo que se espera en el futuro.",
+                "eval": true,
+                "type": "practice",
+                "force_positive": true
+            }
 
             
 
@@ -162,7 +242,7 @@
                         "Matt, who is ingenious, smart and likes to study, is at university hoping to become a doctor."
                     ],
                     "optionk": "d",
-                    "optionw": "La única respuesta que incluye toda la información es la alternativa correcta. En la primera, se dice que Matt es un doctor, lo cual es incorrecto. En la segunda, falta incluir que le gusta estudiar, lo cual también sucede en la tercera opción, la cual, tiene oraciones no conectadas entre ellas.",
+                    "optionw": "La única respuesta que incluye toda la información es la alternativa correcta. En una, se dice que Matt es un doctor, lo cual es incorrecto. En otra, falta incluir que le gusta estudiar. En otra opción hay oraciones no conectadas entre ellas.",
                     "eval": true,
                     "type": "practice",
                     "force_positive": true
@@ -178,7 +258,7 @@
                         "Is young, a good daughter, has two siblings, is Annie."
                     ],
                     "optionk": "b",
-                    "optionw": "La alternativa es la única que nos proporciona todo los detalles del sujeto, en un orden correcto, sin utilizar signos de puntuación de manera innecesaria. A la alternativa (a) le falta un detalle y unir ideas. A la (c ) le falta unión del sujeto con el adjetivo del inicio.",
+                    "optionw": "La alternativa es la única que nos proporciona todo los detalles del sujeto, en un orden correcto, sin utilizar signos de puntuación de manera innecesaria. A algunas respuestas les falta un detalle y unir ideas. A otras les falta la unión del sujeto con el adjetivo del inicio.",
                     "eval": true,
                     "type": "practice",
                     "force_positive": true
@@ -250,7 +330,7 @@
                     "audio": null,
                     "question": "If you <u a>want</u> to be a surgeon, you need to <u b>practice</u> and to be <u c>patience</u>. <u d>No error</u>.",
                     "options": ["wanted", "practicing", "patient", "No error"],
-                    "optionk": "a",
+                    "optionk": "C",
                     "optionw": "La alternativa correcta  nos indica que debemos cambiar un sustantivo por un adjetivo. Ya que para que esta oración esté completa se necesita entender que esta persona necesita ser paciente, en vez de “ser paciencia”.",
                     "eval": true,
                     "type": "practice",
@@ -366,7 +446,7 @@
                     "question": "Select the sentence that concludes the text correctly.",
                     "options": ["It is just a pickle!", "No matter what we do, nothing will ever change.", "Employers and employees can be friends.", "It is just a matter of joining perspectives and forces, looking for a greater good."],
                     "optionk": "d",
-                    "optionw": "La alternativa (d) nos revela que si se reúnen las perspectivas y fuerzas de los empleadores y los empleados (sujetos de quienes hemos estado hablando el resto del texto), se buscará un bien común.",
+                    "optionw": "La alternativa correcta nos revela que si se reúnen las perspectivas y fuerzas de los empleadores y los empleados (sujetos de quienes hemos estado hablando el resto del texto), se buscará un bien común.",
                     "eval": true,
                     "type": "practice",
                     "force_positive": true
