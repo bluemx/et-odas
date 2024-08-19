@@ -27,6 +27,7 @@
                     {
                         "title": "Example question",
                         "audio": "a/q-0.mp3",
+                        "playback": 0,
                         "question": "Who would listen to this?",
                         "options": ["A CEO", "A delivery person", "A teacher", "A student"],
                         "optionk": "B",
@@ -48,6 +49,7 @@
             {
         "title": "Question 1",
         "audio": "a/a-1.mp3",
+        "playback": 0,
         "question": "This message will be heard at",
         "options": [
             "An art gallery",
@@ -70,6 +72,7 @@
             {
         "title": "Question 2",
         "audio": "a/a-2.mp3",
+                        "playback": 0,
         "question": "In what class is this lecture probably being given?",
         "options": [
             "A science class",
@@ -92,6 +95,7 @@
             {
         "title": "Question 3",
         "audio": "a/a-3.mp3",
+                        "playback": 0,
         "question": "This announcement would be heard on",
         "options": [
             "An airport",
@@ -114,6 +118,7 @@
             {
         "title": "Question 4",
         "audio": "a/a-4.mp3",
+                        "playback": 0,
         "question": "This conversation takes place in a",
         "options": [
             "Bar",
@@ -136,6 +141,7 @@
             {
         "title": "Question 5",
         "audio": "a/a-5.mp3",
+                        "playback": 0,
         "question": "When would you listen to this announcement?",
         "options": [
             "Before the flight begins",
@@ -158,6 +164,7 @@
             {
         "title": "Question 6",
         "audio": "a/a-6.mp3",
+                        "playback": 0,
         "question": "What is the girl talking about?",
         "options": [
             "Her boyfriend disappeared from one day to another.",
@@ -180,6 +187,7 @@
             {
         "title": "Question 7",
         "audio": "a/a-7.mp3",
+                        "playback": 0,
         "question": "You would hear this information at:",
         "options": [
             "A concert",
@@ -202,6 +210,7 @@
             {
         "title": "Question 8",
         "audio": "a/a-8.mp3",
+                        "playback": 0,
         "question": "We are listening to a...",
         "options": [
             "Podcast",
@@ -224,6 +233,7 @@
             {
         "title": "Question 9",
         "audio": "a/a-9.mp3",
+                        "playback": 0,
         "question": "In what class is this lecture probably being given?",
         "options": [
             "Anatomy",
@@ -246,6 +256,7 @@
             {
         "title": "Question 10",
         "audio": "a/a-10.mp3",
+                        "playback": 0,
         "question": "Who is the speaker?",
         "options": [
             "A friend",
@@ -268,6 +279,7 @@
             {
         "title": "Question 11",
         "audio": "a/a-11.mp3",
+                        "playback": 0,
         "question": "What is the relationship between the man and the woman?",
         "options": [
             "They were high school sweethearts",
@@ -290,6 +302,7 @@
             {
         "title": "Question 12",
         "audio": "a/a-12.mp3",
+                        "playback": 0,
         "question": "What are they talking about?",
         "options": [
             "A book",
@@ -312,6 +325,7 @@
             {
         "title": "Question 13",
         "audio": "a/a-13.mp3",
+                        "playback": 0,
         "question": "Where is this information being given?",
         "options": [
             "At a library",
@@ -334,6 +348,7 @@
             {
         "title": "Question 14",
         "audio": "a/a-14.mp3",
+                        "playback": 0,
         "question": "What are the woman’s thoughts for this year’s Christmas party?",
         "options": [
             "It was expensive but totally worth it.",
@@ -356,6 +371,7 @@
             {
         "title": "Question 15",
         "audio": "a/a-15.mp3",
+                        "playback": 0,
         "question": "This announcement would be heard on a…",
         "options": [
             "Train",
@@ -378,6 +394,7 @@
             {
         "title": "Question 16",
         "audio": "a/a-16.mp3",
+                        "playback": 0,
         "question": "This information is given to",
         "options": [
             "Neighbors",
@@ -400,6 +417,7 @@
             {
         "title": "Question 17",
         "audio": "a/a-17.mp3",
+                        "playback": 0,
         "question": "This information is given to",
         "options": [
             "Engineers",
@@ -422,6 +440,7 @@
             {
         "title": "Question 18",
         "audio": "a/a-18.mp3",
+                        "playback": 0,
         "question": "This information would be given to.",
         "options": [
             "A cook",
@@ -444,6 +463,7 @@
             {
         "title": "Question 19",
         "audio": "a/a-19.mp3",
+                        "playback": 0,
         "question": "Where does this conversation take place?",
         "options": [
             "At an arts class",
@@ -466,6 +486,7 @@
             {
         "title": "Question 20",
         "audio": "a/a-20.mp3",
+                        "playback": 0,
         "question": "This conversation takes place on a",
         "options": [
             "Sunday",
@@ -488,6 +509,7 @@
             {
         "title": "Question 21",
         "audio": "a/a-21.mp3",
+                        "playback": 0,
         "question": "What is going on?",
         "options": [
             "The man wants to have dinner.",
@@ -510,6 +532,7 @@
             {
         "title": "Question 22",
         "audio": "a/a-22.mp3",
+                        "playback": 0,
         "question": "Where is this piece of information given?",
         "options": [
             "At an aquarium",
@@ -532,6 +555,7 @@
             {
         "title": "Question 23",
         "audio": "a/a-23.mp3",
+                        "playback": 0,
         "question": "Where does this conversation take place?",
         "options": [
             "In church",
@@ -554,6 +578,7 @@
             {
         "title": "Question 24",
         "audio": "a/a-24.mp3",
+                        "playback": 0,
         "question": "This information is given to:",
         "options": [
             "Friends",
@@ -576,6 +601,7 @@
             {
         "title": "Question 25",
         "audio": "a/a-25.mp3",
+                        "playback": 0,
         "question": "Who is saying this?",
         "options": [
             "A tour guide",

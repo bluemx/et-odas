@@ -7,7 +7,7 @@
 
         <!--audio-->
         <template v-if="data.audio">
-            <audioplayer :file="data.audio" :blockid="blockid+'-reactive'"></audioplayer>
+            <audioplayer :file="data.audio" :blockid="blockid+'-reactive'" :playback="data.playback"></audioplayer>
         </template>
         <!--question-->
         <template v-if="props.data.type!=='listening' && data.question">

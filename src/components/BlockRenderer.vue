@@ -15,7 +15,7 @@
 
         <!-- AUDIOPLAYER -->
         <template v-else-if="item?.audioplayer">
-            <audioplayer :file="item.audioplayer" :blockid="blockid+'-'+index" />
+            <audioplayer :file="item.audioplayer" :blockid="blockid+'-'+index" :playback="item.playback" />
         </template>
 
         <!-- REACTIVE -->
