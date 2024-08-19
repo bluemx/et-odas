@@ -79,7 +79,7 @@
                     "question": "That man…..what the best option…",
                     "options": ["would say, will is", "should said, is", "says, will not be", "will say, could be"],
                     "optionk": "d",
-                    "optionw": "Se utiliza el verbo modal “will” para hablar de situaciones en el futuro. Este debe ser seguido por una acción. A su vez, “could” indica posibilidad. La intención de esta oración es decir que el hombre dirá cuál podría ser la mejor opción. La alternativaes la única manera de completar la oración de forma gramaticalmente correcta.",
+                    "optionw": "Se utiliza el verbo modal “will” para hablar de situaciones en el futuro. Este debe ser seguido por una acción. A su vez, “could” indica posibilidad. La intención de esta oración es decir que el hombre dirá cuál podría ser la mejor opción. La alternativa es la única manera de completar la oración de forma gramaticalmente correcta.",
                     "eval": true,
                     "type": "practice",
                     "force_positive": true
@@ -150,7 +150,7 @@
                 {
                     "title": "Question 9",
                     "audio": null,
-                    "question": "What should people know?",
+                    "question": "What is the correct form of the modal verb?",
                     "options": ["should known", "should knew", "should know", "shouldn’t known"],
                     "optionk": "c",
                     "optionw": "Para expresar algo que “debería de ser” podemos usar “should”+ “infinitive”. En esta oración queremos expresar que la gente debería de saber ciertos aspectos de las personas misteriosas.",
@@ -191,7 +191,7 @@
                         "The lady has a stomachache now."
                     ],
                     "optionk": "c",
-                    "optionw": "La clave en esta pregunta es comprender que la respuesta correcta debe incluir todos los aspectos de las oraciones presentadas al inicio. La primera opción carece de la palabra “young”, a la segunda le falta sintaxis u orden correcto de todas las palabras. Y a la opción “d” le falta la mitad de la información. La opción correcta nos indica una queja en tiempo presente y nos deja saber que el sujeto es una dama joven.",
+                    "optionw": "La clave en esta pregunta es comprender que la respuesta correcta debe incluir todos los aspectos de las oraciones presentadas al inicio. La primera opción carece de la palabra “young”, a la segunda le falta sintaxis u orden correcto de todas las palabras. La opción correcta nos indica una queja en tiempo presente y nos deja saber que el sujeto es una dama joven.",
                     "eval": true,
                     "type": "practice",
                     "force_positive": true
