@@ -336,7 +336,8 @@
                 "optionw": "",
                 "eval": true,
                 "type": "practice",
-                "force_positive": false
+                "force_positive": false,
+                "lecture": "Cycling is a good sport.<br>Cycling is fun.<br>Cycling can be expensive.<br>Cycling is considered to be a low impact exercise."
             },
             {
                 "title": "Question 26",
@@ -347,7 +348,8 @@
                 "optionw": "",
                 "eval": true,
                 "type": "practice",
-                "force_positive": false
+                "force_positive": false,
+                "lecture": "Gina and Maxwell run together.<br>Gina is sporty.<br>Gina likes Maxwell.<br>Maxwell is planning on asking Gina out."
             },
             {
                 "title": "Question 27",
@@ -358,7 +360,8 @@
                 "optionw": "",
                 "eval": true,
                 "type": "practice",
-                "force_positive": false
+                "force_positive": false,
+                "lecture": "The TV show is famous.<br>The TV show is edgy.<br>The TV show has a lot of seasons.<br>The TV show has a big cast."
             },
             {
                 "title": "Question 28",
@@ -369,7 +372,8 @@
                 "optionw": "",
                 "eval": true,
                 "type": "practice",
-                "force_positive": false
+                "force_positive": false,
+                "lecture": "It started raining.<br>The city is filled with water.<br>The plants look quite green.<br>The dams are filled."
             }
         ]
     },
@@ -387,7 +391,8 @@
                 "optionw": "",
                 "eval": true,
                 "type": "practice",
-                "force_positive": false
+                "force_positive": false,
+                "lecture": "Frank and Dylan have been friends since Elementary School.<br>Frank is an amazing reporter.<br>Dylan is an astonishing athlete.<br>Their working paths are usually crossing."
             },
             {
                 "title": "Question 30",
@@ -398,7 +403,8 @@
                 "optionw": "",
                 "eval": true,
                 "type": "practice",
-                "force_positive": false
+                "force_positive": false,
+                "lecture":"Sandy’s car is small.<br>Sandy’s car does not waste a lot of gasoline.<br>Sandy is happy with her new car.<br>The car is eco-friendly."
             },
             {
                 "title": "Question 31",
@@ -409,7 +415,9 @@
                 "optionw": "",
                 "eval": true,
                 "type": "practice",
-                "force_positive": false
+                "force_positive": false,
+                "lecture": "Mr. Seabrook looks cheerful.<br>Mr. Seabrook just got good news.<br>Mr. Seabrook is a nice person.<br>Mr. Seabrook works at the library."
+                
             },
             {
                 "title": "Question 32",
@@ -420,7 +428,8 @@
                 "optionw": "",
                 "eval": true,
                 "type": "practice",
-                "force_positive": false
+                "force_positive": false,
+                "lecture": "Gracie is an obedient pet.<br>Gracie is a dog.<br>Gracie is medium size.<br>Gracie lives at the beach."
             },
             {
                 "title": "Question 33",
@@ -431,7 +440,8 @@
                 "optionw": "",
                 "eval": true,
                 "type": "practice",
-                "force_positive": false
+                "force_positive": false,
+                "lecture": "Curtis is the husband.<br>Sarah is the wife.<br>Sarah and Curtis are doctors.<br>They live in Africa."
             }
         ]
     },

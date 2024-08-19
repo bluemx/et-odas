@@ -46,7 +46,7 @@
                 "question": "You do this at school most of the time.",
                 "options": ["eat", "learn", "cook", "swim"],
                 "optionk": "B",
-                "optionw": "Para responder este ejercicio, nos debemos enfocar a las palabras que están relacionadas con otras. Podemos decir que si, los alumnos “comen”en la escuela, o “nadan”porque son actividades que podrían pertenecer al contexto, sin embargo, al prestar atención a la frase “most of the time”(la mayor parte del tiempo) sabemos que la mayor parte del tiempo no comemos o nadamos en la escuela.",
+                "optionw": "Para responder este ejercicio, nos debemos enfocar a las palabras que están relacionadas con otras. Podemos decir que sí, los alumnos “comen”en la escuela, o “nadan”porque son actividades que podrían pertenecer al contexto, sin embargo, al prestar atención a la frase “most of the time” (la mayor parte del tiempo) sabemos que la mayor parte del tiempo no comemos o nadamos en la escuela.",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
