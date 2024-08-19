@@ -158,7 +158,7 @@
                 "question": "In line 5, broke into means",
                 "options": ["To suddenly begin to do something", "To enter a place illegally", "To start a new job", "To break something"],
                 "optionk": "B",
-                "optionw": "Para responder este ejercicio, debemos enfocarnos en la palabra de contenido “llibrary”, los amigos solían entrar a este lugar. El contexto nos dice que lo hicieron porque querían recuperar algo de un lugar, así que tuvieron que entrar. La frase del final nos dice “it was crazy!”así que podemos inferir que era algo no permitido.",
+                "optionw": "Para responder este ejercicio, debemos enfocarnos en la palabra de contenido “library”, los amigos solían entrar a este lugar. El contexto nos dice que lo hicieron porque querían recuperar algo de un lugar, así que tuvieron que entrar. La frase del final nos dice “it was crazy!” así que podemos inferir que era algo no permitido.",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
