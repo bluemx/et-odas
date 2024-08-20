@@ -22,7 +22,7 @@
                 "content":[
                     {
                         "title": "Example question",
-                        "audio": "a/q0.mp3",
+                        "playback": 1, "audio":  "a/q0.mp3",
                         "question": "How are you doing?",
                         "options": ["I’m fine, thanks.", "I’m Luisa.", "I’m from Guadalajara"],
                         "optionk": "a",
@@ -47,7 +47,7 @@
         "content":[
             {
                 "title": "Question 1",
-                "audio": "a/q1.mp3",
+                "playback": 1, "audio":  "a/q1.mp3",
                 "question": "What day is today?",
                 "options": [
                     "Monday",
@@ -62,7 +62,7 @@
             },
             {
                 "title": "Question 2",
-                "audio": "a/q2.mp3",
+                "playback": 1, "audio":  "a/q2.mp3",
                 "question": "What’s your brother’s name?",
                 "options": [
                     "Banana",
@@ -77,7 +77,7 @@
             },
             {
                 "title": "Question 3",
-                "audio": "a/q3.mp3",
+                "playback": 1, "audio":  "a/q3.mp3",
                 "question": "Where can you buy groceries?",
                 "options": [
                     "At the library",
@@ -92,7 +92,7 @@
             },
             {
                 "title": "Question 4",
-                "audio": "a/q4.mp3",
+                "playback": 1, "audio":  "a/q4.mp3",
                 "question": "How old is your brother?",
                 "options": [
                     "His name is Daniel.",
@@ -107,7 +107,7 @@
             },
             {
                 "title": "Question 5",
-                "audio": "a/q5.mp3",
+                "playback": 1, "audio":  "a/q5.mp3",
                 "question": "Where is your backpack?",
                 "options": [
                     "Telephone.",
@@ -122,7 +122,7 @@
             },
             {
                 "title": "Question 6",
-                "audio": "a/q6.mp3",
+                "playback": 1, "audio":  "a/q6.mp3",
                 "question": "Where did you go yesterday?",
                 "options": [
                     "I went to the movies.",
@@ -137,7 +137,7 @@
             },
             {
                 "title": "Question 7",
-                "audio": "a/q7.mp3",
+                "playback": 1, "audio":  "a/q7.mp3",
                 "question": "Do you like Italian food?",
                 "options": [
                     "Yes, I love it.",
@@ -152,7 +152,7 @@
             },
             {
                 "title": "Question 8",
-                "audio": "a/q8.mp3",
+                "playback": 1, "audio":  "a/q8.mp3",
                 "question": "Where do you eat dinner?",
                 "options": [
                     "Homework.",
@@ -167,7 +167,7 @@
             },
             {
                 "title": "Question 9",
-                "audio": "a/q9.mp3",
+                "playback": 1, "audio":  "a/q9.mp3",
                 "question": "Where do you watch TV?",
                 "options": [
                     "I have a dog.",
@@ -182,7 +182,7 @@
             },
             {
                 "title": "Question 10",
-                "audio": "a/q10.mp3",
+                "playback": 1, "audio":  "a/q10.mp3",
                 "question": "What time do you usually study?",
                 "options": [
                     "I study from 5 to 7.",
@@ -197,7 +197,7 @@
             },
             {
                 "title": "Question 11",
-                "audio": "a/q11.mp3",
+                "playback": 1, "audio":  "a/q11.mp3",
                 "question": "Who do you usually study with?",
                 "options": [
                     "I study Mondays and Thursdays.",
@@ -212,7 +212,7 @@
             },
             {
                 "title": "Question 12",
-                "audio": "a/q12.mp3",
+                "playback": 1, "audio":  "a/q12.mp3",
                 "question": "What do you do after school?",
                 "options": [
                     "I have lunch.",
@@ -227,7 +227,7 @@
             },
             {
                 "title": "Question 13",
-                "audio": "a/q13.mp3",
+                "playback": 1, "audio":  "a/q13.mp3",
                 "question": "What’s your favorite class?",
                 "options": [
                     "I love history.",
@@ -242,7 +242,7 @@
             },
             {
                 "title": "Question 14",
-                "audio": "a/q14.mp3",
+                "playback": 1, "audio":  "a/q14.mp3",
                 "question": "What 's Mary' s favorite food?",
                 "options": [
                     "She loves chicken soup.",
@@ -257,7 +257,7 @@
             },
             {
                 "title": "Question 15",
-                "audio": "a/q15.mp3",
+                "playback": 1, "audio":  "a/q15.mp3",
                 "question": "What did you have for breakfast?",
                 "options": [
                     "I study.",
@@ -272,7 +272,7 @@
             },
             {
                 "title": "Question 16",
-                "audio": "a/q16.mp3",
+                "playback": 1, "audio":  "a/q16.mp3",
                 "question": "Where did you go on vacation?",
                 "options": [
                     "Television",
@@ -287,7 +287,7 @@
             },
             {
                 "title": "Question 17",
-                "audio": "a/q17.mp3",
+                "playback": 1, "audio":  "a/q17.mp3",
                 "question": "What should I do to get a scholarship at college?",
                 "options": [
                     "You should see a doctor.",
@@ -302,7 +302,7 @@
             },
             {
                 "title": "Question 18",
-                "audio": "a/q18.mp3",
+                "playback": 1, "audio":  "a/q18.mp3",
                 "question": "My brother is broke.",
                 "options": [
                     "He should get a job.",
@@ -317,7 +317,7 @@
             },
             {
                 "title": "Question 19",
-                "audio": "a/q19.mp3",
+                "playback": 1, "audio":  "a/q19.mp3",
                 "question": "What are you having for dessert?",
                 "options": [
                     "A burger",
@@ -332,7 +332,7 @@
             },
             {
                 "title": "Question 20",
-                "audio": "a/q20.mp3",
+                "playback": 1, "audio":  "a/q20.mp3",
                 "question": "What’s your favorite music?",
                 "options": [
                     "Pop",
@@ -347,7 +347,7 @@
             },
             {
                 "title": "Question 21",
-                "audio": "a/q21.mp3",
+                "playback": 1, "audio":  "a/q21.mp3",
                 "question": "What time do you go to bed?",
                 "options": [
                     "A cat",
@@ -362,7 +362,7 @@
             },
             {
                 "title": "Question 22",
-                "audio": "a/q22.mp3",
+                "playback": 1, "audio":  "a/q22.mp3",
                 "question": "Can you swim?",
                 "options": [
                     "I love swimming.",
@@ -377,7 +377,7 @@
             },
             {
                 "title": "Question 23",
-                "audio": "a/q23.mp3",
+                "playback": 1, "audio":  "a/q23.mp3",
                 "question": "What are you taking to your art’s class?",
                 "options": [
                     "Watercolors and brushes.",
@@ -392,7 +392,7 @@
             },
             {
                 "title": "Question 24",
-                "audio": "a/q24.mp3",
+                "playback": 1, "audio":  "a/q24.mp3",
                 "question": "Is Lorelai going to the movies?",
                 "options": [
                     "Yes, she is.",
@@ -407,7 +407,7 @@
             },
             {
                 "title": "Question 25",
-                "audio": "a/q25.mp3",
+                "playback": 1, "audio":  "a/q25.mp3",
                 "question": "Did you make our hotel reservation?",
                 "options": [
                     "Yes, I did.",
@@ -430,7 +430,7 @@
             
             {
                 "title": "Question 26",
-                "audio": "a/q26.mp3",
+                "playback": 1, "audio":  "a/q26.mp3",
                 "question": "Where would you hear this?",
                 "options": [
                     "In a hotel.",
@@ -447,7 +447,7 @@
             },
             {
                 "title": "Question 27",
-                "audio": "a/q27.mp3",
+                "playback": 1, "audio":  "a/q27.mp3",
                 "question": "What does the man mean?",
                 "options": [
                     "He is happy he is in detention.",
@@ -464,7 +464,7 @@
             },
             {
                 "title": "Question 28",
-                "audio": "a/q28.mp3",
+                "playback": 1, "audio":  "a/q28.mp3",
                 "question": "What will the lady probably do?",
                 "options": [
                     "She wants help to do the dishes",
@@ -481,7 +481,7 @@
             },
             {
                 "title": "Question 29",
-                "audio": "a/q29.mp3",
+                "playback": 1, "audio":  "a/q29.mp3",
                 "question": "Where would you hear this?",
                 "options": [
                     "On a cruise ship",
@@ -498,7 +498,7 @@
             },
             {
                 "title": "Question 30",
-                "audio": "a/q30.mp3",
+                "playback": 1, "audio":  "a/q30.mp3",
                 "question": "This announcement would be heard in a",
                 "options": [
                     "Museum of natural history",
@@ -515,7 +515,7 @@
             },
             {
                 "title": "Question 31",
-                "audio": "a/q31.mp3",
+                "playback": 1, "audio":  "a/q31.mp3",
                 "question": "What does the man mean?",
                 "options": [
                     "He told the lady not to ask any questions.",
@@ -532,7 +532,7 @@
             },
             {
                 "title": "Question 32",
-                "audio": "a/q32.mp3",
+                "playback": 1, "audio":  "a/q32.mp3",
                 "question": "What does the man mean?",
                 "options": [
                     "He wants to take Spanish lessons.",
@@ -549,7 +549,7 @@
             },
             {
                 "title": "Question 33",
-                "audio": "a/q33.mp3",
+                "playback": 1, "audio":  "a/q33.mp3",
                 "question": "Where would you hear this?",
                 "options": [
                     "At the cafeteria",
@@ -566,7 +566,7 @@
             },
             {
                 "title": "Question 34",
-                "audio": "a/q34.mp3",
+                "playback": 1, "audio":  "a/q34.mp3",
                 "question": "What’s the boy talking about?",
                 "options": [
                     "Making friends in another country",
@@ -583,7 +583,7 @@
             },
             {
                 "title": "Question 35",
-                "audio": "a/q35.mp3",
+                "playback": 1, "audio":  "a/q35.mp3",
                 "question": "What does the woman want for Mother’s day?",
                 "options": [
                     "A dress",
@@ -600,7 +600,7 @@
             },
             {
                 "title": "Question 36",
-                "audio": "a/q36.mp3",
+                "playback": 1, "audio":  "a/q36.mp3",
                 "question": "What does the man need?",
                 "options": [
                     "A dictionary.",
@@ -617,7 +617,7 @@
             },
             {
                 "title": "Question 37",
-                "audio": "a/q37.mp3",
+                "playback": 1, "audio":  "a/q37.mp3",
                 "question": "What does the woman imply?",
                 "options": [
                     "She was with a different man.",
@@ -634,7 +634,7 @@
             },
             {
                 "title": "Question 38",
-                "audio": "a/q38.mp3",
+                "playback": 1, "audio":  "a/q38.mp3",
                 "question": "How many times a week do you play tennis?",
                 "options": [
                     "I love tennis.",
@@ -650,7 +650,7 @@
             },
             {
                 "title": "Question 39",
-                "audio": "a/q39.mp3",
+                "playback": 1, "audio":  "a/q39.mp3",
                 "question": "How many apples are they buying?",
                 "options": [
                     "Three",
@@ -667,7 +667,7 @@
             },
             {
                 "title": "Question 40",
-                "audio": "a/q40.mp3",
+                "playback": 1, "audio":  "a/q40.mp3",
                 "question": "Who would say this?",
                 "options": [
                     "A tour guide",
@@ -684,7 +684,7 @@
             },
             {
                 "title": "Question 41",
-                "audio": "a/q41.mp3",
+                "playback": 1, "audio":  "a/q41.mp3",
                 "question": "The person who is being interviewed is:",
                 "options": [
                     "A teacher",
@@ -701,7 +701,7 @@
             },
             {
                 "title": "Question 42",
-                "audio": "a/q42.mp3",
+                "playback": 1, "audio":  "a/q42.mp3",
                 "question": "Where would you hear this?",
                 "options": [
                     "At the zoo",
@@ -718,7 +718,7 @@
             },
             {
                 "title": "Question 43",
-                "audio": "a/q43.mp3",
+                "playback": 1, "audio":  "a/q43.mp3",
                 "question": "Who would say this?",
                 "options": [
                     "A dentist",
@@ -735,7 +735,7 @@
             },
             {
                 "title": "Question 44",
-                "audio": "a/q44.mp3",
+                "playback": 1, "audio":  "a/q44.mp3",
                 "question": "Where would you hear this?",
                 "options": [
                     "At school",
@@ -752,7 +752,7 @@
             },
             {
                 "title": "Question 45",
-                "audio": "a/q45.mp3",
+                "playback": 1, "audio":  "a/q45.mp3",
                 "question": "What is the girl doing for summer break?",
                 "options": [
                     "She is going to go to the beach, visit her family and take a class.",
@@ -769,7 +769,7 @@
             },
             {
                 "title": "Question 46",
-                "audio": "a/q46.mp3",
+                "playback": 1, "audio":  "a/q46.mp3",
                 "question": "Where would you hear this?",
                 "options": [
                     "At the dentist office.",
@@ -786,7 +786,7 @@
             },
             {
                 "title": "Question 47",
-                "audio": "a/q47.mp3",
+                "playback": 1, "audio":  "a/q47.mp3",
                 "question": "What does the woman do for a living?",
                 "options": [
                     "She is a model.",
@@ -803,7 +803,7 @@
             },
             {
                 "title": "Question 48",
-                "audio": "a/q48.mp3",
+                "playback": 1, "audio":  "a/q48.mp3",
                 "question": "What does the woman mean?",
                 "options": [
                     "She was not entirely happy with the ballerina’s performance because of their punctuality.",
@@ -820,7 +820,7 @@
             },
             {
                 "title": "Question 49",
-                "audio": "a/q49.mp3",
+                "playback": 1, "audio":  "a/q49.mp3",
                 "question": "Where would you hear this?",
                 "options": [
                     "At a funeral",
@@ -837,7 +837,7 @@
             },
             {
                 "title": "Question 50",
-                "audio": "a/q50.mp3",
+                "playback": 1, "audio":  "a/q50.mp3",
                 "question": "Who would share this piece of information?",
                 "options": [
                     "The secretary",
@@ -878,7 +878,7 @@
                 "content":[
                     {
                         "title": "Example question",
-                        "audio": false,
+                        "playback": 1, "audio":  false,
                         "question": "________ books over there are the ones I need in order to finish my homework.",
                         "options": ["This", "That", "These", "Those"],
                         "optionk": "d",
@@ -903,7 +903,7 @@
         "content":[
             {
                 "title": "Question 1",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Louis _______ have a blue_______.",
                 "options": [
                     "don’t – car",
@@ -920,7 +920,7 @@
             },
             {
                 "title": "Question 2",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "______ you like the tour?",
                 "options": [
                     "Has – do",
@@ -937,7 +937,7 @@
             },
             {
                 "title": "Question 3",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "The purse is ______ the car. Just right there, in the passenger’s seat.",
                 "options": [
                     "On",
@@ -954,7 +954,7 @@
             },
             {
                 "title": "Question 4",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "How _______ rocks are there in your collection?",
                 "options": [
                     "Many",
@@ -971,7 +971,7 @@
             },
             {
                 "title": "Question 5",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "This ______ my backpack.",
                 "options": [
                     "Are",
@@ -988,7 +988,7 @@
             },
             {
                 "title": "Question 6",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Mike _____ reading by _______.",
                 "options": [
                     "Were – himself",
@@ -1005,7 +1005,7 @@
             },
             {
                 "title": "Question 7",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Harvey ______he ______going to win the case.",
                 "options": [
                     "Knew – wasn’t",
@@ -1022,7 +1022,7 @@
             },
             {
                 "title": "Question 8",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Rachel_____my best friend in the whole wide world.",
                 "options": [
                     "Are",
@@ -1058,7 +1058,7 @@
                 "content":[
                     {
                         "title": "Example question",
-                        "audio": false,
+                        "playback": 1, "audio":  false,
                         "question": "The security guard (0) ______through the night shift.",
                         "options": ["Were sleeping ", "Sleep", "Slept", "Sleeping"],
                         "optionk": "c",
@@ -1073,7 +1073,7 @@
             {"text": "En este caso, estamos hablando de un relato en el pasado, por lo cual, nuestra respuesta forzosamente debe ser en pasado. Ahora, cuando el sujeto es segunda persona del singular, la declinación del verbo debe ser “was” o, por lo que nuestra única respuesta aceptable es el verbo en pasado simple, es decir la opción (C), slept."},
             {
                 "title": "Question 9",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": false,
                 "options": [
                     "were",
@@ -1090,7 +1090,7 @@
             },
             {
                 "title": "Question 10",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": false,
                 "options": [
                     "when",
@@ -1107,7 +1107,7 @@
             },
             {
                 "title": "Question 11",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": false,
                 "options": [
                     "come",
@@ -1124,7 +1124,7 @@
             },
             {
                 "title": "Question 12",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": false,
                 "options": [
                     "who",
@@ -1141,7 +1141,7 @@
             },
             {
                 "title": "Question 13",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": false,
                 "options": [
                     "already",
@@ -1158,7 +1158,7 @@
             },
             {
                 "title": "Question 14",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": false,
                 "options": [
                     "like call",
@@ -1175,7 +1175,7 @@
             },
             {
                 "title": "Question 15",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": false,
                 "options": [
                     "wouldn’t",
@@ -1192,7 +1192,7 @@
             },
             {
                 "title": "Question 16",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": false,
                 "options": [
                     "wouldn’t has happened",
@@ -1226,7 +1226,7 @@
                 "content":[
                     {
                         "title": "Example question",
-                        "audio": false,
+                        "playback": 1, "audio":  false,
                         "lecture": "The man got tired.<br>The man is old.<br>It happened last year.<br>The man can’t stop sleeping.",
                         "question": false,
                         "options": ["The old man got tired last year and can’t stop sleeping anymore.", "The old man got tired last year.", "Last year the man old can’t stop sleeping and he’s tired.", "The man was old and can’t stop sleeping."],
@@ -1243,7 +1243,7 @@
             
             {
                 "title": "Question 17",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Choose the alternative that is closest in meaning to the following sentences.",
                 "options": [
                     "Melina got in the Summer her trophee and wants to be a pro.",
@@ -1260,7 +1260,7 @@
             },
             {
                 "title": "Question 18",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Choose the alternative that is closest in meaning to the following sentences.",
                 "options": [
                     "Grandma and Grandpa go to the park and play chess.",
@@ -1277,7 +1277,7 @@
             },
             {
                 "title": "Question 19",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Choose the alternative that is closest in meaning to the following sentences.",
                 "options": [
                     "The slippery frogs are swimming in the pond.",
@@ -1294,7 +1294,7 @@
             },
             {
                 "title": "Question 20",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Choose the alternative that is closest in meaning to the following sentences.",
                 "options": [
                     "Carmen wants to try a different career, and she works from Monday to Saturday. Is an accountant.",
@@ -1311,7 +1311,7 @@
             },
             {
                 "title": "Question 21",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Choose the alternative that is closest in meaning to the following sentences.",
                 "options": [
                     "Helen desires to travel to Turkey, but her doctor advised against it since she will have an important surgery a week from now.",
@@ -1328,7 +1328,7 @@
             },
             {
                 "title": "Question 22",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Choose the alternative that is closest in meaning to the following sentences.",
                 "options": [
                     "My coaches are proud of me and they want to teach me some new moves.",
@@ -1345,7 +1345,7 @@
             },
             {
                 "title": "Question 23",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Choose the alternative that is closest in meaning to the following sentences.",
                 "options": [
                     "Bigorexia or muscle dysmorphia is a mental disorder that mostly affects males and causes compulsive exercising.",
@@ -1376,7 +1376,7 @@
                 "content":[
                     {
                         "title": "Example question",
-                        "audio": false,
+                        "playback": 1, "audio":  false,
                         "question": "<u a>People</u> who want to <u b>become</u> lawyers <u c>needs</u> to go to Law School. <u c>No error</u>",
                         "options": ["", "", "", ""],
                         "optionk": "C",
@@ -1391,7 +1391,7 @@
             {"text": "Para contestar este ejercicio es necesario examinar cada parte subrayada de la oración para determinar si hay algún error. La letra (C), la palabra “needs”, tiene error, puesto que corresponde al sujeto “lawyers”. “Needs” se usa para la tercera persona en singular. La respuesta correcta en este caso es “need”."},
             {
                 "title": "Question 24",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "The girls <u a>are</u> happy <u b>to</u> <u c>have</u> a sleepover. <u d>No error.</u>",
                 "options": ["","","",""],
                 "optionk": "D",
@@ -1403,7 +1403,7 @@
             },
             {
                 "title": "Question 25",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Janice <u a>don’t</u> like <u b>anything</u> from <u c>France's</u> cuisine. <u d>No error.</u>",
                 "options": ["","","",""],
                 "optionk": "A",
@@ -1415,7 +1415,7 @@
             },
             {
                 "title": "Question 26",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "The bookshelf <u a>for</u> <u b>this</u> materials should have <u c>been</u> there. <u d>No error.</u>",
                 "options": ["","","",""],
                 "optionk": "B",
@@ -1427,7 +1427,7 @@
             },
             {
                 "title": "Question 27",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Have you <u a>never</u> seen <u b>an</u> opportunity like that to slip away <u c>from</u> you? <u d>No error.</u>",
                 "options": ["","","",""],
                 "optionk": "A",
@@ -1439,7 +1439,7 @@
             },
             {
                 "title": "Question 28",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "<u a>Traveling</u> is <u b>merely</u> one of the <u c>greatest</u> pleasures in life. <u d>No error.</u>",
                 "options": ["","","",""],
                 "optionk": "D",
@@ -1451,7 +1451,7 @@
             },
             {
                 "title": "Question 29",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "<u a>Two</u> of my favorite TV shows is <u b>about</u> lawyers who are <u c>overqualified</u>. <u d>No error.</u>",
                 "options": ["","","",""],
                 "optionk": "A",
@@ -1463,7 +1463,7 @@
             },
             {
                 "title": "Question 30",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "The person <u a>that</u> has acted on the problem <u b>has been become</u> the new hero in <u c>his</u> community.<u d>No error.</u>",
                 "options": [
                     "this",
@@ -1480,7 +1480,7 @@
             },
             {
                 "title": "Question 31",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Michael <u a>graduates</u> <u b>from</u> Medicine School five years <u c>ago</u>.<u d>No error.</u>",
                 "options": [
                     "graduated",
@@ -1497,7 +1497,7 @@
             },
             {
                 "title": "Question 32",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "She <u a>had</u> already <u b>go</u> to her pilates class when it <u c>started</u> raining.<u d>No error.</u>",
                 "options": [
                     "has",
@@ -1514,7 +1514,7 @@
             },
             {
                 "title": "Question 33",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Donna <u a>think</u> <u b>about</u> her future, <u c>but</u> “the picture” was not clear.<u d>No error.</u>",
                 "options": [
                     "was thinking",
@@ -1546,7 +1546,7 @@
                 "content":[
                     {
                         "title": "Example question",
-                        "audio": false,
+                        "playback": 1, "audio":  false,
                         "question": "Which sentence does not belong in the text?",
                         "options": ["1", "2", "3", "4"],
                         "optionk": "D",
@@ -1562,7 +1562,7 @@
             {"text": "Para contestar este ejercicio es necesario leer todo el texto. Luego lea de nuevo cada una de las oraciones. El hecho de que entrenar sea difícil (oración 4) no tiene nada que ver directamente con el hecho de que tener un trabajo a veces sea un reto. Por consiguiente, esa es la oración que no pertenece al texto."},
             {
                 "title": "Question 34",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Which sentence would be most appropriate to follow sentence 1?",
                 "options": [
                     "3",
@@ -1579,7 +1579,7 @@
             },
             {
                 "title": "Question 35",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Which word would be the most appropriate to start sentence 1?",
                 "options": [
                     "But",
@@ -1596,7 +1596,7 @@
             },
             {
                 "title": "Question 36",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Which of the following words is INCORRECTLY used?",
                 "options": [
                     "The words “well accepted” in sentence 2.",
@@ -1613,7 +1613,7 @@
             },
             {
                 "title": "Question 37",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "What’s the word that best completes sentence 7?",
                 "options": [
                     "Sometimes",
@@ -1630,7 +1630,7 @@
             },
             {
                 "title": "Question 38",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Which other way could we use to start sentence 2?",
                 "options": [
                     "In addition",
@@ -1647,7 +1647,7 @@
             },
             {
                 "title": "Question 39",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Which of the following words is INCORRECTLY used?",
                 "options": [
                     "The word “blessing” in sentence 1",
@@ -1664,7 +1664,7 @@
             },
             {
                 "title": "Question 40",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Which words could start sentence 9?",
                 "options": [
                     "Finally",
@@ -1703,7 +1703,7 @@
                 "content":[
                     {
                         "title": "Example question",
-                        "audio": false,
+                        "playback": 1, "audio":  false,
                         "question": "In line 4 , “getting something out of hand” means..",
                         "options": ["To escape from the hands", "To go", "To be difficult to control", "To be impossible"],
                         "optionk": "C",
@@ -1718,7 +1718,7 @@
             {"text": "Para contestar este ejercicio es necesario leer todo el texto y luego volver a la línea 4. La expresión idiomática “get something (en este caso, everything) ”significa “que algo se sale de las manos”, es decir, que algo se sale de control. Dentro de este contexto, habla de la rapidez con la que surgieron las nuevas tecnologías años atrás, y el descontrol momentáneo que esto causó."},
             {
                 "title": "Question 1",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "In line 6, “a dime a dozen” means:",
                 "options": [
                     "Something is common",
@@ -1735,7 +1735,7 @@
             },
             {
                 "title": "Question 2",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "In line 7, the idiomatic expression “through thick and thin” means:",
                 "options": [
                     "To have space",
@@ -1752,7 +1752,7 @@
             },
             {
                 "title": "Question 3",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "In line 8, the expression “on the ball” means:",
                 "options": [
                     "Quick to understand things",
@@ -1769,7 +1769,7 @@
             },
             {
                 "title": "Question 4",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "In line 10, the expression “it’s not rocket science” means:",
                 "options": [
                     "It’s not complicated",
@@ -1786,7 +1786,7 @@
             },
             {
                 "title": "Question 5",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "In line 12, the expression “get my act together” means:",
                 "options": [
                     "To go acting in life",
@@ -1806,7 +1806,7 @@
             { "class":"text-xl bg-slate-200 rounded p-4", "text": "Maria was a young, beautiful kid who had practically had everything she ever wanted just by asking for it. She was smart, good with people, funny and super creative. While growing up, she discovered she wanted to see the world. Even though her parents were not particularly solvent, they started (5)saving money for her to live in another country for at least six months. It is important to consider they have been around different countries because they had a travel agency when Maria was younger. They had also had the opportunity to study abroad when they were high schoolers, so they knew this was something they wanted for their kid. It was an invaluable learning (10)experience, and they were confident Maria would benefit from it.<br><br>It was difficult to decide where she wanted to go and if her parents could actually pay for it. Maria had a younger brother, who was quite close in age. So expenses were heavy at that moment.<br><br>Maria dreamed about going to Australia so she could practice and improve (15) her English level. As well, she had imagined living in London or Paris. Those options were out of range, so they agreed on six months in Canada. There, she will practice English and French. <br><br>The day came, and Maria departed for Canada. New places, new friends, new everything! It seemed like Maria had everything she ever dreamt! One day, (20) she was invited to the coolest bar in town. It is important to mention, Maria was underage and her friends were a year older than she was. She knew that, in theory, she was supposed to decline the offer. But she really wanted to go. It was then, when she decided to go and do everything in her power to access the place. Unfortunately for her, she was immediately asked (25) to leave the premises and the school called her parents. She was sent back home on her first week away. She lost that semester at her old school and had to remain a whole school year without enrolling. <br><br>She definitely got a valuable lesson (the hard way) from her mistakes."},
             {
                 "title": "Question 6",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "How do you think the main character felt by the end of the story?",
                 "options": [
                     "Hopeless",
@@ -1823,7 +1823,7 @@
             },
             {
                 "title": "Question 2",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "What does the narrator refer to when he says “the coolest bar” in line 20?",
                 "options": [
                     "A place with cool temperature",
@@ -1840,7 +1840,7 @@
             },
             {
                 "title": "Question 3",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "Why did she decide to go to the bar?",
                 "options": [
                     "Someone made her",
@@ -1857,7 +1857,7 @@
             },
             {
                 "title": "Question 4",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "What does the narrator refer to with “the day came” on line 18?",
                 "options": [
                     "Moving to the middle of nowhere",
@@ -1883,7 +1883,7 @@
             { "class":"text-xl bg-slate-200 rounded p-4", "text": "It is common to hear about how human beings have affected the world’s natural appearance and health. As time passes, temperatures increase around the planet, leaving no place unaltered. By polluting the globe, society has managed to break their own heatwave records within each year. During (5)2022, wildfires destroyed vast areas of flora and fauna across the European continent. “How could this happen?”, you may be wondering. Well, it turns out unbearably hot temperatures take moisture from the ground, which helps lightning from storms to create a spark that starts the whole vegetation.<br><br> At the same time, in China, the population had to deal with power cuts. In (10)addition, the drought affected crop production not only there, but worldwide. <br><br>When temperatures increase, the possibilities of flood increase with them. Areas like Pakistan and New Zealand were devastated by floods this year. In Asia, dry periods have lately occurred at critical planting times, while (15)surprising downpours have destroyed homes and drowned out entire crops. This is a clear example of how global warming has totally affected communities of all sizes.<br><br>The burning of fossil fuels traps the heat in the atmosphere, which probably has been the main cause of human-induced climate change. <br><br>(20) As a society, it is advisable to explore the 2030 Agenda and to take action. On the contrary, the temperatures will continue rising and it will become unbearable to live on the only planet we know has the perfect conditions for us, the human race. Furthermore, the effects of increasing heat on the body, make it difficult for humans to maintain a safe body temperature. (25)People working outdoors are unquestionably more at risk. <br><br>It is time to accept that even the richest countries have limited means to solve these problems. Countries are forced to select between building some parts of their areas again or to develop better ways to cope with future climate crises. <br><br>The shortage of water and food will not help humanity to stop polluting the (30)world, which causes global warming. So now, if we think about it long enough, this situation feels like a never ending cycle."},
             {
                 "title": "Question 10",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "What is the purpose of this text?",
                 "options": [
                     "To inform",
@@ -1900,7 +1900,7 @@
             },
             {
                 "title": "Question 11",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "“There” in line 10 refers to…",
                 "options": [
                     "Pakistan",
@@ -1917,7 +1917,7 @@
             },
             {
                 "title": "Question 12",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "In line 7, “turns out” refers to…",
                 "options": [
                     "To happen in a particular case",
@@ -1934,7 +1934,7 @@
             },
             {
                 "title": "Question 13",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "In the text, how many types of direct affectations from increasing temperatures does the author mention?",
                 "options": [
                     "One to two",
@@ -1951,7 +1951,7 @@
             },
             {
                 "title": "Question 14",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "In line 29, what do the words “shortage of water” refer to:",
                 "options": [
                     "There is not enough water in the world for its population.",
@@ -1968,7 +1968,7 @@
             },
             {
                 "title": "Question 15",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "In line 27, “limited means” could be changed for:",
                 "options": [
                     "Limited areas",
@@ -1985,7 +1985,7 @@
             },
             {
                 "title": "Question 16",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "This text was written by:",
                 "options": [
                     "An administrator",
@@ -2002,7 +2002,7 @@
             },
             {
                 "title": "Question 17",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "This text is aimed for:",
                 "options": [
                     "Business people",
@@ -2027,7 +2027,7 @@
             { "text": "Los ejercicios 18 al 22 se enfocan en vocabulario."},
             {
                 "title": "Question 18",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "It is what you regularly do in a pool.",
                 "options": [
                     "eat",
@@ -2044,7 +2044,7 @@
             },
             {
                 "title": "Question 19",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "It is the place where people normally keep their cars when they are not using them.",
                 "options": [
                     "Garage",
@@ -2061,7 +2061,7 @@
             },
             {
                 "title": "Question 20",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "I felt hungry, so I ate a ______.",
                 "options": [
                     "car",
@@ -2078,7 +2078,7 @@
             },
             {
                 "title": "Question 21",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "I need to pay some bills, I will go to the:",
                 "options": [
                     "Theater",
@@ -2095,7 +2095,7 @@
             },
             {
                 "title": "Question 22",
-                "audio": false,
+                "playback": 1, "audio":  false,
                 "question": "The opposite of “excited” is:",
                 "options": [
                     "Hungry",
@@ -2116,7 +2116,7 @@
                  "text": "Kevin <u>wakes up</u> every morning at 5 o’clock. He regularly <u>works out</u> from 90 to120 minutes a day. He <u>gets along</u> with his peers at the gym. He normally <u>runs into</u> his good friends between 6 and 7 in the morning, since they take indoor cycling classes together. Most of the time, they talk for around 15 minutes before <u>taking off</u>."},
                  {
                     "title": "Question 23",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 1, wakes up means:",
                     "options": [
                         "To stop sleeping",
@@ -2133,7 +2133,7 @@
                 },
                 {
                     "title": "Question 24",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 1, works out means:",
                     "options": [
                         "To exercise",
@@ -2150,7 +2150,7 @@
                 },
                 {
                     "title": "Question 25",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 2, gets along means:",
                     "options": [
                         "To get somewhere",
@@ -2167,7 +2167,7 @@
                 },
                 {
                     "title": "Question 26",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 2, runs into means:",
                     "options": [
                         "To start running",
@@ -2184,7 +2184,7 @@
                 },
                 {
                     "title": "Question 27",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 4, taking off means:",
                     "options": [
                         "To break",
@@ -2206,7 +2206,7 @@
             
                  {
                     "title": "Question 28",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "The objective of this article is:",
                     "options": [
                         "To inform people about panic attacks.",
@@ -2223,7 +2223,7 @@
                 },
                 {
                     "title": "Question 29",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "What major problems can panic attacks cause?",
                     "options": [
                         "A bad response",
@@ -2240,7 +2240,7 @@
                 },
                 {
                     "title": "Question 30",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "According to the text, what are some examples of simple challenges?",
                     "options": [
                         "sleeping",
@@ -2257,7 +2257,7 @@
                 },
                 {
                     "title": "Question 31",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 19, what does “to go back to the drawing board“ refer to?",
                     "options": [
                         "To get creative",
@@ -2274,7 +2274,7 @@
                 },
                 {
                     "title": "Question 32",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "What happens when we suffer from panic attacks for a prolonged period of time?",
                     "options": [
                         "It becomes chronic difficulty.",
@@ -2291,7 +2291,7 @@
                 },
                 {
                     "title": "Question 33",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 23, what does “tall order” refer to?",
                     "options": [
                         "To have high expectations",
@@ -2308,7 +2308,7 @@
                 },
                 {
                     "title": "Question 34",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 29, what does “them” refer to?",
                     "options": [
                         "different periods of time",
@@ -2325,7 +2325,7 @@
                 },
                 {
                     "title": "Question 35",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 33, what does “on cloud nine” mean?",
                     "options": [
                         "Flying",
@@ -2347,7 +2347,7 @@
                  "text": "When we are little, all we hear is about how good sports are and how nice it is to choose a physical activity that we enjoy. Regularly, during childhood, the most common options are: soccer, basketball, volleyball, ballet and karate. But as we grow up, we discover the pleasure (or the lack of it) for other activities. For instance, (5)jumping in an individual trampoline is a friendly cardio that provides a full body workout in 40 minutes. Another example is indoor cycling, which gives you the opportunity to increase your heart rate and to have fun at the same time. Both options are considered to have low impact on the knees area (which is a conflictive body part as people get older). Like those activities, we may find an infinite set of (10) options that make our inner child feel delighted and healthy at the same time. But, what is the downside? There is a big difference between being athletic and suffering from bigorexia. <br><br><br><br>Bigorexia or muscle dysmorphia can be defined as a mental disorder in which the person perceives that their body looks different than it does. It is “less muscular” than (15)it actually is. This leads to obsessive and unhealthy behaviors, it mainly causes compulsive exercising and eating disorders, but it may also include the use of anabolic steroids. <br><br><br><br>Bigorexia can “appear” in different stages of life, nevertheless, it most often develops in late adolescence. Bigorexia is associated with anxiety and depression, eating (20)disorders, substance abuse and general problems (mainly with school, work and relationships).<br><br><br><br>One study found that 33% of boys ages 11-18 were not satisfied with their body shape. In addition, there are a lot of undiagnosed people suffering from muscle dysmorphia, a situation which increases in society. According to data, a study found (25) that people who had adverse childhoods, have a considerable chance of getting muscle dysmorphia later on. <br><br><br><br>Video games, social media, and, in general, the Internet keep the idea of extremely muscular men quite present in our daily lives. This fact keeps males too focused on unreachable physical goals. The way male action figures are presented are not (30)humanly possible.<br><br><br><br>Social media makes comparisons easier. The use of hashtags and the efficiency of artificial intelligence provide exactly what we think we need the most and also, probably what affects us in a deeper way. Considering the amount of “before and after” testimonies that are all over the net, accepting our body shape and genes (35)becomes next to impossible.<br><br><br><br>Educating society and reducing social media time can help. According to the American Psychological Association, people who reduce their social media time by 50% tend to have notable improvement in the way they feel about their overall appearance. Creating awareness about the strong problems most youngsters are (40) going through would certainly make it easier for society to lend a hand to people who may be struggling with muscle dysmorphia and any other mental disease.  <br><br><br><br>While bigorexia is more common in males, anorexia is more common in females. Anorexia is an eating disorder characterized by an abnormally low body weight that focuses on an intense fear of gaining weight. What bigorexia and anorexia may have (45) in common are the distorted perceptions those who suffer from them have by looking at themselves in the mirror. Additionally, in an unconscious way, subjects damage their bodies by taking their “wishes” to the extreme. Furthermore, people who have these disorders do not accept themselves and most likely suffer from low self-esteem, even if it does not look like that to the “simple eye”. Moreover, both (50)disorders regularly start during adolescence. Bigorexia and anorexia may cause or be caused, up until some point, because of stress and anxiety.  <br><br><br><br>Anorexia patients can also be helped in a similar way bigorexia patients do. Everything can be traced back to society and to society’s good or bad education. As well, a high level of emotional intelligence can be key towards allowing those who (55) are close to diagnosed people to improve their behaviors around them. To make them feel more comfortable and probably even, to cope with their situations in a better, more productive way.  Teaching children about different body types, tolerance and the beauty in diversity will certainly help create another future for the upcoming generations."},
                  {
                     "title": "Question 36",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "The article was written by:",
                     "options": [
                         "A school janitor",
@@ -2364,7 +2364,7 @@
                 },
                 {
                     "title": "Question 37",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "How can you know if you suffer from bigorexia?",
                     "options": [
                         "Because you do not ingest enough calories for your daily activities",
@@ -2381,7 +2381,7 @@
                 },
                 {
                     "title": "Question 38",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 15, the word “obsessive” can be replaced by:",
                     "options": [
                         "obsessed",
@@ -2398,7 +2398,7 @@
                 },
                 {
                     "title": "Question 39",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 25, the word “considerable” means?",
                     "options": [
                         "significant",
@@ -2415,7 +2415,7 @@
                 },
                 {
                     "title": "Question 40",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "The message in lines 27-30 is:",
                     "options": [
                         "Females are too focused on their physical appearance.",
@@ -2432,7 +2432,7 @@
                 },
                 {
                     "title": "Question 41",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "What is the main difference between bigorexia and anorexia?",
                     "options": [
                         "Bigorexia focuses on the idea of being less muscular and anorexia creates an illusion of needing a lower, unhealthy body weight",
@@ -2449,7 +2449,7 @@
                 },
                 {
                     "title": "Question 42",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 35, what does the expression “becomes next to impossible” refer to?",
                     "options": [
                         "To how difficult it is to accept our genes",
@@ -2466,7 +2466,7 @@
                 },
                 {
                     "title": "Question 43",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 40, what does the expression “to lend a hand” mean?",
                     "options": [
                         "to ask for an opportunity",
@@ -2483,7 +2483,7 @@
                 },
                 {
                     "title": "Question 44",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "In line 45, what does the expression “distorted perceptions” refer to?",
                     "options": [
                         "To the wrong perceptions people may get",
@@ -2500,7 +2500,7 @@
                 },
                 {
                     "title": "Question 45",
-                    "audio": false,
+                    "playback": 1, "audio":  false,
                     "question": "Lines 52-59, what conclusion might be the most accurate?",
                     "options": [
                         "By having a well-prepared, better society, we can help others to cope with their struggles (including bigorexia and anorexia)",
