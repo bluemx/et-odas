@@ -10,8 +10,10 @@
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
              {
-                "text":"En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres opciones, también en inglés. Las preguntas o enunciados  y las opciones se dirán solo una vez. Escuche cuidadosamente para poder entender porque no aparece nada escrito en el folleto de examen para estos ejercicios. Seleccione la mejor opción para cada pregunta o enunciado y oscurezca el espacio de la letra correspondiente en la hoja de respuestas."
+                "text":" En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres opciones, también en inglés. Las preguntas o enunciados y las opciones se dirán solo una vez. "
              },
+             { "text": "Escuche cuidadosamente para poder entender por qué no aparece nada escrito en el folleto del examen para estos ejercicios. Selecciona la mejor opción para cada pregunta o enunciado dando un click sobre  la letra correspondiente."},
+
              {
                 "text":"EXAMPLE",
                 "class":"mt-5 font-bold text-5 text-gradient"
@@ -424,9 +426,8 @@
                 "text":"Comprensión auditiva.",
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
-             {
-                "text":"Las conversaciones y parlamentos no están impresos en su folleto de examen. Usted los oirá solo una vez; por lo tanto, escuche cuidadosamente para entenderlos. Las preguntas o enunciados breves y las posibles respuestas para las conversaciones y parlamentos breves aparecen impresos en su folleto del examen, después de escuchar cada conversación o parlamento, seleccione la mejor respuesta para cada ejercicio y oscurezca el espacio de la letra correspondiente en la hoja de respuestas."
-             },
+             {"text":"En esta parte, se reproducen conversaciones cortas en las cuales deben demostrar distintas habilidades de escucha."},
+             {"text":"Usted escuchará preguntas o enunciados en inglés seguidos de tres o cuatro opciones, también en inglés. Las preguntas o enunciados y las opciones se dirán solo una vez. Después de escuchar cada conversación seleccione la mejor respuesta para cada ejercicio seleccionando la mejor opción para cada pregunta o enunciado dando un click sobre  la letra correspondiente."},
             
             {
                 "title": "Question 26",
