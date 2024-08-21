@@ -502,7 +502,7 @@
                 "playback": 1, "audio":  "a/q30.mp3",
                 "question": "This announcement would be heard in a",
                 "options": [
-                    "Museum of natural history",
+                    "Museum of Natural History",
                     "TV show",
                     "Museum of Space",
                     "Aquarium"
@@ -867,13 +867,12 @@
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
              {
-                "text":"En los siguientes ejercicios se presentan ejercicios y enunciados que están incompletos. Seleccione la opción que mejor responda a la pregunta o complete el enunciado y oscurezca el espacio de la letra correspondiente en la hoja de respuestas."
+                "text":"En los siguientes ejercicios se presentan enunciados que están incompletos o preguntas con distintas opciones de respuesta.  Seleccione con un click la opción que mejor complete el enunciado o responda a la pregunta."
              },
              {
                 "text":"EXAMPLE",
                 "class":"mt-5 font-bold text-5 text-gradient"
             },
-            { "text": "Recuerde que en estos ejercicios no aparece nada escrito en el folleto del examen."},
             {
                 "class":"border-4 border-solid border-et-orange p-5 rounded-md",
                 "content":[
@@ -922,7 +921,7 @@
             {
                 "title": "Question 2",
                 "playback": 1, "audio":  false,
-                "question": "______ you like the tour?",
+                "question": "______ you like the tour? How fun______it?",
                 "options": [
                     "Has – do",
                     "Did -was",
@@ -1044,7 +1043,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient mt-10"
             },
             
-            { "text": "En los siguientes ejercicios se presenta un párrafo con algunas oraciones en las que se han omitido algunas palabras. Después de leerlo, seleccione la opción que mejor complete la oración. Oscurezca el espacio de la letra correspondiente en la hoja de respuestas."},
+            { "text": "En los siguientes ejercicios se presenta un párrafo con algunas oraciones en las que se han omitido algunas palabras. Después de leerlo, seleccione la opción que mejor complete la oración."},
             
             {"text": "Los ejercicios 9-16 se basan en el siguiente párrafo. La primera oración pertenece al ejemplo."},
             {
@@ -1071,7 +1070,7 @@
                     }
                 ]
             },
-            {"text": "En este caso, estamos hablando de un relato en el pasado, por lo cual, nuestra respuesta forzosamente debe ser en pasado. Ahora, cuando el sujeto es segunda persona del singular, la declinación del verbo debe ser “was” o, por lo que nuestra única respuesta aceptable es el verbo en pasado simple, es decir la opción (C), slept."},
+            {"text": "En este caso, estamos hablando de un relato en el pasado, por lo cual, nuestra respuesta forzosamente debe ser en pasado, por lo que nuestra única respuesta aceptable es el verbo en pasado simple, es decir la opción slept. Se marcó también en el guión instruccional."},
             {
                 "title": "Question 9",
                 "playback": 1, "audio":  false,
@@ -1213,11 +1212,8 @@
                 "class":"instrucciones font-bold text-5 text-gradient mt-10"
             },
             
-            { "text": "En los siguientes ejercicios, seleccione la opción que presenta la mejor forma de combinar las palabras, frases u oraciones de forma tal que se conserve el significado original. Oscurezca el espacio de la letra correspondiente en la hoja de respuestas."},
+            { "text": "En los siguientes ejercicios, seleccione la opción que presenta la mejor forma de combinar las palabras, frases u oraciones de forma tal que se conserve el significado original. "},
             
-            {
-                "class":"text-xl bg-slate-200 rounded p-4",
-                "text": "The security guard (0) ______through the night shift. That (9) ______not really a big problem (10) ______ the early morning (11)________. Jessica wanted to leave the building (12) ______ she couldn’t. The guard was not opening the gate for her and she was (13) ______ running late for her class. She tried to (14) ______ him but he (15) ______ pick up. So Jessica arrived to her morning class late. This (16) ______ if he would have been more responsible. Poor Jessica!"},
             {
                 "text":"Ejemplo",
                 "class":"instrucciones font-bold text-5 text-gradient mt-10"
@@ -1240,7 +1236,7 @@
                     }
                 ]
             },
-            {"text": "La oración (B) es correcta pero incompleta, ya que le falta información, al igual que la (D), que no tiene la información de cuándo fue que el hombre se comenzó a sentir cansado. Las palabras en la alternativa (C) no están en orden. Solamente la alternativa (A) combina las oraciones con toda la información en el orden correcto."},
+            {"text": "La oración que habla del hombre y la temporalidad es correcta pero incompleta, ya que le falta información, al igual que la opción  que no tiene la información de cuándo fue que el hombre se comenzó a sentir cansado. En una respuesta alternativa, las  palabras no están en orden. Solamente la alternativa correcta combina las oraciones con toda la información en el orden correcto."},
             
             {
                 "title": "Question 17",
@@ -1367,7 +1363,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient mt-10"
             },
             
-            { "text": "En cada una de las siguientes oraciones, hay cuatro palabras o frases subrayadas que se señalan con las letras A, B, C y D. Puede que en estas haya un error o no exista ninguno. Si identifica algún error, seleccione la letra que identifica la parte que debe ser cambiada para hacer la oración correcta. Oscurezca el espacio de la letra correspondiente en la hoja de respuestas. Si no hay error, escoja la letra D."},
+            { "text": "En cada una de las siguientes oraciones, hay cuatro palabras o frases subrayadas que se señalan con las letras A, B, C y D. Puede que en estas haya un error o no exista ninguno. Si identifica algún error, seleccione la letra que identifica la parte que debe ser cambiada para hacer la oración correcta. De no haber error, escoja la letra D."},
             {
                 "text":"Ejemplo",
                 "class":"instrucciones font-bold text-5 text-gradient mt-10"
@@ -1458,7 +1454,7 @@
                 "optionk": "A",
                 "optionw": false,
                 "eval": true,
-                "type": "practice",               
+                "type": "inline",               
                 "difficulty": "Difficult", "points":1.5,
                 "force_positive": false
             },
@@ -1479,6 +1475,7 @@
                 "difficulty": "Difficult", "points":1.5,
                 "force_positive": false
             },
+            {"text": "From questions 30-33 identify the correct answer for one of the underlined options. There is only one correct answer for each question."},
             {
                 "title": "Question 31",
                 "playback": 1, "audio":  false,
@@ -1536,7 +1533,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient mt-10"
             },
             
-            { "text": "A continuación se presenta una lectura con ejercicios basados en su contenido. Después de leerla, seleccione la contestación correcta para cada ejercicio. Oscurezca el espacio de la letra correspondiente en la hoja de respuestas."},
+            { "text": "A continuación se presenta una lectura con ejercicios basados en su contenido. Después de leerla, seleccione la respuesta correcta para cada ejercicio."},
             {
                 "text":"Ejemplo",
                 "class":"instrucciones font-bold text-5 text-gradient mt-10"
@@ -1696,7 +1693,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient mt-10"
             },
             
-            { "text": "En los siguientes ejercicios, se presenta un párrafo. Después de leerlo, seleccione la opción con un significado similar al que se plantea en cada pregunta. Oscurezca el espacio de la letra correspondiente en la hoja de respuestas."},
+            { "text": "En los siguientes ejercicios, se presenta un párrafo. Después de leerlo, seleccione la opción con un significado similar al que se plantea en cada pregunta. "},
             { "text": "Los ejercicios 1-5 se basan en el siguiente párrafo."},
             { "class":"text-xl bg-slate-200 rounded p-4", "text": "Knowing about computers and social media (in general, about technology)  a few years back was quite complex. The knowledge included investigating and understanding about emerging technologies and new ways to communicate. The speed in which they evolved, felt like society was getting everything out of (5) hand. Nowadays, people who dominate these technological areas are a dime a dozen. I certainly believe that it has to do with those who stayed through thick and thin during the companies’ processes (while migrating their data, for example) and were actually on the ball. My friends and I can still recall when our teachers used to explain how to research information on the (10) net and how to create a digital document. You may think it’s not rocket science, but back then, while feeling frustrated (since I lacked abilities to face the changes), I had to get my act together to avoid having an outburst."},
             {
@@ -1879,7 +1876,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient mt-10"
             },
             
-            { "text": "Las siguientes lecturas están seguidas por ejercicios basados en su contenido. Después de leerlas, seleccione la mejor respuesta para cada ejercicio y oscurezca el espacio de la letra correspondiente en la hoja de respuestas. Responda a todos los ejercicios basándose en lo que las lecturas afirman o implican."},
+            { "text": "Las siguientes lecturas están seguidas por ejercicios basados en su contenido. Después de leerlas, seleccione la mejor respuesta para cada ejercicio. Responda a todos los ejercicios basándose en lo que las lecturas afirman o implican."},
             { "text": "Los ejercicios 10-17 se basan en la siguiente lectura:"},
             { "class":"text-xl bg-slate-200 rounded p-4", "text": "It is common to hear about how human beings have affected the world’s natural appearance and health. As time passes, temperatures increase around the planet, leaving no place unaltered. By polluting the globe, society has managed to break their own heatwave records within each year. During (5)2022, wildfires destroyed vast areas of flora and fauna across the European continent. “How could this happen?”, you may be wondering. Well, it turns out unbearably hot temperatures take moisture from the ground, which helps lightning from storms to create a spark that starts the whole vegetation.<br><br> At the same time, in China, the population had to deal with power cuts. In (10)addition, the drought affected crop production not only there, but worldwide. <br><br>When temperatures increase, the possibilities of flood increase with them. Areas like Pakistan and New Zealand were devastated by floods this year. In Asia, dry periods have lately occurred at critical planting times, while (15)surprising downpours have destroyed homes and drowned out entire crops. This is a clear example of how global warming has totally affected communities of all sizes.<br><br>The burning of fossil fuels traps the heat in the atmosphere, which probably has been the main cause of human-induced climate change. <br><br>(20) As a society, it is advisable to explore the 2030 Agenda and to take action. On the contrary, the temperatures will continue rising and it will become unbearable to live on the only planet we know has the perfect conditions for us, the human race. Furthermore, the effects of increasing heat on the body, make it difficult for humans to maintain a safe body temperature. (25)People working outdoors are unquestionably more at risk. <br><br>It is time to accept that even the richest countries have limited means to solve these problems. Countries are forced to select between building some parts of their areas again or to develop better ways to cope with future climate crises. <br><br>The shortage of water and food will not help humanity to stop polluting the (30)world, which causes global warming. So now, if we think about it long enough, this situation feels like a never ending cycle."},
             {
@@ -2024,7 +2021,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient mt-10"
             },
             
-            { "text": "Las siguientes oraciones están seguidas por opciones, alguna  opción debe completarlas. Después de leerlas, seleccione la mejor respuesta para cada ejercicio y oscurezca el espacio de la letra correspondiente en la hoja de respuestas."},
+            { "text": "Las siguientes oraciones están seguidas por opciones, alguna  opción debe completarlas. Después de leerlas, seleccione la mejor respuesta para cada ejercicio."},
             { "text": "Los ejercicios 18 al 22 se enfocan en vocabulario."},
             {
                 "title": "Question 18",
