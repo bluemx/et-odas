@@ -1693,7 +1693,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient mt-10"
             },
             
-            { "text": "En los siguientes ejercicios, se presenta un párrafo. Después de leerlo, seleccione la opción con un significado similar al que se plantea en cada pregunta. "},
+            { "text": " En los siguientes ejercicios, se presenta un párrafo. Después de leerlo, seleccione la opción con un significado similar al que se plantea en cada pregunta."},
             { "text": "Los ejercicios 1-5 se basan en el siguiente párrafo."},
             { "class":"text-xl bg-slate-200 rounded p-4", "text": "Knowing about computers and social media (in general, about technology)  a few years back was quite complex. The knowledge included investigating and understanding about emerging technologies and new ways to communicate. The speed in which they evolved, felt like society was getting everything out of (5) hand. Nowadays, people who dominate these technological areas are a dime a dozen. I certainly believe that it has to do with those who stayed through thick and thin during the companies’ processes (while migrating their data, for example) and were actually on the ball. My friends and I can still recall when our teachers used to explain how to research information on the (10) net and how to create a digital document. You may think it’s not rocket science, but back then, while feeling frustrated (since I lacked abilities to face the changes), I had to get my act together to avoid having an outburst."},
             {
@@ -1801,7 +1801,11 @@
             },
             
             { "text": "Los ejercicios 6-9 se basan en la siguiente lectura:"},
-            { "class":"text-xl bg-slate-200 rounded p-4", "text": "Maria was a young, beautiful kid who had practically had everything she ever wanted just by asking for it. She was smart, good with people, funny and super creative. While growing up, she discovered she wanted to see the world. Even though her parents were not particularly solvent, they started (5)saving money for her to live in another country for at least six months. It is important to consider they have been around different countries because they had a travel agency when Maria was younger. They had also had the opportunity to study abroad when they were high schoolers, so they knew this was something they wanted for their kid. It was an invaluable learning (10)experience, and they were confident Maria would benefit from it.<br><br>It was difficult to decide where she wanted to go and if her parents could actually pay for it. Maria had a younger brother, who was quite close in age. So expenses were heavy at that moment.<br><br>Maria dreamed about going to Australia so she could practice and improve (15) her English level. As well, she had imagined living in London or Paris. Those options were out of range, so they agreed on six months in Canada. There, she will practice English and French. <br><br>The day came, and Maria departed for Canada. New places, new friends, new everything! It seemed like Maria had everything she ever dreamt! One day, (20) she was invited to the coolest bar in town. It is important to mention, Maria was underage and her friends were a year older than she was. She knew that, in theory, she was supposed to decline the offer. But she really wanted to go. It was then, when she decided to go and do everything in her power to access the place. Unfortunately for her, she was immediately asked (25) to leave the premises and the school called her parents. She was sent back home on her first week away. She lost that semester at her old school and had to remain a whole school year without enrolling. <br><br>She definitely got a valuable lesson (the hard way) from her mistakes."},
+            { "class":"text-xl bg-slate-200 rounded p-4", "text": "Maria was a young, beautiful kid who had practically had everything she ever wanted just by asking for it. She was smart, good with people, funny and super creative. While growing up, she discovered she wanted to see the world. Even though her parents were not particularly solvent, they started (5)saving money for her to live in another country for at least six months. It is important to consider they have been around different countries because they had a travel agency when Maria was younger. They had also had the opportunity to study abroad when they were high schoolers, so they knew this was something they wanted for their kid. It was an invaluable learning (10)experience, and they were confident Maria would benefit from it.",
+                    "It was difficult to decide where she wanted to go and if her parents could actually pay for it. Maria had a younger brother, who was quite close in age. So expenses were heavy at that moment.",
+                    "Maria dreamed about going to Australia so she could practice and improve (15) her English level. As well, she had imagined living in London or Paris. Those options were out of range, so they agreed on six months in Canada. There, she will practice English and French. ",
+                    "The day came, and Maria departed for Canada. New places, new friends, new everything! It seemed like Maria had everything she ever dreamt! One day, (20) she was invited to the coolest bar in town. It is important to mention, Maria was underage and her friends were a year older than she was. She knew that, in theory, she was supposed to decline the offer. But she really wanted to go. It was then, when she decided to go and do everything in her power to access the place. Unfortunately for her, she was immediately asked (25) to leave the premises and the school called her parents. She was sent back home on her first week away. She lost that semester at her old school and had to remain a whole school year without enrolling. ",
+                    "She definitely got a valuable lesson (the hard way) from her mistakes."},
             {
                 "title": "Question 6",
                 "playback": 1, "audio":  false,
@@ -1812,7 +1816,7 @@
                     "Fatigue",
                     "Sad and angry"
                 ],
-                "optionk": "A",
+                "optionk": "D",
                 "optionw": false,
                 "eval": true,
                 "type": "practice",               
@@ -1876,9 +1880,45 @@
                 "class":"instrucciones font-bold text-5 text-gradient mt-10"
             },
             
-            { "text": "Las siguientes lecturas están seguidas por ejercicios basados en su contenido. Después de leerlas, seleccione la mejor respuesta para cada ejercicio. Responda a todos los ejercicios basándose en lo que las lecturas afirman o implican."},
+            { "text": "Las siguientes lecturas están seguidas por ejercicios basados en su contenido. Después de leerlas, seleccione la mejor respuesta para cada ejercicio Responda a todos los ejercicios basándose en lo que las lecturas afirman o implican. "},
             { "text": "Los ejercicios 10-17 se basan en la siguiente lectura:"},
-            { "class":"text-xl bg-slate-200 rounded p-4", "text": "It is common to hear about how human beings have affected the world’s natural appearance and health. As time passes, temperatures increase around the planet, leaving no place unaltered. By polluting the globe, society has managed to break their own heatwave records within each year. During (5)2022, wildfires destroyed vast areas of flora and fauna across the European continent. “How could this happen?”, you may be wondering. Well, it turns out unbearably hot temperatures take moisture from the ground, which helps lightning from storms to create a spark that starts the whole vegetation.<br><br> At the same time, in China, the population had to deal with power cuts. In (10)addition, the drought affected crop production not only there, but worldwide. <br><br>When temperatures increase, the possibilities of flood increase with them. Areas like Pakistan and New Zealand were devastated by floods this year. In Asia, dry periods have lately occurred at critical planting times, while (15)surprising downpours have destroyed homes and drowned out entire crops. This is a clear example of how global warming has totally affected communities of all sizes.<br><br>The burning of fossil fuels traps the heat in the atmosphere, which probably has been the main cause of human-induced climate change. <br><br>(20) As a society, it is advisable to explore the 2030 Agenda and to take action. On the contrary, the temperatures will continue rising and it will become unbearable to live on the only planet we know has the perfect conditions for us, the human race. Furthermore, the effects of increasing heat on the body, make it difficult for humans to maintain a safe body temperature. (25)People working outdoors are unquestionably more at risk. <br><br>It is time to accept that even the richest countries have limited means to solve these problems. Countries are forced to select between building some parts of their areas again or to develop better ways to cope with future climate crises. <br><br>The shortage of water and food will not help humanity to stop polluting the (30)world, which causes global warming. So now, if we think about it long enough, this situation feels like a never ending cycle."},
+
+            
+
+            { "textlines": [
+                    "It is common to hear about how human beings have affected the world’s natural appearance and health.",
+                    "As time passes, temperatures increase around the planet, leaving no place unaltered.",
+                    "By polluting the globe, society has managed to break their own heatwave records within each year.",
+                    "During",
+                    "2022, wildfires destroyed vast areas of flora and fauna across the European continent.",
+                    "“How could this happen?”, you may be wondering.",
+                    "Well, it turns out unbearably hot temperatures take moisture from the ground,",
+                    "which helps lightning from storms to create a spark that starts the whole vegetation.",
+                    " At the same time, in China, the population had to deal with power cuts. In",
+                    "addition, the drought affected crop production not only there,",
+                    "but worldwide. ",
+                    "When temperatures increase, the possibilities of flood increase with them.",
+                    "Areas like Pakistan and New Zealand were devastated by floods this year.",
+                    "In Asia, dry periods have lately occurred at critical planting times, while",
+                    "surprising downpours have destroyed homes and drowned out entire crops.",
+                    "This is a clear example of how global warming",
+                    "has totally affected communities of all sizes.",
+                    "The burning of fossil fuels traps the heat in the atmosphere,",
+                    "which probably has been the main cause of human-induced climate change. ",
+                    "As a society, it is advisable to explore the 2030 Agenda and to take action.",
+                    "On the contrary, the temperatures will continue rising and it will become unbearable to live on the only planet",
+                    "we know has the perfect conditions for us, the human race.",
+                    "Furthermore, the effects of increasing heat on the body,",
+                    "make it difficult for humans to maintain a safe body temperature.",
+                    "People working outdoors are unquestionably more at risk. ",
+                    "It is time to accept that even the richest countries have limited means to solve these problems.",
+                    "Countries are forced to select between building some parts of their areas again",
+                    "or to develop better ways to cope with future climate crises. ",
+                    "The shortage of water and food will not help humanity to stop polluting the",
+                    "world, which causes global warming.",
+                    "So now, if we think about it long enough,",
+                    "this situation feels like a never ending cycle."
+            ]},
             {
                 "title": "Question 10",
                 "playback": 1, "audio":  false,
@@ -2021,7 +2061,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient mt-10"
             },
             
-            { "text": "Las siguientes oraciones están seguidas por opciones, alguna  opción debe completarlas. Después de leerlas, seleccione la mejor respuesta para cada ejercicio."},
+            { "text": "Las siguientes lecturas están seguidas por ejercicios basados en su contenido. Después de leerlas, seleccione la mejor respuesta para cada ejercicio. Responda a todos los ejercicios basándose en lo que las lecturas afirman o implican. "},
             { "text": "Los ejercicios 18 al 22 se enfocan en vocabulario."},
             {
                 "title": "Question 18",
@@ -2110,12 +2150,22 @@
             },
             
             { "text": "Los ejercicios 23 al 27 se basan en el siguiente párrafo:"},
-            {   "class":"text-xl bg-slate-200 rounded p-4",
-                 "text": "Kevin <u>wakes up</u> every morning at 5 o’clock. He regularly <u>works out</u> from 90 to120 minutes a day. He <u>gets along</u> with his peers at the gym. He normally <u>runs into</u> his good friends between 6 and 7 in the morning, since they take indoor cycling classes together. Most of the time, they talk for around 15 minutes before <u>taking off</u>."},
+            
+            {
+                "textlines": [
+                    "Kevin <u>wakes up</u> every morning at 5 o’clock. He regularly <u>works out</u> from 90 to 120",
+                    "minutes a day. He <u>gets along</u> with his peers at the gym. He normally <u>runs into</u> his ",
+                    "good friends between 6 and 7 in the morning, since they take indoor cycling",
+                    "classes together. Most of the time, they talk for around 15 minutes before <u>taking</u>",
+                    "<u>off</u>."
+                ]
+            },
+            
+          
                  {
                     "title": "Question 23",
                     "playback": 1, "audio":  false,
-                    "question": "In line 1, wakes up means:",
+                    "question": "In line 1, <u>wakes up</u> means:",
                     "options": [
                         "To stop sleeping",
                         "To stop",
@@ -2132,7 +2182,7 @@
                 {
                     "title": "Question 24",
                     "playback": 1, "audio":  false,
-                    "question": "In line 1, works out means:",
+                    "question": "In line 1, <u>works out</u> means:",
                     "options": [
                         "To exercise",
                         "To do something well",
@@ -2149,7 +2199,7 @@
                 {
                     "title": "Question 25",
                     "playback": 1, "audio":  false,
-                    "question": "In line 2, gets along means:",
+                    "question": "In line 2, <u>gets along</u> means:",
                     "options": [
                         "To get somewhere",
                         "To have a friendly relationship",
@@ -2166,7 +2216,7 @@
                 {
                     "title": "Question 26",
                     "playback": 1, "audio":  false,
-                    "question": "In line 2, runs into means:",
+                    "question": "In line 2, <u>runs into</u> means:",
                     "options": [
                         "To start running",
                         "To run and crash against someone",
@@ -2183,7 +2233,7 @@
                 {
                     "title": "Question 27",
                     "playback": 1, "audio":  false,
-                    "question": "In line 4, taking off means:",
+                    "question": "In line 4, <u>taking off</u> means:",
                     "options": [
                         "To break",
                         "To take",
@@ -2199,8 +2249,45 @@
                 },
                  
             { "text": "Los ejercicios 28-35 se basan en la siguiente lectura:"},
-            {   "class":"text-xl bg-slate-200 rounded p-4",
-                 "text": "When anxiety creates a storm, bringing something new and unmanageable, it might be time to consider learning about panic attacks…A panic attack could be considered as an episode of intense anxiety. While having one, you may experience racing heartbeat, dizziness, lack of air, (5)trembling and muscle tension. Panic attacks have different durations; they can go from a few minutes up to thirty minutes. While panic attacks last less than one hour, their effects on a person may last for a few hours (when referring to physical and emotional effects). <br><br>Another way of calling a panic attack is an “anxiety attack”. Up to 35% of the (10)population experience a panic attack at some time in their lives.<br><br>To avoid further complications, it is crucial to get treatment for this.  For instance, it is said that a person who experiences recurring panic attacks has a panic disorder. Panic disorders are related to anxiety disorders.<br><br>Some challenges that can be faced by people who suffer from this are (15)associated with the inconveniences that come from having one: breathing difficulties, accelerated heart rate, tense muscles, a dry mouth, hot flushes and more. For instance, something as simple as having a conversation or driving, becomes a complex task. <br><br>When panic attacks happen more than once, it is important to go back to the (20)drawing board and to detect what is causing such high levels of anxiety. Since having this problem is not necessarily related to stressful situations, it is interesting to mention that stress-free situations, such as watching T.V. may trigger a panic attack. Living with this might be a tall order. <br><br>The recommendation is to always seek medical advice before you do (25)something else. Doctors help you make sure that any recurring symptoms are not due to other illnesses, such as diabetes, asthma, hyperthyroidism, cardiac complaints and more.<br><br>Stress and anxiety are a big part of panic attacks. Knowing that, it is key to remember that everybody has their own ways of coping with both of them. For (30) instance, some people may find painting relaxing. Others look for interesting readings to keep themselves away from situations that might cause problems.Yoga, pilates and mindfulness are trendy tools that keep their users in a better mood. Personally, I am on cloud nine whenever I ride a bike. So, for the sake of everyone, know yourself better and find ways (35)to detect difficulties on time. "},
+            {   
+                 "textlines": [
+                    "When anxiety creates a storm, bringing something new and unmanageable,",
+                    "it might be time to consider learning about panic attacks... A panic attack",
+                    "could be considered as an episode of intense anxiety. While having one, you",
+                    " may experience racing heartbeat, dizziness, lack of air, ",
+                    "trembling and muscle tension. ",
+                    "Panic attacks have different durations; they can go from a few minutes up to thirty minutes. ",
+                    "While panic attacks last less than one hour,",
+                    "their effects on a person may last for a few hours (when referring to physical and emotional effects). ",
+                    "Another way of calling a panic attack is an “anxiety attack”. Up to 35% of the ",
+                    ")population experience a panic attack at some time in their lives.",
+                    "To avoid further complications, it is crucial to get treatment for this.",
+                    "For instance, it is said that a person who experiences recurring panic attacks has a panic disorder.",
+                    "Panic disorders are related to anxiety disorders.",
+                    "Some challenges that can be faced by people who suffer from this are ",
+                    "associated with the inconveniences that come from having one:",
+                    "breathing difficulties, accelerated heart rate, tense muscles, a dry mouth, hot flushes and more.",
+                    "For instance, something as simple as having a conversation or driving, becomes a complex task. ",
+                    "When panic attacks happen more than once,",
+                    "it is important to go back to the ",
+                    "drawing board and to detect what is causing such high levels of anxiety.",
+                    "Since having this problem is not necessarily related to stressful situations,",
+                    "it is interesting to mention that stress-free situations, such as watching T.V. may trigger a panic attack.",
+                    "Living with this might be a tall order. ",
+                    "The recommendation is to always seek medical advice before you do ",
+                    "something else.",
+                    "Doctors help you make sure that any recurring symptoms are not due to other illnesses,",
+                    "such as diabetes, asthma, hyperthyroidism, cardiac complaints and more.",
+                    "Stress and anxiety are a big part of panic attacks.",
+                    "Knowing that, it is key to remember that everybody has their own ways of coping with both of them. For ",
+                    "instance, some people may find painting relaxing.",
+                    "Others look for interesting readings to keep themselves away from situations that might cause problems.",
+                    "Yoga, pilates and mindfulness are trendy tools that keep their users in a better mood.",
+                    "Personally, I am on cloud nine whenever I ride a bike.",
+                    "So, for the sake of everyone, know yourself better and find ways ",
+                    "to detect difficulties on time. "
+                    ]
+                },
             
                  {
                     "title": "Question 28",
@@ -2256,7 +2343,7 @@
                 {
                     "title": "Question 31",
                     "playback": 1, "audio":  false,
-                    "question": "In line 19, what does “to go back to the drawing board“ refer to?",
+                    "question": "In line 19, what does <u>to go back to the drawing board</u> refer to?",
                     "options": [
                         "To get creative",
                         "To investigate different options",
@@ -2290,7 +2377,7 @@
                 {
                     "title": "Question 33",
                     "playback": 1, "audio":  false,
-                    "question": "In line 23, what does “tall order” refer to?",
+                    "question": "In line 23, what does <u>tall order</u> refer to?",
                     "options": [
                         "To have high expectations",
                         "The task is difficult to accomplish",
@@ -2307,7 +2394,7 @@
                 {
                     "title": "Question 34",
                     "playback": 1, "audio":  false,
-                    "question": "In line 29, what does “them” refer to?",
+                    "question": "In line 29, what does <u>them</u> refer to?",
                     "options": [
                         "different periods of time",
                         "changes",
@@ -2324,7 +2411,7 @@
                 {
                     "title": "Question 35",
                     "playback": 1, "audio":  false,
-                    "question": "In line 33, what does “on cloud nine” mean?",
+                    "question": "In line 33, what does <u>on cloud nine</u> mean?",
                     "options": [
                         "Flying",
                         "To be extremely happy",
@@ -2341,8 +2428,67 @@
             
             
                  { "text": "Los ejercicios 36-45 se basan en la siguiente lectura."},
-            {   "class":"text-xl bg-slate-200 rounded p-4",
-                 "text": "When we are little, all we hear is about how good sports are and how nice it is to choose a physical activity that we enjoy. Regularly, during childhood, the most common options are: soccer, basketball, volleyball, ballet and karate. But as we grow up, we discover the pleasure (or the lack of it) for other activities. For instance, (5)jumping in an individual trampoline is a friendly cardio that provides a full body workout in 40 minutes. Another example is indoor cycling, which gives you the opportunity to increase your heart rate and to have fun at the same time. Both options are considered to have low impact on the knees area (which is a conflictive body part as people get older). Like those activities, we may find an infinite set of (10) options that make our inner child feel delighted and healthy at the same time. But, what is the downside? There is a big difference between being athletic and suffering from bigorexia. <br><br><br><br>Bigorexia or muscle dysmorphia can be defined as a mental disorder in which the person perceives that their body looks different than it does. It is “less muscular” than (15)it actually is. This leads to obsessive and unhealthy behaviors, it mainly causes compulsive exercising and eating disorders, but it may also include the use of anabolic steroids. <br><br><br><br>Bigorexia can “appear” in different stages of life, nevertheless, it most often develops in late adolescence. Bigorexia is associated with anxiety and depression, eating (20)disorders, substance abuse and general problems (mainly with school, work and relationships).<br><br><br><br>One study found that 33% of boys ages 11-18 were not satisfied with their body shape. In addition, there are a lot of undiagnosed people suffering from muscle dysmorphia, a situation which increases in society. According to data, a study found (25) that people who had adverse childhoods, have a considerable chance of getting muscle dysmorphia later on. <br><br><br><br>Video games, social media, and, in general, the Internet keep the idea of extremely muscular men quite present in our daily lives. This fact keeps males too focused on unreachable physical goals. The way male action figures are presented are not (30)humanly possible.<br><br><br><br>Social media makes comparisons easier. The use of hashtags and the efficiency of artificial intelligence provide exactly what we think we need the most and also, probably what affects us in a deeper way. Considering the amount of “before and after” testimonies that are all over the net, accepting our body shape and genes (35)becomes next to impossible.<br><br><br><br>Educating society and reducing social media time can help. According to the American Psychological Association, people who reduce their social media time by 50% tend to have notable improvement in the way they feel about their overall appearance. Creating awareness about the strong problems most youngsters are (40) going through would certainly make it easier for society to lend a hand to people who may be struggling with muscle dysmorphia and any other mental disease.  <br><br><br><br>While bigorexia is more common in males, anorexia is more common in females. Anorexia is an eating disorder characterized by an abnormally low body weight that focuses on an intense fear of gaining weight. What bigorexia and anorexia may have (45) in common are the distorted perceptions those who suffer from them have by looking at themselves in the mirror. Additionally, in an unconscious way, subjects damage their bodies by taking their “wishes” to the extreme. Furthermore, people who have these disorders do not accept themselves and most likely suffer from low self-esteem, even if it does not look like that to the “simple eye”. Moreover, both (50)disorders regularly start during adolescence. Bigorexia and anorexia may cause or be caused, up until some point, because of stress and anxiety.  <br><br><br><br>Anorexia patients can also be helped in a similar way bigorexia patients do. Everything can be traced back to society and to society’s good or bad education. As well, a high level of emotional intelligence can be key towards allowing those who (55) are close to diagnosed people to improve their behaviors around them. To make them feel more comfortable and probably even, to cope with their situations in a better, more productive way.  Teaching children about different body types, tolerance and the beauty in diversity will certainly help create another future for the upcoming generations."},
+            {   
+                 "textlines": [
+                    "When we are little, all we hear is about how good sports are and how nice it is to choose a physical activity that we enjoy.",
+                    "Regularly, during childhood, the most common options are:",
+                    "soccer, basketball, volleyball, ballet and karate.",
+                    "But as we grow up, we discover the pleasure (or the lack of it) for other activities. For instance,",
+                    "jumping in an individual trampoline is a friendly cardio that provides a full body workout in 40 minutes.",
+                    "Another example is indoor cycling, which gives you the opportunity to increase your heart rate",
+                    "and to have fun at the same time.",
+                    "Both options are considered to have low impact on the knees area (which is a conflictive body part as people get older).",
+                    "Like those activities, we may find an infinite set of",
+                    "options that make our inner child feel delighted and healthy at the same time.",
+                    "But, what is the downside? There is a big difference between being athletic and suffering from bigorexia. ",
+                    "Bigorexia or muscle dysmorphia can be defined as a mental disorder",
+                    "in which the person perceives that their body looks different than it does.",
+                    "It is “less muscular” than",
+                    "it actually is.",
+                    "This leads to obsessive and unhealthy behaviors, it mainly causes compulsive exercising and eating disorders,",
+                    "but it may also include the use of anabolic steroids. ",
+                    "Bigorexia can “appear” in different stages of life, nevertheless, it most often develops in late adolescence.",
+                    "Bigorexia is associated with anxiety and depression, eating",
+                    "disorders, substance abuse and general problems (mainly with school, work and relationships).",
+                    "One study found that 33% of boys ages 11-18 were not satisfied with their body shape.",
+                    "In addition, there are a lot of undiagnosed people suffering from muscle dysmorphia,",
+                    "a situation which increases in society.",
+                    "According to data, a study found",
+                    "that people who had adverse childhoods, have a considerable chance of getting muscle dysmorphia later on. ",
+                    "Video games, social media, and, in general, the Internet keep the idea of extremely muscular men quite present in our daily lives.",
+                    "This fact keeps males too focused on unreachable physical goals.",
+                    "The way male action figures are presented are not",
+                    "humanly possible.",
+                    "Social media makes comparisons easier.",
+                    "The use of hashtags and the efficiency of artificial intelligence provide exactly what we think we need the most and also,",
+                    "probably what affects us in a deeper way.",
+                    "Considering the amount of “before and after” testimonies that are all over the net, accepting our body shape and genes",
+                    "becomes next to impossible.",
+                    "Educating society and reducing social media time can help.",
+                    "According to the American Psychological Association,",
+                    "people who reduce their social media time by 50% tend to have notable improvement in the way they feel about their overall appearance.",
+                    "Creating awareness about the strong problems most youngsters are",
+                    "going through would certainly make it easier for society to lend a hand to people who may be struggling",
+                    "with muscle dysmorphia and any other mental disease.  ",
+                    "While bigorexia is more common in males, anorexia is more common in females.",
+                    "Anorexia is an eating disorder characterized by an abnormally low body weight that focuses on an intense fear of gaining weight.",
+                    "What bigorexia and anorexia may have",
+                    "in common are the distorted perceptions those who suffer from them have by looking at themselves in the mirror.",
+                    "Additionally, in an unconscious way, subjects damage their bodies by taking their “wishes” to the extreme.",
+                    "Furthermore, people who have these disorders do not accept themselves and most likely suffer from low self-esteem,",
+                    "even if it does not look like that to the “simple eye”.",
+                    "Moreover, both",
+                    "disorders regularly start during adolescence.",
+                    "Bigorexia and anorexia may cause or be caused, up until some point, because of stress and anxiety.",
+                    "Anorexia patients can also be helped in a similar way bigorexia patients do.",
+                    "Everything can be traced back to society and to society’s good or bad education.",
+                    "As well, a high level of emotional intelligence can be key towards allowing those who",
+                    "are close to diagnosed people to improve their behaviors around them.",
+                    "To make them feel more comfortable and probably even, to cope with their situations in a better, more productive way.",
+                    "Teaching children about different body types,",
+                    "tolerance and the beauty in diversity will certainly help create another future for the upcoming generations."
+                 ]
+                },
                  {
                     "title": "Question 36",
                     "playback": 1, "audio":  false,
@@ -2433,7 +2579,7 @@
                     "playback": 1, "audio":  false,
                     "question": "What is the main difference between bigorexia and anorexia?",
                     "options": [
-                        "Bigorexia focuses on the idea of being less muscular and anorexia creates an illusion of needing a lower, unhealthy body weight",
+                        "Bigorexia focuses on the false idea of being less muscular and anorexia creates an illusion of needing a lower, unhealthy body weight",
                         "Both are mental disorders that focused on having a mistaken body perception",
                         "Decreased confidence and self-esteem, anxiety, and stress",
                         "Bigorexia is about losing weight and anorexia is about wanting more muscle mass"
