@@ -3,7 +3,7 @@
         <i class="i-mynaui-chevron-left mr-5"></i>
         BACK
     </button>
-    <button v-if="next" @click="oda.stepNext()" class="et-button btnnav"  :disabled="disabled" :class="!disabled?'animated animated-head-shake':''">
+    <button ref="continuebtn" v-if="next" @click="oda.stepNext()" class="et-button btnnav"  :disabled="disabled" :class="!disabled?'animated animated-head-shake':''">
         CONTINUE
         <i class="i-mynaui-chevron-right ml-5"></i>
     </button>
@@ -15,12 +15,18 @@ const props = defineProps({
     next: Boolean,
     prev: Boolean,
     disabled: Boolean,
-    animateok: Boolean
+    animateallok: Boolean
 })
+const continuebtn = ref()
 
-if(props.animateok){
-    console.log('run animation!!!!')
-}
+watch(()=>props.animateallok, (val)=>{
+    if(val){
+        continuebtn.value.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'      // Aligns the element to the top of the viewport
+        });
+    }
+})
 
 </script>
 
