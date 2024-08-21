@@ -4,7 +4,7 @@
         <slot></slot>
       </div>      
       <template v-if="data.allokbtn">
-            <ButtonNav next :disabled="!allOk"></ButtonNav>
+            <ButtonNav animateok next :disabled="!allOk"></ButtonNav>
       </template>
       <template v-if="data.navigation">
           <div class="w-full flex justify-between">

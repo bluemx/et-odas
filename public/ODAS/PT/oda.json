@@ -1801,11 +1801,42 @@
             },
             
             { "text": "Los ejercicios 6-9 se basan en la siguiente lectura:"},
-            { "class":"text-xl bg-slate-200 rounded p-4", "text": "Maria was a young, beautiful kid who had practically had everything she ever wanted just by asking for it. She was smart, good with people, funny and super creative. While growing up, she discovered she wanted to see the world. Even though her parents were not particularly solvent, they started (5)saving money for her to live in another country for at least six months. It is important to consider they have been around different countries because they had a travel agency when Maria was younger. They had also had the opportunity to study abroad when they were high schoolers, so they knew this was something they wanted for their kid. It was an invaluable learning (10)experience, and they were confident Maria would benefit from it.",
-                    "It was difficult to decide where she wanted to go and if her parents could actually pay for it. Maria had a younger brother, who was quite close in age. So expenses were heavy at that moment.",
-                    "Maria dreamed about going to Australia so she could practice and improve (15) her English level. As well, she had imagined living in London or Paris. Those options were out of range, so they agreed on six months in Canada. There, she will practice English and French. ",
-                    "The day came, and Maria departed for Canada. New places, new friends, new everything! It seemed like Maria had everything she ever dreamt! One day, (20) she was invited to the coolest bar in town. It is important to mention, Maria was underage and her friends were a year older than she was. She knew that, in theory, she was supposed to decline the offer. But she really wanted to go. It was then, when she decided to go and do everything in her power to access the place. Unfortunately for her, she was immediately asked (25) to leave the premises and the school called her parents. She was sent back home on her first week away. She lost that semester at her old school and had to remain a whole school year without enrolling. ",
-                    "She definitely got a valuable lesson (the hard way) from her mistakes."},
+            
+            { 
+                
+                "textlines": [
+                    "Maria was a young, beautiful kid who had practically had everything she ever wanted just by asking for it.",
+                    "She was smart, good with people, funny and super creative.",
+                    "While growing up, she discovered she wanted to see the world.",
+                    "Even though her parents were not particularly solvent, they started",
+                    "(5)saving money for her to live in another country for at least six months.",
+                    "It is important to consider they have been around different countries because they had a travel agency when Maria was younger.",
+                    "They had also had the opportunity to study abroad when they were high schoolers,",
+                    "so they knew this was something they wanted for their kid.",
+                    "It was an invaluable learning",
+                    "(10)experience, and they were confident Maria would benefit from it.",
+                    "It was difficult to decide where she wanted to go and if her parents could actually pay for it.",
+                    "Maria had a younger brother, who was quite close in age.",
+                    "So expenses were heavy at that moment.",
+                    "Maria dreamed about going to Australia so she could practice and improve",
+                    "(15) her English level. As well, she had imagined living in London or Paris.",
+                    "Those options were out of range, so they agreed on six months in Canada.",
+                    "There, she will practice English and French. ",
+                    "The day came, and Maria departed for Canada.",
+                    "New places, new friends, new everything! It seemed like Maria had everything she ever dreamt! One day,",
+                    "(20) she was invited to the coolest bar in town.",
+                    "It is important to mention, Maria was underage and her friends were a year older than she was.",
+                    "She knew that, in theory, she was supposed to decline the offer.",
+                    "But she really wanted to go. It was then, when she decided to go and do everything in her power to access the place.",
+                    "Unfortunately for her, she was immediately asked",
+                    "(25) to leave the premises and the school called her parents.",
+                    "She was sent back home on her first week away.",
+                    "She lost that semester at her old school and had to remain a whole school year without enrolling. ",
+                    "She definitely got a valuable lesson (the hard way) from her mistakes."
+                ]
+            },
+
+
             {
                 "title": "Question 6",
                 "playback": 1, "audio":  false,

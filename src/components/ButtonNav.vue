@@ -14,8 +14,14 @@ const oda = useOda()
 const props = defineProps({
     next: Boolean,
     prev: Boolean,
-    disabled: Boolean
+    disabled: Boolean,
+    animateok: Boolean
 })
+
+if(props.animateok){
+    console.log('run animation!!!!')
+}
+
 </script>
 
 <style >
