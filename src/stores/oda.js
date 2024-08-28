@@ -88,31 +88,15 @@ export const useOda = defineStore('oda', () => {
         const keys = Object.keys(data.value);
         let itemindex = null
         let answereditems = []
-        let stepid
         for (let i = 0; i < keys.length; i++) {
             
             if(data.value[keys[i]].correct !==null){
                 let item = data.value[keys[i]]
                 answereditems.push(item.question.id)
             }
-            /*
-            if (data.value[keys[i]].correct === null) {
-                let lastcorrect = data.value[keys[i-1]]
-                
-                if(lastcorrect.correct && lastcorrect.question.id){
-                    console.log('lastcorrect:', lastcorrect.question.id)
-                    stepid = lastcorrect.question.id.split('-')[0]
-                    stepid = stepid*1
-                    stepid += 1
-                }
-            }
-                */
+
         }
-        /*
-        if(stepid){
-            return stepid
-        }
-        */
+
 
         if(answereditems.length>0){
             let lastAnswered = answereditems.slice(-1)[0]
