@@ -12,6 +12,7 @@
             <ButtonNav next></ButtonNav>
           </div>
       </template>
+
     </div>
   </template>
   
@@ -22,6 +23,8 @@
   
   const oda = useOda();
   const reactivesList = ref({});
+
+  
   
   const bus = useEventBus<string>('reactives');
   
@@ -30,10 +33,14 @@
     data: Object;
   }>();
   
+
+  oda.sceneAllok[props.step] = {allok: false}
+
   oda.stepcount += 1;
 
   const allOk =  computed(() => {
-    return Object.values(reactivesList.value).every(value => value === true);
+    let allValuesAreOk = Object.values(reactivesList.value).every(value => value === true);
+    return allValuesAreOk
   });
   
   function listener(event: any) {

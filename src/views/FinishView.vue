@@ -4,7 +4,7 @@
         <div class="bg-light text-center rounded-md  flex-col mx-auto p-12">
             
             <div class="mb-6">
-                <div class="font-bold text-5 text-silver">Unit {{ oda.info.unit }} > Lesson {{ oda.info.lesson }}</div>
+                <div class="font-bold text-5 text-silver" >Unit {{ oda.info.unit }} <span v-if="oda.info.lesson">> Lesson {{ oda.info.lesson }}</span></div>
                 <div class="font-bold text-4 text-silver opacity-50">{{ oda.info.unitTheme }}</div>
                 <div class="font-bold text-5 text-silver">{{ oda.info.theme }}</div>
             </div>
@@ -47,6 +47,6 @@
     oda.getODA()
     oda.sendPMessage('student', 'finish')
 
-    const responded = Object.values(oda.data).filter(item => item && item.correct !== null).length
+    const responded = Object.values(oda.data).filter(item => item && item.correct == true).length
     const total =  Object.keys(oda.data).length
 </script>

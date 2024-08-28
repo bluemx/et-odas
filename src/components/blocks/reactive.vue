@@ -15,8 +15,9 @@
         </template>
         <!--options-->
         <div v-if="data.options && data.optionk" class="flex gap-5 flex-wrap" :class=" optionsInline ? 'justify-center' : 'flex-col'">
+
             <div v-for="(item, index) in renderOptions">
-                <ReactiveBtn :index="index" :show-ok="data.force_positive && selected?.correct" :visible-text="!optionsInline" :active="item == selected " @clicked="clicked(item, index)" >{{ item.text }}</ReactiveBtn>
+                <ReactiveBtn :index="index" :show-ok="data.force_positive && selected?.correct" :visible-text="!optionsInline" :active="item?.id == selected?.id " @clicked="clicked(item, index)" >{{ item.text }}</ReactiveBtn>
             </div>
         </div>
         
@@ -94,9 +95,18 @@ onMounted(()=>{
 
 
      // Exists
-     if(oda.data[props.blockid]){
-        selected.value = oda.data[props.blockid]
 
+     if(oda.data[props.blockid]){
+        let iv = oda.data[props.blockid]
+        if(iv.correct!==null){
+            selected.value = {
+                ...initItem,
+                id: iv.id,
+                text: iv.text,
+                correct: iv.correct,
+                points: iv.points,
+            }
+        }
     } else {
         // New
         if(props.data.eval){

@@ -8,30 +8,21 @@ export const useOda = defineStore('oda', () => {
 
     const route = useRoute()
     const router = useRouter()
-
     const info = ref(null)
     const id = ref(null)
     const step = ref(0)
-    
-    
     const time = ref(0)
     const timers = ref({})
-
-
     const data = ref({})
     const stepcount = ref(0)
-
-
     const postmessagedata = ref(null)
     const audiops = ref({})
     const isplaying = ref({})
-
     const CEFRLevel = ref(null)
-
     const odajson = ref(null)
-
-
     const timerinvertval = ref()
+
+    const sceneAllok = ref([])
     
     const getODA = () => {
        
@@ -96,10 +87,18 @@ export const useOda = defineStore('oda', () => {
     function findFirstCorrectNullIndex() {
         const keys = Object.keys(data.value);
         let itemindex = null
+        let answereditems = []
         let stepid
         for (let i = 0; i < keys.length; i++) {
+            
+            if(data.value[keys[i]].correct !==null){
+                let item = data.value[keys[i]]
+                answereditems.push(item.question.id)
+            }
+            /*
             if (data.value[keys[i]].correct === null) {
                 let lastcorrect = data.value[keys[i-1]]
+                
                 if(lastcorrect.correct && lastcorrect.question.id){
                     console.log('lastcorrect:', lastcorrect.question.id)
                     stepid = lastcorrect.question.id.split('-')[0]
@@ -107,11 +106,25 @@ export const useOda = defineStore('oda', () => {
                     stepid += 1
                 }
             }
+                */
         }
+        /*
         if(stepid){
             return stepid
         }
-        return -1; // Return -1 if no such object is found
+        */
+
+        if(answereditems.length>0){
+            let lastAnswered = answereditems.slice(-1)[0]
+            lastAnswered = lastAnswered.split('-')[0]
+            return (lastAnswered*1)
+        } else {
+            return 0
+        }
+
+        
+
+        //return 0; // Return -1 if no such object is found
     }
     
     // *    *   *   *   *   *   *   *   *   
@@ -212,6 +225,7 @@ export const useOda = defineStore('oda', () => {
         odajson,
         timeFormat,
         timers,
-        totalpoints
+        totalpoints,
+        sceneAllok
     }
 })
