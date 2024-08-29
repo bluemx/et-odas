@@ -1855,7 +1855,7 @@
                 "force_positive": false
             },
             {
-                "title": "Question 2",
+                "title": "Question 7",
                 "playback": 1, "audio":  false,
                 "question": "What does the narrator refer to when he says “the coolest bar” in line 20?",
                 "options": [
@@ -1872,7 +1872,7 @@
                 "force_positive": false
             },
             {
-                "title": "Question 3",
+                "title": "Question 8",
                 "playback": 1, "audio":  false,
                 "question": "Why did she decide to go to the bar?",
                 "options": [
@@ -1889,7 +1889,7 @@
                 "force_positive": false
             },
             {
-                "title": "Question 4",
+                "title": "Question 9",
                 "playback": 1, "audio":  false,
                 "question": "What does the narrator refer to with “the day came” on line 18?",
                 "options": [
