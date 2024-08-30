@@ -10,6 +10,7 @@ declare module 'vue' {
     Audioplayer: typeof import('./components/blocks/audioplayer.vue')['default']
     BlockRenderer: typeof import('./components/BlockRenderer.vue')['default']
     ButtonNav: typeof import('./components/ButtonNav.vue')['default']
+    CEFRindicators: typeof import('./components/CEFRindicators.vue')['default']
     ContinueLater: typeof import('./components/ContinueLater.vue')['default']
     Reactive: typeof import('./components/blocks/reactive.vue')['default']
     ReactiveBtn: typeof import('./components/blocks/reactiveBtn.vue')['default']

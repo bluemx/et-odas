@@ -1,8 +1,8 @@
 <template>
     
     <div class="p-2 w-full h-full box-border flex justify-content items-center">
-        <div class="bg-light text-center rounded-md  flex-col mx-auto p-12">
-            
+        <!-- UNITS -->
+        <div class="bg-light text-center rounded-md  flex-col mx-auto p-12" v-if="!oda.CEFRLevel">
             <div class="mb-6">
                 <div class="font-bold text-5 text-silver" >Unit {{ oda.info.unit }} <span v-if="oda.info.lesson">> Lesson {{ oda.info.lesson }}</span></div>
                 <div class="font-bold text-4 text-silver opacity-50">{{ oda.info.unitTheme }}</div>
@@ -19,16 +19,43 @@
                 <div class="font-bold text-et-orange">Tiempo: {{ oda.formattedTime }}</div>
             </div>
 
-            <div v-if="oda.CEFRLevel" class="text-center text-3xl my-2 text-white p-2 rounded bg-et-pink font-bold">
-                Your level is {{ oda.CEFRLevel }}
+            
+        </div>
+        <!-- PT EXAM -->
+        <div class="bg-light text-center rounded-md  flex-col mx-auto p-2 w-full md:max-w-5xl  overflow-auto h-full" v-else>
+            <div class="mb-6">
+                <div class="font-bold text-8 text-et-cyan">¡Felicidades!</div>
+                <div class="font-bold text-5 text-silver">Has concluído tu Practice Test.</div>
+            </div>
+            
+            
+
+            
+            <div class=" p-2 py-10 rounded my-2 bg-gray-100 text-xl border-2">
+                
+                <template v-if="oda.CEFRLevel!=='Pre A1'">
+                    <div class="text-et-silver font-bold" >
+                        ACHIEVED A TOTAL SCORE OF <strong class="text-et-orange">{{ oda.totalpoints }}</strong> ON ELASH 1 <br>EQUIVALENT TO  <strong class="text-et-orange">{{oda.CEFRLevel}} LEVEL</strong> OF THE CEFR.
+                    </div>
+
+
+                    <CEFRindicators :level="oda.CEFRLevel"></CEFRindicators>
+
+
+                </template>
+                <template v-else>
+                    <div class="text-et-silver font-bold" > ACHIEVED A TOTAL SCORE OF <strong class="text-et-orange">{{ oda.totalpoints }}</strong> ON ELASH 1</div>
+                    <div v-if="oda.CEFRLevel" class="text-center text-3xl my-2 text-et-pink p-2  font-bold">
+                        Your level is {{ oda.CEFRLevel }} 
+                    </div>
+                    <div class="my-4 text-base">
+                        Don't be discouraged if you haven't reached the basic level yet. Progress takes time, and every step forward is an achievement. Focus on consistent practice and seek support from teachers, peers, and language learning resources. Remember, persistence and dedication are key, and with continued effort, you'll see improvement. Keep believing in yourself and your ability to learn!				
+                    </div>
+                </template>
+                
             </div>
 
-            <!--
-            <div class="flex gap-10 mt-10 justify-center">
-                <RouterLink :to="'/'+oda.id" class="et-button et-pink no-underline font-bold text-6 cursor-pointer">REINICIAR</RouterLink>
-            </div>
-            -->
-
+          
         </div>
 
         
