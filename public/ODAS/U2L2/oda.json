@@ -9,7 +9,7 @@
             },
             { "text": "Lesson/Assessment: Medium - Practice and Explanation", "class": "font-bold"},
              {
-                "text":"En la sección de preguntas de  mediana dificultad, se requiere un conocimiento más a fondo del uso del lenguaje. Comprensión lectora y análisis que va más allá del entendimiento  de palabras  y tiempos verbales simples, así como la capacidad de relacionar las palabras claves con sus correspondientes respuestas. En este caso, es necesario entender los distintos tiempos verbales, tanto simples como compuestos, así como el correcto uso de conectores y verbos modales (o verbos auxiliares) para ser capaz de identificar errores en oraciones y pequeños textos. Esto aplica en todas las preguntas de desarrollo mediano, donde el alumno ya sabe identificar qué es lo que gramaticalmente completa mejor una idea. En algunos casos se utilizará la comprensión de idea general y en otros tantos la información de palabras claves y la habilidad de “leer entre líneas”."
+                "text":"En la sección de preguntas de  mediana dificultad, se requiere un conocimiento más a fondo del uso del lenguaje. Comprensión lectora y análisis que van  más allá del entendimiento de palabras y tiempos verbales simples, así como la capacidad de relacionar las palabras claves con sus correspondientes respuestas. En este caso, es necesario entender los distintos tiempos verbales, tanto simples como compuestos, así como el correcto uso de conectores y verbos modales (o verbos auxiliares) para ser capaz de identificar errores en oraciones y pequeños textos. Esto aplica en todas las preguntas de desarrollo mediano, donde el alumno ya sabe identificar qué es lo que gramaticalmente completa mejor una idea. En algunos casos se utilizará la comprensión de idea general y en otros tantos la información de palabras claves y la habilidad de “leer entre líneas”."
              },
              
               { "buttonnav": "next"}
@@ -24,10 +24,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
              {
-                "text":"This part of the test has five different types of exercises. This part focuses on the use of the language."
-             },
-             {
-                "text":"Read each question carefully and choose the best answer. There is only one correct answer."
+                "text":"Esta sección del examen tiene ejercicios que se enfocan en el uso del lenguaje. Lee cuidadosamente cada una de las preguntas y escoge la respuesta que mejor complete el enunciado. "
              },
              
               { "buttonnav": "next"}
@@ -90,7 +87,7 @@
                     "question": "Charles……the……English teacher .",
                     "options": ["has being, good", "have been, better", "has been, best", "has was, best"],
                     "optionk": "c",
-                    "optionw": "Recordemos que es necesario entender que usamos “present perfect” (have/ has + past participle) para actividades o situaciones que  ya se presentaron y que en ocasiones, continúan en el tiempo presente. Si estamos comparando entre este maestro (el sujeto) y los demás maestros, el artículo “the” nos indica que necesitamos usar el superlativo. Los superlativos terminan en -est o comienzan con “most” + “adjective”.  La alternativa es la única opción que completa esta oración.",
+                    "optionw": "Recordemos que es necesario entender el uso de “present perfect” (have/ has + past participle) para actividades o situaciones que  ya se presentaron y que en ocasiones, continúan en el tiempo presente. Si estamos comparando entre este maestro (el sujeto) y los demás maestros, el artículo “the” nos indica que necesitamos usar el superlativo. Los superlativos terminan en -est o comienzan con “most” + “adjective”.  La alternativa es la única opción que completa esta oración.",
                     "eval": true,
                     "type": "practice",
                     "force_positive": true
@@ -255,7 +252,7 @@
                         "It helps, the Internet. It is necessary. It is complex and helps. Pandora’s Box."
                     ],
                     "optionk": "c",
-                    "optionw": "La clave en esta idea es comprender cómo se describe al Internet, se compara con una Caja de Pandora y se expresa una opinión sobre lo que puede hacer por las personas. En este entendido, la opción correcta es aquella que respeta el orden de las ideas y mantiene todos los aspectos mencionados en las cuatro oraciones cortas del inicio.",
+                    "optionw": "La clave en esta idea es comprender cómo se describe al Internet, se le compara con una Caja de Pandora y se expresa una opinión sobre lo que puede hacer por las personas. En este entendido, la opción correcta es aquella que respeta el orden de las ideas y mantiene todos los aspectos mencionados en las cuatro oraciones cortas del inicio.",
                     "eval": true,
                     "type": "practice",
                     "force_positive": true

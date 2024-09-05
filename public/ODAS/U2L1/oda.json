@@ -24,10 +24,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
              {
-                "text":"This part of the test has two types of exercises and it focuses on the use of the language."
-             },
-             {
-                "text":"Read each question carefully and choose the best answer. There is only one correct answer. "
+                "text":"Esta sección del examen tiene ejercicios que se enfocan en el uso del lenguaje. Lee cuidadosamente cada una de las preguntas y escoge la respuesta que mejor complete el enunciado. "
              },
              
               { "buttonnav": "next"}
@@ -120,7 +117,7 @@
                 "question": "Select the correct option.",
                 "options": ["Becky didn’t called yesterday.", "Becky didn’t call yesterday.", "Becky did not calls  yesterday."],
                 "optionk": "b",
-                "optionw": "Para seleccionar la oración correctamente estructurada es necesario saber que el verbo auxiliar  do,en pretérito es “did.”  Cuando did o didn’t/ did not, como es su forma en negativo son utilizados, el siguiente verbo debe estar en infinitivo. La alternativa es la única que incluye una opción correcta “didn’t” + (verbo en infinitivo).",
+                "optionw": "Para seleccionar la oración correctamente estructurada es necesario saber que el verbo auxiliar  do,en pretérito es “did.”  Cuando did o didn’t/ did not (como es su forma en negativo) son utilizados, el siguiente verbo debe estar en infinitivo. La alternativa es la única que incluye una opción correcta “didn’t” + (verbo en infinitivo).",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
