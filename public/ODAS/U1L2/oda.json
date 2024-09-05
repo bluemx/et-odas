@@ -4,6 +4,17 @@
         "allokbtn": false,
         "content":[
             {
+                "text":"EXPLICACIÓN",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+            
+             {
+                "text":"En el entrenamiento de listening con reactivos de mediana dificultad, tenemos dos tipos de reactivos. En los primeros, se practicarán aspectos de cohesión en el vocabulario y coherencia gramatical a través de la comprensión general de los audios."
+             },
+             {
+                "text":"En la segunda parte,  se reproducen conversaciones cortas en las cuales debes demostrar distintas habilidades de escucha enfocadas a encontrar información específica. Para ello debes ser capaz de inferir actitudes y sentimientos, también es importante poner atención al contexto para poder deducir la respuesta correcta."
+             },
+            {
                 "text":"INSTRUCCIONES",
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
@@ -11,10 +22,10 @@
                 "audioplayer":"a/instruccion.mp3"
              },
              {
-                "text":"En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres o cuatro opciones, también en inglés. Las preguntas o enunciados y las opciones se dirán solo una vez."
+                "text":"En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres opciones, también en inglés. Las preguntas o enunciados y las opciones podrán reproducirse las veces que sean necesarias durante la práctica, sin embargo, recuerde que en el examen se escucharán solamente una vez."
              },
              {
-                "text":"Selecciona la mejor opción para cada pregunta o enunciado dando un click sobre la letra correspondiente."
+                "text":"Selecciona la mejor opción para cada pregunta o enunciado dando un click sobre  la letra correspondiente."
              },
              {
               "text":"EXAMPLE",
@@ -29,12 +40,23 @@
                         "question": "Man: Are you Monica? Woman: Yes, I am. Who are you? Man: I’m Lola’s cousin. You are her sister, right?. Who is the man?",
                         "options": ["Monica’s sister", "Lola’s sister", "Lola’s cousin", "Monica’s friend"],
                         "optionk": "c",
-                        "optionw": "La respuesta correcta es C) Lola's cousin ",
+                        "optionw": "La respuesta correcta es la  (C). De no seleccionar la respuesta correcta, se te proporcionará una explicación que te ayude a corregir. No podrás seguir avanzando hasta que contestes de forma adecuada. Recuerda que puedes repetir el audio las veces que sean necesarias. ",
                         "eval": false,
                         "type": "listening",
                 "force_positive": true
                     }
                   ]
+              },
+              { "buttonnav": "next"}
+        ]
+    },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "content":[
+            
+             {
+                "text":"Los reactivos de mediana dificultad son de dos tipos. En los ejercicios del 1 al 12,  escucharas tanto la pregunta como las opciones de respuesta. El objetivo de este tipo de reactivos es encontrar el enunciado que mejor complete una conversación breve, para lo cual se debe inferir a partir de la información dada. También es importante conocer ciertos patrones del lenguaje, lee con atención las explicaciones para comprenderlos mejor"
               },
               { "buttonnav": "next"}
         ]
@@ -101,7 +123,7 @@
                 "question": "What did you do before going to the theater?",
                 "options": ["I was in bed.", "I had dinner with my wife.", "Right before the theater I had a drink.", "I wasn’t thinking."],
                 "optionk": "c",
-                "optionw": "La clave en esta pregunta es comprender una secuencia, “Qué hiciste antes de ir al teatro”, aquí la respuesta podría quedar entre A y B, puesto que ambas hablan de dos cuestiones en pasado. Sin embargo, la diferencia es que una se refiere más a una posición o un lugar “estaba en la cama”y la respuesta B  refiere que cenó con su esposa. La respuesta correcta debe dar pistas acerca de la temporalidad y estar cercana a la indicada en la pregunta.",
+                "optionw": "La clave en esta pregunta es comprender una secuencia, “Qué hiciste antes de ir al teatro”, aquí la respuesta debe de tener una estructura que indique lo sucedido en tiempo pasado. Debe poder distinguir la diferencia en el verbo was, cuando indica un estado: “estaba en la cama”y cuando indica una acción.  La respuesta correcta debe indicar una acción.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
@@ -118,7 +140,7 @@
                 "question": "What will you do after completing this course?",
                 "options": ["I want to complete this course this year.", "I would love to complete this course.", "I will complete this course in January.", "I think I’ll take a break."],
                 "optionk": "d",
-                "optionw": "En esta pregunta, debemos identificar el tiempo futuro para conocer la respuesta. En este caso, tenemos dos opciones: C y D. Debemos prestar atención a la diferencia entre una respuesta y la otra: La C se refiere a que el curso se terminará en enero, nos están dando un tiempo determinado, cuando la pregunta es “qué harás ya que hayas terminado el curso”, por lo tanto, la respuesta correcta debe enfocarse a una acción posterior al curso.",
+                "optionw": "En esta pregunta, debemos identificar el tiempo futuro para conocer la respuesta. En este caso hay dos opciones que utilizan el futuro will. Debemos prestar atención a la diferencia entre una respuesta y la otra: Una se refiere a que el curso se terminará en enero, nos están dando un tiempo determinado, cuando la pregunta es “qué harás ya que hayas terminado el curso”, por lo tanto, la respuesta correcta debe enfocarse a una acción posterior al curso.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
@@ -135,7 +157,7 @@
                 "question": "How many museums did you visit last summer?",
                 "options": ["I guess I visited about ten museums.", "I have visited a hundred museums.", "I love going to museums every summer.", "Last summer, my favorite museum was closed."],
                 "optionk": "a",
-                "optionw": "En esta pregunta, queremos saber el número de museos “how many”que la persona visitó el verano pasado. Lo confuso puede ser que en todas las respuestas se incluye la palabra “museum”(museo). Debemos identificar dos aspectos: el tiempo pasado simple y el número de museos.",
+                "optionw": "En esta pregunta, queremos saber el número de museos “how many”que la persona visitó el verano pasado. Lo confuso puede ser que en todas las respuestas se incluye la palabra “museum”(museo). Debemos identificar dos aspectos: el tiempo pasado simple y el número de museos, de manera que se ajusten a la realidad del contexto.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
@@ -152,7 +174,7 @@
                 "question": "What is the most difficult aspect about being a doctor?",
                 "options": ["Cooking for kids.", "Saying bad news to patients’ relatives.", "Waiting in line for medicine.", "Playing soccer."],
                 "optionk": "b",
-                "optionw": "Esta pregunta tiene dos palabras claves “most difficult” y “doctor”, así que debemos buscar las respuestas relacionadas con “medicina”, en este caso tenemos dos opciones, la B y la C. La lógica nos dice que un doctor, por lo general, no haría fila por medicina, sino que su labor sería otra, más adecuada a la respuesta.",
+                "optionw": "Esta pregunta tiene dos palabras claves “most difficult” y “doctor”, así que debemos buscar las respuestas relacionadas con el campo semántico de la medicina, en este caso tenemos dos opciones,. La lógica nos dice que un doctor, por lo general, no haría fila por medicina, sino que su labor sería otra, más adecuada a la respuesta.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
@@ -186,7 +208,7 @@
                 "question": "Are you going to the supermarket?",
                 "options": ["Yes, I’m going to cash the check.", "Yes, I need to buy some groceries.", "Yes, we are going to the cinema.", "Yes, I want to order soup."],
                 "optionk": "b",
-                "optionw": "Para responder esta pregunta, es necesario conocer de lugares y lo que podemos encontrar en cada lugar, en este caso, en el “supermarket” o supermercado, podemos encontrar comida. Aquí tenemos dos respuestas que incluyen comida, la B (que es más bien despensa o víveres) y la D (sopa). Pero en el supermercado vamos a “comprar”, no a “ordenar”. Por lo tanto, nuestra respuesta correcta es la que coincida con la actividad que se desarrolla en el lugar indicado en la pregunta.",
+                "optionw": "Para responder esta pregunta, es necesario conocer el vocabulario relacionado con cada lugar, en este caso, en el “supermarket” o supermercado, donde  podemos encontrar comida. Aquí tenemos dos respuestas que incluyen comida, una que habla de despensa o víveres (groceries) y la otra que habla de  (sopa). Es necesario también entender los verbos en contexto, al supermercado vamos a “comprar”, no a “ordenar”. Por lo tanto, nuestra respuesta correcta es la que coincida con la actividad que se desarrolla en el lugar indicado en la pregunta.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
@@ -203,7 +225,7 @@
                 "question": "Would you like to go to my graduation party next weekend?",
                 "options": ["I need to do my homework.", "Sure! I just need to find a nice dress!", "I want to dance at a graduation party.", "Next year I'll have my graduation party."],
                 "optionk": "b",
-                "optionw": "Para responder esta pregunta, debemos entender que la persona está haciendo una invitación utilizando el modal 'Would' y que la respuesta debe ser 'si' o 'no'” pero no algo directo. Una manera de decir 'si', la podemos encontrar en la respuesta correcta.",
+                "optionw": "Para responder esta pregunta, debemos entender que la persona está haciendo una invitación utilizando el modal ”would” y que la respuesta debe ser ”sí” o ”no” pero no algo directo. Una manera de decir ”sí”, de forma indirecta,  la podemos encontrar en la respuesta correcta.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
@@ -252,14 +274,15 @@
                 "text":"INSTRUCCIONES",
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
-            {"text": "En este segundo tipo de reactivos, los alumnos leerán tanto la pregunta como las opciones de respuesta. Se escucharán audios acerca de las conversaciones  con el objetivo de detectar información específica en las mismas."},
+            {"text": "En los ejercicios del 12 al 25, se escucharán audios de conversaciones breves, en las cuales debes detectar información específica."},
+            {"text": "Se debe comprender el sentido general, pero los detalles son lo más importante. Por ello sugerimos leer con atención la pregunta, antes de reproducir el audio, ya que de esta forma se localizará mejor la información deseada."},
             {
                 "title": "Question 13",
                 "audio": "a/a13.mp3",
                 "question": "What’s wrong with the dog?",
                 "options": ["It’s with the vet", "The woman doesn’t know.", "The man doesn’t know.", "The dog is sick."],
                 "optionk": "c",
-                "optionw": "En esta pregunta, debemos poder seguir una conversación en la cual se hacen dos preguntas, una simple y una que es el seguimiento de la anterior. Después tenemos la pregunta de nuestro reactivo, donde queremos saber qué sucede con el perro, o 'qué le pasó'. Es necesario entender la expresión 'What 's wrong?' como algo cercano a 'Qué le sucedió?' y captar la idea principal de la conversación: el hombre no lo sabe, está con el veterinario pero no sabe qué le sucede.",
+                "optionw": "En esta pregunta, debemos poder seguir una conversación en la cual se hacen dos preguntas, una simple y una que es el seguimiento de la anterior. Después tenemos la pregunta de nuestro reactivo, donde queremos saber qué sucede con el perro, o “qué le pasó”. Es necesario entender la expresión ”What 's wrong?”como algo cercano a “¿Qué le sucedió?” y captar la idea principal de la conversación: el hombre no lo sabe, está con el veterinario pero no sabe qué le sucede.",
                 "eval": true,
                 "type": "listening+text",
                 "force_positive": true
@@ -276,7 +299,7 @@
                 "question": "What does the man want for his birthday?",
                 "options": ["A big party, a cake, a nice dress.", "Tons of balloons and a small party.", "Some music.", "A small party with some music."],
                 "optionk": "d",
-                "optionw": "En esta conversación, es necesario entender que ambas personas están hablando de lo que quieren para sus cumpleaños. Por lo general, en un intercambio natural, una persona pregunta, la otra contesta y regresa la pregunta. Por lo que el hombre expresa lo que desea para su cumpleaños, en este caso. Es importante prestar atención a la pregunta escrita, puesto que se refiere al 'man' o al 'hombre'.",
+                "optionw": "En esta conversación, es necesario entender que ambas personas están hablando de lo que quieren para sus cumpleaños. Por lo general, en un intercambio natural, una persona pregunta, la otra contesta y regresa la pregunta. Por lo que el hombre expresa lo que desea para su cumpleaños es algo modesto. Es importante prestar atención a los adjetivo que el hombre utiliza.",
                 "eval": true,
                 "type": "listening+text",
                 "force_positive": true
@@ -293,7 +316,7 @@
                 "question": "Where are they?",
                 "options": ["At the bookstore.", "At the supermarket.", "At the stationary store.", "At the movie theater."],
                 "optionk": "c",
-                "optionw": "Aquí tenemos una conversación en la cual la pregunta nos lleva a inferir por el contexto dónde se encuentran. La mujer habla de lápices y plumas, el hombre menciona la palabra 'aisle' (pasillo) una tercera pista es que hablan de cuadernos y cuadernos de boceto.",
+                "optionw": "Aquí tenemos una conversación en la cual la pregunta nos lleva a inferir el contexto dónde se encuentran. La mujer habla de lápices y plumas, el hombre menciona la palabra “aisle”(pasillo) una tercera pista es  que hablan de cuadernos y cuadernos de boceto. Debe prestarse atención a la entonación de las palabras para comprender la respuesta correcta.",
                 "eval": true,
                 "type": "listening+text",
                 "force_positive": true
@@ -310,7 +333,7 @@
                 "question": "When are they going to the beach?",
                 "options": ["In two weeks.", "Next week.", "They are not going to the beach.", "She is busy next weekend."],
                 "optionk": "a",
-                "optionw": "En esta pregunta, queremos saber 'when' (cuando) van a ir a la playa las dos personas que forman parte de la conversación y podemos escuchar que ambas personas están tratando de hacer planes pero se interponen otras cosas como el trabajo. Podemos escuchar la intención de ambos de cambiar los planes, y esto lo podemos observar en la negociación con la pregunta 'Do you think we could change it to the following one?', y ya cuando el hombre confirma 'It's a plan!' podemos confirmar que si, van a ir a la playa pero no como en el plan original.",
+                "optionw": "En esta pregunta, queremos saber ”when” (cuándo) van a ir a la playa las dos personas que forman parte de la conversación y podemos escuchar que ambas personas están tratando de hacer planes pero se interponen otras cosas como el trabajo. Podemos escuchar la intención de ambos de cambiar los planes, y esto lo podemos observar en la negociación con la pregunta ”Do you think we could change it to the following one?”, y ya cuando el hombre confirma ”It's a plan!” podemos confirmar que si, van a ir a la playa pero no como en el plan original.",
                 "eval": true,
                 "type": "listening+text",
                 "force_positive": true
@@ -344,7 +367,7 @@
                 "question": "Where is the man talking?",
                 "options": ["At home.", "At work.", "At Summer camp.", "It was pouring rain."],
                 "optionk": "c",
-                "optionw": "En esta conversación, es necesario entender la idea general de un audio en el cual se da información de manera unilateral. La persona que habla está utilizando palabras claves como: 'place' (lugar), la temporalidad '5 weeks' (5 semanas), 'physical activities with arts and science' (actividades físicas con artes y ciencia) y habla de hacer nuevos amigos, aprender y jugar.  La pregunta va hacia el lugar, “Where is the man talking?“, y el único lugar donde pueden suceder estas actividades, que duran unas semanas es la opción correcta.",
+                "optionw": "En esta conversación, es necesario entender la idea general de un audio en el cual se da información de manera unilateral. La persona que habla está utilizando palabras claves como: ”place” (lugar), la temporalidad ”5 weeks” (5 semanas), ”physical activities with arts and science” (actividades físicas con artes y ciencia) y habla de hacer nuevos amigos, aprender y jugar. La pregunta va dirigida hacia el lugar, ”Where is the man talking?” y el único lugar donde pueden suceder estas actividades, que duran unas semanas es la opción correcta.",
                 "eval": true,
                 "type": "listening+text",
                 "force_positive": true
@@ -378,7 +401,7 @@
                 "question": "What is the man’s occupation?",
                 "options": ["He’s a businessman.", "He’s a teacher.", "He’s an entrepreneur.", "He is a student."],
                 "optionk": "d",
-                "optionw": "Este es un intercambio en el cual un hombre habla de un 'proyecto escolar', nuestra primera palabra clave. La mujer le pregunta acerca de su proyecto y él contesta que es acerca de comenzar un nuevo negocio 'setting up a new business', así que desde este momento sabemos que no es un hombre de negocios ni un emprendedor.",
+                "optionw": "Este es un intercambio en el cual un hombre habla de un ”proyecto escolar”, nuestra primera palabra clave. La mujer le pregunta acerca de su proyecto y él contesta que se trata  de comenzar un nuevo negocio ”setting up a new business”, así que desde este momento sabemos que no es un hombre de negocios ni un emprendedor.",
                 "eval": true,
                 "type": "listening+text",
                 "force_positive": true
@@ -422,7 +445,7 @@
                     "New Jersey."
                 ],
                 "optionk": "C",
-                "optionw": "En este audio, tenemos información que se da de manera unilateral, un hombre hablando acerca de alguien más y que nos da pistas para responder la pregunta ”¿dónde vive el hombre?”. Podemos confundirnos porque él habla de otra persona, su hermana, pero lo primero que debemos leer en la pregunta escrita es 'Where' porque queremos saber el lugar y 'the man', puesto que la labor es inferir dónde vive el hombre.",
+                "optionw": "En este audio, tenemos información que se da de manera unilateral, un hombre hablando acerca de alguien más y que nos da pistas para responder la pregunta ”¿dónde vive el hombre?”. Podemos confundirnos porque él habla principalmente de su hermana, pero debemos atender a los datos que proporciona de sí mismo dentro de esta narrativa.",
                 "eval": true,
                 "type": "listening+text",
                 "force_positive": true
@@ -444,7 +467,7 @@
                     "She talks about fashion."
                 ],
                 "optionk": "A",
-                "optionw": "En esta conversación, podemos leer palabras relacionadas con el campo del trabajo de la escritura, podría ser periodismo ”new article” (nuevo artículo), ”editor” (editor), pero luego nos encontramos con palabras más específicas: ”new trends” (nuevas tendencias), ”party dresses” (vestidos de fiesta) y ”fashion” (moda). Queremos saber la ocupación de la mujer, y por las palabras relacionadas con el campo de la moda y la escritura, podemos inferir la respuesta correcta.",
+                "optionw": "En esta conversación queremos conocer la ocupación de la mujer,  podemos leer palabras relacionadas con el campo semántico de la escritura, podría ser periodismo: ”new article” (nuevo artículo), ”editor” (editor), pero luego nos encontramos con palabras más específicas: ”new trends” (nuevas tendencias), ”party dresses” (vestidos de fiesta) y ”fashion” (moda). Debemos pensar en la intersección de las palabras relacionadas con el campo de la moda y la escritura, para inferir la respuesta correcta. ",
                 "eval": true,
                 "type": "listening+text",
                 "force_positive": true

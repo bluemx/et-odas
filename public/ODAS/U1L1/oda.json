@@ -4,6 +4,15 @@
         "allokbtn": false,
         "content":[
             {
+                "text":"EXPLICACIÓN",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+
+             {
+                "text":"En el entrenamiento de listening con reactivos de baja dificultad, solamente escucharás las preguntas y las opciones de respuesta. En el nivel de dificultad  fácil, son solamente tres opciones. Estas preguntas se centran en la comprensión global del sentido de una oración en distintos contextos conversacionales. Las explicaciones proporcionan información acerca de la estructura de diálogos básicos, así como claves para mejorar la escucha activa."
+             },
+            
+            {
                 "text":"INSTRUCCIONES",
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
@@ -11,10 +20,10 @@
                 "audioplayer":"a/instruccion.mp3"
              },
              {
-                "text":"En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres opciones, también en inglés. Las preguntas o enunciados y las opciones se dirán solo una vez."
+                "text":"En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres opciones, también en inglés. Las preguntas o enunciados y las opciones podrán reproducirse las veces que sean necesarias durante la práctica, sin embargo, recuerde que en el examen se escucharán solamente una vez."
              },
              {
-                "text":"Escuche cuidadosamente para poder entender por qué no aparece nada escrito en el folleto del examen para estos ejercicios. Selecciona la mejor opción para cada pregunta o enunciado dando un click sobre la letra correspondiente"
+                "text":"Selecciona la mejor opción para cada pregunta o enunciado dando un click sobre  la letra correspondiente"
              },
              {
               "text":"EXAMPLE",
@@ -152,7 +161,7 @@
                 "question": "What’s your name?",
                 "options": ["House", "A student", "Luis"],
                 "optionk": "c",
-                "optionw": "Ahora regresamos a la palabra “name”en la pregunta, pero ahora con el posesivo “you”, así que está preguntando tu nombre, la única respuesta correcta sería  el único nombre propio en las opciones.",
+                "optionw": "Ahora regresamos a la palabra “name”en la pregunta, pero ahora con el posesivo “you”, así que está preguntando por el nombre del interlocutor. La única respuesta correcta sería  el único nombre propio en las opciones.",
                 "eval": true,
                 "type": "listening",
                 "force_positive": true
