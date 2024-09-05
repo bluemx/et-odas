@@ -4,6 +4,13 @@
         "allokbtn": false,
         "content":[
             {
+                "text":"EXPLICACIÓN",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {
+                "text":"En el entrenamiento de listening con reactivos de mayor dificultad, se escucharán audios acerca de las conversaciones  con el objetivo de detectar información específica en las mismas. Es importante que leas con atención las  preguntas y respuestas para saber qué información buscar."
+             },
+            {
                 "text":"INSTRUCCIONES",
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
@@ -31,7 +38,7 @@
                         "question": "Who would listen to this?",
                         "options": ["A CEO", "A delivery person", "A teacher", "A student"],
                         "optionk": "B",
-                        "optionw": "Por lo tanto, nuestra respuesta correcta es (A) An art gallery.",
+                        "optionw": "La respuesta correcta es la  (B). De no seleccionar la respuesta correcta, se te proporcionará una explicación que te ayude a corregir. No podrás seguir avanzando hasta que contestes de forma adecuada. Recuerda que puedes repetir el audio las veces que sean necesarias.",
                         "eval": false,
                         "type": "listening+text",
                         "force_positive": true
@@ -58,7 +65,7 @@
             "A mall"
         ],
         "optionk": "A",
-        "optionw": "En esta pregunta, comenzamos con un imperativo, estamos dando órdenes de restricciones, así que debe ser un lugar donde no se permiten tomar fotografías con flash, lo cual puede suceder en un museo o en una galería de arte (respuestas A o B), sin embargo, la clave nos la dará el vocabulario específico del área de arte, habla de Monet (un pintor) y de sus colores, etc. Por lo tanto, nuestra respuesta correcta es (A) An art gallery.",
+        "optionw": "En esta pregunta, comenzamos con un imperativo, estamos dando órdenes de restricciones, así que debe ser un lugar donde no se permiten tomar fotografías con flash, lo cual puede suceder en un museo o en una galería de arte , sin embargo, la clave nos la dará el vocabulario específico del área, ya que habla de Monet (un pintor) y de sus colores. ",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -221,8 +228,8 @@
         "optionk": "B",
         "optionw": "En este audio, podemos notar que desde el tono la persona está anunciando o dando a conocer algo, en este caso, una compañía de inversiones. Al utilizar palabras como “elevate investing to a craft” podemos ver que el propósito de este audio es “persuadir”y al final, tenemos la pista de “discover more at…” (descubre más en…) y dan el sitio web. Por lo tanto, este audio es un comercial.",
         "eval": true,
-                        "type": "listening+text",
-                "force_positive": true
+        "type": "listening+text",
+        "force_positive": true
     }
         ]
     },
@@ -288,7 +295,7 @@
             "They are husband and wife"
         ],
         "optionk": "B",
-        "optionw": "Aquí el primer punto para responder esta pregunta, “the relationship between the man and the woman” (la relación entre el hombre y la mujer), es que desde la primera frase, “Long time no see”(hace mucho tiempo que no nos vemos), nos indica que las personas tienen tiempo sin verse, así que esto nos lleva a las opciones A y B. Al hablar de escuela y la última vez que se vieron, definitivamente podemos inferir que no tenían una relación , sino que su relación dependía de las circunstancias.",
+        "optionw": "Aquí el primer punto para responder esta pregunta, “the relationship between the man and the woman” (la relación entre el hombre y la mujer), es que desde la primera frase, “Long time no see”(hace mucho tiempo que no nos vemos), nos indica que las personas tienen tiempo sin verse. Al hablar de escuela y la última vez que se vieron, definitivamente podemos inferir que no tenían una relación , sino que su relación dependía de las circunstancias.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -403,7 +410,7 @@
             "Friends"
         ],
         "optionk": "C",
-        "optionw": "Al hablar de una fiesta, automáticamente pensamos que estamos hablando de la respuesta D, amigos, pero aquí tenemos más información, por ejemplo, nos hablan de “matching outfits”, que igual se podría aplicar a amigos. Hasta que llegamos al final y se mencionan un concurso, y las palabras clave “couple of days off”(un par de días libres) y “HR department”(departamento de recursos humanos), por lo tanto, nuestra respuesta correcta debe estar en ese grupo semántico.",
+        "optionw": "Al hablar de una fiesta, automáticamente pensamos que estamos hablando en un contexto amistoso, nos hablan también de “matching outfits” (conjunto a juego con una temática). Hasta que llegamos al final y se mencionan un concurso, y las palabras clave “couple of days off”(un par de días libres) y “HR department”(departamento de recursos humanos), por lo tanto, nuestra respuesta correcta debe estar en ese grupo semántico. ",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -426,7 +433,7 @@
             "College graduates"
         ],
         "optionk": "B",
-        "optionw": "Desde el inicio, sabemos que hay cierta formalidad en el habla, puesto que se habla de una hora de llegada y que se espera que quien recibe este mensaje esté en la entrada “fifteen minutes before your class begins”(quince minutos antes de que tu clase comience), y al incluir la frase “a new generation of children who are willing to learn from you”(una nueva generación de niños que quieren aprender de ustedes), podemos deducir automáticamente quiénes reciben esta información.",
+        "optionw": "Desde el inicio, sabemos que hay cierta formalidad en el habla, puesto que se habla de una hora de llegada. También menciona qué se espera que quien recibe este mensaje, es decir, que esté en la entrada “fifteen minutes before your class begins”(quince minutos antes de que tu clase comience). A incluir la frase “a new generation of children who are willing to learn from you”(una nueva generación de niños que quieren aprender de ustedes), podemos deducir automáticamente  quiénes reciben esta información.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -495,7 +502,7 @@
             "Monday"
         ],
         "optionk": "D",
-        "optionw": "En esta pregunta, tenemos que identificar que nos están pidiendo inferir el día de la semana en el que sucedió la conversación, ya que nuestras opciones son días de la semana. Ahora, el reto está en interpretar la palabra “weekend” (fin de semana) y saber que esto fue al día siguiente por la palabra “yesterday” (ayer), así que esto sucedió el día siguiente del fin de semana.",
+        "optionw": "En esta pregunta, tenemos que inferir el día de la semana en el que sucedió la conversación, ya que nuestras opciones son días de la semana. Ahora, el reto está en interpretar la palabra “weekend” (fin de semana) y saber que esto fue al día siguiente por la palabra “yesterday” (ayer), así que esto sucedió el día siguiente del fin de semana.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
@@ -541,7 +548,7 @@
             "At a science class"
         ],
         "optionk": "A",
-        "optionw": "En esta pregunta, identificamos palabras que entran en el campo semántico del mar, el hablante está dando información sobre “The squid”(el pulpo). Esta palabra tal vez no sea conocida para muchas personas, pero ya que se menciona “tentacles” (tentáculos), sabemos que se habla de un animal marino. La clave está en la última frase: “Let’s observe them, they should be hidden between the rocks in this tank” (vamos a observarlos, deben estar escondidos entre las piedras en el tanque) lo cual nos da la señal de que están en un lugar donde hay un tanque de agua.",
+        "optionw": "En esta pregunta identificamos palabras que entran en el campo semántico del mar, el hablante está dando información sobre “The squid”(el pulpo). Esta palabra tal vez no sea conocida para muchas personas, pero ya que se menciona “tentacles” (tentáculos), sabemos que se habla de un animal marino. La clave está en la última frase: “Let’s observe them, they should be hidden between the rocks in this tank” (vamos a observarlos, deben estar escondidos entre las piedras en el tanque) lo cual nos da pista de un lugar donde hay un tanque de agua.",
         "eval": true,
                         "type": "listening+text",
                 "force_positive": true
