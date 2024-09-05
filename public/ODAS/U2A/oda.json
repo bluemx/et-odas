@@ -21,6 +21,22 @@
             { "buttonnav": "next"}
         ]
     },
+    {
+        "block": "scene",
+        "allokbtn": false,
+        "navigation": false,
+        "content":[
+            {
+                "text":"Part 2. Language Use",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             
+             {"text":"Esta sección del examen tiene ejercicios que se enfocan en el uso del lenguaje. Lee cuidadosamente cada una de las preguntas y escoge la respuesta que mejor complete el enunciado."},
+             
+            { "buttonnav": "next"}
+        ]
+    },
+
 
     {
         "block": "scene",
@@ -343,7 +359,7 @@
                 "title": "Question 26",
                 "audio": null,
                 "question": "",
-                "options": ["Sports Gina, Maxwell. Dating Gina, Maxwell. Running, Gina and Maxwell.", "Sporty Gina and Maxwell run together. You can tell, they like each other.", "Gina and Maxwell are sporty and run together. Maxwell wants a date with Gina.", "Gina and Maxwell run together. They like sports. They like dating."],
+                "options": ["Sports Gina, Maxwell. Dating Gina, Maxwell. Running, Gina and Maxwell.", "Sporty Gina and Maxwell run together.  You can tell, they like each other, so Maxwell will be asking her out.", "Gina and Maxwell are sporty and run together. Maxwell wants a date with Gina.", "Gina and Maxwell run together. They like sports. They like dating."],
                 "optionk": "b",
                 "optionw": "",
                 "eval": true,
@@ -561,9 +577,19 @@
             
             {"text": "From questions 43-50 look attentively at the reading and select the correct answer.", "class":"instrucciones font-bold text-5 text-gradient"},
             {
-                "text": "(1).......Plastic surgery has become popular in the last few years. (2) Around 600 B.C., an Indian surgeon performed the first recorded surgeons. (3)Billions of surgeries have been performed around the world. (4) Some have been and still are practically because of human vanity. (5)....others present for various, deeper reasons. (6)……., it is safe to say plastic surgery is here to stay. (7) It is a multi billion dollar business and it appears it will continue being that way for the years up come. (8)Nowadays, new technologies like lasers, laparoscopic cameras and other advances are helping to reduce the size of incisions in plastic surgery, which helps to reduce risks for bleeding and infection while still delivering excellent results. (10) This is surely motivating for patients everywhere.",
-                "class": "bg-slate-200 p-4 block rounded text-xl"
+                "textlines":[
+                    ".......Plastic surgery has become popular in the last few years.",
+                    "Around 600 B.C., an Indian surgeon performed the first recorded surgeons.",
+                    "Billions of surgeries have been performed around the world. ",
+                    "Some have been and still are practically because of human vanity.",
+                    "....others present for various, deeper reasons.",
+                    "...., it is safe to say plastic surgery is here to stay.",
+                    "It is a multi billion dollar business and it appears it will continue being that way for the years up come.",
+                    "Nowadays, new technologies like lasers, laparoscopic cameras and other advances are helping to reduce the size of incisions in plastic surgery,",
+                    "which helps to reduce risks for bleeding and infection while still delivering excellent results.","This is surely motivating for patients everywhere."
+                ]
             },
+            
             {
                 "title": "Question 43",
                 "audio": null,
@@ -604,6 +630,19 @@
         "allokbtn": false,
         "navigation": true,
         "content":[
+            {
+                "textlines":[
+                    ".......Plastic surgery has become popular in the last few years.",
+                    "Around 600 B.C., an Indian surgeon performed the first recorded surgeons.",
+                    "Billions of surgeries have been performed around the world. ",
+                    "Some have been and still are practically because of human vanity.",
+                    "....others present for various, deeper reasons.",
+                    "...., it is safe to say plastic surgery is here to stay.",
+                    "It is a multi billion dollar business and it appears it will continue being that way for the years up come.",
+                    "Nowadays, new technologies like lasers, laparoscopic cameras and other advances are helping to reduce the size of incisions in plastic surgery,",
+                    "which helps to reduce risks for bleeding and infection while still delivering excellent results.","This is surely motivating for patients everywhere."
+                ]
+            },
             {
                 "title": "Question 46",
                 "audio": null,

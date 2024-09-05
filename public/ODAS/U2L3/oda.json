@@ -24,10 +24,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
              {
-                "text":"This part of the test has five different types of exercises. This part focuses on the use of the language."
-             },
-             {
-                "text":"Read each question carefully and choose the best answer. There is only one correct answer."
+                "text":"Esta sección del examen tiene ejercicios que se enfocan en el uso del lenguaje. Lee cuidadosamente cada una de las preguntas y escoge la respuesta que mejor complete el enunciado."
              },
              
               { "buttonnav": "next"}
@@ -149,7 +146,7 @@
                     "as a consequence"
                 ],
                 "optionk": "c",
-                "optionw": "Es clave observar que en el complemento número 6, se menciona a la lectura como un hábito importante y se le brinda el mismo nivel al ser una habilidad genial que poseer.",
+                "optionw": "Es clave observar que en la oración número 6, se menciona a la lectura como un hábito importante a la vez que se le considera una habilidad genial que poseer. La respuesta  debe contener estos elementos. ",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
@@ -306,7 +303,7 @@
                         "Eden and Olivia are family. They are beautiful. They are tall. They are into gymnastics."
                     ],
                     "optionk": "c",
-                    "optionw": "Podría pensarse que la “a” y la “c” son iguales, pero si ponemos atención al orden de los adjetivos, podemos recordar que los adjetivos de “opinión” van antes que aquellos que describen “tamaño”.",
+                    "optionw": "Podría pensarse que la estructura de algunas oraciones son iguales, pero si ponemos atención al orden de los adjetivos, podemos recordar que los adjetivos de “opinión” van antes que aquellos que describen “tamaño”.",
                     "eval": true,
                     "type": "practice",
                     "force_positive": true
@@ -353,7 +350,7 @@
                     "question": "<u a>The</u> jet <u b>was</u> flown by an <u c>Italy</u> driver. <u d>No error</u>.",
                     "options": ["An", "were", "Italian", "No error"],
                     "optionk": "c",
-                    "optionw": "Cuando hablamos de un conductor y su nacionalidad, debemos utilizar “Italian” (italiano) en vez de “Italy” (Italia).",
+                    "optionw": "Cuando hablamos de un conductor y su nacionalidad, debemos utilizar “Italian” (italiano) en vez de “Italy” (Italia). Es importante observar que a diferencia del español, las nacionalidades se escriben en mayúscula.",
                     "eval": true,
                     "type": "practice",
                     "force_positive": true
@@ -402,7 +399,7 @@
                     "question": "Which word would be the most appropriate to start sentence 1?",
                     "options": ["As a result", "To begin with", "To conclude", "Consequently"],
                     "optionk": "b",
-                    "optionw": "La alternativa nos ayuda a introducir la idea del texto, con las palabras “para empezar”.",
+                    "optionw": "La alternativa correcta nos ayuda a introducir la idea del texto, con las palabras “para empezar”. ",
                     "eval": true,
                     "type": "practice",
                     "force_positive": true
