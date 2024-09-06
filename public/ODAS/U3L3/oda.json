@@ -18,6 +18,21 @@
     },
     {
         "block": "scene",
+        "allokbtn": false,
+        "content":[
+            {
+                "text":"Part 3. Reading Comprehension and Vocabulary",
+                "class":"instrucciones font-bold text-5 text-gradient"
+            },
+             {
+                "text":"Esta sección del examen tiene dos tipos de  ejercicios que se enfocan en la comprensión lectora y vocabulario.  Lee cuidadosamente cada una de las preguntas y escoge la respuesta que mejor complete el enunciado."
+             },
+             
+              { "buttonnav": "next"}
+        ]
+    },
+    {
+        "block": "scene",
         "allokbtn": true,
         "navigation": false,
         "content":[
@@ -92,7 +107,7 @@
                 "title": "Question 4",
                 "audio": null,
                 "question": "In line 11, what does the word <u>revered</u> mean?",
-                "options": ["ADMIRED", "DISLIKED", "DESPISED", "HATED"],
+                "options": ["Admired", "Disliked", "Despised", "Hated"],
                 "optionk": "A",
                 "optionw": "Para responder esta pregunta, debemos leer todo el párrafo y observar que las palabras que se mencionan “respected” (respetado), “courageous”(valiente), “found himself at the forefront of pivotal moments” (se encontró al frente de batalla en momentos esenciales) por lo que la palabra que estamos buscando, es una que tenga algo positivo.",
                 "eval": true,
@@ -218,7 +233,7 @@
                 "question": "In line 18, the word <u>despite</u> introduces:",
                 "options": ["An idea", "A condition", "A supporting detail", "A proposal"],
                 "optionk": "B",
-                "optionw": "Para responder esta pregunta, debemos leer toda la oración completa y no quedarnos con el “general”, que en este caso sería “introduce una idea”, porque realmente si bien cumple esta función, debemos prestar atención al tipo de idea que estamos leyendo. “Debemos reconocer que a pesar de esto, sucede esta otra cosa”.",
+                "optionw": "Para responder esta pregunta, debemos leer toda la oración completa y no quedarnos con la idea “general”, que en este caso sería “introduce una idea”, porque si bien cumple esta función,  debemos prestar atención al tipo de idea que estamos leyendo. “Debemos reconocer que a pesar de esto, sucede esta otra cosa”.",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
@@ -392,8 +407,8 @@
             },
             {
                 "title": "Question 21",
-                "audio": "The text is about",
-                "question": "¿De qué trata el texto?",
+                "audio": null,
+                "question": "The text is about",
                 "options": [
                     "Love",
                     "A girl taking a job opportunity away from home.",
@@ -401,15 +416,15 @@
                     "Luxury brands"
                 ],
                 "optionk": "B",
-                "optionw": "En este texto si, se mencionan las cuatro opciones, y podríamos decir que es una historia de amor, pero también se menciona la carrera de la protagonista y las marcas de lujo, pero el punto central de la historia es otra.",
+                "optionw": "En este texto sí, se mencionan las cuatro opciones, y podríamos decir que es una historia de amor, pero también se menciona la carrera de la protagonista y las marcas de lujo, pero el punto central de la historia es otra.",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
             },
             {
                 "title": "Question 22",
-                "audio": "Which type of text is this?",
-                "question": "¿Qué tipo de texto es este?",
+                "audio": null,
+                "question": "Which type of text is this?",
                 "options": [
                     "A memoir",
                     "A letter",
@@ -424,10 +439,10 @@
             },
             {
                 "title": "Question 23",
-                "audio": "On line 5, what does bound mean?",
-                "question": "En la línea 5, ¿qué significa bound?",
+                "audio": null,
+                "question": "On line 5, what does <u>bound</u> mean?",
                 "options": [
-                    "something that was not supposed to happen",
+                    "Something that was not supposed to happen",
                     "Something that just happened",
                     "A possibility",
                     "Something that is certain to happen"
@@ -440,8 +455,8 @@
             },
             {
                 "title": "Question 24",
-                "audio": "Who is the text about?",
-                "question": "¿De quién trata el texto?",
+                "audio": null,
+                "question": "Who is the text about?",
                 "options": [
                     "Lisa",
                     "An unknown girl",
@@ -456,8 +471,8 @@
             },
             {
                 "title": "Question 25",
-                "audio": "How would you describe the protagonist of the story?",
-                "question": "¿Cómo describirías a la protagonista de la historia?",
+                "audio": null,
+                "question": "How would you describe the protagonist of the story?",
                 "options": [
                     "Nervous",
                     "Optimistic",
