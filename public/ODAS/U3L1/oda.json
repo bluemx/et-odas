@@ -24,10 +24,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
              {
-                "text":"This part of the test has two types of exercises, vocabulary and reading comprehension."
-             },
-             {
-                "text":"Read each question carefully and choose the best answer. There is only one correct answer."
+                "text":"Esta sección del examen tiene dos tipos de  ejercicios que se enfocan en la comprensión lectora y vocabulario.  Lee cuidadosamente cada una de las preguntas y escoge la respuesta que mejor complete el enunciado."
              },
              
               { "buttonnav": "next"}
@@ -46,7 +43,7 @@
                 "question": "You do this at school most of the time.",
                 "options": ["eat", "learn", "cook", "swim"],
                 "optionk": "B",
-                "optionw": "Para responder este ejercicio, nos debemos enfocar a las palabras que están relacionadas con otras. Podemos decir que sí, los alumnos “comen”en la escuela, o “nadan”porque son actividades que podrían pertenecer al contexto, sin embargo, al prestar atención a la frase “most of the time” (la mayor parte del tiempo) sabemos que la mayor parte del tiempo no comemos o nadamos en la escuela.",
+                "optionw": "Para responder este ejercicio, nos debemos enfocar en las palabras que están relacionadas con otras. Podemos decir que sí, los alumnos “comen”en la escuela, o “nadan”porque son actividades que podrían pertenecer al contexto, sin embargo, al prestar atención a la frase “most of the time”(la mayor parte del tiempo) sabemos que la mayor parte del tiempo no comemos o nadamos en la escuela.",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
@@ -79,7 +76,7 @@
                 "question": "I want to see a film, let’s go to the:",
                 "options": ["Theater", "Restaurant", "Bank", "Cinema"],
                 "optionk": "D",
-                "optionw": "Para responder esta pregunta, debemos conocer las palabras de lugar y lo que se hace en cada lugar. Por ejemplo, no verías una película en un restaurante o en un banco. Podría prestarse a confusión el tener las palabras “theater”y “cinema”, pero hay una diferencia entre uno y otro, puesto que en uno, tenemos personas actuando en vivo y en el otro, una película.",
+                "optionw": "Para responder esta pregunta, debemos conocer el vocabulario relacionado con un lugar. Por ejemplo, no verías una película en un restaurante o en un banco. Podría prestarse a confusión el tener las palabras “theater”y “cinema”, pero hay una diferencia entre uno y otro, puesto que en uno, tenemos personas actuando en vivo y en el otro, una película.",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
@@ -111,7 +108,7 @@
             {
                 "title": "Question 6",
                 "audio": null,
-                "question": "In line 1, stop by means",
+                "question": "In line 1, <u>stop by</u> means",
                 "options": ["To visit someone", "To stop", "To stop doing something", "To walk somewhere"],
                 "optionk": "A",
                 "optionw": "Para contestar este ejercicio, debemos leer la frase completa y enfocarnos en las palabras de contenido “your place” y “talk later” para inferir que a la persona le gustaría “parar por tu casa y hablar más tarde”.",
@@ -122,7 +119,7 @@
             {
                 "title": "Question 7",
                 "audio": null,
-                "question": "In line 1, hang out means",
+                "question": "In line 1, <u>hang out</u> means",
                 "options": ["To spend time relaxing", "To hang something outside", "To spend time outside", "To hang someone"],
                 "optionk": "A",
                 "optionw": "Para responder este ejercicio, debemos leer nuevamente la oración entera y enfocarnos en las palabras que indican temporalidad “soon”, “just” y “old days”, así que es algo que desea hacer pronto como en el pasado. Ahora, la frase idiomática “hang out”pierde el significado de las palabras individuales, por lo que no es “colgar fuera”, sino que se refiere a pasar el tiempo con otra persona.",
@@ -133,7 +130,7 @@
             {
                 "title": "Question 8",
                 "audio": null,
-                "question": "In line 2, pick you up means",
+                "question": "In line 2, <u>pick you up</u> means",
                 "options": ["Take something from the floor", "Go somewhere to collect someone", "Take someone", "Get someone up"],
                 "optionk": "B",
                 "optionw": "Para responder este ejercicio, debemos analizar que tenemos la frase compuesta por un verbo y una preposición separadas por un pronombre. Al leer la oración completa nos daremos cuenta de que no estamos tomando algo, estamos recogiendo a alguien.",
@@ -144,7 +141,7 @@
             {
                 "title": "Question 9",
                 "audio": null,
-                "question": "In line 3, get together means",
+                "question": "In line 3, <u>get together</u> means",
                 "options": ["A reunion", "To get somewhere", "To go somewhere with someone", "To have a meeting"],
                 "optionk": "D",
                 "optionw": "En esta ocasión, lo primero que debemos identificar es que la frase puede tener dos significados, una como sustantivo y otra como acción, eso lo determina el contexto. Ahora, al leer toda la oración completa, el autor habla de algo que solían hacer juntos cada cierto tiempo.",
@@ -155,7 +152,7 @@
             {
                 "title": "Question 10",
                 "audio": null,
-                "question": "In line 5, broke into means",
+                "question": "In line 3, <u>broke into</u> means",
                 "options": ["To suddenly begin to do something", "To enter a place illegally", "To start a new job", "To break something"],
                 "optionk": "B",
                 "optionw": "Para responder este ejercicio, debemos enfocarnos en la palabra de contenido “library”, los amigos solían entrar a este lugar. El contexto nos dice que lo hicieron porque querían recuperar algo de un lugar, así que tuvieron que entrar. La frase del final nos dice “it was crazy!” así que podemos inferir que era algo no permitido.",
