@@ -142,7 +142,7 @@ onMounted(()=>{
 const clicked = (item, index) => {    
     // Force Positive && Already CORRECT is selected
     if(selected.value?.correct && props.data.force_positive){ return false }
-    
+    if(props.data.isexample && !item.correct){return false}
     // Force Positive
     if(props.data.force_positive){
         if(!item.correct){
@@ -201,13 +201,19 @@ const listenerok = (event: any) => {
             return { item, index };
         }
     });
-
     const theindex = renderOptions.value.indexOf(theitem);
-
     clicked(theitem,theindex)
 }
 busallok.on(listenerok)
 
+
+
+if(props.data.isexample){
+    setTimeout(()=>{
+        listenerok(null)
+        console.log('example')
+    }, 500)
+}
 
 
 </script>

@@ -23,6 +23,8 @@ export const useOda = defineStore('oda', () => {
     const timerinvertval = ref()
 
     const sceneAllok = ref([])
+
+    const hasLaterBtn = ref(true)
     
     const getODA = () => {
        
@@ -138,6 +140,9 @@ export const useOda = defineStore('oda', () => {
             else if(points>=128 && points<=159){ CEFRLevel.value = 'B1'}
             else if(points>=160 && points<=200){ CEFRLevel.value = 'B2'}
             postmessagedata.value.CEFRLevel = CEFRLevel.value
+            //Seconds 
+            postmessagedata.value.seconds = Object.values(timers.value).reduce((acc, value) => acc + value, 0);
+
         }
 
 
@@ -147,6 +152,9 @@ export const useOda = defineStore('oda', () => {
     // IMPORT
 
     window.addEventListener('message', ({ data: messageData }) => {
+
+        if(messageData?.noLater){hasLaterBtn.value = false}
+
         if (!messageData || messageData.datatype !== 'student_data') { return; }
         const {inputs, seconds } = messageData;
         data.value = arrayToObject(inputs)
@@ -197,6 +205,7 @@ export const useOda = defineStore('oda', () => {
         timerinvertval,
         stepcount,
         istesting,
+        hasLaterBtn,
         getODA,
         stepNext,
         stepPrev,

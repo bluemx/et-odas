@@ -1,5 +1,9 @@
 <template>
-    <button v-if="enabled" class="et-button !px-4 !py-1 fixed bottom-2 left-2 !border-2 !border-solid !border-white" @click="later()">Continuar más tarde</button>
+    <template v-if="oda.hasLaterBtn">
+        <button v-if="enabled" class="et-button !px-4 !py-1 fixed bottom-2 left-2 !border-2 !border-solid !border-white" @click="later()">Continuar más tarde</button>
+    </template>
+    
+    
     <div class="bg-pink fixed inset-0 z-100 bye-screen flex justify-center items-center flex-col gap-5" v-if="bye">
         <template v-if="byetxt">
             <div class="font-bold text-6 text-white">Tu progreso ha sido guardado.</div>

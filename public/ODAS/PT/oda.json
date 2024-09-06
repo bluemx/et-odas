@@ -10,9 +10,9 @@
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
              {
-                "text":" En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres opciones, también en inglés. Las preguntas o enunciados y las opciones se dirán solo una vez. "
+                "text":"En esta parte, usted escuchará preguntas o enunciados en inglés seguidos de tres opciones, también en inglés. Las preguntas o enunciados y las opciones se dirán solo una vez."
              },
-             { "text": "Escuche cuidadosamente para poder entender por qué no aparece nada escrito en el folleto del examen para estos ejercicios. Selecciona la mejor opción para cada pregunta o enunciado dando un click sobre  la letra correspondiente."},
+             { "text": "Escuche cuidadosamente para poder entender por qué no aparece nada escrito Selecciona la mejor opción para cada pregunta o enunciado dando un click sobre  la letra correspondiente."},
 
              {
                 "text":"EXAMPLE",
@@ -31,7 +31,8 @@
                         "optionw": false,
                         "eval": false,
                         "type": "listening",
-                        "force_positive": false
+                        "force_positive": false,
+                        "isexample": true
                     }
                 ]
             },
@@ -427,7 +428,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
              {"text":"En esta parte, se reproducen conversaciones cortas en las cuales deben demostrar distintas habilidades de escucha."},
-             {"text":"Usted escuchará preguntas o enunciados en inglés seguidos de tres o cuatro opciones, también en inglés. Las preguntas o enunciados y las opciones se dirán solo una vez. Después de escuchar cada conversación seleccione la mejor respuesta para cada ejercicio seleccionando la mejor opción para cada pregunta o enunciado dando un click sobre  la letra correspondiente."},
+             {"text":"Usted escuchará preguntas o enunciados en inglés seguidos de tres o cuatro opciones, también en inglés. Las preguntas o enunciados y las opciones se dirán solo una vez. Después de escuchar cada conversación seleccione la mejor respuesta para cada ejercicio dando un click sobre  la letra correspondiente."},
             
             {
                 "title": "Question 26",
@@ -886,7 +887,8 @@
                         "eval": false,
                         "type": "practice",
                         "difficulty": "Easy", 
-                        "force_positive": false
+                        "force_positive": false,
+                        "isexample": true
                     }
                 ]
             },
@@ -1066,11 +1068,12 @@
                         "eval": false,
                         "type": "practice",
                         "difficulty": "Easy", "points":1.5, 
-                        "force_positive": false
+                        "force_positive": false,
+                        "isexample": true
                     }
                 ]
             },
-            {"text": "En este caso, estamos hablando de un relato en el pasado, por lo cual, nuestra respuesta forzosamente debe ser en pasado, por lo que nuestra única respuesta aceptable es el verbo en pasado simple, es decir la opción slept. Se marcó también en el guión instruccional."},
+            {"text": "En este caso, estamos hablando de un relato en el pasado, por lo cual, nuestra respuesta forzosamente debe ser en pasado, por lo que nuestra única respuesta aceptable es el verbo en pasado simple, es decir la opción slept."},
             {
                 "title": "Question 9",
                 "playback": 1, "audio":  false,
@@ -1232,7 +1235,8 @@
                         "eval": false,
                         "type": "practice",
                         "difficulty": "Easy", "points":1.5, 
-                        "force_positive": false
+                        "force_positive": false,
+                        "isexample": true
                     }
                 ]
             },
@@ -1248,7 +1252,7 @@
                     "Melina wants to be a professional. In Summer she got her ice skating trophee.",
                     "Melina got her ice skating trophee in Summer."
                 ],
-                "optionk": "B",
+                "optionk": "C",
                 "optionw": false,
                 "eval": true,
                 "type": "practice",
@@ -1381,7 +1385,8 @@
                         "eval": false,
                         "type": "inline",
                         "difficulty": "Easy", "points":1.5, 
-                        "force_positive": false
+                        "force_positive": false,
+                        "isexample": true
                     }
                 ]
             },
@@ -1458,6 +1463,7 @@
                 "difficulty": "Difficult", "points":1.5,
                 "force_positive": false
             },
+            {"text": "From questions 30-33 identify the correct answer for one of the underlined options. There is only one correct answer for each question."},
             {
                 "title": "Question 30",
                 "playback": 1, "audio":  false,
@@ -1475,7 +1481,7 @@
                 "difficulty": "Difficult", "points":1.5,
                 "force_positive": false
             },
-            {"text": "From questions 30-33 identify the correct answer for one of the underlined options. There is only one correct answer for each question."},
+            
             {
                 "title": "Question 31",
                 "playback": 1, "audio":  false,
@@ -1553,7 +1559,8 @@
                         "type": "practice",
                         "difficulty": "Easy", "points":1.5, 
                         "force_positive": false,
-                        "lecture": "(1) Having a job is a great blessing, it also comes with responsibilities. (2) For instance, the idea of a sick teacher is not well accepted in society’s mind. (3)Teachers need to be strong and invincible. (4) Working out is hard to do. (5) Challenges which are included in each job are different. (6) Doctors regularly sleep just a couple of hours a day, and sometimes, they cannot even do that. (7) The amount of work and the long hours they put in is __________ unbearable. (8) Another example is how private security guards, mostly those who work for gated societies, have to remain for days in a tiny space, fulfilling their basic needs. (9) To conclude, every job has its own challenges, and it’s important to know if we are ready and wild to accept them even before selecting a career."
+                        "lecture": "(1) Having a job is a great blessing, it also comes with responsibilities. (2) For instance, the idea of a sick teacher is not well accepted in society’s mind. (3)Teachers need to be strong and invincible. (4) Working out is hard to do. (5) Challenges which are included in each job are different. (6) Doctors regularly sleep just a couple of hours a day, and sometimes, they cannot even do that. (7) The amount of work and the long hours they put in is __________ unbearable. (8) Another example is how private security guards, mostly those who work for gated societies, have to remain for days in a tiny space, fulfilling their basic needs. (9) To conclude, every job has its own challenges, and it’s important to know if we are ready and wild to accept them even before selecting a career.",
+                        "isexample": true
                     }
                 ]
             },
@@ -1663,7 +1670,7 @@
             {
                 "title": "Question 40",
                 "playback": 1, "audio":  false,
-                "question": "Which words could start sentence 9?",
+                "question": "Which other way could we start sentence 9?",
                 "options": [
                     "Finally",
                     "Because",
@@ -1695,7 +1702,25 @@
             
             { "text": " En los siguientes ejercicios, se presenta un párrafo. Después de leerlo, seleccione la opción con un significado similar al que se plantea en cada pregunta."},
             { "text": "Los ejercicios 1-5 se basan en el siguiente párrafo."},
-            { "class":"text-xl bg-slate-200 rounded p-4", "text": "Knowing about computers and social media (in general, about technology)  a few years back was quite complex. The knowledge included investigating and understanding about emerging technologies and new ways to communicate. The speed in which they evolved, felt like society was getting everything out of (5) hand. Nowadays, people who dominate these technological areas are a dime a dozen. I certainly believe that it has to do with those who stayed through thick and thin during the companies’ processes (while migrating their data, for example) and were actually on the ball. My friends and I can still recall when our teachers used to explain how to research information on the (10) net and how to create a digital document. You may think it’s not rocket science, but back then, while feeling frustrated (since I lacked abilities to face the changes), I had to get my act together to avoid having an outburst."},
+            
+            {
+                "textlines":[
+                    "Knowing about computers and social media (in general, about technology)",
+                    "a few years back was quite complex. The knowledge included investigating",
+                    "and understanding about emerging technologies and new ways to",
+                    "communicate. The speed in which they evolved, felt like society was getting",
+                    "everything out of  hand. Nowadays, people who dominate these ",
+                    "technological areas are a dime a dozen. I certainly believe that it has to do",
+                    "with those who stayed through thick and thin during the companies’ ",
+                    "processes (while migrating their data, for example) and were actually on the",
+                    "ball. My friends and I can still recall when our teachers used to explain how ",
+                    "to research information on the net and how to create a digital document. You",
+                    "may think it’s not rocket science, but back then, while feeling frustrated ",
+                    "(since I lacked abilities to face the changes), I had to get my act together to",
+                    "avoid having an outburst."
+
+                ]
+            },
             {
                 "class":"border-4 border-solid border-et-orange p-5 rounded-md",
                 "content":[
@@ -1709,11 +1734,12 @@
                         "eval": false,
                         "type": "practice",
                         "difficulty": "Easy", 
-                        "force_positive": false
+                        "force_positive": false,
+                        "isexample": true
                     }
                 ]
             },
-            {"text": "Para contestar este ejercicio es necesario leer todo el texto y luego volver a la línea 4. La expresión idiomática “get something (en este caso, everything) ”significa “que algo se sale de las manos”, es decir, que algo se sale de control. Dentro de este contexto, habla de la rapidez con la que surgieron las nuevas tecnologías años atrás, y el descontrol momentáneo que esto causó."},
+            {"text": " Para contestar este ejercicio es necesario leer todo el texto y luego volver a la línea 4. La expresión idiomática “get something (en este caso, everything) ”significa “que algo se sale de las manos”, es decir, que algo se sale de control. Dentro de este contexto, habla de la rapidez con la que surgieron las nuevas tecnologías años atrás, y el descontrol momentáneo que esto causó. La repuesta correcta es la  C."},
             {
                 "title": "Question 1",
                 "playback": 1, "audio":  false,
@@ -1805,33 +1831,33 @@
             { 
                 
                 "textlines": [
-                    "Maria was a young, beautiful kid who had practically had everything she ever wanted just by asking for it.",
-                    "She was smart, good with people, funny and super creative.",
-                    "While growing up, she discovered she wanted to see the world.",
-                    "Even though her parents were not particularly solvent, they started",
-                    "(5)saving money for her to live in another country for at least six months.",
-                    "It is important to consider they have been around different countries because they had a travel agency when Maria was younger.",
-                    "They had also had the opportunity to study abroad when they were high schoolers,",
-                    "so they knew this was something they wanted for their kid.",
-                    "It was an invaluable learning",
-                    "(10)experience, and they were confident Maria would benefit from it.",
-                    "It was difficult to decide where she wanted to go and if her parents could actually pay for it.",
-                    "Maria had a younger brother, who was quite close in age.",
+                    "Maria was a young, beautiful kid who had practically had everything she",
+                    "ever wanted just by asking for it. She was smart, good with people, funny",
+                    "and super creative. While growing up, she discovered she wanted to see the",
+                    "world. Even though her parents were not particularly solvent, they started",
+                    "saving money for her to live in another country for at least six months. It is",
+                    "important to consider they have been around different countries because",
+                    "they had a travel agency when Maria was younger. They had also had the",
+                    "opportunity to study abroad when they were high schoolers, so they knew",
+                    "this was something they wanted for their kid. It was an invaluable learning",
+                    "experience, and they were confident Maria would benefit from it.",
+                    "It was difficult to decide where she wanted to go and if her parents could",
+                    "actually pay for it. Maria had a younger brother, who was quite close in age.",
                     "So expenses were heavy at that moment.",
                     "Maria dreamed about going to Australia so she could practice and improve",
-                    "(15) her English level. As well, she had imagined living in London or Paris.",
-                    "Those options were out of range, so they agreed on six months in Canada.",
-                    "There, she will practice English and French. ",
-                    "The day came, and Maria departed for Canada.",
-                    "New places, new friends, new everything! It seemed like Maria had everything she ever dreamt! One day,",
-                    "(20) she was invited to the coolest bar in town.",
-                    "It is important to mention, Maria was underage and her friends were a year older than she was.",
-                    "She knew that, in theory, she was supposed to decline the offer.",
-                    "But she really wanted to go. It was then, when she decided to go and do everything in her power to access the place.",
-                    "Unfortunately for her, she was immediately asked",
-                    "(25) to leave the premises and the school called her parents.",
-                    "She was sent back home on her first week away.",
-                    "She lost that semester at her old school and had to remain a whole school year without enrolling. ",
+                    "her English level. As well, she had imagined living in London or Paris. Those",
+                    "options were out of range, so they agreed on six months in Canada. There,",
+                    "she will practice English and French.",
+                    "The day came, and Maria departed for Canada. New places, new friends,",
+                    "new everything! It seemed like Maria had everything she ever dreamt! One",
+                    "day, she was invited to the coolest bar in town. It is important to mention,",
+                    "Maria was underage and her friends were a year older than she was. She",
+                    "knew that, in theory, she was supposed to decline the offer. But she really",
+                    "wanted to go. It was then, when she decided to go and do everything in her",
+                    "power to access the place. Unfortunately for her, she was immediately",
+                    "asked to leave the premises and the school called her parents. She was",
+                    "sent back home on her first week away. She lost that semester at her old",
+                    "school and had to remain a whole school year without enrolling.",
                     "She definitely got a valuable lesson (the hard way) from her mistakes."
                 ]
             },
@@ -1891,7 +1917,7 @@
             {
                 "title": "Question 9",
                 "playback": 1, "audio":  false,
-                "question": "What does the narrator refer to with “the day came” on line 18?",
+                "question": "What does the narrator refer to with “the day came” in line 18?",
                 "options": [
                     "Moving to the middle of nowhere",
                     "The day her brother was waiting for",
@@ -1917,38 +1943,37 @@
             
 
             { "textlines": [
-                    "It is common to hear about how human beings have affected the world’s natural appearance and health.",
-                    "As time passes, temperatures increase around the planet, leaving no place unaltered.",
-                    "By polluting the globe, society has managed to break their own heatwave records within each year.",
-                    "During",
-                    "2022, wildfires destroyed vast areas of flora and fauna across the European continent.",
-                    "“How could this happen?”, you may be wondering.",
-                    "Well, it turns out unbearably hot temperatures take moisture from the ground,",
-                    "which helps lightning from storms to create a spark that starts the whole vegetation.",
-                    " At the same time, in China, the population had to deal with power cuts. In",
-                    "addition, the drought affected crop production not only there,",
-                    "but worldwide. ",
+                    "It is common to hear about how human beings have affected the world's",
+                    "natural appearance and health. As time passes, temperatures increase",
+                    "around the planet, leaving no place unaltered. By polluting the globe, society",
+                    "has managed to break their own heatwave records within each year. During",
+                    "2022, wildfires destroyed vast areas of flora and fauna across the European",
+                    "continent. ”How could this happen?”, you may be wondering. Well, it",
+                    "out unbearably hot temperatures take moisture from the ground, which helps",
+                    "lightning from storms to create a spark that starts the whole vegetation.",
+                    "At the same time, in China, the population had to deal with power cuts. In",
+                    "addition, the drought affected crop production not only there, but worldwide.",
                     "When temperatures increase, the possibilities of flood increase with them.",
                     "Areas like Pakistan and New Zealand were devastated by floods this year.",
                     "In Asia, dry periods have lately occurred at critical planting times, while",
                     "surprising downpours have destroyed homes and drowned out entire crops.",
-                    "This is a clear example of how global warming",
-                    "has totally affected communities of all sizes.",
-                    "The burning of fossil fuels traps the heat in the atmosphere,",
-                    "which probably has been the main cause of human-induced climate change. ",
+                    "This is a clear example of how global warming has totally affected",
+                    "communities of all sizes.",
+                    "The burning of fossil fuels traps the heat in the atmosphere, which probably",
+                    "has been the main cause of human-induced climate change.",
                     "As a society, it is advisable to explore the 2030 Agenda and to take action.",
-                    "On the contrary, the temperatures will continue rising and it will become unbearable to live on the only planet",
-                    "we know has the perfect conditions for us, the human race.",
-                    "Furthermore, the effects of increasing heat on the body,",
-                    "make it difficult for humans to maintain a safe body temperature.",
-                    "People working outdoors are unquestionably more at risk. ",
-                    "It is time to accept that even the richest countries have limited means to solve these problems.",
-                    "Countries are forced to select between building some parts of their areas again",
-                    "or to develop better ways to cope with future climate crises. ",
+                    "On the contrary, the temperatures will continue rising and it will become",
+                    "unbearable to live on the only planet we know has the perfect conditions for",
+                    "us, the human race. Furthermore, the effects of increasing heat on the body,",
+                    "make it difficult for humans to maintain a safe body temperature. People",
+                    "working outdoors are unquestionably more at risk.",
+                    "It is time to accept that even the richest countries have limited means to",
+                    "solve these problems. Countries are forced to select between building some",
+                    "parts of their areas again or to develop better ways to cope with future",
+                    "climate crises.",
                     "The shortage of water and food will not help humanity to stop polluting the",
-                    "world, which causes global warming.",
-                    "So now, if we think about it long enough,",
-                    "this situation feels like a never ending cycle."
+                    "world, which causes global warming. So now, if we think about it long",
+                    "enough, this situation feels like a never ending cycle."
             ]},
             {
                 "title": "Question 10",
@@ -2283,40 +2308,40 @@
             {   
                  "textlines": [
                     "When anxiety creates a storm, bringing something new and unmanageable,",
-                    "it might be time to consider learning about panic attacks... A panic attack",
+                    "it might be time to consider learning about panic attacks...A panic attack",
                     "could be considered as an episode of intense anxiety. While having one, you",
-                    " may experience racing heartbeat, dizziness, lack of air, ",
-                    "trembling and muscle tension. ",
-                    "Panic attacks have different durations; they can go from a few minutes up to thirty minutes. ",
-                    "While panic attacks last less than one hour,",
-                    "their effects on a person may last for a few hours (when referring to physical and emotional effects). ",
-                    "Another way of calling a panic attack is an “anxiety attack”. Up to 35% of the ",
-                    ")population experience a panic attack at some time in their lives.",
-                    "To avoid further complications, it is crucial to get treatment for this.",
-                    "For instance, it is said that a person who experiences recurring panic attacks has a panic disorder.",
-                    "Panic disorders are related to anxiety disorders.",
-                    "Some challenges that can be faced by people who suffer from this are ",
-                    "associated with the inconveniences that come from having one:",
-                    "breathing difficulties, accelerated heart rate, tense muscles, a dry mouth, hot flushes and more.",
-                    "For instance, something as simple as having a conversation or driving, becomes a complex task. ",
-                    "When panic attacks happen more than once,",
-                    "it is important to go back to the ",
+                    "may experience racing heartbeat, dizziness, lack of air, trembling and",
+                    "muscle tension. Panic attacks have different durations; they can go from a",
+                    "few minutes up to thirty minutes. While panic attacks last less than one hour,",
+                    "their effects on a person may last for a few hours (when referring to physical",
+                    "and emotional effects).",
+                    "Another way of calling a panic attack is an “anxiety attack”. Up to 35% of the",
+                    "population experience a panic attack at some time in their lives.",
+                    "To avoid further complications, it is crucial to get treatment for this. For",
+                    "instance, it is said that a person who experiences recurring panic attacks",
+                    "has a panic disorder. Panic disorders are related to anxiety disorders.",
+                    "Some challenges that can be faced by people who suffer from this are",
+                    "associated with the inconveniences that come from having one: breathing",
+                    "difficulties, accelerated heart rate, tense muscles, a dry mouth, hot flushes",
+                    "and more. For instance, something as simple as having a conversation or",
+                    "driving, becomes a complex task.",
+                    "When panic attacks happen more than once, it is important to_go back to the",
                     "drawing board and to detect what is causing such high levels of anxiety.",
-                    "Since having this problem is not necessarily related to stressful situations,",
-                    "it is interesting to mention that stress-free situations, such as watching T.V. may trigger a panic attack.",
-                    "Living with this might be a tall order. ",
-                    "The recommendation is to always seek medical advice before you do ",
-                    "something else.",
-                    "Doctors help you make sure that any recurring symptoms are not due to other illnesses,",
-                    "such as diabetes, asthma, hyperthyroidism, cardiac complaints and more.",
-                    "Stress and anxiety are a big part of panic attacks.",
-                    "Knowing that, it is key to remember that everybody has their own ways of coping with both of them. For ",
-                    "instance, some people may find painting relaxing.",
-                    "Others look for interesting readings to keep themselves away from situations that might cause problems.",
-                    "Yoga, pilates and mindfulness are trendy tools that keep their users in a better mood.",
-                    "Personally, I am on cloud nine whenever I ride a bike.",
-                    "So, for the sake of everyone, know yourself better and find ways ",
-                    "to detect difficulties on time. "
+                    "Since having this problem is not necessarily related to stressful situations, it",
+                    "is interesting to mention that stress-free situations, such as watching T.V.",
+                    "may trigger a panic attack. Living with this might be a tall order.",
+                    "The recommendation is to always seek medical advice before you do",
+                    "something else. Doctors help you make sure that any recurring symptoms",
+                    "are not due to other illnesses, such as diabetes, asthma, hyperthyroidism,",
+                    "cardiac complaints and more.",
+                    "Stress and anxiety are a big part of panic attacks. Knowing that, it is key to",
+                    "remember that everybody has their own ways of coping with both of them.",
+                    "For instance, some people may find painting relaxing. Others look for",
+                    "interesting readings to keep themselves away from situations that might",
+                    "cause problems. Yoga, pilates and mindfulness are trendy tools that keep",
+                    "their users in a better mood. Personally, | am on cloud nine whenever | ride",
+                    "a bike. So, for the sake of everyone, know yourself better and find ways to",
+                    "detect difficulties on time."
                     ]
                 },
             
@@ -2461,63 +2486,65 @@
                  { "text": "Los ejercicios 36-45 se basan en la siguiente lectura."},
             {   
                  "textlines": [
-                    "When we are little, all we hear is about how good sports are and how nice it is to choose a physical activity that we enjoy.",
-                    "Regularly, during childhood, the most common options are:",
-                    "soccer, basketball, volleyball, ballet and karate.",
-                    "But as we grow up, we discover the pleasure (or the lack of it) for other activities. For instance,",
-                    "jumping in an individual trampoline is a friendly cardio that provides a full body workout in 40 minutes.",
-                    "Another example is indoor cycling, which gives you the opportunity to increase your heart rate",
-                    "and to have fun at the same time.",
-                    "Both options are considered to have low impact on the knees area (which is a conflictive body part as people get older).",
-                    "Like those activities, we may find an infinite set of",
-                    "options that make our inner child feel delighted and healthy at the same time.",
-                    "But, what is the downside? There is a big difference between being athletic and suffering from bigorexia. ",
-                    "Bigorexia or muscle dysmorphia can be defined as a mental disorder",
-                    "in which the person perceives that their body looks different than it does.",
-                    "It is “less muscular” than",
-                    "it actually is.",
-                    "This leads to obsessive and unhealthy behaviors, it mainly causes compulsive exercising and eating disorders,",
-                    "but it may also include the use of anabolic steroids. ",
-                    "Bigorexia can “appear” in different stages of life, nevertheless, it most often develops in late adolescence.",
-                    "Bigorexia is associated with anxiety and depression, eating",
-                    "disorders, substance abuse and general problems (mainly with school, work and relationships).",
-                    "One study found that 33% of boys ages 11-18 were not satisfied with their body shape.",
-                    "In addition, there are a lot of undiagnosed people suffering from muscle dysmorphia,",
-                    "a situation which increases in society.",
-                    "According to data, a study found",
-                    "that people who had adverse childhoods, have a considerable chance of getting muscle dysmorphia later on. ",
-                    "Video games, social media, and, in general, the Internet keep the idea of extremely muscular men quite present in our daily lives.",
-                    "This fact keeps males too focused on unreachable physical goals.",
-                    "The way male action figures are presented are not",
+                    "When we are little, all we hear is about how good sports are and how nice it is to",
+                    "choose a physical activity that we enjoy. Regularly, during childhood, the most",
+                    "common options are: soccer, basketball, volleyball, ballet and karate. But as we",
+                    "grow up, we discover the pleasure (or the lack of it) for other activities. For",
+                    "instance, jumping in an individual trampoline is a friendly cardio that provides a full",
+                    "body workout in 40 minutes. Another example is indoor cycling, which gives you",
+                    "the opportunity to increase your heart rate and to have fun at the same time. Both",
+                    "options are considered to have low impact on the knees area (which is a conflictive",
+                    "body part as people get older). Like those activities, we may find an infinite set of",
+                    "options that make our inner child feel delighted and healthy at the same time. But,",
+                    "what is the downside? There is a big difference between being athletic and",
+                    "suffering from bigorexia.",
+                    "Bigorexia or muscle dysmorphia can be defined as a mental disorder in which the",
+                    "person perceives that their body looks different than it does. It is “less muscular”",
+                    "than it actually is. This leads to obsessive and unhealthy behaviors, it mainly",
+                    "causes compulsive exercising and eating disorders, but it may also include the use",
+                    "of anabolic steroids.",
+                    "Bigorexia can “appear” in different stages of life, nevertheless, it most often",
+                    "develops in late adolescence. Bigorexia is associated with anxiety and depression,",
+                    "eating disorders, substance abuse and general problems (mainly with school, work",
+                    "and relationships).",
+                    "One study found that 33% of boys ages 11-18 were not satisfied with their body",
+                    "shape. In addition, there are a lot of undiagnosed people suffering from muscle",
+                    "dysmorphia, a situation which increases in society. According to data, a study",
+                    "found that people who had adverse childhoods, have a considerable chance of",
+                    "getting muscle dysmorphia later on.",
+                    "Video games, social media, and, in general, the Internet keep the idea of extremely",
+                    "muscular men quite present in our daily lives. This fact keeps males too focused on",
+                    "unreachable physical goals. The way male action figures are presented are not",
                     "humanly possible.",
-                    "Social media makes comparisons easier.",
-                    "The use of hashtags and the efficiency of artificial intelligence provide exactly what we think we need the most and also,",
-                    "probably what affects us in a deeper way.",
-                    "Considering the amount of “before and after” testimonies that are all over the net, accepting our body shape and genes",
+                    "Social media makes comparisons easier. The use of hashtags and the efficiency of",
+                    "artificial intelligence provide exactly what we think we need the most and also,",
+                    "probably what affects us in a deeper way. Considering the amount of “before and",
+                    "after” testimonies that are all over the net, accepting our body shape and genes",
                     "becomes next to impossible.",
-                    "Educating society and reducing social media time can help.",
-                    "According to the American Psychological Association,",
-                    "people who reduce their social media time by 50% tend to have notable improvement in the way they feel about their overall appearance.",
-                    "Creating awareness about the strong problems most youngsters are",
-                    "going through would certainly make it easier for society to lend a hand to people who may be struggling",
-                    "with muscle dysmorphia and any other mental disease.  ",
+                    "Educating society and reducing social media time can help. According to the",
+                    "American Psychological Association, people who reduce their social media time by",
+                    "50% tend to have notable improvement in the way they feel about their overall",
+                    "appearance. Creating awareness about the strong problems most youngsters are",
+                    "going through would certainly make it easier for society to lend a hand to people",
+                    "who may be struggling with muscle dysmorphia and any other mental disease.",
                     "While bigorexia is more common in males, anorexia is more common in females.",
-                    "Anorexia is an eating disorder characterized by an abnormally low body weight that focuses on an intense fear of gaining weight.",
-                    "What bigorexia and anorexia may have",
-                    "in common are the distorted perceptions those who suffer from them have by looking at themselves in the mirror.",
-                    "Additionally, in an unconscious way, subjects damage their bodies by taking their “wishes” to the extreme.",
-                    "Furthermore, people who have these disorders do not accept themselves and most likely suffer from low self-esteem,",
-                    "even if it does not look like that to the “simple eye”.",
-                    "Moreover, both",
-                    "disorders regularly start during adolescence.",
-                    "Bigorexia and anorexia may cause or be caused, up until some point, because of stress and anxiety.",
+                    "Anorexia is an eating disorder characterized by an abnormally low body weight that",
+                    "focuses on an intense fear of gaining weight. What bigorexia and anorexia may",
+                    "have in common are the distorted perceptions those who suffer from them have by",
+                    "looking at themselves in the mirror. Additionally, in an unconscious way, subjects",
+                    "damage their bodies by taking their “wishes” to the extreme. Furthermore, people",
+                    "who have these disorders do not accept themselves and most likely suffer from low",
+                    "self-esteem, even if it does not look like that to the “simple eye”. Moreover, both",
+                    "disorders regularly start during adolescence. Bigorexia and anorexia may cause or",
+                    "be caused, up until some point, because of stress and anxiety.",
                     "Anorexia patients can also be helped in a similar way bigorexia patients do.",
                     "Everything can be traced back to society and to society’s good or bad education.",
-                    "As well, a high level of emotional intelligence can be key towards allowing those who",
-                    "are close to diagnosed people to improve their behaviors around them.",
-                    "To make them feel more comfortable and probably even, to cope with their situations in a better, more productive way.",
-                    "Teaching children about different body types,",
-                    "tolerance and the beauty in diversity will certainly help create another future for the upcoming generations."
+                    "As well, a high level of emotional intelligence can be key towards allowing those",
+                    "who are close to diagnosed people to improve their behaviors around them. To",
+                    "make them feel more comfortable and probably even, to cope with their situations",
+                    "in a better, more productive way. Teaching children about different body types,",
+                    "tolerance and the beauty in diversity will certainly help create another future for the",
+                    "upcoming generations."
                  ]
                 },
                  {

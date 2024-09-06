@@ -1,39 +1,38 @@
 <template>
 <div class="text-center text-2xl my-2 text-white p-2 rounded bg-et-pink font-bold">
-    Your level is 
+    Tu nivel de inglés es 
     <span class="bg-white text-et-pink p-2 block">{{ level }} {{ lv[level].title }}</span>
 </div>
 <div class="my-5 text-left flex flex-col gap-2">
     <div class="text-center text-2xl text-et-dark">
-        This means you can:
+        Esto significa que tú puedes: 
     </div>
     <div class="grid grid-cols1 md:grid-cols-4 gap-10 bg-white p-2">
-        <div class="w-1/3 font-bold text-et-carrot">Listening Comprehension</div>
+        <div class="w-1/3 font-bold text-et-carrot">Comprensión Auditiva</div>
         <div class="text-base col-span-3">{{ lv[level].listening }}</div>
     </div>
     <div class="grid grid-cols1 md:grid-cols-4 gap-10 bg-white p-2">
-        <div class="w-1/3 font-bold text-et-carrot">Language Use</div>
+        <div class="w-1/3 font-bold text-et-carrot">Uso del Lenguaje</div>
         <div class="text-base col-span-3">{{ lv[level].language }}</div>
     </div>
     <div class="grid grid-cols1 md:grid-cols-4 gap-10 bg-white p-2">
-        <div class="w-1/3 font-bold text-et-carrot">Reading Comprehension</div>
+        <div class="w-1/3 font-bold text-et-carrot">Comprensión Lectora</div>
         <div class="text-base col-span-3">{{ lv[level].reading }}</div>
     </div>
 
     <div class="text-center text-2xl mt-2 text-et-dark">
-        We recommend you to study: 
+       Te recomendamos:
     </div>
-    <div class="text-et-silver text-center text-lg">{{ lv[level].study }}</div>
     <div class="grid grid-cols1 md:grid-cols-4 gap-10 bg-white p-2">
-        <div class="w-1/3 font-bold text-et-orange">Listening Comprehension</div>
+        <div class="w-1/3 font-bold text-et-orange">Comprensión Auditiva</div>
         <div class="text-base col-span-3">{{ lv[level].listeningStudy }}</div>
     </div>
     <div class="grid grid-cols1 md:grid-cols-4 gap-10 bg-white p-2">
-        <div class="w-1/3 font-bold text-et-orange">Language Use</div>
+        <div class="w-1/3 font-bold text-et-orange">Uso del Lenguaje</div>
         <div class="text-base col-span-3">{{ lv[level].languageStudy }}</div>
     </div>
     <div class="grid grid-cols1 md:grid-cols-4 gap-10 bg-white p-2">
-        <div class="w-1/3 font-bold text-et-orange">Reading Comprehension</div>
+        <div class="w-1/3 font-bold text-et-orange">Comprensión Lectora</div>
         <div class="text-base col-span-3">{{ lv[level].readingStudy }}</div>
     </div>
     
@@ -49,44 +48,44 @@ const props = defineProps({
 
 const lv = {
     "A1": {
-        title: "(Low Basic)",
-        listening: "Follow speech containing simple questions and statements. Recognize cognates and concrete information, such as numbers, places, times, and days of the week, on familiar topics encountered in everyday life",
-        language:"Use elementary grammatical structures, including simple present tense and basic determiners like “a” and “an,” in short and simple sentences about the most common everyday situations. Combine words into short sentences using elementary grammatical structures and very basic connectors like ”and”",
-        reading: "Locate basic information in very short texts and authentic materials, such as labels and notices, in common everyday situations and using simple vocabulary, beginning with approximately 50 words. understand basic vocabulary presented within phrases and very short sentences about the most common everyday situations, including personal information and familiar settings.",
+        title: "(Básico)",
+        listening: "Seguir una conversación simple que contenga preguntas y oraciones sencillas. Reconocer vocabulario semejante(cognados) a la lengua materna (L1).  Reconocer información concreta como números, lugares, días de la semana y temas cotidianos.		",
+        language:"Utilizar estructuras gramaticales sencillas, en específico el presente simple. Utilizar artículos y adjetivos determinativos para combinar palabras en oraciones cortas.",
+        reading: "Localizar información básica en textos cortos y materiales auténticos. Utilizar aproximadamente 50 palabras distintas para relatar  situaciones cotidianas, información personal y familiar.",
         study: "Level Easy",
-        listeningStudy: "Listen carefully to the conversations  and try to take as much notes as you can, identify vocabulary and structures you don't know.",
-        languageStudy:"Study the elementary grammar structures: Simple present and simple past, determiners and connectors.",
-        readingStudy:"Read the texts provided carefully and search for words you don't understand in different contexts."
+        listeningStudy: "Esucuchar atentamente las conversaciones inluidas en la plataforma y tomar notas que te ayuden a identificar el vocabulario y las estructuras que desconoces, de esta forma podrás buscar información que te permita avanzar  en tu aprendizaje		",
+        languageStudy:"Estudiar las estructuras simples del lenguaje: presente y pasado simple, conectores del lenguaje comunes, adjetivos determinativos y conectores del lenguaje.		",
+        readingStudy:"Leer con atención los textos que se encuentran en la plataforma e identificar las palabras que no comprendes del todo, de manera que puedas distinguir distintos contextos en los que la palabra puede usarse."
     },
     "A2": {
-        title: "(High Basic)",
-        listening: "Understand phrases, expressions, and short talks about important things like personal and family details, shopping, and work.",
-        language:"Use basic grammar to make requests, give information, ask ”yes/no” questions, and use simple past and future tenses with ”will” and ”going to.” Talk about daily things and urgent needs in short, simple sentences. Improve basic sentences and join words into short sentences using simple connectors like ”and,” ”but,” and ”because.”",
-        reading: "Find basic information and understand main ideas in short, simple texts of about 150 words with common vocabulary. These can be things like signs, labels, instructions, schedules, and notices. Understand common words in short sentences to help with basic communication in familiar situations and topics.",
+        title: "(Básico Avanzado)",
+        listening: "Comprender frases, expresiones y pequeñas conversaciones  acerca de temas relevantes:  información sobre ti mismo,  la escuela, el trabajo, la familia, ocupaciones y lugares.",
+        language:"Utilizar las estructuras gramaticales básicas para hacer peticiones,  dar información y hacer preguntas binarias.  Reconocer situacione en las cuales puede utilizarse el futuro con ”will” y ”going to”. Estructurar oraciones acerca de sus necesidades  más inmediatas, así como temas de su interés utilizando  distintas categorias de adjectivos determinativos.",
+        reading: "Comprender información básica e ideas principales en audios sencillos de no más de 150 palabras que incluyan situaciones y temas con las que estes familiarizado: horarios, instrucciones, anuncios, entre otros.		",
         study: "Level Medium",
-        listeningStudy: "Play the same audio multiple times and take notes on key points. Practice shadowing by repeating what you hear.",
-        languageStudy:"Study grammar structures such as simple past and future tenses with ”will” and ”going to” in short, simple sentences.",
-        readingStudy:"Read carefully the texts provided and identify words and phrases  than can be used in different contexts."
+        listeningStudy: "Escuchar varias veces los audios incluidos en la plataforma y tomar nota acerca de los puntos claves. Practicar la repetición simúltanea de lo escuchado, para familiarizarte con vocabulario y estructura.",
+        languageStudy:"Estudiar a detalles las siguientes estructuras gramaticales: presente simple, pasado simple y futuro utilizando ”will” y ”going to” en oraciones cortas y simples.",
+        readingStudy:"Leer atentamente los textos en la plataforma e identificar palabras y frases que pueden ser usados en distintos contextos."
     },
     "B1": {
-        title: "(Low Independent )",
-        listening: "Understand the main points and some details of standard speech on familiar topics often encountered in personal, social, and academic settings, such as short stories, advertisements, and reports.",
-        language:"Use different grammatical structures, like adjectives, adverbs, irregular plurals, and present progressive and future tenses, in everyday social, familiar, practical, and leisure contexts. Improve sentence structure by combining two or three short sentences into longer ones using a limited range of connectors and common grammatical patterns.",
-        reading: "Find specific information, identify main ideas, tell the difference between fact and opinion, and draw conclusions in straightforward factual texts, short stories, and everyday materials of about 280 words with mostly familiar vocabulary. Understand vocabulary in context within sentences on various topics related to daily life, including personal, practical, school, and work situations.",
+        title: "(Intermedio)",
+        listening: "Entender los puntos principales y algunos detalles en una conversación acerca de temas conocidos en distintos contextos sociales y personales de su interés.",
+        language:"Utilizar distintas estructiras gramaticales como: adjetivos, adverbios, presente continuo, oraciones acerca del futuro. Combinar estos elementos para dar una opinión , expresar deseos y aspiraciones.",
+        reading: "Encontrar información específica, identificar ideas principales, diferenciar entre hechos y opiniones. Formarse una opinión acerca de un texto  en distintos contextos y situaciones.",
         study: "Level Medium-Difficult",
-        listeningStudy: "Listen to the audios in detail. Practice shadowing by repeating what you hear to improve pronunciation and intonation.",
-        languageStudy:"Try to use new vocabulary and grammar structures, that you may found in the units, in speaking and writing exercises. For example, write a short make predictions about your weekend plans using connectors and patterns.",
-        readingStudy:"Summarize what you've read in your own words to reinforce understanding. Discuss the content with study partners can enhance comprehension. Finally, relate the material to your own experiences or interests to make it more memorable and meaningful."
+        listeningStudy: "Escuchar varias veces los audios incluidos en la plataforma y tomar nota acerca de los puntos claves. Practicar la repetición simúltanea de lo escuchado, prestando atención a la entonación.",
+        languageStudy:"Intenta utilizar vocabulario y estructuras gramaticales que encuentres difíciles e intenta relacionarlos con actividades cotidianas o conocidas utilizando patrones del lenguaje.",
+        readingStudy:"Resume lo leído en tus propias palabras para reforzar tu entendimiento de un texto. Estudia patrones que puedan ser utiles en distintos contextos e intenta relacionarlo con situaciones relevantes en tu vida cotidiana."
     },
     "B2": {
-        title: "(High Independent)",
-        listening: "Comprehend standard speech in favorable listening environments on both familiar and certain unfamiliar topics commonly encountered in work-related, social, and academic settings. Grasp the main ideas and details of complex speech on both concrete and abstract topics delivered in a standard dialect, including arguments on reasonably familiar subjects, with clear direction indicated by explicit markers.",
-        language:"Employ advanced grammatical structures with reasonable accuracy, such as perfect tenses, modifier placement, reported speech, and some connective devices and transitions, to construct complex sentences on a variety of topics. Enhance sentences by combining three or four of them into more complex ones, ensuring reasonable grammatical accuracy and utilizing a limited number of cohesive devices.",
-        reading: "Comprehend various texts and purposes, such as conventional narrative prose, news articles, argumentative texts, and expository discourse of about 350 words, on reasonably familiar concrete and abstract topics, including academic content and vocabulary. Understand less common vocabulary related to most general topics, specific fields of interest, and common idiomatic expressions presented in context.",
+        title: "(Intermedio avanzado)",
+        listening: "Comprender distintos patrones conversacionales, tanto en contextos conocidos como aquellos con los que no estas tan familiarizado.  Comprender ideas principales y detalladas en conversaciones sobre temas concretos y abstractos.",
+        language:"Utilizar estructuras gramaticales con precisión: tiempos perfectos, colocación de modificadores, estilo indirecto, y el uso de conectores y transiciones para construir argumentos y opiniones complejas. Comprende y estructura oraciones combinando tres o cuatro de ellas en oraciones más complejas, asegurando una precisión gramatical razonable y utilizando un número limitado de conectores cohesivos.",
+        reading: "Comprender varios textos y propósitos:  prosa narrativa convencional, artículos de noticias, textos argumentativos y discurso expositivo, sobre temas concretos y abstractos ya sean o no conocidos. Entender vocabulario menos común relacionado con la mayoría de los temas generales, campos de interés específicos y expresiones idiomáticas comunes presentadas en contexto",
         study: "Level Difficult",
-        listeningStudy: "Use the audios in this level to engage in active listening exercises where you predict content, identify main ideas, and infer meaning from",
-        languageStudy:"Focus on mastering advanced grammar structures such as conditionals, passive voice, and complex sentences. Practice writing essays, reports, and opinion pieces, paying attention to coherence and cohesion.",
-        readingStudy:"Read carefully the texts in the platform. Use them to discuss what you've read with others to deepen your comprehension and gain different perspectives."
+        listeningStudy: "Utiliza los audios en este nivel para participar en ejercicios de escucha activa donde puedas predecir el contenido, identificar ideas principales e infeir el significado de una conversación larga.",
+        languageStudy:"Concéntrate en dominar estructuras gramaticales avanzadas como los condicionales, la voz pasiva y las oraciones complejas. Practica escribir ensayos, informes y artículos de opinión, prestando atención a la coherencia y cohesión.",
+        readingStudy:"Lee detenidamente los textos en la plataforma. Úsalos para discutir lo que has leído con otros, con el fin de profundizar tu comprensión y obtener diferentes perspectivas."
     }
 }
 
