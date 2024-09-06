@@ -27,10 +27,7 @@
                 "class":"instrucciones font-bold text-5 text-gradient"
             },
              {
-                "text":"This part of the test has two types of exercises, vocabulary and reading comprehension."
-             },
-             {
-                "text":"Read each question carefully and choose the best answer. There is only one correct answer."
+                "text":"Esta sección del examen tiene dos tipos de  ejercicios que se enfocan en la comprensión lectora y vocabulario.  Lee cuidadosamente cada una de las preguntas y escoge la respuesta que mejor complete el enunciado."
              },
              
               { "buttonnav": "next"}
@@ -166,7 +163,7 @@
                 "question": "In line 6, <u>climbing up the professional ladder</u> means",
                 "options": ["Climbing a mountain", "Moving up in different positions in a company", "Going up in a ladder", "To learn new skills"],
                 "optionk": "B",
-                "optionw": "Para contestar esta pregunta, es necesario conocer vocabulario relativo a negocios y empresas, ya que la frase 'climbing up the professional ladder' indica algo de subir de una manera profesional. No debemos comprender la frase en un sentido literal de subir una escalera.",
+                "optionw": "Para contestar esta pregunta, es necesario conocer vocabulario relativo a negocios y empresas, ya que la frase “climbing up the professional ladder” indica subir de una manera profesional.  No debemos comprender la frase en el sentido literal de subir una escalera.",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
@@ -177,7 +174,7 @@
                 "question": "In line 5, <u>it</u> refers to",
                 "options": ["The pandemic", "Adaptability", "People changing their lifestyle", "Lifestyle"],
                 "optionk": "A",
-                "optionw": "Es importante leer todo el texto para comprender que ese 'it' se refiere al hecho global que logró todos esos cambios en la cultura laboral y de balance de vida. No estamos hablando de la adaptabilidad, o un estilo de vida, estamos hablando de lo que la causó.",
+                "optionw": "Es importante leer todo el texto para comprender que ese “it”se refiere al hecho global que logró todos esos cambios en la cultura laboral y de balance de vida. No estamos hablando de la adaptabilidad, o un estilo de vida, estamos hablando de su causa.",
                 "eval": true,
                 "type": "practice",
                 "force_positive": true
